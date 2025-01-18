@@ -1,0 +1,14 @@
+T1	Premise 457 608	Three years after radiotherapy, urinary incontinence was reported by 35% of patients, but only 6% required the use of a pad or other protective device.
+T2	Premise 609 752	Patients reported increased leakage with a full bladder (urge incontinence) between the 2 and 3-year questionnaires (42% versus 50%; P = 0.03).
+T3	Premise 753 847	At 3 years, 33% of patients reported rectal bleeding compared with 47% at 2 years (P = 0.006).
+T4	Premise 848 1000	Patients in the 78-Gy arm reported more frequent bowel movements at 3 years and less change in bowel function at 2 years than patients in the 70-Gy arm.
+T5	Premise 1001 1128	Before radiotherapy, 84% of patients reported erections adequate for intercourse at least a few times during the previous year.
+T6	Premise 1129 1208	After 2 and 3 years, this had decreased to 49% and 41%, respectively (P <0.02).
+T7	Claim 1209 1380	By patient-reported questionnaire, 78 Gy produced an increase in bowel movement frequency and no increase in bladder or sexual side effects at 3 years compared with 70 Gy.
+T8	Claim 1381 1560	Comparing the results 2 and 3 years after radiotherapy, the symptoms of rectal bleeding had improved, erectile function had decreased, and urinary urge incontinence had increased.
+R1	Support Arg1:T6 Arg2:T8	
+R2	Support Arg1:T5 Arg2:T8	
+R3	Support Arg1:T1 Arg2:T8	
+R4	Support Arg1:T2 Arg2:T8	
+R5	Support Arg1:T3 Arg2:T8	
+R6	Support Arg1:T4 Arg2:T7	

@@ -1,0 +1,5 @@
+T1	Claim 1611 1737	Findings suggest that self-efficacy may influence long-term maintenance of healthy lifestyle practices among cancer survivors.
+T2	Claim 1072 1372	Results suggest that change in self-efficacy for fat restriction partially explained the intervention's effect on fat intake (mean indirect effect = -0.28), and change in self-efficacy for F&V consumption partially explained the intervention's effect on daily F&V intake (mean indirect effect = .11).
+T3	Premise 1373 1536	Change in self-efficacy for fat restriction partially accounted for the intervention's impact on overall diet quality among men only (mean indirect effect = 0.60).
+R1	Support Arg1:T3 Arg2:T2	
+R2	Support Arg1:T3 Arg2:T1	

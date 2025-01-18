@@ -1,0 +1,12 @@
+T1	Claim 1 104	Advice to rest and take things easy if patients become fatigued during radiotherapy may be detrimental.
+T2	Premise 105 213	Aerobic walking improves physical functioning and has been an intervention for chemotherapy-related fatigue.
+T3	Premise 752 907	There were no significant between group differences noted with regard to fatigue scores at baseline (P = 0.55) or after 4 weeks of radiotherapy (P = 0.18).
+T4	Premise 908 1104	Men in the control group had significant increases in fatigue scores from baseline to the end of radiotherapy (P = 0.013), with no significant increases observed in the exercise group (P = 0.203).
+T6	Premise 1105 1331	A nonsignificant reduction (2.4%) in shuttle test distance at the end of radiotherapy was observed in the control group; however, in the exercise group, there was a significant increase (13.2%) in distance walked (P = 0.0003).
+T8	Premise 1332 1534	Men who followed advice to rest and take things easy if they became fatigued demonstrated a slight deterioration in physical functioning and a significant increase in fatigue at the end of radiotherapy.
+T9	Claim 1535 1673	Home-based, moderate-intensity walking produced a significant improvement in physical functioning with no significant increase in fatigue.
+T10	Claim 1674 1749	Improved physical functioning may be necessary to combat radiation fatigue.
+R1	Support Arg1:T4 Arg2:T9	
+R2	Support Arg1:T6 Arg2:T9	
+R3	Support Arg1:T8 Arg2:T10	
+R4	Support Arg1:T9 Arg2:T10	

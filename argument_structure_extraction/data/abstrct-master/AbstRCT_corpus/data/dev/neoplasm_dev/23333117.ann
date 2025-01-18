@@ -1,0 +1,5 @@
+T1	Premise 1874 2024	Overall, the mean global QoL score improved during chemotherapy by 7·2 points (SD 24·4) when analysed for all women with data at baseline and week 18.
+T2	Premise 2025 2227	The mean global QoL score at 54 weeks was higher in the standard chemotherapy group than in the bevacizumab group (76·1 [SD 18·2] vs 69·7 [19·1] points; difference 6·4 points, 95% CI 3·7-9·0, p<0·0001).
+T3	Claim 2228 2406	Bevacizumab continuation treatment seems to be associated with a small but clinically significant decrement in QoL compared with standard treatment for women with ovarian cancer.
+R1	Support Arg1:T2 Arg2:T3	
+R2	Attack Arg1:T1 Arg2:T3	

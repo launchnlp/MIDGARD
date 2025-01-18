@@ -1,0 +1,11 @@
+T1	Claim 1901 1942	Fecal incontinence seems to be a problem.
+T2	Claim 1668 1721	The outcome of these patients remains unsatisfactory.
+T3	Premise 1722 1900	Prognostic factors for a favorable outcome are tumor size of smaller than 5 cm, negative locoregional lymph nodes, age less than 10 years, low IRS group, and embryonal histology.
+R1	Support Arg1:T3 Arg2:T2	
+T4	Premise 1534 1667	The median Wexner fecal incontinence score was 9 (possible range: 0-20), and the median QOL score was 90.5 (applicable range: 0-144).
+R2	Support Arg1:T4 Arg2:T1	
+T5	Premise 1479 1533	Some patients reported symptoms of fecal incontinence.
+R3	Support Arg1:T5 Arg2:T1	
+T6	Premise 1341 1478	Patients with embryonal histology had a significantly better 5-year EFS (87.5%) than patients with alveolar histology (39.1%; P = 0.013).
+R4	Support Arg1:T1 Arg2:T2	
+R5	Support Arg1:T6 Arg2:T2	

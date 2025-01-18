@@ -1,0 +1,11 @@
+T1	Premise 878 1063	Numeric rating scale scores for pain intensity in group 1 and group 2 were significantly lower than those in group 3 at T(0-12) (P < .001); T(12-24) (P < .001); and T(24-48) (P < .001).
+T2	Premise 1064 1224	When group 1 with group 2 were compared, numeric rating scale scores were significantly lower in group 1 than in group 2 during the period of T(0-12) (P < .001)
+T3	Premise 1225 1307	but were not significantly different at T(12-24) (P = .68) and T(24-48) (P = .10).
+T4	Premise 1308 1410	Analgesic cost and hospital stay were significantly lower in treated groups than in the placebo group.
+T5	Premise 1411 1537	No significant difference was observed in quality of life and adverse events between the treated groups and the placebo group.
+T6	Claim 1538 1698	CRO is effective, safe, and cost-effective in the control of postoperative pain after transarterial chemoembolization for patients with inoperable liver cancer.
+R1	Partial-Attack Arg1:T3 Arg2:T2	
+R2	Support Arg1:T4 Arg2:T6	
+R3	Support Arg1:T2 Arg2:T6	
+R4	Support Arg1:T5 Arg2:T6	
+R5	Support Arg1:T1 Arg2:T6	

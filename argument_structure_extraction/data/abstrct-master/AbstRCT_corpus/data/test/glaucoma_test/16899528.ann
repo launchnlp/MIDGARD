@@ -1,0 +1,3 @@
+T1	Premise 548 825	No significant difference (p = 0.846) was found in mean decrease in IOP between the SLT (5.86 mm Hg) and ALT (6.04 mm Hg) groups at 1 year or at any other time points, nor were there any significant differences in the rate of early or late complications between the two groups.
+T2	Claim 826 963	SLT is equivalent to ALT in terms of IOP lowering at 1 year, and is a safe and effective procedure for patients with open-angle glaucoma.
+R1	Support Arg1:T1 Arg2:T2	

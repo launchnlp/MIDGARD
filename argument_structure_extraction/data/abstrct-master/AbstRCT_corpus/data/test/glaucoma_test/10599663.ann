@@ -1,0 +1,8 @@
+T1	Premise 1027 1125	The overall success rates were 87% for the 350-mm2 group and 70% for the 500-mm2 group (P = 0.05).
+T2	Premise 1259 1512	The life-table success rates declined over time for both implant groups, from a high of 98% for the 350-mm2 group and 92% for the 500-mm2 group at 1 year to a cumulative success rate of 79% for the 350-mm2 group and 66% for the 500-mm2 group at 5 years.
+T3	Premise 1513 1644	Visual acuities were better or remained the same in 50% of the patients in the 350-mm2 group and 46% of those in the 500-mm2 group.
+T5	Claim 1720 1852	The longer term results show that the 350-mm2 Baerveldt implant is more successful than the 500-mm2 implant for overall IOP control.
+T6	Claim 1853 2001	Interval comparisons indicate a higher rate of success for the 350-mm2 implant in the first, second, third, fourth, and fifth years of implantation.
+R1	Support Arg1:T1 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T5	

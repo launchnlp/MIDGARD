@@ -1,0 +1,9 @@
+
+
+To compare the efficacy and safety of topical bimatoprost (LUMIGAN; Allergan, Inc., Irvine, CA) once daily with that of topical combined timolol and dorzolamide (Cosopt; Merck and Co, Inc., Whitehouse Station, NJ) twice daily.
+Prospective, randomized, double-masked, multicenter clinical trial.
+One hundred seventy-seven patients with a diagnosis of glaucoma or ocular hypertension and inadequate control of intraocular pressure (IOP) after at least 2 weeks of topical timolol maleate 0.5% monotherapy.
+Patients were randomized to receive bimatoprost 0.03% once daily (n = 90) or combined timolol 0.5% and dorzolamide 2% twice daily (n = 87) over a 3-month period.
+Intraocular pressure, the primary end point, was measured at 8 AM and 10 AM at baseline, week 1, and months 1, 2, and 3, and also at 4 PM and 8 PM at baseline and month 3.
+Bimatoprost provided significantly greater IOP lowering compared with combined timolol and dorzolamide. At the 8 AM measurements, bimatoprost lowered mean IOP 6.8 mmHg to 7.6 mmHg from baseline, whereas combined timolol and dorzolamide lowered mean IOP 4.4 to 5.0 mmHg from baseline (P<0.001). At the last follow-up, patients had better diurnal IOP control with bimatoprost than combined timolol and dorzolamide. At 8 AM at the 3-month visit, the percentages of patients achieving IOPs of <or =13 mmHg, < or =14 mmHg, < or =15 mmHg, or < or =16 mmHg were more than twice as high for bimatoprost than for combined timolol and dorzolamide (all P< or =0.008). Taste perversion, ocular burning, and stinging with instillation were more common with combined timolol and dorzolamide, whereas conjunctival hyperemia was more common with bimatoprost.
+In individuals with glaucoma or ocular hypertension, uncontrolled on a topical beta-blocker alone, bimatoprost lowered IOP more consistently than did combined timolol and dorzolamide.

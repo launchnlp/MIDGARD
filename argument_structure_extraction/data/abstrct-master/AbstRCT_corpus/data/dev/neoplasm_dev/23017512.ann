@@ -1,0 +1,8 @@
+T1	Premise 698 888	At 0, 3, 6 and 12 months mean urine loss in the control vs the bladder neck preservation group was 713.3 vs 237.0, 49.6 vs 15.6, 44.4 vs 5.5 and 25.4 vs 3.1 gm, respectively (each p <0.001).
+T2	Premise 889 1195	At 3, 6 and 12 months in the control vs the preservation group the social continence rate was 55.3% vs 84.2% (p <0.001), 74.8% vs 89.5% (p = 0.05) and 81.4% vs 94.7% (p = 0.027), and the quality of life score was 80.4 vs 90.3 (p <0.001), 85.4 vs 91.7 (p = 0.016) and 86.0 vs 93.8 (p = 0.001), respectively.
+T3	Premise 1196 1380	We noted significantly less urine loss, higher objective and social continence rates, and higher quality of life scores after complete bladder neck preservation at all followup points.
+T4	Premise 1510 1656	No significant difference was found in surgical margin status between the control and bladder neck preservation groups (12.5% vs 14.7%, p = 0.65).
+T5	Claim 1657 1956	In what is to our knowledge the first prospective, randomized, controlled, single blind trial complete bladder neck preservation during radical prostatectomy was associated with a significantly higher urinary continence rate and increased patient satisfaction without compromising resection margins.
+R1	Support Arg1:T3 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T5	
+R3	Support Arg1:T1 Arg2:T5	

@@ -1,0 +1,7 @@
+T1	Premise 1502 1747	With a median follow-up of 56·9 months (IQR 37·4-81·8) from randomisation and 370 deaths (186 early, 184 delayed), there was no evidence of a difference in overall survival between early and delayed treatment (HR 0·98, 95% CI 0·80-1·20, p=0·85).
+T2	Premise 1748 1909	Median survival from randomisation was 25·7 months (95% CI 23·0-27·9) for patients on early treatment and 27·1 months (22·8-30·9) for those on delayed treatment.
+T3	Claim 1910 2047	Our findings showed no evidence of a survival benefit with early treatment of relapse on the basis of a raised CA125 concentration alone,
+T4	Claim 2048 2225	and therefore the value of routine measurement of CA125 in the follow-up of patients with ovarian cancer who attain a complete response after first-line treatment is not proven.
+R1	Support Arg1:T2 Arg2:T3	
+R2	Support Arg1:T1 Arg2:T3	
+R3	Support Arg1:T3 Arg2:T4	

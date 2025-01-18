@@ -1,0 +1,23 @@
+T1	MajorClaim 153 238	Intravenous 5-fluorouracil (5-FU) and leucovorin has been a mainstay of chemotherapy,
+T2	MajorClaim 243 313	oral 5-FU derivatives have been shown a comparable antitumor activity.
+T3	Claim 1 152	Postoperative adjuvant chemoradiation treatment after curative resection for rectal cancer was needed to reduce recurrence and improve a survival rate.
+T4	Premise 1354 1453	Mean numbers of chemotherapy cycles were 6.5+/-3.7 (IV arm) vs. 7.2+/-4.3 (oral arm), respectively.
+T5	Premise 1454 1566	The rate of recurrence was 9/74 (12.1%) in the IV arm and 6/92 (6.5 %) in the oral arm, respectively (P = .937).
+T6	Premise 1567 1681	Local recurrence was 2/74 (stage III; 2.7%) in the IV arm and 1/92 (stage II; 1.1%) in the oral arm, respectively.
+T7	Premise 1682 1800	Systemic recurrence was 7/74 (stage III; 9.4%) in the IV arm and 5/92 (stage III; 5.4%) in the oral arm, respectively.
+T8	Premise 1801 1859	The most common site of systemic recurrence was the liver.
+T9	Premise 1860 1998	Toxicity profile was as follows: leukopenia (30/74 vs. 17/92) and alopecia (21/74 vs. 13/92) were statistically more common in the IV arm.
+T10	Premise 1999 2040	Diarrhea was more common in the oral arm.
+T11	Premise 2041 2176	Poor quality of life score between two groups was observed at 1 month (23.9% vs. 13%) and 2 months (15.8% vs. 3.7%) after chemotherapy.
+T12	Premise 2177 2293	Good quality of life score was observed at 1 month (19.5% vs. 49%) and 2 months (47% vs. 72%), respectively (P<.05).
+T13	Claim 2294 2457	Oral doxifluridine with leucovorin shows a comparable therapeutic efficacy to intravenous 5-FU regimen with high quality of life as postoperative adjuvant therapy.
+T14	Claim 2458 2543	The oral regimen also can be safely given with appropriate toxicity and tolerability.
+R1	Support Arg1:T4 Arg2:T13	
+R2	Support Arg1:T5 Arg2:T13	
+R3	Support Arg1:T6 Arg2:T13	
+R4	Support Arg1:T7 Arg2:T13	
+R5	Support Arg1:T9 Arg2:T14	
+R6	Support Arg1:T10 Arg2:T14	
+R7	Support Arg1:T12 Arg2:T13	
+R8	Support Arg1:T11 Arg2:T13	
+R9	Support Arg1:T13 Arg2:T14	

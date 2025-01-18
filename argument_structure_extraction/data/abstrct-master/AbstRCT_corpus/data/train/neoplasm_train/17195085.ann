@@ -1,0 +1,18 @@
+T1	Premise 478 554	Operative time was 53 minutes longer in the laparoscopic group (P < 0.0001).
+T2	Premise 555 665	Postoperative morbidity rate was 28.9 percent in the laparoscopic vs. 40 percent in the open group (P = 0.18).
+T3	Premise 666 792	The mean length of hospital stay was 10 (4.9) days in the laparoscopic group and 13.6 (10) days in the open group (P = 0.004).
+T4	Premise 793 866	Local recurrence rate and five-year survival were similar in both groups;
+T5	Claim 867 939	however, the limited number of patients does not allow firm conclusions.
+T6	Premise 940 1043	Quality of life was better in the laparoscopic group only in the first year after surgery (P < 0.0001).
+T7	Premise 1044 1215	The additional charge in the laparoscopic group was $1,748 per patient randomized ($1,194 the result of surgical instruments and $554 the result of longer operative time).
+T8	Premise 1216 1409	The saving in the laparoscopic group was $1,396 per patient randomized ($647 the result of shorter length of hospital stay and $749 the result of the lower cost of postoperative complications).
+T9	Premise 1410 1511	The net balance resulted in $351 extra cost per patient randomly allocated to the laparoscopic group.
+T10	Claim 1512 1577	Short-term postoperative morbidity was similar in the two groups.
+T11	Claim 1578 1709	Laparoscopic resection reduced length of hospital stay, improved first-year quality of life, and slightly increased hospital costs.
+R1	Support Arg1:T9 Arg2:T11	
+R2	Support Arg1:T6 Arg2:T11	
+R3	Support Arg1:T8 Arg2:T9	
+R4	Support Arg1:T7 Arg2:T9	
+R5	Partial-Attack Arg1:T5 Arg2:T4	
+R6	Support Arg1:T3 Arg2:T11	
+R7	Support Arg1:T2 Arg2:T10	

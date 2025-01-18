@@ -1,0 +1,8 @@
+T2	Claim 75 165	It is not known whether imatinib may be stopped in patients in whom disease is controlled.
+T3	Premise 996 1145	As of October 15, 2005, eight of 26 patients in the CONT group and 26 of 32 patients in the INT group had documented disease progression (P < .0001).
+T4	Premise 1146 1253	Twenty-four of 26 patients with documented progression in the INT arm responded to imatinib reintroduction.
+T5	Premise 1254 1347	No differences in overall survival or imatinib resistance were observed between the two arms.
+T6	Premise 1348 1540	Quality of life evaluated 6 months after random assignment using the 30-item Quality of Life Questionnaire was not significantly different between the two groups of randomly assigned patients.
+T7	Claim 1541 1722	Imatinib interruption results in rapid progression in most patients with advanced GIST, and cannot be recommended in routine practice unless patient experience significant toxicity.
+R1	Support Arg1:T3 Arg2:T7	
+R2	Support Arg1:T4 Arg2:T7	

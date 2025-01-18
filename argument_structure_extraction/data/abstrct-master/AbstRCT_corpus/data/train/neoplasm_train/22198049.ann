@@ -1,0 +1,8 @@
+T1	Premise 1318 1418	The combination arm was more effective than arm 2 with respect to LBM, REE, fatigue, and global QoL.
+T2	Premise 1419 1537	As for the secondary efficacy endpoints, patient appetite increased, and ECOG PS decreased significantly in both arms.
+T3	Premise 1538 1697	The inflammation and oxidative stress parameters IL-6, TNF-α, CRP, and ROS decreased significantly in arm 1, while no significant change was observed in arm 2.
+T4	Claim 1698 1779	The combined treatment improved both immunometabolic alterations and patient QoL.
+T5	MajorClaim 1780 1966	Multimodality therapies for cachexia ideally should be introduced within a context of "best supportive care" that includes optimal symptom management and careful psychosocial counseling.
+R1	Support Arg1:T1 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	
+R3	Support Arg1:T3 Arg2:T4	

@@ -1,0 +1,17 @@
+T1	Premise 761 825	The overall remission rate was 87% with 31% complete remissions.
+T2	Premise 826 932	The median survival of all 406 eligible patients was 346 days with 15% of the patients alive at two years.
+T3	Premise 933 1107	The overall remission rate, the rate of complete remission, the median survival and the rate of long-term survival were not significantly different in the two treatment arms.
+T4	Premise 1108 1248	In limited disease the estimated percentages of survival at 2 years were 33% in the early and 24% in the late alternating chemotherapy arms.
+T5	Premise 1249 1437	Patients with extensive disease survived significantly longer with late alternating chemotherapy than on the early alternation regimen (median survival 336 days versus 301 days, p = 0.01).
+T6	Premise 1438 1590	In the latter patients the received dose intensities (RDI) of cisplatin, adriamycin and etoposide were significantly higher in the late-alternation arm.
+T7	Premise 1591 1809	Patients treated with early alternating chemotherapy rated their tumor symptoms, functional states, fatigue/malaise and restriction of social activity significantly better, reflecting an improved subjective adjustment.
+T8	Claim 1810 1973	Alternating chemotherapy with PAV-CyMOC plus consolidating radiotherapy is a feasible and effective treatment for small-cell lung cancer, with acceptable toxicity.
+T9	Claim 1982 2066	patients with early alternating chemotherapy achieve a better subjective adjustment,
+T10	Claim 2067 2252	late alternating chemotherapy allows for a higher RDI of cisplatin, adriamycin and etoposide, which results in a significantly longer median survival of patients with extensive disease.
+R1	Support Arg1:T1 Arg2:T8	
+R2	Support Arg1:T2 Arg2:T8	
+R3	Support Arg1:T3 Arg2:T8	
+R4	Support Arg1:T4 Arg2:T10	
+R5	Support Arg1:T5 Arg2:T10	
+R6	Support Arg1:T6 Arg2:T10	
+R7	Support Arg1:T7 Arg2:T9	

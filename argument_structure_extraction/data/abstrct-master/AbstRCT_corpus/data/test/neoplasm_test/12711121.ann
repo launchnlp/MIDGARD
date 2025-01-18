@@ -1,0 +1,11 @@
+T1	Premise 839 974	Both patients with objective response and disease stabilisation had clearly better symptom control than those with disease progression.
+T2	Premise 975 1092	Symptom control in both arms was similar for 'disease-specific' symptoms such as cough, dyspnea, pain or haemoptysis.
+T3	Premise 1093 1331	Compared to PV, a significantly larger number of GEM-patients had better scores for 'constitutional' items such as anorexia (P=0.007), ability to carry on with daily activities (P=0.04) and overall impression of quality-of-life (P=0.008).
+T4	Premise 1332 1509	Symptom control was very similar in younger (<65 years) versus older (>/=65 years) patients, and only slightly better in those with a Karnofsky PS >/=80% compared to those <80%.
+T5	Premise 1510 1656	Most of the symptom improvement occurred in the first 3 cycles, with some further symptom improvement in the following cycles in the GEM-arm only.
+T6	Claim 1657 1755	Both GEM and PV yield a symptom control rate much higher than expected by the objective tumour RR.
+T7	Claim 1756 1879	GEM is equally effective in controlling 'disease-specific' symptoms, but superior in controlling 'constitutional' symptoms.
+T9	Premise 1880 2022	Most of the symptom control was achieved during the first 3 cycles of treatment, with some further improvement thereafter in the GEM-arm only.
+R1	Support Arg1:T3 Arg2:T7	
+R2	Support Arg1:T1 Arg2:T6	
+R3	Support Arg1:T2 Arg2:T6	

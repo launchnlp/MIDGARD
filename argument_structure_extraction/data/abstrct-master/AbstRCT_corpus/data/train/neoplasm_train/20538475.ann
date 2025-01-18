@@ -1,0 +1,11 @@
+T1	Premise 701 1000	There were no significant differences between the narrow gastric tube group (NGT group, n=52) and the whole-stomach group (WS group, n=52) with regard to patient and cancer characteristics, operative procedure, postoperative intensive care unit (ICU) hospitalisation, and overall survival at 1 year.
+T2	Premise 1001 1164	Regarding the postoperative complication, there were more cases of postoperative reflux oesophagitis and impairment of pulmonary function in the WS group (P<0.05).
+T3	Premise 1165 1266	Regarding the QoL investigation, the scores of QoL dropped for all patients at 3 weeks after surgery.
+T4	Premise 1275 1337	recovery was found at both 6 months and 1 year in both groups.
+T5	Premise 1338 1445	Patients in the NGT group reported significantly (P<0.05) better scores of QoL at both 6 months and 1 year.
+T6	Claim 1446 1628	Patients who underwent gastric tube reconstruction develop less postoperative digestive tract complications, and have a quicker recovery and a better QoL during the follow-up period.
+R1	Support Arg1:T5 Arg2:T6	
+R2	Support Arg1:T3 Arg2:T6	
+R3	Support Arg1:T4 Arg2:T6	
+R4	Support Arg1:T2 Arg2:T6	
+R5	Support Arg1:T1 Arg2:T6	

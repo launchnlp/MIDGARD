@@ -1,0 +1,16 @@
+T1	Claim 2167 2388	The combination of VNR on day 1-8 plus CDDP every 3 weeks may be considered as a reference regimen for the treatment of patients with advanced disease and those who deserve a postoperative therapy, and for future studies.
+T2	Premise 1060 1135	This difference was not statistically significant (log-rank test, p=0.818).
+T3	Premise 959 1059	Median TTP was 4.5 and 4.6 months respectively for weekly VNR/CDDP arm and the day 1-8 VNR/CDDP one.
+R1	Attack Arg1:T2 Arg2:T3	
+T4	Premise 1136 1307	Median OS was 9.45 and 10 months respectively for weekly VNR/CDDP arm and the day 1-8 VNR/CDDP one without statistically a significant difference (log-rank test, p=0.259).
+T5	Premise 1308 1386	The 1- and 2-year survival rates were 31 and 36%, and 10 and 11% respectively.
+T6	Premise 1387 1643	The incidence of severe neutropenia (34% versus 68%; p=0.0001) and of febrile neutropenia (5% versus 12%; p=0.026), as well as the rate of therapy omissions (10% versus 24%; p=0.0037) were higher in the weekly VNR/CDDP arm than in the day 1-8 VNR/CDDP one.
+T7	Premise 1644 1903	The weekly VNR/CDDP regimen was associated with a lower received dose intensity in a statistically significant fashion (9% versus 22%; p=0.0001) and with a lower non-statistically significant quality of life score as compared to the day 1-8 VNR/CDDP schedule.
+T8	Claim 1904 2049	The combination of day 1-8 VNR plus CDDP every 3 weeks is less toxic and better tolerated than the regimen of weekly VNR plus CDDP every 4 weeks.
+T9	Claim 2050 2166	The two schedules are equivalent in terms of overall response rate, median time-to-progression and overall survival.
+R2	Support Arg1:T6 Arg2:T8	
+R3	Support Arg1:T4 Arg2:T9	
+R4	Support Arg1:T5 Arg2:T9	
+R5	Support Arg1:T3 Arg2:T9	
+R6	Support Arg1:T9 Arg2:T1	
+R7	Support Arg1:T8 Arg2:T1	

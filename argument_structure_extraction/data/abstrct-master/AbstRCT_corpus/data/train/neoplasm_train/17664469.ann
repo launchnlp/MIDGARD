@@ -1,0 +1,11 @@
+T1	Premise 902 1029	ORR was 25.0% (95% CI, 13% to 41%) for ECF, 18.5% (95% CI, 9% to 34%) for TC, and 36.6% (95% CI, 23% to 53%) for TCF (n = 119).
+T2	Premise 1030 1127	Median overall survival times were 8.3, 11.0, and 10.4 months for ECF, TC, and TCF, respectively.
+T3	Premise 1128 1183	Toxicity was acceptable, with one toxic death (TC arm).
+T4	Premise 1184 1288	Grade 3 or 4 neutropenia occurred in more treatment cycles with docetaxel (TC, 49%; TCF, 57%; ECF, 34%).
+T5	Claim 1289 1408	Global health status/QOL substantially improved with ECF and remained similar to baseline with both docetaxel regimens.
+T6	Premise 1517 1628	A trend towards increased myelosuppression and infectious complications with TCF versus TC or ECF was observed.
+T7	Premise 1409 1516	Time to response and ORR favor TCF over TC for further evaluation, particularly in the neoadjuvant setting.
+R1	Support Arg1:T1 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T5	
+R3	Support Arg1:T3 Arg2:T5	
+R4	Support Arg1:T4 Arg2:T5	

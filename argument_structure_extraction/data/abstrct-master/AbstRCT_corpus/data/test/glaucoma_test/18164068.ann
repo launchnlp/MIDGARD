@@ -1,0 +1,6 @@
+T1	Premise 1235 1467	Cumulative successes in the Ahmed group were 0.73 at 1 year and 0.62 at 2 years, whereas cumulative successes in the Baerveldt group were 0.92 at 1 year and 0.85 at 2 years (Kaplan-Meier survival functions: P = 0.03, log rank test).
+T2	Claim 1468 1594	Male gender, African descent, neovascular glaucoma, and Ahmed implantation were found to be significant predictors of failure.
+T3	Premise 1595 1867	At last follow-up visit, eyes in the Ahmed group had a significantly higher mean IOP (19.8+/-9.5 vs. 15.8+/-7.9 mmHg, P = 0.003, t test) and more antiglaucoma medications (1.4+/-1.2 vs. 0.9+/-1.1 medications, P = 0.008, Mann-Whitney test) than eyes in the Baerveldt group.
+T4	Claim 1963 2099	Our study suggests that the Ahmed S2 Glaucoma Valve may be less effective at lowering IOP than the Baerveldt 250-mm(2) Glaucoma Implant.
+R1	Support Arg1:T1 Arg2:T4	
+R2	Support Arg1:T3 Arg2:T4	

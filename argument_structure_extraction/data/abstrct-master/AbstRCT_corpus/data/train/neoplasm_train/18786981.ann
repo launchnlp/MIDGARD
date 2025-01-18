@@ -1,0 +1,15 @@
+T1	Premise 574 649	There was no difference in overall survival (HR 1.01, 95% CI 0.77 to 1.32).
+T2	Premise 650 718	Median survival with GC and PE was 8.0 and 8.1 months, respectively.
+T3	Premise 719 798	Median progression-free survival was 5.9 months with GC and 6.3 months with PE.
+T4	Premise 799 949	Grade 3 or 4 myelosuppressions were more frequent with GC (anaemia: 14% GC vs 2% PE; leucopenia: 32% GC vs 13% PE; thrombocytopenia: 22% GC vs 4% PE),
+T5	Premise 950 1041	but these were not associated with increased hospital admissions, infections or fatalities.
+T6	Premise 1042 1137	Grade 2-3 alopecia (68% PE vs 17% GC) and nausea (43% PE vs 26% GC) were more frequent with PE.
+T7	Premise 1238 1380	In QoL questionnaires, more patients receiving PE reported being upset by hair loss (p = 0.004) and impaired cognitive functioning (p = 0.04).
+T8	Claim 1381 1520	GC is as effective as PE in terms of overall survival and progression-free survival and has a toxicity profile more acceptable to patients.
+R1	Support Arg1:T6 Arg2:T8	
+R2	Partial-Attack Arg1:T5 Arg2:T4	
+R3	Attack Arg1:T4 Arg2:T8	
+R4	Support Arg1:T3 Arg2:T8	
+R5	Support Arg1:T2 Arg2:T8	
+R6	Support Arg1:T1 Arg2:T8	
+R7	Support Arg1:T7 Arg2:T8	

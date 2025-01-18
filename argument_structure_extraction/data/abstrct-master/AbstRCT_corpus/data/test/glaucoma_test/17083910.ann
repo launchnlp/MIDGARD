@@ -1,0 +1,7 @@
+T1	Premise 1128 1336	Nonvalved tube shunt surgery was more likely to maintain IOP control and avoid persistent hypotony or reoperation for glaucoma than trabeculectomy with MMC during the first year of follow-up in the TVT Study.
+T3	Claim 1410 1497	there was less need for supplemental medical therapy following trabeculectomy with MMC.
+T4	Premise 978 1127	The cumulative probability of failure during the first year of follow-up was 3.9% in the tube group and 13.5% in the trabeculectomy group (P = .017).
+T2	Claim 1337 1404	Both surgical procedures produced similar IOP reduction at one year
+T5	Premise 839 977	The number of glaucoma medications (mean +/- SD) was 1.3 +/- 1.3 in the tube group and 0.5 +/- 0.9 in the trabeculectomy group (P < .001).
+R1	Support Arg1:T1 Arg2:T2	
+R2	Support Arg1:T5 Arg2:T3	

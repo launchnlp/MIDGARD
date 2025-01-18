@@ -1,0 +1,8 @@
+T1	Premise 727 821	The response rate was 71% for DepoCyt and 15% for ara-C on an intent-to-treat basis (P =.006).
+T2	Premise 822 968	All of the patients on the DepoCyt arm but only 53% of those on the ara-C arm were able to complete the planned 1-month induction therapy regimen.
+T3	Premise 969 1105	Time to neurologic progression and survival trend in favor of DepoCyt (median, 78.5 v 42 days and 99.5 v 63 days, respectively; P >.05).
+T4	Premise 1106 1233	DepoCyt treatment was associated with an improved mean change in Karnofsky performance score at the end of induction (P =.041).
+T5	Premise 1234 1355	The major adverse events on both arms were headache and arachnoiditis, which were often caused by the underlying disease.
+T6	Claim 1356 1544	DepoCyt injected once every 2 weeks produced a high response rate and a better quality of life as measured by Karnofsky score relative to that produced by free ara-C injected twice a week.
+R1	Support Arg1:T1 Arg2:T6	
+R2	Support Arg1:T4 Arg2:T6	

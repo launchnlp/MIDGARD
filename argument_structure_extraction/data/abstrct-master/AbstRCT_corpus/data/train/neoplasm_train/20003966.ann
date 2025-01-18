@@ -1,0 +1,18 @@
+T1	Premise 475 624	Food intake improved more rapidly after stent placement than after GJJ (GOO Scoring System score > or = 2: median 5 vs 8 days, respectively; P < .01)
+T2	Premise 625 815	but long-term relief was better after GJJ, with more patients living more days with a GOO Scoring System score of 2 or more than after stent placement (72 vs 50 days, respectively; P = .05).
+T3	Premise 816 1108	More major complications (stent: 6 in 4 patients vs GJJ: 0; P = .02), recurrent obstructive symptoms (stent: 8 in 5 patients vs GJJ: 1 in 1 patient; P = .02), and reinterventions (stent: 10 in 7 patients vs GJJ: 2 in 2 patients; P < .01) were observed after stent placement compared with GJJ.
+T4	Premise 1109 1226	When stent obstruction was not regarded as a major complication, no differences in complications were found (P = .4).
+T5	Premise 1227 1330	There were also no differences in median survival (stent: 56 days vs GJJ: 78 days) and quality of life.
+T6	Premise 1331 1462	Mean total costs of GJJ were higher compared with stent placement ($16,535 vs $11,720, respectively; P = .049 [comparing medians]).
+T7	Premise 1677 1718	Despite slow initial symptom improvement,
+T8	Claim 1719 1866	GJJ was associated with better long-term results and is therefore the treatment of choice in patients with a life expectancy of 2 months or longer.
+T10	Claim 1867 1938	Because stent placement was associated with better short-term outcomes,
+T11	Claim 1939 2017	this treatment is preferable for patients expected to live less than 2 months.
+R1	Support Arg1:T10 Arg2:T11	
+R2	Partial-Attack Arg1:T7 Arg2:T8	
+R3	Support Arg1:T1 Arg2:T10	
+R4	Support Arg1:T2 Arg2:T8	
+R5	Support Arg1:T3 Arg2:T8	
+R6	Support Arg1:T4 Arg2:T8	
+R7	Support Arg1:T5 Arg2:T8	
+R8	Support Arg1:T6 Arg2:T8	

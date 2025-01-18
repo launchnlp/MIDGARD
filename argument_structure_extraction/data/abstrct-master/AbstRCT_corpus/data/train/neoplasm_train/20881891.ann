@@ -1,0 +1,7 @@
+T1	Premise 1025 1234	Relative to women continuing tamoxifen, women switching to anastrozole experienced a decrease of 53% (95% CI, 41%-63%) in double endometrial thickness and a decrease of 51% (95% CI, 39%-60%) in uterine volume.
+T2	Premise 1235 1412	Vaginal dryness (b = 0.064; 95% CI, 0.016-0.112) and sexual problems (b = 0.054; 95% CI, 0.007-0.102) increased in women taking anastrozole compared with women taking tamoxifen.
+T3	Premise 1413 1516	Treatment arms did not differ regarding withdrawal rate and the experience of (serious) adverse events.
+T4	Claim 1587 1710	Switching to anastrozole strongly decreased the endometrial thickness and uterine volume but increased sexual disturbances.
+T6	MajorClaim 1711 1787	Safe and effective interventions are needed to alleviate sexual dysfunction.
+R1	Support Arg1:T2 Arg2:T4	
+R2	Support Arg1:T1 Arg2:T4	

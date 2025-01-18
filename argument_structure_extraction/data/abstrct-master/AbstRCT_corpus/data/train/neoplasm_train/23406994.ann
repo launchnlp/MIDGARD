@@ -1,0 +1,9 @@
+T1	Claim 1674 1775	A combination regimen of MA and thalidomide is more effective than MA alone in the treatment of CACS.
+T2	Premise 1611 1673	Toxicity was found to be relatively negligible in both groups.
+T3	Premise 639 1018	Analysis of the trial group demonstrated a significant increase from baseline in body weight (<0.01), quality of life (p = 0.02), appetite (p = 0.01), and grip strength (p = 0.01), and a significant decrease in fatigue, Glasgow Prognostic Score (p = 0.05), Eastern Cooperative Oncology Group performance status (p = 0.03), IL-6 (p < 0.01), and tumor necrosis factor-α (p = 0.02).
+T4	Premise 1019 1165	In contrast, in the control group, endpoints with a significant improvement from baseline included body weight (p < 0.02) and appetite (p = 0.02).
+T5	Premise 1166 1610	The mean changes in the endpoints from baseline in the trial group were significantly greater compared with the control group: in the primary endpoints, body weight (p = 0.05), fatigue (p < 0.01) and quality of life (p = 0.01), and in the secondary endpoints, grip strength (p = 0.05), Glasgow Prognostic Score (p = 0.02), Eastern Cooperative Oncology Group performance status (p = 0.02), IL-6 (p < 0.01) and tumor necrosis factor-α (p = 0.01).
+R1	Support Arg1:T2 Arg2:T1	
+R2	Support Arg1:T5 Arg2:T1	
+R3	Support Arg1:T4 Arg2:T1	
+R4	Support Arg1:T3 Arg2:T1	

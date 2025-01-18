@@ -1,0 +1,12 @@
+T1	Premise 1018 1173	Tamoxifen-naïve patients had a higher mean ES (endocrine symptoms subscale) score at entry versus those having extended therapy (66.0 vs. 61.9; P = 0.001).
+T2	Premise 1174 1346	There was no significant change in FACT-B-ES (overall) scores or ES scores while patients were taking anastrozole or letrozole and no significant differences between drugs.
+T3	Premise 1347 1422	Nearly 80% of patients reported one or more side effects with either agent.
+T4	Premise 1423 1508	No differences in frequency, grade, or range of side effects were seen between drugs.
+T5	Claim 1680 1716	both AIs are equally well tolerated.
+T6	Claim 1717 1791	There were no significant differences in QOL scores between the two drugs.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T5	
+R3	Support Arg1:T1 Arg2:T5	
+R4	Support Arg1:T2 Arg2:T6	
+R5	Support Arg1:T1 Arg2:T6	
+R6	Partial-Attack Arg1:T3 Arg2:T5	

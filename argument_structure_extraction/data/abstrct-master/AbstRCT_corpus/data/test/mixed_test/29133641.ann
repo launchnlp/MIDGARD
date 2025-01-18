@@ -1,0 +1,10 @@
+T1	Premise 586 736	Complete success (defined as IOP <16 mmHg on no medication) could be achieved in 85% eyes in study group while it was 60% in control group (P = 0.04).
+T2	Premise 737 886	IOP reduced by 71.1% in study group from 41.9 ± 10.6 to 12.1 ± 2.7 mmHg and from 40.5 ± 8.5 to 12.8 ± 4.5 mmHg in control group, a decline of 68.29%.
+T3	Premise 887 1153	Blebs in AMT group showed better bleb morphology in terms of significantly better extent (E3) on day 1 (P = 0.03) and better height (H2 and H3) (P = 0.04), according to the Indiana Bleb Appearance Grading Scale, at all follow-up visits along with normal vascularity.
+T4	Premise 1154 1255	The study group required significantly lesser (P = 0.03) bleb needlings as compared to control group.
+T5	Claim 1256 1403	Amnion enhanced the efficacy of MMC-modulated trabeculectomy in terms of eyes with complete success and lesser interventions such as bleb needling.
+T6	MajorClaim 1404 1478	This reiterates the role of amnion as a safe and effective bleb modulator.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T2 Arg2:T5	
+R4	Support Arg1:T1 Arg2:T5	

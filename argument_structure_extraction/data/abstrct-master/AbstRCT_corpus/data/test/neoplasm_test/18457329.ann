@@ -1,0 +1,9 @@
+T1	Premise 821 1165	On the basis of intention-to-treat analyses, PRET was superior to TP for improving shoulder pain and disability (-9.6; 95% confidence interval [95% CI], -16.4 to -4.5; P = .001), upper extremity strength (+10.8 kg; 95% CI, 5.4-16.2 kg; P < .001), and upper extremity endurance (+194 repetitions x kg; 95% CI, 10-378 repetitions x kg; P = .039).
+T2	Premise 1166 1256	Changes in neck dissection impairment, fatigue, and quality of life favored the PRET group
+T3	Premise 1257 1300	but did not reach statistical significance.
+R1	Attack Arg1:T3 Arg2:T2	
+T4	Claim 1535 1652	Clinicians should consider the addition of PRET in the rehabilitation of postsurgical head and neck cancer survivors.
+T5	Premise 1301 1534	The PRET program significantly reduced shoulder pain and disability and improved upper extremity muscular strength and endurance in head and neck cancer survivors who had shoulder dysfunction because of spinal accessory nerve damage.
+R2	Support Arg1:T5 Arg2:T4	
+R3	Support Arg1:T2 Arg2:T4	
+R4	Support Arg1:T1 Arg2:T4	

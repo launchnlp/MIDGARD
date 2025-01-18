@@ -1,0 +1,8 @@
+T1	Premise 1614 1706	Adverse events in both groups included fatigue, diminished sexual function, and hot flushes.
+T2	Claim 1707 1924	The combination of radiotherapy plus 6 months of androgen suppression provides inferior survival as compared with radiotherapy plus 3 years of androgen suppression in the treatment of locally advanced prostate cancer.
+T3	Premise 1186 1301	After a median follow-up of 6.4 years, 132 patients in the short-term group and 98 in the long-term group had died;
+T4	Premise 1302 1407	the number of deaths due to prostate cancer was 47 in the short-term group and 29 in the long-term group.
+T5	Premise 1408 1512	The 5-year overall mortality for short-term and long-term suppression was 19.0% and 15.2%, respectively;
+R1	Support Arg1:T3 Arg2:T2	
+R2	Support Arg1:T4 Arg2:T2	
+R3	Support Arg1:T5 Arg2:T2	

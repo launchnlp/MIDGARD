@@ -1,0 +1,9 @@
+T2	Premise 1008 1226	Differences in mean QOL change scores from baseline to study end for epoetin alfa versus BSC were 3.17 points for the FACT-General Total, 9.90 for the FACT-An Fatigue subscale, and 7.30 for the FACT-An Anemia subscale.
+T3	Premise 1227 1440	This was equivalent to corrections in QOL deficits attributable to epoetin alfa of 97.3%, 40.7%, and 38.0% for the FACT-General Total, FACT-An Fatigue, and FACT-An Anemia subscale scores, respectively, versus BSC.
+T4	Premise 1441 1599	A somewhat greater QOL benefit was observed for the FACT-An Fatigue and FACT-An Anemia subscales in the subset of patients with baseline Hb levels >10.5 g/dl.
+T5	Premise 1600 1671	Patients in this study had impaired QOL compared with population norms.
+T6	Claim 1672 1876	Early treatment with epoetin alfa to correct anemia improved QOL in a statistically significant and clinically meaningful way, and improvements were greater in patients with baseline Hb levels >10.5 g/dl.
+R1	Support Arg1:T2 Arg2:T6	
+R2	Support Arg1:T3 Arg2:T6	
+R3	Support Arg1:T4 Arg2:T6	
+R4	Partial-Attack Arg1:T5 Arg2:T6	

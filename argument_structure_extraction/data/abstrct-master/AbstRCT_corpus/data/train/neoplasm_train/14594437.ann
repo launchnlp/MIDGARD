@@ -1,0 +1,8 @@
+T1	Premise 1 226	In a multinational trial of anaemic patients with cancer receiving nonplatinum-containing chemotherapy, epoetin-alfa effectively increased haemoglobin levels, reduced red blood cell transfusion requirements, and improved QOL.
+T2	Premise 296 414	a survival trend was noted favouring epoetin-alfa compared with placebo (median survival 17 vs 11 months [p = 0.126]).
+T3	Premise 1352 1605	The ICUR for epoetin-alfa treatment was pounds 8,851 per QALY, with a 99% probability of a positive net benefit in QALYs (net benefit = 0.4805 years of perfect life) and a 94% probability of being acceptable using a threshold ICUR of pounds 30,000/QALY.
+T4	Premise 1606 1735	The main cost drivers distinguishing epoetin-alfa from placebo were the costs of drug and patient care due to increased survival.
+T5	Claim 1736 1944	The available data suggest a high probability of favourable cost-utility outcomes with epoetin-alfa treatment for anaemia in patients with stage IV breast cancer receiving nonplatinum-containing chemotherapy.
+T6	Claim 1945 1978	Additional studies are warranted.
+R1	Support Arg1:T5 Arg2:T6	
+R2	Support Arg1:T3 Arg2:T5	

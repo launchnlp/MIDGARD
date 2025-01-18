@@ -1,0 +1,21 @@
+T1	Premise 640 818	For the Pemetrexed group, objective response rate (ORR) was 13.0% (3/23), disease control rate (DCR) was 30.4% (7/23), and median progression-free survival (mPFS) was 3.1 months.
+T2	Premise 819 911	In the Gefitinib group, ORR was 17.3% (4/23), DCR was 39.1% (9/23), and mPFS was 4.4 months.
+T3	Premise 912 1041	Compared with the Pemetrexed group, the ORR, DCR, and mPFS in the Gefitinib group exhibited no statistical significance (P>0.05).
+T4	Premise 1055 1260	the most common toxicities in the Pemetrexed group were neutropenia (n=9, 39.13%) and fatigue (n=8, 34.78%), whereas those in the in Gefitinib group were skin rash (n=8, 34.78%) and diarrhea (n=4, 17.39%).
+T5	Premise 1261 1342	Compared with baseline, the QoL improved in both groups but to different degrees.
+T6	Premise 1353 1521	emotional, functional well-being, and QoL aspects specifically related to lung cancer were better improved in the Gefitinib group than in the Pemetrexed group (P<0.05).
+T7	Claim 1522 1598	The effects of Pemetrexed and Gefitinib as second line therapy were similar,
+T8	Premise 1599 1627	although with different AEs.
+T9	Claim 1628 1661	Both drugs could improve the QoL,
+T10	Claim 1666 1722	Gefitinib showed better overall results than Pemetrexed.
+R1	Partial-Attack Arg1:T8 Arg2:T7	
+R3	Support Arg1:T6 Arg2:T10	
+R4	Support Arg1:T5 Arg2:T9	
+R6	Support Arg1:T4 Arg2:T8	
+R7	Support Arg1:T4 Arg2:T7	
+R8	Support Arg1:T3 Arg2:T7	
+R2	Support Arg1:T9 Arg2:T7	
+R5	Support Arg1:T2 Arg2:T7	
+R9	Support Arg1:T1 Arg2:T7	
+R10	Support Arg1:T1 Arg2:T10	
+R11	Support Arg1:T2 Arg2:T10	

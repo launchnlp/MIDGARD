@@ -1,0 +1,11 @@
+T1	Claim 1683 1754	Synbiotic is effective in reducing of blood pressure in women with GDM.
+T2	Premise 928 1089	No significant changes in FPG, insulin resistance/sensitivity, lipid profile and TAC indices were seen in synbiotic group compared to the placebo one (p > 0.05).
+T3	Premise 1090 1194	Significant within group increases for HDL-C and TAC levels in synbiotic group were observed (p < 0.05).
+T4	Premise 1195 1311	LDL-C showed significant increment in the placebo group compared to the baseline of the study (6.9 mg/dL, p < 0.05).
+T5	Premise 1312 1472	Between group comparison showed significant decrease in SBP and DBP in synbiotic group compared to placebo (-2.5 vs. 8.6 mmHg, and -1.8 vs. 2.1 mmHg, p < 0.05).
+T6	Claim 1473 1607	The results showed that, in women with GDM, synbiotic supplementation had no effect on FPG and insulin resistance/sensitivity indices.
+T7	Claim 1608 1682	Lipid profile and TAC status may be affected by synbiotic supplementation.
+R1	Support Arg1:T2 Arg2:T6	
+R2	Support Arg1:T5 Arg2:T1	
+R3	Support Arg1:T3 Arg2:T7	
+R4	Support Arg1:T4 Arg2:T7	

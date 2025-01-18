@@ -1,0 +1,12 @@
+T1	Claim 503 623	There were significant differences between treatment groups favouring the SNB group throughout the 18 months assessment.
+T2	Premise 624 888	Patients in the standard treatment group showed a greater decline in Trial Outcome Index (TOI) scores (physical well-being, functional well-being and breast cancer concerns subscales in FACT-B+4) and recovered more slowly than patients in the SNB group (p < 0.01).
+T3	Premise 889 982	The change in total FACT-B+4 scores (measuring global QOL) closely resembled the TOI results.
+T4	Premise 983 1197	18 months post-surgery approximately twice as many patients in the standard group compared with the SNB group reported substantial arm swelling (14% versus 7%) (p = 0.002) or numbness (19% versus 8.7%) (p < 0.001).
+T5	Premise 1309 1398	there was no evidence of increased anxiety amongst patients randomised to SNB (p > 0.05).
+T6	Premise 1399 1531	For 6 months post-surgery younger patients reported less favourable QOL scores (p < 0.001) and greater levels of anxiety (p < 0.01).
+T7	Claim 1532 1718	In view of the benefits regarding arm functioning and quality of life, the data from this randomised study support the use of SNB in patients with clinically node negative breast cancer.
+R1	Support Arg1:T6 Arg2:T7	
+R2	Support Arg1:T5 Arg2:T7	
+R3	Support Arg1:T4 Arg2:T7	
+R4	Support Arg1:T2 Arg2:T1	
+R5	Support Arg1:T3 Arg2:T1	

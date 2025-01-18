@@ -1,0 +1,9 @@
+T1	Premise 1640 1855	The data of the full analysis set showed that HBeAg seroconversion rate at week 72 was 27.32% in the trial group and 22.70% in the control group with a rate difference of 4.63% (95% CI -1.54% to 10.80%, P = 0.1493).
+T2	Premise 1856 2070	The data of the per-protocol set showed that HBeAg seroconversion rate at week 72 was 30.75% in the trial group and 27.14% in the control group with a rate difference of 3.61% (95% CI -3.87% to 11.09%, P = 0.3436).
+T3	Premise 2071 2170	95% CI met the non-inferiority criteria, and the trial group was non-inferior to the control group.
+T4	Premise 2171 2283	The two groups had similar incidence rates of adverse events, serious adverse events, and common adverse events.
+T5	Claim 2284 2447	In Peg-IFN-α regimen for HBeAg-positive CHB patients, the new drug Peg-IFN-α-2b (Y shape, 40 kD) has comparable effect and safety to the control drug Peg-IFN-α-2a.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T2 Arg2:T5	
+R4	Support Arg1:T1 Arg2:T5	

@@ -1,0 +1,7 @@
+T2	Premise 803 1098	Intention-to-treat analysis based on participants with follow-up data indicated a significant difference in total exercise in favor of the recommendation-only group over the usual care group (mean difference, 3.4 MET hr per week; 95% confidence interval [CI], 0.7-6.1 MET hr per week; p = .011).
+T3	Premise 1099 1293	There was no significant difference between the recommendation-plus-referral group and the usual care group (mean difference, 1.5 MET hr per week; 95% CI, -1.0 to 4.0 MET hr per week; p = .244).
+T4	Premise 1294 1582	Ancillary "on-treatment" analyzes showed that participants who recalled an exercise recommendation reported significantly more total exercise than participants who did not recall an exercise recommendation (mean difference, 4.1 MET hr per week: 95% CI, 1.9-6.4 MET hr per week; p < .001).
+T5	Claim 1583 1776	Our findings suggest that an oncologist recommendation may increase exercise behavior in newly diagnosed breast cancer survivors, particularly if it is recalled 1 week after the recommendation.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T5	
+R3	Partial-Attack Arg1:T3 Arg2:T5	

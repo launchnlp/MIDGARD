@@ -1,0 +1,13 @@
+T1	Premise 945 1084	Over 73 months after randomization, the fludarabine group gained a mean of 45 days of toxicity-free survival at CAP, and 61 days over ChOP.
+T2	Premise 1085 1183	The mean TWIST was 27.05 months with CAP, 31.5 months with ChOP and 32.95 months with fludarabine.
+T3	Premise 1184 1330	The threshold analyses showed that, whatever the utility weights, the mean Q-TWIST was always greater with ChOP or fludarabine as compared to CAP.
+T4	Claim 1331 1389	Fludarabine was consistently a better treatment than ChOP,
+T5	Premise 1390 1513	except in the unlikely case of high utility weights attributed to toxicity and low utility weights attributed to treatment.
+T6	Premise 1528 1672	from a clinical point of view, differences between ChOP and fludarabine were moderate or event slight (mean difference in TWIST of 1.45 months).
+T7	Claim 1690 1801	patients with advanced CLL have a moderate benefit in terms of Q-TWIST when treated with fludarabine over ChOP.
+T8	Claim 1802 1850	These two treatments are always superior to CAP.
+R1	Support Arg1:T3 Arg2:T7	
+R2	Support Arg1:T2 Arg2:T8	
+R3	Support Arg1:T1 Arg2:T8	
+R4	Partial-Attack Arg1:T5 Arg2:T4	
+R5	Support Arg1:T6 Arg2:T4	

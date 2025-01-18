@@ -1,0 +1,14 @@
+T1	Premise 866 950	There were no serious events with the 1 + 2.5 dosage or after ccHRT discontinuation.
+T2	Premise 951 1040	Climacteric symptoms remained significantly below baseline values after dosage reduction;
+T3	Premise 1041 1095	some symptoms recurred after discontinuation of ccHRT.
+T4	Premise 1096 1228	HRQOL ratings improved with ccHRT, irrespective of dosage, including depressed mood, anxiety, health perception and sexual interest.
+T5	Premise 1229 1330	Scores on a scale assessing daily functioning and enjoyment (Q-LES-Q) improved from year 7 to year 9.
+T6	Premise 1331 1396	They deteriorated during follow-up in women not continuing ccHRT.
+T7	Claim 1397 1534	Lower dosages of HRT were as effective as higher doses in improving climacteric symptoms and HRQOL ratings and had fewer safety concerns.
+T8	Premise 1535 1680	Following discontinuation of ccHRT, patient satisfaction was variable, with 15% electing to continue or restart HRT and 7% resuming at follow-up.
+T9	Claim 1681 1762	This supports the need for an individualized approach to therapy recommendations.
+R1	Support Arg1:T4 Arg2:T7	
+R2	Support Arg1:T2 Arg2:T7	
+R3	Support Arg1:T5 Arg2:T7	
+R4	Support Arg1:T7 Arg2:T9	
+R5	Support Arg1:T1 Arg2:T7	

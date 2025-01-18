@@ -1,0 +1,16 @@
+T1	Premise 936 1072	Survival and hospital stay did not differ among the groups, whereas overall complications were higher on artificial nutrition (P < .05).
+T2	Premise 1073 1182	Changes in resting energy expenditure and biochemical tests did not differ during follow-up among the groups.
+T3	Premise 1183 1268	Body weight and whole body fat declined similarly over time in all groups (P < .005),
+T4	Premise 1277 1355	lean body mass was unchanged during follow-up compared to preoperative values.
+T5	Premise 1356 1475	Maximum exercise capacity and maximum oxygen consumption were normalized within 6 months postoperatively in all groups.
+T6	Premise 1476 1544	There was no difference in recovery of food intake among the groups.
+T7	Claim 1545 1636	Parenteral feeding was associated with the highest rate of nutrition-related complications,
+T8	Claim 1645 1702	enteral feeding reduced quality of life most extensively.
+T9	Claim 1703 1847	After major surgery, specialized supportive enteral and parenteral nutrition are not superior to oral nutrition only when guided by a dietitian.
+R1	Support Arg1:T7 Arg2:T9	
+R2	Support Arg1:T8 Arg2:T9	
+R3	Support Arg1:T3 Arg2:T9	
+R4	Support Arg1:T4 Arg2:T9	
+R5	Support Arg1:T2 Arg2:T9	
+R6	Support Arg1:T1 Arg2:T9	
+R7	Support Arg1:T6 Arg2:T9	

@@ -1,0 +1,11 @@
+T1	Premise 1087 1245	Participants in the intervention group reported, on average, 53 fewer days of sick leave over the first 6 months post-surgery than those in the control group;
+T2	Premise 1246 1355	however, this difference was not statistically significant (p = 0.122; 95% confidence interval -15.8, 122.0).
+T3	Premise 1356 1431	No statistically significant differences were found for secondary outcomes.
+T4	Premise 1432 1579	Interviews with trial participants indicated that trial procedures, including recruitment, randomisation and research instruments, were acceptable.
+T5	Claim 1580 1702	Conducting a pragmatic trial of effectiveness of a VR intervention among cancer survivors is both feasible and acceptable,
+T6	Claim 1703 1829	but more research about the exact components of a VR intervention and choice of outcomes to measure effectiveness is required.
+T7	MajorClaim 1830 1951	VR to assist breast cancer patients in the return to work process is an important component of cancer survivorship plans.
+R1	Attack Arg1:T2 Arg2:T1	
+R2	Partial-Attack Arg1:T6 Arg2:T5	
+R3	Support Arg1:T4 Arg2:T5	
+R4	Support Arg1:T1 Arg2:T5	

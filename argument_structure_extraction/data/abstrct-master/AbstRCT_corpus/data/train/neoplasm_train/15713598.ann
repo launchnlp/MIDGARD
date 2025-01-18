@@ -1,0 +1,9 @@
+T1	Premise 809 921	There was significant early attrition due to disease progression; only 61.5% of patients were alive at 2 months.
+T2	Premise 922 1093	There was a significant improvement in KP from baseline to pre-cycle 3 in both arms, with a trend in favor of the 3w4 regimen for duration and faster onset of improvement.
+T3	Premise 1094 1253	Eight of the 17 quality-of-life (QOL) variables assessed showed an improvement of more than 10% between baseline and the start of the third cycle of treatment.
+T4	Premise 1254 1318	Response rate, survival, and duration were similar in both arms.
+T5	Claim 1319 1488	There was no significant difference between the two schedules examined in terms of improvement in KP or QOL, but there seemed to be a trend in favor of the 3w4 schedule.
+R2	Support Arg1:T4 Arg2:T5	
+R3	Support Arg1:T3 Arg2:T5	
+R4	Support Arg1:T2 Arg2:T5	
+R5	Partial-Attack Arg1:T1 Arg2:T5	

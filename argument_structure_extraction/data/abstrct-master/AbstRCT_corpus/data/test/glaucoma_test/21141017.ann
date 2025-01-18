@@ -1,0 +1,9 @@
+T1	Premise 865 999	The postoperative percentage of IOP reduction (Group A 68.9%; Group B 66.51%) was statically significant in both the groups (p=0.001).
+T2	Premise 1000 1123	Trabeculectomy was almost equally effective with complete surgical success of 91% in group A, and 82% in group B (p=0.534).
+T3	Premise 1124 1249	Final bleb scores were almost similar in both the groups with 3.27 +/- 1.5 in group A and 3.36 +/- 1.21 in group B (p=0.877).
+T4	Premise 1250 1376	Hypotony with the IOP less than 6 mmHg was found in the first post-operative day in 2 patients in Group A and in 1 in Group B.
+T5	Claim 1427 1591	both triangular and rectangular scleral flaps in trabeculectomy are equally effective in terms of post surgical IOP control, bleb characteristics and complications.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T2 Arg2:T5	
+R4	Support Arg1:T1 Arg2:T5	

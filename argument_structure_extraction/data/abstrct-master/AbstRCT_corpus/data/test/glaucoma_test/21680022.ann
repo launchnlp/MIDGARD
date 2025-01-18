@@ -1,0 +1,11 @@
+T1	Claim 2039 2138	Both latanoprost and timolol had favorable safety profiles over the duration of this 3-month trial.
+T2	Premise 1292 1448	Mean IOP reductions for latanoprost and timolol at week 12 were 7.2 and 5.7 mmHg, respectively, with a difference of 1.5 mmHg (95% CI, -0.8 to 3.7; P=0.21).
+T3	Premise 1449 1519	Responder rates were 60% for latanoprost and 52% for timolol (P=0.33).
+T4	Premise 1520 1687	Between-treatment differences in mean IOP reduction for PCG and non-PCG subgroups were 0.6 mmHg (95% CI, -2.3 to 3.4) and 2.6 mmHg (95% CI, -0.8 to 6.1), respectively.
+T5	Premise 1688 1814	Responder rates for latanoprost versus timolol were 50% versus 46% for the PCG group and 72% versus 57% for the non-PCG group.
+T6	Claim 1851 2038	Latanoprost 0.005% is not inferior (i.e., is either more or similarly effective) to timolol and produces clinically relevant IOP reductions across pediatric patients with and without PCG.
+T7	Claim 1815 1850	Both therapies were well tolerated.
+R1	Support Arg1:T5 Arg2:T6	
+R2	Support Arg1:T4 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T6	
+R4	Support Arg1:T2 Arg2:T6	

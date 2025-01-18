@@ -1,0 +1,11 @@
+T1	Premise 949 1084	Compared with baseline, IOP drop at last visit was 11.76±5.51 and 13.43±5.92 in the bevacizumab and MMC groups, respectively (P=0.207).
+T2	Premise 1085 1211	At last visit, complete success was achieved in 25 cases (61%) of bevacizumab group and 23 cases (66%) of MMC group (P=0.669).
+T3	Premise 1212 1292	Early filtering bleb leak was more prevalent in bevacizumab group (29% vs. 11%).
+T4	Claim 1293 1402	A single 1.25 mg dose of intracameral bevacizumab improves the success of trabeculectomy comparable with MMC;
+T5	Claim 1403 1466	however, it increases the risk of early filtering bleb leakage.
+R1	Partial-Attack Arg1:T5 Arg2:T4	
+R2	Support Arg1:T3 Arg2:T4	
+R3	Support Arg1:T2 Arg2:T4	
+R4	Support Arg1:T1 Arg2:T4	
+T6	Premise 724 838	The preoperative IOP was 29.17±3.94 and 28.8±4.08 mm Hg in the bevacizumab and MMC groups, respectively (P=0.689).
+T7	Premise 839 948	Last visit IOP was 17.41±3.11 mm Hg in the bevacizumab group and 15.34±3.62 mm Hg in the MMC group (P<0.009).

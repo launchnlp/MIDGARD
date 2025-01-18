@@ -1,0 +1,12 @@
+T1	Claim 1503 1563	Preliminary results suggested a positive impact on survival.
+T2	Premise 726 843	There was a high rate of grade 3/4 neutropenia (97%) but not neutropenic fever (12%) during neoadjuvant chemotherapy.
+T3	Premise 844 946	No significant differences in rates of acute toxicities were observed between the two arms during CRT.
+T4	Premise 947 1064	Dose intensities of concurrent cisplatin, late RT toxicities and quality of life scores were comparable in both arms.
+T5	Premise 1065 1210	The 3-year progression-free survival for neoadjuvant versus control arm was 88.2% and 59.5% (hazard ratio = 0.49; 95% CI, 0.20 to 1.19; P = .12).
+T6	Premise 1211 1349	The 3-year overall survival for neoadjuvant versus control arm was 94.1% and 67.7% (hazard ratio = 0.24; 95% CI, 0.078 to 0.73; P = .012).
+T7	Claim 1350 1502	Neoadjuvant docetaxel-cisplatin followed by CRT was well tolerated with a manageable toxicity profile that allowed subsequent delivery of full-dose CRT.
+R1	Support Arg1:T6 Arg2:T1	
+R2	Support Arg1:T5 Arg2:T1	
+R3	Support Arg1:T4 Arg2:T7	
+R4	Support Arg1:T3 Arg2:T7	
+R5	Attack Arg1:T2 Arg2:T7	

@@ -1,0 +1,12 @@
+T1	Claim 1648 1821	TDF monotherapy was efficacious and safe for up to 144 weeks, providing an increasing rate of virologic response in heavily pretreated patients with multidrug-resistant HBV.
+T2	Premise 861 1017	Serum HBV DNA <15 IU/mL at week 48, the primary efficacy endpoint, was achieved in 66.3% in the TDF-TDF group and 68.0% in the TDF/ETV-TDF group (P = 0.80).
+T3	Premise 1018 1221	At week 144, the proportion with HBV DNA <15 IU/mL increased to 74.5%, which was significantly higher compared with that at week 48 (P = 0.03), without a significant difference between groups (P = 0.46).
+T4	Premise 1222 1299	By on-treatment analysis, a total of 79.4% had HBV DNA <15 IU/mL at week 144.
+T5	Premise 1300 1394	Transient virologic breakthrough occurred in 6 patients, which was due to poor drug adherence.
+T6	Premise 1395 1564	At week 144, 19 patients who had HBV DNA levels >60 IU/mL qualified for genotypic resistance analysis, and 6 retained some of their baseline resistance mutations of HBV.
+T7	Premise 1565 1647	No patients developed additional resistance mutations throughout the study period.
+R1	Support Arg1:T7 Arg2:T1	
+R2	Support Arg1:T6 Arg2:T1	
+R3	Support Arg1:T5 Arg2:T1	
+R4	Support Arg1:T2 Arg2:T1	
+R5	Support Arg1:T3 Arg2:T1	

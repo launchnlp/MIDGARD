@@ -1,0 +1,14 @@
+T1	Premise 592 681	Objective response rates were 22.8% (13 of 57) in E and 8.9% (5 of 56) in V (p = 0.0388).
+T2	Premise 682 836	Median progression-free survival (PFS) was 4.57 months in E and 2.53 months in V (p = 0.0287), with an 80.6% increase in median PFS for E compared with V.
+T3	Premise 837 913	Median survival time was 11.67 months in E and 9.3 months in V (p = 0.6975).
+T4	Premise 914 960	Toxicities were generally mild in both groups.
+T5	Premise 961 1164	Median PFS was longest for epidermal growth factor receptor gene (EGFR)-mutated patients in the E group, followed by EGFR-mutated patients in V, EGFR wild type in E, and EGFR wild type in V (p = 0.0034).
+T6	Premise 1165 1265	Overall survival was longer for EGFR-mutated patients than for EGFR wild-type patients (p < 0.0001).
+T7	Claim 1266 1381	Erlotinib is highly effective compared with oral vinorelbine in elderly, chemonaive, Taiwanese patients with NSCLC.
+T8	Claim 1382 1501	EGFR-mutated patients had better survival than those with EGFR wild-type disease, regardless of the treatment received.
+R1	Support Arg1:T5 Arg2:T8	
+R2	Support Arg1:T6 Arg2:T8	
+R3	Support Arg1:T3 Arg2:T7	
+R4	Support Arg1:T2 Arg2:T7	
+R5	Support Arg1:T1 Arg2:T7	
+R6	Support Arg1:T4 Arg2:T7	

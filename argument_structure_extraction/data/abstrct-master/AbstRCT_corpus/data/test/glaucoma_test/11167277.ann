@@ -1,0 +1,7 @@
+T1	Claim 847 1010	Latanoprost administered once daily reduced the intraocular pressure at least as well as timolol plus dorzolamide twice daily in patients with open-angle glaucoma.
+T2	Premise 376 530	Latanoprost reduced the intraocular pressure 1.09 and 1.58 mm Hg more than timolol plus dorzolamide after 2 weeks and 3 months of treatment, respectively.
+T3	Premise 531 613	These differences were statistically significant (p<0.05) at the end of the study.
+T4	Premise 614 846	After 3 months of treatment, 32.3% of the eyes in the latanoprost group reduced the intraocular pressure in 30% or more with respect to baseline, while 15.6% of the eyes in the timolol plus dorzolamide group achieved this reduction.
+R1	Support Arg1:T4 Arg2:T1	
+R2	Support Arg1:T3 Arg2:T2	
+R3	Support Arg1:T2 Arg2:T1	

@@ -1,0 +1,21 @@
+T1	Claim 2824 2941	Significantly more patients achieved clinical success with brimonidine monotherapy than with latanoprost monotherapy.
+T2	Premise 1375 1545	After 3 months of treatment, 80% of patients in the brimonidine group and 74% of patients in the latanoprost group had achieved > or = 20% reduction in IOP from baseline.
+T3	Premise 1546 1690	The mean reduction in IOP from baseline at month 3 was 6.8 mm Hg with brimonidine and 6.5 mm Hg with latanoprost (27.8% vs 27.0%, respectively).
+T4	Premise 1691 1905	Among treatment-naive patients, a significantly higher percentage of brimonidine-treated patients achieved > or = 20% decrease in IOP compared with latanoprost-treated patients (88% vs 59%, respectively; P = 0.01).
+T5	Premise 1906 2083	In previously treated patients, a higher percentage of the latanoprost group achieved > or = 20% reduction in IOP compared with the brimonidine group (88% vs 74%, respectively);
+T6	Premise 2143 2304	Significantly more patients in the brimonidine group achieved clinical success at month 3 compared with patients in the latanoprost group (91% vs 74%; P = 0.01).
+T7	Premise 2305 2404	At peak effect, brimonidine twice daily was as effective as latanoprost once daily in lowering IOP.
+T8	Premise 2405 2563	In treatment-naive patients, latanoprost was associated with a significantly higher rate of nonresponse after 3 months of treatment compared with brimonidine.
+T9	Claim 2564 2712	This suggests that brimonidine may be the more reliable choice for first-line therapy of newly diagnosed open-angle glaucoma or ocular hypertension.
+T10	Premise 2713 2823	In previously treated patients, however, latanoprost provided greater mean IOP reduction than did brimonidine.
+T11	Premise 2084 2142	however, the difference was not statistically significant.
+R1	Partial-Attack Arg1:T10 Arg2:T9	
+R2	Support Arg1:T1 Arg2:T9	
+R3	Support Arg1:T8 Arg2:T9	
+R4	Support Arg1:T7 Arg2:T9	
+R5	Support Arg1:T6 Arg2:T1	
+R6	Attack Arg1:T11 Arg2:T5	
+R7	Support Arg1:T5 Arg2:T9	
+R8	Support Arg1:T4 Arg2:T9	
+R9	Support Arg1:T3 Arg2:T9	
+R10	Support Arg1:T2 Arg2:T9	

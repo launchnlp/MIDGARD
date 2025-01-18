@@ -1,0 +1,10 @@
+T1	Claim 1 131	Laparoscopic-assisted colectomy (LAC) has emerged as the preferred minimally invasive surgical strategy for diseases of the colon.
+T2	MajorClaim 132 192	The safety and efficacy of LAC for colon cancer are unknown,
+T3	MajorClaim 197 311	the nature and magnitude of any quality-of-life (QOL) benefit resulting from LAC for colon cancer is also unknown.
+T4	Premise 927 1202	In an intention-to-treat analysis comparing SDS pain intensity, SDS summary, QOL Index summary, and global rating scale scores at each time point, the only statistically significant difference observed between groups was the global rating scale score for 2 weeks postsurgery.
+T5	Premise 1203 1337	The mean (median) global rating scale scores for 2 weeks postsurgery were 76.9 (80) for LAC vs 74.4 (75) for open colectomy (P =.009).
+T6	Premise 1338 1604	While in the hospital, patients assigned to LAC required fewer days of both parenteral analgesics compared with patients assigned to open colectomy (mean [median], 3.2 [3] vs 4.0 [4] days; P<.001) and oral analgesics (mean [median], 1.9 [1] vs 2.2 [2] days; P =.03).
+T7	Claim 1605 1717	Only minimal short-term QOL benefits were found with LAC for colon cancer compared with standard open colectomy.
+T8	Claim 1718 1913	Until ongoing trials establish that LAC is as effective as open colectomy in preventing recurrence and death from colon cancer, this procedure should not be offered to patients with colon cancer.
+R1	Support Arg1:T4 Arg2:T7	
+R2	Support Arg1:T5 Arg2:T7	

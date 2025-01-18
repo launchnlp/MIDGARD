@@ -1,0 +1,8 @@
+T1	Claim 1695 1792	CBT for insomnia may be both clinically effective and feasible to deliver in real world practice.
+T2	Premise 1559 1694	There was no significant interaction effect between any of these outcomes and baseline demographic, clinical, or sleep characteristics.
+T3	Premise 1057 1167	CBT was associated with mean reductions in wakefulness of 55 minutes per night compared with no change in TAU.
+T4	Premise 1224 1419	Standardized relative effect sizes were large for complaints of difficulty initiating sleep, waking from sleep during the night, and for sleep efficiency (percentage of time in bed spent asleep).
+T5	Premise 1420 1558	CBT was associated with moderate to large effect sizes for five of seven QOL outcomes, including significant reduction in daytime fatigue.
+R1	Support Arg1:T3 Arg2:T1	
+R2	Support Arg1:T5 Arg2:T1	
+R3	Support Arg1:T2 Arg2:T1	

@@ -1,0 +1,7 @@
+T1	Premise 802 1118	At 3 months, women treated with 160 mg/d reported less severe side effects (P < .0005), better physical functioning (FLS, P < .0005), less psychologic distress (MHI, P = .008), and an improvement in overall quality of life (FLIC, P = .003) from the time of study entry as compared with those treated with 1,600 mg/d.
+T2	Premise 1119 1243	Patients who received the 800-mg/d dose fell between the low- and high-dose arms in reported intensity of drug side effects,
+T3	Premise 1244 1383	but responded similarly to those in the 160-mg/d group in terms of physical functioning, psychologic distress, and overall quality of life.
+T4	Claim 1384 1588	Unless additional follow-up data demonstrate a survival advantage at higher doses, the 160-mg/d dose is optimal, achieving maximal treatment effect with the fewest side effects and better quality of life.
+R1	Support Arg1:T1 Arg2:T4	
+R2	Partial-Attack Arg1:T2 Arg2:T4	
+R3	Partial-Attack Arg1:T3 Arg2:T2	

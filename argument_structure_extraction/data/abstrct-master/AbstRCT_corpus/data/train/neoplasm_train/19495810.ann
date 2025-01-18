@@ -1,0 +1,12 @@
+T1	Premise 1365 1397	QOL improved in the study group.
+T2	Claim 1398 1516	ALT was found to be a safe method, with high adherence, in treating women who suffer from mild to moderate lymphedema.
+T3	Claim 1517 1601	A significant immediate and insignificant long-term effect on limb volume was noted.
+T4	Premise 1139 1231	ALT had a positive, statistically and clinically significant immediate effect on limb volume
+T5	Premise 1232 1266	but no long-term effect was noted.
+T6	Premise 1046 1138	There was no episode of arm infection or aggravation in limb volume during the study period.
+T7	Premise 1267 1364	The adherence rate to ALT was significantly higher than the adherence to self-management therapy.
+R1	Partial-Attack Arg1:T5 Arg2:T4	
+R2	Support Arg1:T6 Arg2:T3	
+R3	Support Arg1:T4 Arg2:T3	
+R4	Support Arg1:T7 Arg2:T2	
+R5	Support Arg1:T1 Arg2:T2	

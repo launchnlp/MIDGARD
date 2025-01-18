@@ -1,0 +1,12 @@
+T1	Premise 1410 1596	Longer time to worsening was recorded for pain (hazard ratio [HR] 0·76, 95% CI 0·59-0·99; p=0·041) and haemoptysis (HR 0·58, 95% CI 0·34-0·97; p=0·038) with pemetrexed than with placebo;
+T2	Premise 1597 1674	no other significant differences in analyses of time to worsening were noted.
+T3	Premise 1675 1832	Additional longitudinal analyses showed a greater increase in loss of appetite in the pemetrexed group than in the placebo group (4·3 mm vs 0·2 mm; p=0·028).
+T4	Premise 1833 2115	Rates of resource use were statistically higher for pemetrexed than for placebo: admissions to hospital for drug-related adverse events (19 [4%] vs none; p=0·001), transfusions (42 [10%] vs seven [3%]; p=0·003), and erythropoiesis-stimulating agents (26 [6%] vs four [2%]; p=0·017).
+T5	Claim 2116 2197	Quality of life during maintenance therapy with pemetrexed is similar to placebo,
+T6	Claim 2198 2307	except for a small increase in loss of appetite, and significantly delayed worsening of pain and haemoptysis.
+T7	MajorClaim 2420 2557	such treatment is an option for patients with advanced non-squamous NSCLC who have not progressed after platinum-based induction therapy.
+R1	Partial-Attack Arg1:T6 Arg2:T5	
+R2	Support Arg1:T5 Arg2:T7	
+R3	Support Arg1:T1 Arg2:T6	
+R4	Support Arg1:T2 Arg2:T5	
+R5	Support Arg1:T3 Arg2:T6	

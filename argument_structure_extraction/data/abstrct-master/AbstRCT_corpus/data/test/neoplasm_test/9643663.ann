@@ -1,0 +1,15 @@
+T1	Premise 454 731	At a median follow-up period of approximately 100 weeks for both studies, 'Casodex' 150 mg was found to be less effective than castration in patients with metastatic disease (M1) at entry (hazard ratio of 1.30 for time to death) with a difference in median survival of 6 weeks.
+T2	Premise 732 890	In symptomatic M1 patients, 'Casodex' was associated with a statistically significant improvement in subjective response (70%) compared with castration (58%).
+T3	Premise 891 1020	Analysis of a validated quality-of-life questionnaire proved an advantage for 'Casodex' in sexual interest and physical capacity.
+T4	Premise 1021 1226	'Casodex' had a substantially lower incidence of hot flushes compared to castration (6-13% compared with 39-44%) and the most commonly reported adverse events were those expected for a potent antiandrogen.
+T6	Claim 1236 1343	in patients with M0 disease at entry, the data are still immature with only 13% of M0 patients having died.
+T7	Claim 1344 1498	An initial analysis of this immature data has suggested that the results in these patients may be different to those obtained in patients with M1 disease.
+T8	Claim 1607 1686	'Casodex' 150 mg is less effective than castration in patients with M1 disease.
+T9	Claim 1696 1849	'Casodex' has shown a benefit in terms of quality of life and subjective response when compared to castration and has an acceptable tolerability profile.
+T10	MajorClaim 1850 2012	Thus 'Casodex' 150 mg monotherapy is an option for patients with M1 prostate cancer for whom surgical or medical castration is not indicated or is not acceptable.
+R1	Support Arg1:T4 Arg2:T9	
+R2	Support Arg1:T9 Arg2:T10	
+R3	Support Arg1:T3 Arg2:T9	
+R4	Support Arg1:T2 Arg2:T9	
+R5	Attack Arg1:T2 Arg2:T8	
+R6	Support Arg1:T1 Arg2:T8	

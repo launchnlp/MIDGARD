@@ -1,0 +1,10 @@
+T1	Premise 1068 1236	AM was associated with higher rates of acute nausea (P = .03), vomiting (P = .007), cardiovascular toxicity (P = .0001), and infection or febrile neutropenia (P = .03).
+T2	Premise 1237 1320	The rate of >/= grade 3 esophagitis was 30% with AM versus 34% without AM (P = .9).
+T3	Premise 1321 1417	Patient diaries demonstrated lower swallowing dysfunction AUC with amifostine (z test P = .025).
+T4	Premise 1418 1631	QOL was not significantly different between the two arms, except for pain, which showed more clinically meaningful improvement and less deterioration at 6 weeks follow-up (v pretreatment) in the AM arm (P = .003).
+T5	Premise 1632 1729	The median survival rates for both arms were comparable (AM, 17.3 v no AM, 17.9 months; P = .87).
+T6	Claim 1730 1853	AM did not significantly reduce esophagitis >/= grade 3 in patients receiving hyperfractionated radiation and chemotherapy.
+T7	Claim 1854 1986	However, patient self-assessments suggested a possible advantage to AM that is being explored with modified dosing route strategies.
+R1	Partial-Attack Arg1:T7 Arg2:T6	
+R2	Support Arg1:T4 Arg2:T7	
+R3	Support Arg1:T2 Arg2:T6	

@@ -1,0 +1,6 @@
+T1	Claim 985 1050	TMMC and T5-FU appeared to have similar efficacy in lowering IOP.
+T2	Premise 533 754	Mean preoperative IOPs in the TMMC and T5-FU groups were 31.2 ± 9.8 and 30.6 ± 9.9 mmHg, respectively. Postoperatively, mean IOPs were 11.4 ± 4.9 and 13.6 ± 3.9 mmHg, respectively for TMMC and T5-FU groups after 6 months.
+T4	Premise 832 894	statistical tests showed no difference in mean and median IOP.
+T5	Premise 895 984	Three cases of hypotonia (IOP < 6 mmHg) and 1 case of epithelial keratitis were detected.
+R1	Support Arg1:T4 Arg2:T1	
+R2	Support Arg1:T2 Arg2:T1	

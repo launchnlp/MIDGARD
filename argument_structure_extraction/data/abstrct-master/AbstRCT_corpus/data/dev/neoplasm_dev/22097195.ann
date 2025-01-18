@@ -1,0 +1,10 @@
+T1	Premise 1297 1455	The TTP in the test group was prolonged for 23 days when compared with that of the control group, with insignificant difference (87 days vs 64 days, P=0.063).
+T2	Premise 1460 1592	The scores of domains in EORTC QLQ-LC43 were statistically significantly better in the test group than in the control group (P<0.05)
+T3	Claim 1687 1818	The CM comprehensive regimen as MT had equivalent efficacy on TTP when compared with single-agent maintenance chemotherapy regimen.
+T5	Claim 1867 2033	It is necessary to enlarge the sample size to further confirm the therapeutic efficacy of CM comprehensive regimen as MT in treatment of patients with advanced NSCLC.
+R1	Support Arg1:T5 Arg2:T3	
+T4	Premise 1593 1682	except cognitive and social functions, the symptoms of dysphagia and pain in other parts.
+R2	Partial-Attack Arg1:T4 Arg2:T2	
+R3	Support Arg1:T1 Arg2:T3	
+T6	Claim 1819 1862	It was advantageous over improving the QOL.
+R4	Support Arg1:T2 Arg2:T6	

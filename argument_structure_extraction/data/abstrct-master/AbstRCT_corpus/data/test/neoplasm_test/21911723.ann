@@ -1,0 +1,11 @@
+T1	Premise 815 1005	Adjusted hazard ratios (HRs; TAM-OCT to TAM) were 0.93 for EFS (95% CI, 0.71 to 1.22; P = .62), 0.84 for RFS (95% CI, 0.59 to 1.18; P = .31), and 0.97 for OS (95% CI, 0.69 to 1.37; P = .86).
+T2	Premise 1006 1179	Among patients with normal baseline gallbladder imaging, cholecystectomy was required in 23.0% of those receiving TAM-OCT but in only 1.4% of those receiving TAM (P < .001).
+T3	Premise 1180 1289	At 4 months, TAM-OCT had significantly (P < .001) lowered IGF-1, IGF binding protein 3, and C-peptide levels.
+T4	Premise 1290 1523	Older age (P = .02), tumor size (P = .001), nodal status (P = .01), high C-peptide levels (P < .001), and higher body mass index (BMI) in models excluding C-peptide (P < .001) were associated with poorer EFS in multivariate analysis.
+T5	Claim 1625 1677	Octreotide did not add significant clinical benefit.
+T6	Claim 1678 1786	High C-peptide levels (surrogate for insulin secretion rate) and high BMI were associated with poor outcome.
+R1	Support Arg1:T4 Arg2:T6	
+T7	Claim 177 269	octreotide would lower insulin and IGF-1 levels and reduce risk of breast cancer recurrence.
+R2	Support Arg1:T3 Arg2:T7	
+R3	Support Arg1:T2 Arg2:T5	
+R4	Support Arg1:T1 Arg2:T5	

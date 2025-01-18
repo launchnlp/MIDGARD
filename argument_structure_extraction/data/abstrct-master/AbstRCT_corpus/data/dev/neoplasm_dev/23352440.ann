@@ -1,0 +1,8 @@
+T1	Premise 1107 1237	Intervention increased SF36 score by 9.5 points (p=0.000006), 4.6 (p=0.032) and 6.2 (p=0.028) respectively at 6, 12 and 24 months.
+T2	Premise 1238 1318	Effect size (ES) was 0.63 [0.37; 0.90], 0.29 [0.03; 0.55] and 0.41 [0.04; 0.78].
+T3	Premise 1319 1531	Anxiety score was shortly minored by intervention (6-month ES=-0.24 [-0.42; -0.05]) and depression score more durably: ES=-0.45 [-0.72; -0.18], -0.34 [-061; -0.08], and -0.26 [-0.63; 0.11] at 6, 12 and 24 months.
+T4	Claim 1532 1645	This 2-week group intervention seemed to durably influence QoL of breast cancer patients treated by chemotherapy.
+T5	Claim 1646 1781	Differences, smaller at 12 months than at six, suggest that a second but shorter intervention could help maintain the 6-month benefits.
+R1	Support Arg1:T3 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	
+R3	Support Arg1:T1 Arg2:T4

@@ -1,0 +1,7 @@
+T1	Premise 1420 1495	Upper limb volumes were also lower amongst intervention group participants.
+T2	Premise 811 1362	Participants in the intervention group demonstrated greater improvement in health-related quality of life between baseline and the 3-month assessment [mean (sd) EQ-5D VAS (0-100) baseline: 72.6 (15.6), 3 month: 80.6 (11.6)] when compared to control group participants [baseline: 77.5 (13.5), 3 month: 74.1 (20.6), P = 0.006] and also improved more in terms of physical function [mean (sd) EORTC C30 physical function scale intervention (0-100) baseline: 84.9 (14.8), 3 month: 86.9 (10.7), control baseline: 91.3 (9.6), 3 month: 86.7 (14.9), P = 0.02].
+T3	Premise 1505 1681	there was low probability that the intervention would be both less costly and more effective than the control condition (range probability = 0.05-50.02% depending on approach).
+T4	Claim 1682 1858	Provision of multimodal exercise programs will improve the short-term health of women undergoing adjuvant therapy for breast cancer but are of questionable economic efficiency.
+R1	Support Arg1:T1 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	
+R3	Support Arg1:T3 Arg2:T4	

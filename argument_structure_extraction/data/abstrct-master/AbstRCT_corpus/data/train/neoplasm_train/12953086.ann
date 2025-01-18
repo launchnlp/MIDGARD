@@ -1,0 +1,14 @@
+T1	MajorClaim 1 152	Despite considerable improvement in the treatment of advanced ovarian cancer, the optimization of efficacy and tolerability remains an important issue.
+T2	Premise 1028 1278	The proportion of patients without progression at 2 years was not statistically significantly different between the two treatment arms (40.0% for PT versus 37.5% for TC, difference = 2.5%, one-sided 95% confidence interval [CI] = - infinity to 8.2%).
+T3	Premise 1279 1486	Median progression-free survival time in the TC arm (17.2 months, 95% CI = 15.2 to 19.3 months) and the PT arm (19.1 months, 95% CI = 16.7 to 21.5 months) were also not statistically significantly different;
+T4	Premise 1487 1668	the same was true of median overall survival time (43.3 months, 95% CI = 37.2 to 47.8 months versus 44.1 months, 95% CI = 40.2 to 49.4 months, for the TC and PT arms, respectively).
+T5	Premise 1669 1747	The TC regimen was associated with a higher frequency of hematologic toxicity,
+T6	Premise 1748 1835	but a lower frequency of gastrointestinal and neurologic toxicity, than the PT regimen.
+T7	Premise 1836 2050	Mean global quality-of-life scores at the end of treatment were statistically significantly better in the TC arm than in the PT arm (65.25 versus 51.97, respectively; difference = -13.28, 95% CI = -18.88 to -7.68).
+T8	Claim 2051 2321	The TC regimen achieved comparable efficacy to the PT regimen but was associated with better tolerability and quality of life, and should, therefore, be considered as an important alternative for standard first-line chemotherapy in patients with advanced ovarian cancer.
+R1	Support Arg1:T7 Arg2:T8	
+R2	Partial-Attack Arg1:T6 Arg2:T5	
+R3	Support Arg1:T5 Arg2:T8	
+R4	Support Arg1:T3 Arg2:T8	
+R5	Support Arg1:T4 Arg2:T8	
+R6	Support Arg1:T2 Arg2:T8	

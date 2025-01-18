@@ -1,0 +1,10 @@
+T1	Premise 1214 1313	No significant effect was seen for general quality of life (FACT-G), which was the primary outcome.
+T2	Premise 1314 1458	At the six month follow-up, most of these effects were maintained and an intervention effect for breast cancer specific quality of life emerged.
+T3	Premise 1459 1489	No adverse effects were noted.
+T4	Claim 1490 1612	Supervised group exercise provided functional and psychological benefit after a 12 week intervention and six months later.
+T5	Claim 1613 1669	Clinicians should encourage activity for their patients.
+T6	Claim 1670 1774	Policy makers should consider the inclusion of exercise opportunities in cancer rehabilitation services.
+R1	Support Arg1:T4 Arg2:T5	
+T7	Premise 729 1213	Mixed effects models with adjustment for baseline values, study site, treatment at baseline, and age gave intervention effect estimates (intervention minus control) at 12 weeks of 129 (95% confidence interval 83 to 176) for metres walked in 12 minutes, 182 (75 to 289) for minutes of moderate intensity activity reported in a week, 2.6 (1.6 to 3.7) for shoulder mobility, 2.5 (1.0 to 3.9) for breast cancer specific subscale of quality of life, and 4.0 (1.8 to 6.3) for positive mood.
+R2	Support Arg1:T7 Arg2:T4	
+R3	Support Arg1:T3 Arg2:T5	

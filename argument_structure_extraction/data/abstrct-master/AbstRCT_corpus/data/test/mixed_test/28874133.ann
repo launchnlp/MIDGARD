@@ -1,0 +1,6 @@
+T1	Premise 763 1114	In sildenafil versus placebo arms, week-12 6MWD increases were similar (least squares mean difference [sildenafil-placebo], -2.4 m [90% CI: -21.8 to 17.1 m]; P = 0.6); mean ± SD changes from baseline were 26.4 ± 45.7 versus 11.8 ± 57.4 m, respectively, in IPAH (65% of population) and -18.3 ± 82.0 versus 17.5 ± 59.1 m in APAH-CTD (35% of population).
+T2	Premise 1188 1295	Changes in WHO functional class and Borg dyspnoea score and incidence of clinical worsening did not differ.
+T3	Premise 1296 1363	Headache, diarrhoea, and flushing were more common with sildenafil.
+T4	Claim 1364 1497	Sildenafil, in addition to stable (≥3 months) bosentan therapy, had no benefit over placebo for 12-week change from baseline in 6MWD.
+R1	Support Arg1:T2 Arg2:T4	
+R2	Support Arg1:T1 Arg2:T4	

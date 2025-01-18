@@ -1,0 +1,11 @@
+T1	Premise 880 1074	there was no difference in OS seen between ASA404 (n = 649) and placebo (n = 650) arms: median OS was 13.4 and 12.7 months respectively (hazard ratio [HR], 1.01; 95% CI, 0.85 to 1.19; P = .535).
+T2	Premise 1086 1188	no OS difference was seen in the histologic (squamous or nonsquamous) and sex (male or female) strata.
+T3	Premise 1189 1291	Median PFS was 5.5 months in both arms (HR, 1.04; P = .727), while ORR was 25% in both arms (P = 1.0).
+T4	Premise 1292 1380	Overall rate of adverse events (AEs) was comparable between the ASA404 and placebo arms.
+T5	Premise 1381 1497	Grade 4 neutropenia (27% v 19%) and infusion site pain (10% v 0.5%) were reported more frequently in the ASA404 arm.
+T6	Claim 1498 1642	The addition of ASA404 to carboplatin and paclitaxel, although generally well tolerated, failed to improve frontline efficacy in advanced NSCLC.
+R1	Support Arg1:T1 Arg2:T6	
+R2	Support Arg1:T2 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T6	
+R4	Support Arg1:T4 Arg2:T6	
+R5	Partial-Attack Arg1:T5 Arg2:T6	

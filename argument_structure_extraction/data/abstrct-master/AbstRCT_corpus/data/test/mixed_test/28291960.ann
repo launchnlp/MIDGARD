@@ -1,0 +1,11 @@
+T1	Premise 795 923	The mean postoperative IOP was statistically significantly lower than the mean preoperative IOP at each follow-up in each group.
+T2	Premise 924 997	At 1 year, the mean postoperative IOP was significantly lower in group A.
+T3	Premise 998 1106	According to the MBGS, blebs with an ologen implant showed significantly better scoring than those with MMC.
+T4	Premise 1107 1226	AS-OCT showed that ologen-induced blebs had significantly more fluid-filled spaces, cleavage planes, and less fibrosis.
+T5	Claim 1227 1333	Ologen resulted in a lower long-term postoperative IOP, a better bleb morphology, and fewer complications.
+T6	MajorClaim 1334 1409	Our results suggest that ologen may be a useful alternative to MMC in JOAG.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T2 Arg2:T5	
+R4	Support Arg1:T1 Arg2:T5	
+R5	Support Arg1:T5 Arg2:T6	

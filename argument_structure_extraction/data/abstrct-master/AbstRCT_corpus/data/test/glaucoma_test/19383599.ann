@@ -1,0 +1,7 @@
+T1	Premise 1002 1088	The incidences of postoperative complications were similar between groups (p = 0.232).
+T2	Premise 1089 1312	No additional IOP-lowering surgical procedures were required in the combined group, while 13 (54%) eyes in the trabeculectomy group required either cataract extraction or further IOP-lowering surgical procedures (p <0.001).
+T3	Claim 1313 1498	In patients with PACG, the long-term IOP-lowering effect and surgical complications of combined trabeculectomy and cataract extraction are comparable with those of trabeculectomy alone.
+T4	Claim 1499 1578	However, the combined surgery incurred fewer subsequent surgical interventions.
+R1	Partial-Attack Arg1:T4 Arg2:T3	
+R2	Support Arg1:T1 Arg2:T3	
+R3	Support Arg1:T2 Arg2:T3	

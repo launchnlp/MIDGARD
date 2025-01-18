@@ -1,0 +1,9 @@
+T1	Premise 1098 1180	There was no difference in overall or cancer-specific survival between the 2 arms.
+T2	Premise 1181 1276	There was no statistically significant difference in QOL between the 2 arms at 0 and 12 months.
+T3	Premise 1277 1434	The total mean costs at 24 months were significantly lower in the intermittent arm ($3135 vs. $8253 Canadian dollars, P=0.0167) compared with the continuous.
+T4	Premise 1435 1494	The main limitation of this study is the small sample size.
+T5	Claim 1495 1722	We have observed that intermittent ADT in patients with CRPCa, using a testosterone of >1.75 ngmol/L as a trigger to reinitiate LHRHa, results in a substantial cost savings with no negative impact on oncologic and QOL outcomes.
+R1	Partial-Attack Arg1:T4 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T2 Arg2:T5	
+R4	Support Arg1:T1 Arg2:T5	

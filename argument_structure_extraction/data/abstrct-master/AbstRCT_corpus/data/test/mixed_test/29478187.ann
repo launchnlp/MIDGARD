@@ -1,0 +1,7 @@
+T1	Claim 1667 1840	Larger studies using physiologically standardized ginseng preparations are warranted to substantiate the present findings and to demonstrate therapeutic effectiveness of AG.
+T2	Claim 1558 1666	AG extract added to conventional treatment provided an effective and safe adjunct in the management of T2DM.
+T3	Premise 1166 1292	Compared to placebo, AG significantly reduced HbA1c (- 0.29%; p = 0.041) and fasting blood glucose (- 0.71 mmol/L; p = 0.008).
+T4	Premise 1306 1520	AG lowered systolic blood pressure (- 5.6 ± 2.7 mmHg; p < 0.001), increased NOx (+ 1.85 ± 2.13 µmol/L; p < 0.03), and produced a mean percent end-difference of - 12.3 ± 3.9% in LDL-C and - 13.9 ± 5.8% in LDL-C/HDL.
+R1	Support Arg1:T4 Arg2:T2	
+R2	Support Arg1:T2 Arg2:T1	
+R3	Support Arg1:T3 Arg2:T2	

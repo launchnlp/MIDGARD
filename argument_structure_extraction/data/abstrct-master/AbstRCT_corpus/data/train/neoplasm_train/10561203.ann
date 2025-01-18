@@ -1,0 +1,12 @@
+T1	Claim 1 318	In endocrine therapy trials in advanced breast cancer, patients with response (complete response/partial response [CR/PR]) and patients with stable disease for at least 6 months (SD(6m)) have shown similar survival and therefore are often defined as a population with clinical benefit (patients with CR/PR or SD(6m)).
+T3	Premise 1354 1442	responders indicated better physical well-being (P =. 004) and mood (P =.02) at month 3.
+T4	Premise 1443 1592	Compared only with patients with SD(6m), responders showed no significant difference in baseline QL and time to treatment failure (328.5 v 340 days).
+T5	Premise 1593 1827	While under treatment, responders reported significantly better physical well-being (months 3 to 11), mood (months 5 to 11), coping (months 5 to 9), and appetite (months 7 to 11) and less dizziness (month 9) than patients with SD(6m).
+T6	Premise 1828 1978	The changes between baseline and months 5 and 7, respectively, indicated improvement in responders but heterogeneous patterns in patients with SD(6m).
+T7	Premise 1979 2055	Although the CR/PR and SD(6m) groups had similar times to treatment failure,
+T8	Claim 2056 2167	patients with CR/PR reported better QL, suggesting more beneficial response to second-line endocrine treatment.
+R1	Partial-Attack Arg1:T7 Arg2:T8	
+R2	Support Arg1:T3 Arg2:T8	
+R3	Support Arg1:T4 Arg2:T8	
+R4	Support Arg1:T5 Arg2:T8	
+R5	Partial-Attack Arg1:T6 Arg2:T8	

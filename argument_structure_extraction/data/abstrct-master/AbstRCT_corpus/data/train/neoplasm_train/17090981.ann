@@ -1,0 +1,6 @@
+T1	MajorClaim 144 212	Quality of life is an important issue in pancreatic cancer patients.
+T2	Premise 1210 1424	The analysis of quality of live assessment showed a statistically significant decrease in quality of life after treatment in patients with resectable pancreatic cancer and treated with radiotherapy and gemcitabine.
+T3	Premise 1425 1583	Decreased quality of life later after treatment was also observed in patients diagnosed with unresectable pancreatic cancer and treated with the same regimen.
+T4	Claim 1584 1733	Treatment with radiotherapy and 5-fluorouracil changed only some aspects of quality of life and did not have a significant impact on quality of life.
+R1	Support Arg1:T3 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	

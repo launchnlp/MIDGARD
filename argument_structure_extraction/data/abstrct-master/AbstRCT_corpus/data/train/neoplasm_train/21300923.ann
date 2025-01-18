@@ -1,0 +1,9 @@
+T1	Premise 1320 1517	Capecitabine treatment was associated with less nausea, vomiting, and constipation and with better appetite than standard treatment (P ≤ .004), but worse hand-foot syndrome and diarrhea (P < .005).
+T3	Premise 1010 1319	Compared with patients who were treated with standard chemotherapy, patients who were treated with capecitabine had significantly better QoL, role function, and social function, fewer systemic adverse effects, less psychological distress, and less fatigue during and at the completion of treatment (P ≤ .005).
+T4	Claim 1563 1708	Standard chemotherapy was superior to capecitabine in improving relapse-free and overall survival for older women with early-stage breast cancer.
+T5	Claim 1718 1778	capecitabine was associated with better QoL during treatment
+T6	Premise 1780 1822	QoL was similar for both groups at 1 year.
+R1	Support Arg1:T3 Arg2:T4	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T1 Arg2:T5	
+R4	Partial-Attack Arg1:T6 Arg2:T5	

@@ -1,0 +1,7 @@
+T1	Premise 1459 1687	Individuals receiving duloxetine as their initial 5-week treatment reported a mean decrease in average pain of 1.06 (95% CI, 0.72-1.40) vs 0.34 (95% CI, 0.01-0.66) among those who received placebo (P = .003; effect size, 0.513).
+T2	Premise 1688 1803	The observed mean difference in the average pain score between duloxetine and placebo was 0.73 (95% CI, 0.26-1.20).
+T3	Premise 1804 1945	Fifty-nine percent of those initially receiving duloxetine vs 38% of those initially receiving placebo reported decreased pain of any amount.
+T4	Claim 1946 2114	Among patients with painful chemotherapy-induced peripheral neuropathy, the use of duloxetine compared with placebo for 5 weeks resulted in a greater reduction in pain.
+R1	Support Arg1:T3 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	
+R3	Support Arg1:T1 Arg2:T4	

@@ -1,0 +1,5 @@
+T1	Premise 830 937	In Group 1 and 2, intraocular pressure was well controlled to approximately 14 mmHg (9.38-18.46% decrease).
+T2	Premise 938 1136	Generally, subjective satisfaction was improved after changing from PT to NPT (p = 0.03) and TBUT using PT was numerically inferior to that using NPT (p = 0.06) but not when changing from NPT to PT.
+T3	Claim 1137 1250	Both preservative containing and preservative-free 0.0015% tafluprost reduced intraocular pressure significantly.
+T4	MajorClaim 1264 1360	changing medication from PT to NPT might improve subjective satisfaction and tear break up time.
+R1	Support Arg1:T1 Arg2:T3	

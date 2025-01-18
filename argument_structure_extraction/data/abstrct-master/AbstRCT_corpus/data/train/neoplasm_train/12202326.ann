@@ -1,0 +1,11 @@
+T1	Premise 1968 2147	No evidence of a difference was observed between the two treatment groups in terms of activity level, anxiety, depression, and psychological distress, as recorded by the patients.
+T2	Premise 2148 2213	Adverse events were more common in the immediate treatment group.
+T3	Premise 2214 2295	Neither group had a survival advantage (hazard ratio 0.95, 0.73 to 1.24; P=0.71).
+T4	Premise 2296 2342	Median survival was 8.3 months and 7.9 months,
+T5	Premise 2347 2458	the survival rates were 31% and 29% at 12 months, for the immediate and delayed treatment groups, respectively.
+T6	Claim 2459 2759	In minimally symptomatic patients with locally advanced non-small cell lung cancer, no persuasive evidence was found to indicate that giving immediate palliative thoracic radiotherapy improves symptom control, quality of life, or survival when compared with delaying until symptoms require treatment.
+R1	Support Arg1:T4 Arg2:T6	
+R2	Support Arg1:T5 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T6	
+R4	Support Arg1:T1 Arg2:T6	
+T7	Premise 1733 1967	The primary outcome measure was achieved in 28% of the immediate treatment group and 26% of patients from the delayed treatment group (27/97 and 27/103, respectively; absolute difference 1.6%, 95% confidence interval -10.7% to 13.9%).

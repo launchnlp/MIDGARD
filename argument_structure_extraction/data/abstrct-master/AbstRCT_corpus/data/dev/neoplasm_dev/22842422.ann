@@ -1,0 +1,5 @@
+T1	Premise 1158 1285	Of the patients in the one-stage group, 70 percent had revision surgery, mostly because of upper pole fullness and poor ptosis.
+T2	Premise 1421 1467	Quality of life was similar in the two groups.
+T3	Claim 1468 1544	The permanent expander method failed significantly as a one-stage procedure.
+T4	Claim 1545 1642	The crescent two-stage method gave the most acceptable results both objectively and subjectively.
+R1	Support Arg1:T1 Arg2:T3	

@@ -1,0 +1,6 @@
+T1	Premise 1094 1343	At 12 months, significant intervention effects were observed for moderate physical activity (28.5 minutes; P = .003), body mass index (-0.9 kg/m(2); P = .001), energy from total fat (-7.0%; P = .006), and energy from saturated fat (-2.8%; P = .016).
+T2	Premise 1344 1457	A significant intervention effect was reported for vegetable intake (0.4 servings per day; P = .001) at 6 months.
+T3	Premise 1458 1599	No significant group differences were found at 6 or 12 months for HRQoL, cancer-related fatigue, fruit, fiber, or alcohol intake, or smoking.
+T4	Claim 1600 1741	The CanChange intervention was effective for improving physical activity, dietary habits, and body mass index in colorectal cancer survivors.
+R1	Support Arg1:T2 Arg2:T4	
+R2	Support Arg1:T1 Arg2:T4	

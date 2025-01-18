@@ -1,0 +1,5 @@
+T1	Premise 448 568	the overall probability of success of trabeculectomy and triple procedure was 0.613 and 0.733 at 15 years, respectively.
+T2	Premise 569 709	The success probability of trabeculectomy and triple procedure in reducing IOP below 18 mm Hg was 0.748 and 0.825 at 15 years, respectively.
+T3	Claim 710 838	In POAG and CPACG patients, trabeculectomy and triple procedure were effective in reducing IOP for up to 15 years after surgery.
+R1	Support Arg1:T2 Arg2:T3	
+R2	Support Arg1:T1 Arg2:T3	

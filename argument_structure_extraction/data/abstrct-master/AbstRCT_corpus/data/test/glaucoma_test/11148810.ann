@@ -1,0 +1,13 @@
+T1	Claim 2 123	Increased intraocular pressure (IOP) has been shown to be one of the most important risk factors for developing glaucoma.
+T2	Premise 809 954	After 5 years of follow-up eight patients in the placebo group and five patients in the timolol group had developed glaucomatous field loss (NS);
+T3	Premise 955 1074	the corresponding figures after 10 years were 15 patients in the placebo group and seven patients in the timolol group.
+T4	Premise 1075 1191	Survival analysis showed a tendency but no statistically significant difference between treatment groups (P = 0.07).
+T5	Premise 1192 1218	Study attrition was large.
+T6	Premise 1219 1329	Eighteen patients in each group had developed glaucomatous field loss when also post-study data were included.
+T7	Premise 1330 1484	IOP reduction was greater in eyes passing the 10-year visit without field loss (5.7 mmHg), than in those that reached an end-point (2.3 mmHg; P = 0.0002).
+T8	Claim 1485 1682	In this long-term study we found a tendency but failed to prove a beneficial effect of topical timolol treatment in patients with elevated IOP, normal visual fields and some additional risk factor.
+T9	Premise 1683 1758	The intent-to-treat analysis showed no difference between treatment groups.
+T10	Premise 1759 1837	The high attrition shows the difficulties associated with very long follow-up.
+R1	Support Arg1:T4 Arg2:T8	
+R2	Support Arg1:T7 Arg2:T8	
+R3	Support Arg1:T2 Arg2:T8	

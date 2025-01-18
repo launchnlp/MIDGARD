@@ -1,0 +1,8 @@
+T1	Claim 1522 1669	No clinically relevant differences in the safety profiles of travoprost/timolol BAK-free and travoprost/timolol preserved with BAK were identified.
+T2	Claim 1415 1521	Travoprost/timolol BAK-free demonstrated equivalence to travoprost/timolol preserved with BAK in efficacy.
+T3	Premise 845 988	Mean IOP reduction across all visits and time points was 8.0 mm Hg in the TRA/TIM BAK-free group and 8.4 mm Hg in the TRA/TIM group (P=0.0943).
+T4	Premise 989 1158	The difference in mean IOP between groups ranged from 0.2 to 0.7  mm Hg across visits and time points, with a mean pooled difference of 0.4  mm Hg (95% CI: -0.1 to 0.8),
+T6	Premise 1210 1414	The most common drug-related adverse event was hyperemia of the eye (ocular hyperemia and conjunctival hyperemia combined), occurring in 11.8% of the TRA/TIM BAK-free group and 13.0% of the TRA/TIM group.
+R1	Support Arg1:T6 Arg2:T1	
+R2	Support Arg1:T3 Arg2:T2	
+R3	Support Arg1:T4 Arg2:T2	

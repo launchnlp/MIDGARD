@@ -1,0 +1,7 @@
+T1	Claim 1438 1704	Results of this randomized study incorporating prospective QOL measurements suggested that in patients with locally advanced NSCLC, analyzing QOL data by either gender or performance status alone may not accurately reflect how these factors depend upon each another.
+T2	Premise 963 1113	There was a significant interaction between gender and KPS using FLIC (P = 0.009), which also showed a trend toward significance with FACT (P = 0.09).
+T3	Premise 1114 1282	Significant KPS-by-gender interactions were noted for FACT-L in the physical well-being and additional concerns-lung subscales (P = 0.012 and P = 0.0003, respectively).
+T4	Premise 1283 1437	The results of both the FLIC and FACT-L demonstrated significantly lower scores corresponding to lower KPS values (P = 0.009 and P = 0.016, respectively).
+R1	Support Arg1:T4 Arg2:T1	
+R2	Support Arg1:T3 Arg2:T1	
+R3	Support Arg1:T2 Arg2:T1	

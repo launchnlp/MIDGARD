@@ -1,0 +1,7 @@
+T1	Claim 1457 1562	Larger sample size is presumably needed to assess the effect of RIPC for patients with diabetes mellitus.
+T2	Claim 1325 1456	Remote ischemic preconditioning significantly reduces the incidence of acute kidney injury in non-diabetic patients undergoing PCI.
+T3	Premise 941 1164	RIPC significantly reduced CIN incidence in the overall population (12.1% vs. 26.1%, p=0.01, with a NNT=9) and in non-diabetic patients (9.2% vs. 25.0%, p=0.02), but showed no benefit in diabetics (16.7% vs. 28.2%, p=0.21).
+T4	Premise 1165 1324	A trend for lower PMI was seen in the intervention arm (creatine kinase - muscle brain >5 URL; 8.4% vs. 16.4%, p=0.07; troponin T >5 URL; 27% vs. 38%, p=0.21).
+R1	Partial-Attack Arg1:T1 Arg2:T2	
+R2	Support Arg1:T3 Arg2:T2	
+R3	Support Arg1:T4 Arg2:T2	

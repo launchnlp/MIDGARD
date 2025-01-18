@@ -1,0 +1,13 @@
+T1	MajorClaim 218 449	In nonrandomized studies involving patients with different tumor types including non-small-cell lung cancer (NSCLC), ATP infusion appeared to inhibit loss of weight and deterioration of quality of life (QOL) and performance status.
+T2	Premise 1028 1208	Mean weight changes per 4-week period were -1.0 kg (95% confidence interval [CI] = -1.5 to -0.5) in the control group and 0.2 kg (95% CI = -0.2 to +0.6) in the ATP group (P =.002).
+T3	Premise 1209 1394	Serum albumin concentration declined by -1.2 g/L (95% CI= -2.0 to -0.4) per 4 weeks in the control group but remained stable (0.0 g/L; 95% CI = -0.3 to +0.3) in the ATP group (P =.006).
+T4	Premise 1395 1579	Elbow flexor muscle strength declined by -5.5% (95% CI = -9.6% to -1. 4%) per 4 weeks in the control group but remained stable (0.0%; 95% CI= -1.4% to +1.4%) in the ATP group (P =.01).
+T5	Premise 1580 1646	A similar pattern was observed for knee extensor muscles (P =.02).
+T6	Premise 1647 1843	The effects of ATP on body weight, muscle strength, and albumin concentration were especially marked in cachectic patients (P =.0002, P =.0001, and P =. 0001, respectively, for ATP versus no ATP).
+T7	Premise 1844 2152	QOL score changes per 4-week period in the ATP group showed overall less deterioration than in the control group-physical scores (-0.2% versus -2.4%; P =. 0002); functional scores (+0.4% versus -5.5%; P =.02); psychologic scores (-0.7% versus -2.4%; P =.11); overall QOL score (+0.1% versus -3.5%; P =.0001).
+T8	Claim 2193 2288	ATP has beneficial effects on weight, muscle strength, and QOL in patients with advanced NSCLC.
+R1	Support Arg1:T2 Arg2:T8	
+R2	Support Arg1:T4 Arg2:T8	
+R3	Support Arg1:T5 Arg2:T8	
+R4	Support Arg1:T6 Arg2:T8	
+R5	Support Arg1:T7 Arg2:T8	

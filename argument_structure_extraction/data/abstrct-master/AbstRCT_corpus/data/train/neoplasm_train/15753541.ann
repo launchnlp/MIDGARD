@@ -1,0 +1,8 @@
+T2	MajorClaim 143 282	Thalidomide, which is an inhibitor of TNF-alpha synthesis, may represent a novel and rational approach to the treatment of cancer cachexia.
+T3	Premise 869 1217	At four weeks, patients who received thalidomide had gained on average 0.37 kg in weight and 1.0 cm(3) in arm muscle mass (AMA) compared with a loss of 2.21 kg (absolute difference -2.59 kg (95% confidence interval (CI) -4.3 to -0.8); p = 0.005) and 4.46 cm(3) (absolute difference -5.6 cm(3) (95% CI -8.9 to -2.2); p = 0.002) in the placebo group.
+T4	Premise 1218 1514	At eight weeks, patients in the thalidomide group had lost 0.06 kg in weight and 0.5 cm(3) in AMA compared with a loss of 3.62 kg (absolute difference -3.57 kg (95% CI -6.8 to -0.3); p = 0.034) and 8.4 cm(3) (absolute difference -7.9 cm(3) (95% CI -14.0 to -1.8); p = 0.014) in the placebo group.
+T5	Premise 1515 1612	Improvement in physical functioning correlated positively with weight gain (r = 0.56, p = 0.001).
+T6	Claim 1613 1767	Thalidomide was well tolerated and effective at attenuating loss of weight and lean body mass in patients with cachexia due to advanced pancreatic cancer.
+R1	Support Arg1:T5 Arg2:T6	
+R2	Support Arg1:T4 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T6	

@@ -1,0 +1,11 @@
+T1	Claim 1 73	Hormonal breast cancer treatment increases menopausal symptoms in women.
+T2	Premise 934 1024	There were no significant differences in vaginal bleeding, mood alteration, or low energy.
+T3	Premise 1025 1107	Patients receiving tamoxifen had significantly more vaginal discharge (P < .0001).
+T4	Premise 1108 1236	Exemestane patients reported more bone/muscle aches (P < .0001), vaginal dryness (P = .0004), and difficulty sleeping (P = .03).
+T5	Premise 1237 1317	In both groups, the hot flash score peaked at 3 months and decreased thereafter.
+T6	Premise 1318 1533	At 12 months, patients receiving tamoxifen had a significantly higher mean hot flash score (P = .03), with daily hot flashes increasing from baseline by 33% compared with a 7% increase from baseline with exemestane.
+T7	Premise 1534 1714	At 12 months, exemestane was associated with fewer hot flashes and less vaginal discharge than tamoxifen, but with more vaginal dryness, bone/muscle aches, and difficulty sleeping.
+T8	Claim 1715 1751	Symptoms were common in both groups.
+R1	Support Arg1:T7 Arg2:T8	
+R2	Support Arg1:T6 Arg2:T8	
+R3	Support Arg1:T5 Arg2:T8	

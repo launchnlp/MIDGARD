@@ -1,0 +1,5 @@
+T1	Premise 919 1001	Upon the completion of PMP, pain scores were significantly reduced in both groups,
+T2	Premise 1002 1266	yet patients in the experimental group showed a significant increase in the use of PRN analgesics and nonpharmacological strategies to relieve pain (P < .05) and significantly reduce barriers to managing their cancer pain (P < .05) compared with the control group.
+T3	Claim 1267 1409	Cancer patients should be empowered with pain management education to gain knowledge and correct misconceptions in managing their cancer pain.
+T4	Claim 1410 1521	Integration of the PMP into routine clinical work may help to improve the standard of care for cancer patients.
+R1	Partial-Attack Arg1:T2 Arg2:T1	

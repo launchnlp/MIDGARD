@@ -1,0 +1,5 @@
+T2	Premise 1077 1254	Among the patients receiving treatment 3 times weekly, 16 of 49 patients (32.7%) achieved a clinical response at the end of the third treatment cycle (no CRs, 1 PR, and 15 SDs).
+T3	Premise 1255 1376	Concomitant or prior use of protease inhibitors did not appear to affect the patient's response to treatment (P = 0.183).
+T4	Premise 1377 1526	Liposomal tretinoin is a new therapeutic agent that has been reported to have some clinical activity in patients with AIDS-associated Kaposi sarcoma.
+T5	Claim 1527 1690	A three-times-per-week dosing schedule was noted to be more effective compared with a once-a-week schedule without any significant difference in toxicity reported.
+R1	Support Arg1:T2 Arg2:T5	

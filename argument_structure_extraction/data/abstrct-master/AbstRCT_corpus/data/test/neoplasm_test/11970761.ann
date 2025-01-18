@@ -1,0 +1,8 @@
+T1	Claim 1 96	Cutaneous T-cell lymphoma (CTCL) can be associated with painful, pruritic, disfiguring lesions.
+T2	Premise 982 1337	Composite FACT-G and most individual subscale scores (physical, social/family, emotional, and functional well being) in documented responders (n = 21) gradually increased during the study period, generally reaching statistical significance (P < 0.05) by cycle 3, and were significantly (P < or = 0.041) higher than the scores of nonresponders at endpoint.
+T3	Premise 1338 1507	Additionally for responders, assessments of skin severity and pruritus severity showed significant (P < or = 0.05) improvements at study endpoint compared with baseline.
+T4	Premise 1508 1685	Adverse transfusion-related events (eg, hypersensitivity reactions, flu-like syndrome) were common during cycles 1 and 2, and vascular-leak syndrome occurred in 25% of patients.
+T5	Claim 1686 1774	Denileukin diftitox was not associated with any clinically significant myelosuppression.
+T6	Claim 1775 1982	Heavily pretreated patients with advanced and/or recurrent CTCL who responded to denileukin diftitox therapy showed significant improvements in self-rated overall QOL, skin appearance, and pruritus severity.
+R1	Support Arg1:T3 Arg2:T6	
+R2	Support Arg1:T2 Arg2:T6	

@@ -1,0 +1,6 @@
+T2	Premise 1043 1161	The mean IOP reduction was significantly greater in the BTFC group than in the LTFC group (-21.4% vs -13.7%, p<0.001).
+T1	Premise 1162 1347	A higher percentage of patients in the BTFC group showed a mean IOP reduction from baseline >or=15% (72.3% vs 40.0%) and >or=20% (61.7% vs 17.1%) compared to patients in the LTFC group.
+T3	Claim 1348 1439	Both BTFC and LTFC were more effective versus the monotherapy with prostaglandin analogues.
+T4	Claim 1440 1522	BTFC demonstrated higher performance than LTFC in terms of relative IOP reduction.
+R1	Support Arg1:T2 Arg2:T4	
+R2	Support Arg1:T1 Arg2:T4	

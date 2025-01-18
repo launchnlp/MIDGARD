@@ -1,0 +1,17 @@
+T1	Premise 798 1040	In the pamidronate group, the occurrence of hypercalcemia, severe bone pain, and symptomatic impending fractures decreased by 65%, 30%, and 50%, respectively; event-rates of systemic treatment and radiotherapy decreased by 35% (P < or = .02).
+T3	Premise 1041 1129	The event-free period (EFP), radiologic course of disease, and survival did not improve.
+T4	Claim 1130 1192	Subgroup analyses suggested a dose-dependent treatment effect.
+T5	Premise 1193 1349	Compared with their controls, in pamidronate HD/LD patients, events occurred 60% to 90% less frequently (P < or = .03) and the EFP was prolonged (P = .002).
+T6	Premise 1350 1429	In pamidronate LD patients, event-rates decreased by 15% to 45% (P < or = .04).
+T7	Premise 1430 1498	Gastrointestinal toxicity of pamidronate caused a 23% drop-out rate,
+T8	Claim 1499 1573	but other cancer-associated factors seemed to contribute to this toxicity.
+T9	Claim 1574 1663	Pamidronate treatment of breast cancer patients efficaciously reduced skeletal morbidity.
+T10	Claim 1664 1705	The effect appeared to be dose-dependent.
+T11	Claim 1706 1766	Further research on dose and mode of treatment is mandatory.
+R1	Partial-Attack Arg1:T10 Arg2:T9	
+R2	Partial-Attack Arg1:T11 Arg2:T9	
+R3	Partial-Attack Arg1:T8 Arg2:T7	
+R4	Support Arg1:T6 Arg2:T9	
+R5	Support Arg1:T5 Arg2:T9	
+R6	Support Arg1:T4 Arg2:T10	
+R7	Support Arg1:T1 Arg2:T9	

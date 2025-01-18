@@ -1,0 +1,10 @@
+T1	Premise 1711 1847	At week 12, changes in TPV for degarelix and goserelin were similar (-37.2% vs -39.0%) and met the predefined non-inferiority criterion.
+T2	Premise 1848 2045	Decreases in IPSS were greater in degarelix than in goserelin-treated patients, differences being statistically significant in patients with baseline IPSS > 13 (-6.7 ± 1.8 vs -4.0 ± 1.0; P = 0.02).
+T3	Premise 2046 2201	The number of patients with an IPSS change of ≥ 3 over baseline was also significantly higher in patients treated with degarelix (61.0 vs 44.3%, P = 0.02).
+T4	Claim 2202 2247	Both treatments were safe and well tolerated.
+T5	Claim 2248 2328	Medical castration reduces TPV and could also improve LUTS in patients with PCa.
+T6	Claim 2335 2440	the short-term efficacy of degarelix and goserelin + bicalutamide was the same in terms of TPV reduction,
+T7	Claim 2441 2671	degarelix showed superiority in LUTS relief in symptomatic patients, which could highlight the different actions of these drugs on extrapituitary gonadotrophin-releasing hormone (GnRH) receptors in the bladder and/or the prostate.
+R1	Support Arg1:T1 Arg2:T6	
+R2	Support Arg1:T2 Arg2:T7	
+R3	Support Arg1:T3 Arg2:T7	

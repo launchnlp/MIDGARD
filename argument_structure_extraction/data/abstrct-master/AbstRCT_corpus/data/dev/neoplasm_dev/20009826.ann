@@ -1,0 +1,5 @@
+T1	Premise 1019 1099	Results were correlated with previously reported objective sensibility outcomes.
+T2	Premise 1390 1582	There was a statistically significant improvement in all three measures in patients who were randomized to receive innervated free TRAM flaps compared with those receiving noninnervated flaps.
+T3	Claim 1583 1768	This study demonstrates that innervation of free TRAM flaps used for breast reconstruction not only improves sensibility but also has a positive effect on patient-rated quality of life.
+R1	Support Arg1:T2 Arg2:T3	
+R2	Support Arg1:T1 Arg2:T3	

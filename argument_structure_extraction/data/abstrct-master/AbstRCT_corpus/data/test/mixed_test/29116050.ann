@@ -1,0 +1,8 @@
+T1	Premise 912 1057	Overall, 6.6% of patients modified their initial treatment, with ETV having lower rates of treatment modification than other major NUCs (P<0.05).
+T2	Premise 1058 1179	At week 52, the virologic response rate was higher with ETV than with LAM-based treatment (77.0% versus 61.4%, P<0.0001).
+T3	Premise 1180 1374	LAM-based treatment was associated with a higher probability of virologic breakthrough and genotypic resistance (21.4% and 19.6%, respectively) than ETV (1.6% and 0.1%, respectively) (P<0.0001).
+T4	Premise 1375 1448	Treatment-related adverse events or serious adverse events were uncommon.
+T6	Claim 1590 1777	Consistent with clinical trial results, ETV was more effective than LAM-based treatments in a real-world setting, with treatment modification being relatively low in ETV-treated patients.
+R1	Support Arg1:T3 Arg2:T6	
+R2	Support Arg1:T2 Arg2:T6	
+R3	Support Arg1:T1 Arg2:T6	

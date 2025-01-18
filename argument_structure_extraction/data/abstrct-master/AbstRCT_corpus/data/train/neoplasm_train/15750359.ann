@@ -1,0 +1,11 @@
+T1	Premise 694 951	There was no evidence of a difference seen between groups for either activity (adjusted difference =-0.4, 95% confidence interval CI -1.0 to 0.2, p = 0.17) or profile scores (adjusted difference = -0.4, 95% CI -0.9 to 0.1, p = 0.13) using this trial design,
+T2	Claim 952 1102	although post hoc power calculations suggests that 65-175 would be needed per group to detect differences of this magnitude with sufficient precision.
+T3	Premise 1103 1217	Clinically relevant improvements in symptoms and mood disturbance were seen for both groups over the study period.
+T4	Claim 1218 1282	Improvements were seen for symptom scores over the study period.
+T5	Claim 1283 1510	However, presuming these improvements were caused by the individualized homeopathic approach, the study failed to show clearly that the specific effect of the remedy added further to the nonspecific effects of the consultation.
+T6	Claim 1511 1733	Future trial design must ensure adequate power to account for the nonspecific impact of such complex individualized interventions while pragmatic designs may more readily answer questions of clinical and cost effectiveness
+R1	Attack Arg1:T5 Arg2:T4	
+R2	Partial-Attack Arg1:T6 Arg2:T4	
+R3	Support Arg1:T3 Arg2:T4	
+R4	Support Arg1:T1 Arg2:T5	
+R5	Support Arg1:T2 Arg2:T6	

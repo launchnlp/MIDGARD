@@ -1,0 +1,12 @@
+T1	Premise 670 757	Survival was significantly longer (hazard ratio, 0.70; P < .0001) in the erlotinib arm.
+T2	Premise 758 833	Compliance with QOL was 87% at baseline and more than 70% during treatment.
+T3	Premise 834 1060	Patients receiving erlotinib had significantly longer median time to deterioration for all three symptoms (4.9 v 3.7 months for cough [P = .04]; 4.7 v 2.9 months for dyspnea [P = .04], and 2.8 v 1.9 months for pain [P = .03]).
+T4	Premise 1061 1199	QOL response analyses showed that 44%, 34%, and 42% of patients receiving erlotinib had improvement in these three symptoms, respectively.
+T5	Premise 1200 1353	This was accompanied by a significant improvement in the physical function (31% erlotinib v 19% placebo, P = .01), and global QOL (35% v 26%, P < .0001).
+T6	Premise 1354 1513	Patients with complete or partial response were more likely to have improvement in the QOL response than patients with stable or progressive disease (P < .01).
+T7	Claim 1514 1664	Erlotinib not only improves survival in previously treated patients with NSCLC, but also improves tumor-related symptoms and important aspects of QOL.
+R1	Support Arg1:T1 Arg2:T7	
+R2	Support Arg1:T2 Arg2:T7	
+R3	Support Arg1:T3 Arg2:T7	
+R4	Support Arg1:T4 Arg2:T7	
+R5	Support Arg1:T5 Arg2:T7	

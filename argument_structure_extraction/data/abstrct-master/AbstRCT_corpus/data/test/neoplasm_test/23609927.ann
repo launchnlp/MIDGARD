@@ -1,0 +1,11 @@
+T1	Premise 912 1189	At week 4 postintervention, women in the intervention group had statistically significant improvement in their FACT-G score, FACT-G physical well-being subscale, LASA fatigue, POMS total score, POMS fatigue-inertia subscale, and POMS confusion-bewilderment subscale (p < 0.05).
+T2	Premise 1190 1344	Men receiving the intervention had a smaller decrease in FACT-G score compared to controls (p = 0.048) and also worsened on the LASA financial (p = 0.02).
+T3	Premise 1345 1458	At week 27, the only gender difference was that intervention group men had more POMS anger-hostility (p = 0.009).
+T4	Premise 1459 1557	By week 52, there were no statistically significant gender differences in any of the QOL measures.
+T5	Claim 1558 1727	Gender-based differences appear to play a role in the early, but not late, response to a multidisciplinary intervention to improve QOL for patients with advanced cancer,
+T6	Claim 1744 1796	early interventions can be tailored for each gender.
+R1	Support Arg1:T5 Arg2:T6	
+R2	Support Arg1:T2 Arg2:T5	
+R3	Support Arg1:T1 Arg2:T5	
+R4	Support Arg1:T3 Arg2:T5	
+R5	Support Arg1:T4 Arg2:T5	

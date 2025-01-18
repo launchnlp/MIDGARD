@@ -1,0 +1,15 @@
+T1	Claim 1 140	In vivo data have shown a more potent antiangiogenic effect and a higher antitumor activity of low-dose interferon (IFN) given twice daily.
+T2	Premise 720 932	There were no significant differences in either PFS or OS between IFN1 and IFN5 (median of 3.7 months and median of 3.4 months PFS, respectively; median of 25.5 months and median of 17.5 months OS, respectively).
+T3	Premise 933 1022	The RRs were identical in the 2 arms (6.7%; 95% confidence interval [95% CI], 1.8-16.5%).
+T4	Premise 1023 1151	Two patients, 1 in each arm, remained in complete remission at the time of last follow-up, at 45+ and 38+ months from treatment.
+T5	Premise 1152 1358	Thirty-two patients receiving IFN5 and 19 patients receiving IFN1 experienced Grade 3 or higher adverse events (graded using the National Cancer Institute Common Toxicity Criteria [version 2.0]) (P = .025).
+T6	Premise 1359 1453	Eighteen patients receiving IFN5 and 4 patients receiving IFN1 had dose reductions (P = .002).
+T7	Premise 1454 1584	There was a significant deterioration in QOL and an increase in depression associated with IFN5 but no change was noted with IFN1.
+T9	Claim 1585 1691	Compared with IFN5, IFN1 is neither more nor less effective but is less toxic, with a better reported QOL.
+T11	Claim 1692 1806	These results may have implications for the design of combination regimens incorporating IFN with targeted agents.
+R1	Support Arg1:T9 Arg2:T11	
+R2	Support Arg1:T7 Arg2:T9	
+R3	Support Arg1:T5 Arg2:T9	
+R4	Support Arg1:T4 Arg2:T9	
+R5	Support Arg1:T3 Arg2:T9	
+R6	Support Arg1:T2 Arg2:T9	

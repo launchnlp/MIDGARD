@@ -1,0 +1,14 @@
+T1	Claim 1 123	Cancer-related fatigue is the most disabling symptom experienced by breast cancer patients following the cancer treatment.
+T2	Premise 124 248	The positive effects of physical activity in the rehabilitation of breast cancer patients are documented in several studies.
+T3	Premise 945 1034	There was an improvement of muscle strength at the end of rehabilitation for both groups.
+T4	Premise 1035 1110	The increase from t1 to t2 was significantly higher for the training group.
+T5	Premise 1111 1213	The scores for global quality of life, physical well-being, and functionality increased from t1 to t2,
+T6	Premise 1214 1300	but further improvement in the follow-up (t3) was only observed in the training group.
+T7	Premise 1301 1425	The cancer-related fatigue was significantly reduced in the training group from t1 to t3, however, not in the control group.
+T9	Claim 1426 1642	Structured physical training programs initiated during inpatient rehabilitation and continuously practiced in the time thereafter can improve symptoms of chronic fatigue and quality of life in breast cancer patients.
+R1	Support Arg1:T7 Arg2:T9	
+R2	Partial-Attack Arg1:T6 Arg2:T5	
+R3	Support Arg1:T5 Arg2:T9	
+R4	Support Arg1:T4 Arg2:T9	
+R5	Support Arg1:T3 Arg2:T9	
+R6	Support Arg1:T2 Arg2:T9	

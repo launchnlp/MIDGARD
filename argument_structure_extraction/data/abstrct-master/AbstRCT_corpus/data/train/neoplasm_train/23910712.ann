@@ -1,0 +1,15 @@
+T1	Claim 1435 1501	There was no differences in acute toxicities between the 2 groups.
+T2	Claim 1502 1646	Our preliminary data suggest that rhDNase did not significantly improve study primary endpoints of QOL measures compared with the placebo group.
+T3	Claim 1656 1826	there was a significant improvement in secondary endpoints of clinically assessed OPS and DNA concentration compared with placebo in H&N cancer patients treated with CRT.
+T4	Premise 1264 1324	The rhDNase group showed no change in OPS-DNA concentration,
+T5	Premise 1334 1434	the placebo group showed a significant increase in DNA concentration during the drug trial (P=.045).
+T6	Premise 1082 1263	Patients in the rhDNase group exhibited significant clinical improvement in OPS, blindly assessed by a physician, compared with the placebo group (67% vs 27%, respectively; P=.046).
+T7	Premise 896 1081	Similarly, both groups showed a decline in physical and functional well being but recovered in the 3 months posttreatment follow-up, with the rhDNase group exhibiting speedier recovery.
+T8	Premise 715 781	Both groups showed an increase in symptom and interference scores,
+T9	Premise 791 895	patients in the rhDNase group showed a greater decline in both scores during the 3 months posttreatment.
+R1	Partial-Attack Arg1:T9 Arg2:T8	
+T10	Premise 614 714	There were no statistically significant differences in patients' QOL outcomes over the study period.
+R2	Support Arg1:T10 Arg2:T2	
+R3	Support Arg1:T4 Arg2:T3	
+R4	Support Arg1:T5 Arg2:T3	
+R5	Support Arg1:T6 Arg2:T3	

@@ -1,0 +1,5 @@
+T1	Premise 1322 1615	Linear mixed models (primary model) demonstrated no statistically significant overall difference between EVE + EXE and PBO + EXE for QL2 (LSM difference = -1.91; 95% CI = -4.61, 0.78), BRBS (LSM difference = -0.18; 95% CI = -1.98, 1.62), or BRAS (LSM difference = -0.42; 95% CI = -2.94, 2.10).
+T2	Premise 1722 1862	In the expanded pattern-mixture model, EVE + EXE-treated patients who did not drop out early had stable BRBS and BRAS relative to PBO + EXE.
+T3	Claim 1920 2115	These analyses confirm that EVE + EXE provides clinical benefit without adversely impacting HRQOL in patients with HR(+) ABC who recurred/progressed on prior NSAIs versus endocrine therapy alone.
+R1	Support Arg1:T1 Arg2:T3	
+R2	Support Arg1:T2 Arg2:T3	

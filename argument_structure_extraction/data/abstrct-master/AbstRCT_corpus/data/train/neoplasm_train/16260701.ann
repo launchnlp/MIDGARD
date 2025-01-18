@@ -1,0 +1,6 @@
+T1	Claim 1 137	The combination of interferon alfa (IFNalpha) and isotretinoin has shown a direct antiproliferative effect on human melanoma cell lines,
+T2	Claim 138 262	but it remained unclear whether this combination is more effective than IFNalpha alone in patients with metastatic melanoma.
+T3	Premise 1001 1355	A scheduled interim analysis revealed no significant differences in survival rates, with the isotretinoin group and the placebo group showing 5-year disease-free survival rates of 55% (95% CI, 46% to 65%) and 67% (95% CI, 59% to 75%), respectively, and overall 5-year survival rates of 76% (95% CI, 67% to 84%) and 81% (95% CI, 74% to 88%), respectively.
+T4	Claim 1392 1606	The addition of isotretinoin to an adjuvant treatment of low-dose IFNalpha in patients with stage IIA and IIB melanoma had no significant effect on disease-free or overall survival and is therefore not recommended.
+R1	Partial-Attack Arg1:T2 Arg2:T1	
+R2	Support Arg1:T3 Arg2:T4	

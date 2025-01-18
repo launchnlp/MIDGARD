@@ -1,0 +1,11 @@
+T1	Premise 1563 1715	there was no significant difference regarding time to definitive deterioration of global health status/quality of life from baseline (primary endpoint).
+T2	Premise 1105 1227	Patients receiving FLOT exhibited higher response rates and had improved disease-free and progression-free survival (PFS).
+T3	Premise 1725 1821	patients receiving FLO or FLOT as palliative treatment (n = 98) achieved comparable QOL results.
+T4	Premise 1822 1878	Although toxicity was higher in patients receiving FLOT,
+T5	Premise 1879 1967	no negative impact of the addition of docetaxel on QOL parameters could be demonstrated.
+T6	Claim 1974 2101	elderly patients in need of intensified chemotherapy may receive FLOT without compromising patient-reported outcome parameters.
+R1	Partial-Attack Arg1:T5 Arg2:T4	
+R2	Attack Arg1:T4 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T6	
+R4	Support Arg1:T1 Arg2:T6	
+R5	Support Arg1:T2 Arg2:T6	

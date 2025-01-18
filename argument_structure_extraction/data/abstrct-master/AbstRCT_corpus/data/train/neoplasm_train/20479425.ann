@@ -1,0 +1,5 @@
+T1	Premise 973 1104	In an intent-to-treat analysis, the 2-year OS rates were 65.7% for CIS and 66.2% for TPZ/CIS (TPZ/CIS--CIS: 95% CI, -5.9% to 6.9%).
+T2	Premise 1105 1287	There were no significant differences in failure-free survival, time to locoregional failure, or quality of life as measured by Functional Assessment of Cancer Therapy-Head and Neck.
+T3	Claim 1288 1457	We found no evidence that the addition of TPZ to chemoradiotherapy, in patients with advanced head and neck cancer not selected for the presence of hypoxia, improves OS.
+R1	Support Arg1:T1 Arg2:T3	
+R2	Support Arg1:T2 Arg2:T3	

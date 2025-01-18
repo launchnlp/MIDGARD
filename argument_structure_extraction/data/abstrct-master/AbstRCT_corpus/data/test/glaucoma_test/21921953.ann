@@ -1,0 +1,13 @@
+T1	Claim 1527 1656	Our results suggest that OLO implant could be a new, safe, and effective alternative to MMC, with similar long-term success rate.
+T2	Premise 1489 1526	No adverse reaction to OLO was noted.
+T3	Premise 841 941	One-day postoperatively, the IOP dropped to 5.2 (±3.5) and 9.2 (±5.5) mm Hg, respectively (P=0.009).
+T4	Premise 942 1095	The IOP reduction was significant at end point in all groups (P=0.01), with a mean IOP of 16.0 (±2.9) and 16.5 (±2.1) mm Hg in MMC and OLO, respectively.
+T5	Premise 1096 1203	The rates and Kaplan-Meier curves did not differ for both complete and qualified success at any target IOP.
+T6	Premise 1204 1266	The bleb height in OLO group was higher than MMC one (P<0.05).
+T7	Premise 1267 1488	SD-OCT analysis of successful/unsuccessful bleb in patients with or without complete success at IOP =17  mm Hg indicated a sensitivity of 83% and 73% and a specificity of 75% and 67%, respectively, for MMC and OLO groups.
+R1	Support Arg1:T2 Arg2:T1	
+R2	Support Arg1:T7 Arg2:T1	
+R3	Support Arg1:T6 Arg2:T1	
+R4	Support Arg1:T5 Arg2:T1	
+R5	Support Arg1:T4 Arg2:T1	
+R6	Support Arg1:T3 Arg2:T1	

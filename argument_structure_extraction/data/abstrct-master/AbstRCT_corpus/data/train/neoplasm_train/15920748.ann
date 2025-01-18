@@ -1,0 +1,17 @@
+T1	Premise 892 963	Energy intake after RT increased in both groups 1 and 2 (p < or = .05).
+T2	Premise 964 1033	Protein intake also increased in both groups 1 and 2 (p < or = .006).
+T3	Premise 1034 1110	Both energy and protein intake decreased significantly in group 3 (p < .01).
+T4	Premise 1111 1212	At 3 months, group 1 maintained intakes, whereas groups 2 and 3 returned to or below baseline levels.
+T5	Premise 1213 1264	After RT, >90% of patients experienced RT toxicity;
+T6	Premise 1265 1402	this was not significantly different between groups, with a trend for reduced symptomatology in group 1 versus group 2/group 3 (p < .07).
+T7	Premise 1403 1629	At 3 months, the reduction of incidence/severity of grade 1+2 anorexia, nausea/vomiting, xerostomia, and dysgeusia was different: 90% of the patients improved in group 1 versus 67% in group 2 versus 51% in group 3 (p < .0001).
+T8	Premise 1630 1802	After RT, QOL function scores improved (p < .003) proportionally with improved nutritional intake and status in group 1/group 2 (p < .05) and worsened in group 3 (p < .05);
+T9	Premise 1803 1942	at 3 months, patients in group 1 maintained or improved overall QOL, whereas patients in groups 2 and 3 maintained or worsened overall QOL.
+T10	Claim 1943 2057	During RT, nutritional interventions positively influenced outcomes, and counseling was of similar/higher benefit;
+T11	Claim 2058 2143	in the medium term, only counseling exerted a significant impact on patient outcomes.
+R1	Support Arg1:T8 Arg2:T10	
+R2	Support Arg1:T1 Arg2:T10	
+R3	Support Arg1:T2 Arg2:T10	
+R4	Support Arg1:T6 Arg2:T5	
+R5	Support Arg1:T7 Arg2:T11	
+R6	Support Arg1:T4 Arg2:T11	

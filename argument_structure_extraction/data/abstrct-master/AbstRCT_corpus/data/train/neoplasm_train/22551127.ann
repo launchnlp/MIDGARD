@@ -1,0 +1,9 @@
+T1	Premise 1197 1245	There were no unexpected serious adverse events.
+T2	Premise 1246 1504	In the 684 patients with data that could be evaluated, ultrasonography of the neck was normal in 652 (95%), and the stimulated thyroglobulin level was 1.0 ng per milliliter or less in 621 of the 652 patients (95%) without detectable thyroglobulin antibodies.
+T3	Premise 1505 1568	Thyroid ablation was complete in 631 of the 684 patients (92%).
+T4	Premise 1569 1675	The ablation rate was equivalent between the (131)I doses and between the thyrotropin-stimulation methods.
+T5	Claim 1676 1839	The use of recombinant human thyrotropin and low-dose (1.1 GBq) postoperative radioiodine ablation may be sufficient for the management of low-risk thyroid cancer.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T2 Arg2:T5	
+R4	Support Arg1:T1 Arg2:T5	

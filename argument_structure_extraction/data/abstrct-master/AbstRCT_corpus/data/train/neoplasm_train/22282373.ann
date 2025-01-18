@@ -1,0 +1,8 @@
+T1	MajorClaim 1 89	Cisplatin reduces plasma ghrelin levels through the 5-hydroxytryptamine (5-HT) receptor.
+T2	Premise 1297 1521	Food intake and appetite VAS scores were significantly higher in the ghrelin group than in the placebo group (18.2 ± 5.2 kcal/kg/day vs 12.7 ± 3.4 kcal/kg/day [P = .001] and 6.2 ± 0.9 vs 4.1 ± 0.9 [P < .0001], respectively).
+T3	Premise 1522 1663	Patients in the ghrelin group had fewer adverse events during chemotherapy related to anorexia and nausea than patients in the control group.
+T4	Premise 1664 1811	Significant deterioration was noted after chemotherapy in the placebo group in QoL scores, appetite, nausea and vomiting, and global health status.
+T5	Claim 1812 1956	Short-term administration of exogenous ghrelin at the start of cisplatin-based chemotherapy stimulated food intake and minimized adverse events.
+R1	Support Arg1:T3 Arg2:T5	
+R2	Support Arg1:T4 Arg2:T5	
+R3	Support Arg1:T2 Arg2:T5	

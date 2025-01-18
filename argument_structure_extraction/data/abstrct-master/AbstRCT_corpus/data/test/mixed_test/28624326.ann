@@ -1,0 +1,8 @@
+T1	Premise 961 1153	For the IMCT group and CPT groups, respectively, the absolute success rates were 80% (16/20) and 60% (12/20) (P < .001) and qualified success rates were 90% (18/20) and 70% (14/20) (P < .001).
+T3	Claim 1154 1224	Both procedures produced a statistically significant reduction in IOP,
+T4	Premise 1229 1377	eyes undergoing IMCT achieved a lower IOP than CPT group eyes at 12 months follow-up (9.5 ± 2.4 mm Hg and 11.7 ± 2.1 mm Hg, respectively, P < .001).
+T5	Claim 1378 1616	In primary congential glaucoma, illuminated microcatheter-assisted 360-degree circumferential trabeculotomy performed better than conventional partial trabeculotomy at 1 year follow-up and resulted in significantly lower IOP measurements.
+T2	Premise 882 960	In the IMCT group, 360-degree cannulation was achieved in 80% (16/20) of eyes.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T4 Arg2:T3	
+R3	Support Arg1:T1 Arg2:T3	

@@ -1,0 +1,10 @@
+T1	Claim 1299 1399	EW was associated with a higher level of satisfaction with emotional support compared with controls.
+T2	MajorClaim 1504 1644	it seems feasible to suggest that EW may be a cost effective accessible treatment that could be incorporated into the ongoing care of women.
+T3	Premise 1207 1298	Most participants found writing valuable and did not report any long-term negative effects.
+T4	Premise 1113 1206	There were no significant effects of the intervention on mood, QOL or healthcare utilisation.
+T5	Premise 699 888	There was a significant effect of group on women's perceptions of social support with those in the intervention group being more satisfied with the emotional support they received (p<0.05).
+T6	Premise 889 1112	Satisfaction with emotional support was negatively correlated with depression/dejection (p<0.05) and anger/hostility (p<0.05) and positively correlated with social and family well-being (p<0.001) 6 months post intervention.
+R1	Support Arg1:T3 Arg2:T1	
+R2	Support Arg1:T4 Arg2:T1	
+R3	Support Arg1:T5 Arg2:T1	
+R4	Support Arg1:T6 Arg2:T1	

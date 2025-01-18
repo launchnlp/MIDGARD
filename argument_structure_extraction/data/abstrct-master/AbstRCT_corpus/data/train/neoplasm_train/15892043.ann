@@ -1,0 +1,14 @@
+T1	Claim 1 172	For patients with anthracycline-pretreated metastatic breast carcinoma, capecitabine plus docetaxel significantly increased overall survival compared with docetaxel alone.
+T2	Premise 1000 1126	Capecitabine/docetaxel increased the median overall survival by 3 months compared with docetaxel alone (14.5 vs. 11.5 months).
+T3	Premise 1127 1226	The mean quality-adjusted survival was increased by 1.8 months in the capecitabine/docetaxel group.
+T4	Premise 1227 1409	The total medical-resource utilization cost per patient was 8.9% higher with the combination: 24,475 dollars for combination therapy versus 22,477 dollars for single-agent docetaxel.
+T5	Premise 1410 1519	The mean cost per QALY gained with combination therapy was 13,558 dollars (standard deviation, 6742 dollars).
+T6	Premise 1520 1629	Cost savings due to reduced docetaxel dose and hospital use were the major cost offsets with the combination.
+T7	Premise 1630 1824	Sensitivity analyses showed that varying the mean hospital cost per day from the 5th to the 95th percentile resulted in cost-utility ratios ranging from 20,326 dollars to as low as 6360 dollars.
+T8	Claim 1825 2068	Capecitabine/docetaxel was a cost-effective treatment in patients with anthracycline-pretreated advanced breast carcinoma, and had an incremental cost-effectiveness ratio that compares very favorably with that of many other oncology therapies.
+R1	Support Arg1:T2 Arg2:T1	
+R2	Support Arg1:T3 Arg2:T1	
+R3	Support Arg1:T7 Arg2:T8	
+R4	Support Arg1:T6 Arg2:T8	
+R5	Support Arg1:T5 Arg2:T8	
+R6	Support Arg1:T4 Arg2:T8	

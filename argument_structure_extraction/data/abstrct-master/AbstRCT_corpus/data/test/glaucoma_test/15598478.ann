@@ -1,0 +1,8 @@
+T1	Premise 1996 2205	A higher percentage of patients receiving the fixed combination had IOP decreases of 2 mm Hg on day 21 relative to baseline compared with latanoprost-treated patients (79.4% vs 51.4%, respectively; P < 0.001).
+T2	Premise 2206 2458	PP analyses found that more patients in the fixed-combination group had IOP decreases >or=3, >or=4, or >or=5 mm Hg (for each target level, P < 0.001 vs latanoprost group) or final IOP 18 mm Hg (fixed -combination, 35.1%; latanoprost, 17.8%; P < 0.001).
+T3	Claim 2682 2905	patients with an inadequate initial IOP response to latanoprost, switching to fixed-combination latanoprosttimolol resulted in a greater decrease in IOP and similar tolerability compared with continuing latanoprost therapy.
+T4	Premise 2496 2650	Similar proportions of patients in the fixed-combination and latanoprost groups reported at least 1 treatment-emergent AE (10.9% and 12.1%, respectively).
+T5	Claim 2459 2495	Both treatments were well tolerated.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T3	
+R3	Support Arg1:T1 Arg2:T3	

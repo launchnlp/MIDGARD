@@ -1,0 +1,8 @@
+T1	Premise 874 1129	There were no obvious differences in the normalization rate of ALT, negative conversion rate of HBV DNA and HBeAg, as well as improvement in Child-Pugh scores among the combination therapy group, 12-week optimized therapy group, and ETV monotherapy group.
+T2	Premise 781 873	For the 24-week optimized therapy group, only ALT levels revealed a significant improvement.
+T3	Premise 567 780	At the end of the treatment, the level of alanine amino-transferase (ALT), albumin (ALB) and total bilirubin (TBIL) in the combination therapy group and 12-week optimized therapy group were significantly improved.
+T4	Premise 1130 1236	However, the difference among these three groups and the 24-week optimized therapy group were significant.
+T5	Premise 1237 1314	Differences were not observed in the HBeAg seroconversion between each group.
+T6	Premise 1315 1487	Differences in blood urea nitrogen, serum creatinine, creatine kinase, or other serious adverse effects were not observed in each group at the end of the 96-week treatment.
+T7	Claim 1488 1652	Combination therapy and early ADV addition were the preferred approaches in the antiviral strategy for the treatment of hepatitis B-induced decompensated cirrhosis.
+R1	Support Arg1:T4 Arg2:T1	

@@ -1,0 +1,14 @@
+T1	Premise 832 950	No significant longitudinal changes were detected in the global health status in both groups upon available follow-up.
+T2	Premise 951 1138	Surgery was associated with worsened physical functioning and fatigue symptoms up to 6 months after treatment (P < 0.001 and P = 0.021, respectively) and these scales improved at 2 years.
+T3	Premise 1139 1364	In terms of pulmonary function, dyspnoic and coughing symptoms were significantly worsened 3 months after surgery (P = 0.024 and P = 0.036, respectively) whereas symptoms in the CRT group progressively deteriorated over time.
+T4	Premise 1365 1496	Concerning the eating function, both groups had improvements in dysphagia but there were frequent need for endoscopic intervention.
+T5	Premise 1497 1592	Neither surgery nor definitive CRT significantly impaired the global health status of patients.
+T6	Claim 1593 1711	Surgery was associated with a short-term negative impact in some aspects of health related quality of life assessments
+T7	Claim 1712 1775	but these changes became insignificant 2 years after treatment.
+T8	Claim 1785 1877	CRT was associated with progressive deteriorations in pulmonary function in the longer term.
+R1	Partial-Attack Arg1:T7 Arg2:T6	
+R2	Attack Arg1:T5 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T8	
+R4	Support Arg1:T3 Arg2:T6	
+R5	Support Arg1:T2 Arg2:T6	
+R6	Support Arg1:T1 Arg2:T7	

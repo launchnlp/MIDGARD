@@ -1,0 +1,5 @@
+T1	Premise 1032 1263	The scapula-oriented exercise group showed improvements in pain, physical function, social function, and global quality of life compared with baseline, whereas the general exercise group showed improved fatigue and range of motion.
+T2	Premise 1264 1510	The change in global quality of life (P = 0.067; effect size, 0.33) and strength of external rotation (P = 0.001; effect size, 0.55) were significantly greater in the scapula-oriented exercise group than in the general exercise and control group.
+T3	Claim 1511 1609	Scapula-oriented exercise had beneficial effects on pain, quality of life and aspects of strength.
+R1	Support Arg1:T2 Arg2:T3	
+R2	Support Arg1:T1 Arg2:T3	

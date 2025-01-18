@@ -1,0 +1,9 @@
+T1	Premise 986 1094	Kaplan-Meier survival curves demonstrated better survival for the experimental group than the control group.
+T2	Premise 1095 1190	The unadjusted significance level for group differences was P = .0006 for survival to 10 years.
+T3	Premise 1191 1347	Cox regression models that took TNM staging or the residual tumor classification and tumor site into account also found significant differences at 10 years.
+T4	Premise 1348 1508	Secondary analyses found that differences in favor of the experimental group occurred in patients with stomach, pancreatic, primary liver, or colorectal cancer.
+T5	Claim 1509 1795	The results of this study indicate that patients with gastrointestinal cancer, who undergo surgery for stomach, pancreatic, primary liver, or colorectal cancer, benefit from a formal program of psychotherapeutic support during the inpatient hospital stay in terms of long-term survival.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T1	
+R3	Support Arg1:T1 Arg2:T5	
+R4	Support Arg1:T3 Arg2:T5	

@@ -1,0 +1,18 @@
+T1	Claim 1 99	Docetaxel has shown activity in elderly patients with advanced non-small-cell lung cancer (NSCLC).
+T2	Premise 729 908	There was no statistical difference in median overall survival with docetaxel versus vinorelbine (14.3 months v 9.9 months; hazard ratio, 0.780; 95% CI, 0.561 to 1.085; P = .138).
+T3	Premise 909 1016	There was a significant difference in median progression-free survival (5.5 months v 3.1 months; P < .001).
+T4	Premise 1017 1124	Response rates were also significantly improved with docetaxel versus vinorelbine (22.7% v 9.9%; P = .019).
+T5	Premise 1125 1297	The most common grade 3 to 4 toxicities were neutropenia (82.9% for docetaxel; 69.2% for vinorelbine; P = .031) and leukopenia (58.0% for docetaxel; 51.7% for vinorelbine).
+T6	Premise 1298 1354	Other toxicities were mild and generally well tolerated.
+T7	Premise 1355 1465	Docetaxel improved overall disease-related symptoms over vinorelbine (odds ratio, 1.86; 95% CI, 1.09 to 3.20).
+T8	Premise 1466 1575	Docetaxel improved progression-free survival, response rate, and disease-related symptoms versus vinorelbine.
+T9	Claim 1576 1651	Overall survival was not statistically significantly improved at this time.
+T10	Claim 1652 1771	Docetaxel monotherapy may be considered as an option in the standard treatment of elderly patients with advanced NSCLC.
+R1	Partial-Attack Arg1:T9 Arg2:T10	
+R2	Support Arg1:T8 Arg2:T10	
+R3	Support Arg1:T7 Arg2:T10	
+R4	Support Arg1:T6 Arg2:T10	
+R5	Support Arg1:T5 Arg2:T10	
+R6	Support Arg1:T4 Arg2:T10	
+R7	Support Arg1:T3 Arg2:T10	
+R8	Support Arg1:T2 Arg2:T9	

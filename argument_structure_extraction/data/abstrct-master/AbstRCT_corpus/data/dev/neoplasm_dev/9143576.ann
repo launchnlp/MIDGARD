@@ -1,0 +1,14 @@
+T1	MajorClaim 1 128	The choice of reconstruction after gastrectomy and the significance of remaining reservoir function is a matter of controversy.
+T2	Premise 894 1023	The postoperative complication and mortality rates were similar in all treatment groups, with few serious complications recorded.
+T3	Premise 1024 1150	Irrespective of type of treatment, the patients suffered from alimentary symptoms and functional limitations in everyday life,
+T4	Premise 1151 1206	whereas their mental well-being improved after surgery.
+T5	Premise 1207 1323	Patients who underwent subtotal gastrectomy had the best outcome, especially with respect to complaints of diarrhea.
+T6	Premise 1324 1443	Patients given a gastric substitute after gastrectomy showed no difference from those who had only a total gastrectomy.
+T7	Claim 1444 1579	We conclude that despite significant unfavorable consequences that follow gastrectomy, patients recover with an improved mental status.
+T8	Claim 1580 1660	A pouch reconstruction after total gastrectomy does not improve quality of life,
+T9	Claim 1665 1769	a subtotal gastrectomy has advantages that must be considered when the procedure is clinically feasible.
+R1	Support Arg1:T2 Arg2:T8	
+R3	Support Arg1:T3 Arg2:T8	
+R4	Support Arg1:T5 Arg2:T9	
+R5	Support Arg1:T6 Arg2:T8	
+R2	Support Arg1:T4 Arg2:T7	

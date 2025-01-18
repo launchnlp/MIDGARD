@@ -1,0 +1,7 @@
+T1	Premise 1397 1573	Mean physical function at 12 months was 66 points (95% CI 62·9-70·0) in the 90 mg group and 68 points (64·6-71·4) in the 30 mg group (95% CI of difference -6·6 to 3·3; p=0·52).
+T2	Premise 1574 1752	Median time to first skeletal-related event in patients who had such an event was 9·2 months (8·1-10·7) in the 90 mg group and 10·2 months (7·3-14·0) in the 30 mg group (p=0·63).
+T3	Premise 1782 1909	eight patients in the pamidronate 90 mg group developed osteonecrosis of the jaw compared with two patients in the 30 mg group.
+T4	Claim 1910 2044	Monthly infusion of pamidronate 30 mg should be the recommended dose for prevention of bone disease in patients with multiple myeloma.
+R1	Support Arg1:T3 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	
+R3	Support Arg1:T1 Arg2:T4	

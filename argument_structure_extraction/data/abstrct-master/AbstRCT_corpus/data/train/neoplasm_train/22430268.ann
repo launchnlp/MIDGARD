@@ -1,0 +1,7 @@
+T1	MajorClaim 1794 1852	MBSR is recommended to support survivors of breast cancer.
+T2	Claim 1608 1793	To our knowledge, this study provided novel evidence that MBSR can help alleviate long-term emotional and physical adverse effects of medical treatments, including endocrine treatments.
+T3	Premise 923 1400	There were statistically significant improvements in outcome in the experimental group compared with control group at both 8 and 12 weeks (except as indicated) for POMS total mood disturbance (and its subscales of anxiety, depression [8 weeks only], anger [12 weeks only], vigor, fatigue, and confusion [8 weeks only]), FACT-B, FACT-ES, (and Functional Assessment of Cancer Therapy subscales of physical, social [8 weeks only], emotional, and functional well-being), and WHO-5.
+T4	Premise 1401 1607	MSBR improved mood, breast- and endocrine-related quality of life, and well-being more effectively than standard care in women with stage 0 to III breast cancer, and these results persisted at three months.
+R1	Support Arg1:T4 Arg2:T2	
+R2	Support Arg1:T3 Arg2:T2	
+R3	Support Arg1:T2 Arg2:T1	

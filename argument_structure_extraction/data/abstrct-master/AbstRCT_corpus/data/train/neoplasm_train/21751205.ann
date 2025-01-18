@@ -1,0 +1,12 @@
+T1	Claim 1633 1667	No difference in QOL was observed.
+T2	Premise 1152 1321	A mean of 10.6 units of PRBCs over 5 months were administered to those who received epoetin alpha compared with 13 units for those who did not receive epoetin (P = .04).
+T3	Premise 1322 1416	There was no significant difference in QOL as assessed by the FACT-Anemia or ESAS instruments.
+T4	Premise 1417 1508	The CR rate and the 3-year CR duration were not affected adversely by use of epoetin alpha.
+T5	Claim 1509 1632	Epoetin alpha decreased the number of PRBC transfusions and did not appear to have a negative impact on remission duration.
+T6	Premise 1047 1151	The trial was stopped early because of poor accrual before the target of 123 evaluable patients was met.
+T7	MajorClaim 1 115	Anemia is an expected consequence of intensive chemotherapy regimens administered to patients with acute leukemia.
+R1	Support Arg1:T3 Arg2:T1	
+R2	Partial-Attack Arg1:T6 Arg2:T5	
+R3	Partial-Attack Arg1:T6 Arg2:T1	
+R4	Support Arg1:T2 Arg2:T5	
+R5	Support Arg1:T4 Arg2:T5	

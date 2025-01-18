@@ -1,0 +1,11 @@
+T1	Premise 864 978	Vandetanib patients had more toxicity and required more dose modifications for gastrointestinal toxicity and rash.
+T2	Premise 979 1075	Asymptomatic Corrected QT interval (QTC) prolongation was observed in eight vandetanib patients.
+T3	Premise 1076 1240	Median progression-free survival for vandetanib and placebo was 2.7 and 2.8 months, respectively (hazard ratio [HR], 1.01; 80% CI, 0.75 to 1.36; one-sided P = .51).
+T4	Premise 1241 1365	Overall survival for vandetanib was 10.6 versus 11.9 months for placebo (HR, 1.43; 80% CI, 1.00 to 2.05; one-sided P = 0.9).
+T5	Premise 1366 1645	In planned subgroup analyses, a significant interaction was noted (P = .01): limited-stage vandetanib patients had longer overall survival (HR, 0.45; one-sided P = .07) and extensive-stage vandetanib patients shorter survival compared with placebo (HR, 2.27; one-sided P = .996).
+T6	Claim 1646 1738	Vandetanib failed to demonstrate efficacy as maintenance therapy for small-cell lung cancer.
+R1	Support Arg1:T4 Arg2:T6	
+R2	Support Arg1:T3 Arg2:T6	
+R3	Support Arg1:T2 Arg2:T6	
+R4	Support Arg1:T1 Arg2:T6	
+R5	Support Arg1:T5 Arg2:T6	

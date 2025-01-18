@@ -1,0 +1,10 @@
+T1	Premise 941 1071	The mean amount of residual tumor tissue was 28.9% for standard surgery (SS) and 13.8% for surgery involving neuronavigation (SN).
+T2	Premise 1072 1181	The corresponding mean amounts of residual contrast-enhancing tumor tissue were 29.2 and 24.4%, respectively.
+T3	Premise 1182 1221	These differences were not significant.
+T4	Premise 1222 1325	Gross-total removal (GTR) was achieved in five patients who underwent SS and in three who underwent SN.
+T5	Premise 1326 1451	Median survival was significantly shorter in the SN group (5.6 months compared with 9 months, unadjusted hazard ratio = 1.6);
+T6	Premise 1452 1563	however, this difference may be attributable to the coincidental early death of three patients in the SN group.
+T7	Premise 1564 1657	No discernible important effect on the patients' 3-month postoperative course was identified.
+T8	Claim 1658 1940	There is no rationale for the routine use of neuronavigation to improve the extent of tumor resection and prognosis in patients harboring a solitary enhancing intracerebral lesion when neuronavigation is not already deemed advantageous because of the size or location of the lesion.
+R1	Partial-Attack Arg1:T6 Arg2:T5	
+R2	Attack Arg1:T3 Arg2:T2	

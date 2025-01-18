@@ -1,0 +1,10 @@
+T1	Claim 1762 1903	the intent-to-treat analysis did not demonstrate a statistically significant reduction in the conversion rate in the betaxolol-treated group.
+T2	Premise 1015 1154	Sixteen (13.2%) of 121 patients in the placebo group converted to glaucoma, compared with 12 (9.0%) of 134 patients in the betaxolol group.
+T3	Premise 1155 1302	The intent-to-treat analysis demonstrated no evidence of any difference in conversion rates between the betaxolol and placebo groups after 3 years.
+T4	Premise 1303 1414	Visual field survival analysis demonstrated no significant difference between the betaxolol and placebo groups.
+T5	Premise 1415 1493	The betaxolol-treated group had significantly lower post-treatment IOP values.
+T6	Premise 1494 1585	Converters had significantly higher pre- and post-treatment IOP values than non-converters.
+T7	Premise 1586 1654	Betaxolol significantly lowered the IOP level compared with placebo.
+T8	Premise 1655 1753	Conversion to glaucoma was found to be related to both the baseline and post-treatment IOP levels.
+R1	Support Arg1:T2 Arg2:T1	
+R2	Support Arg1:T3 Arg2:T1	

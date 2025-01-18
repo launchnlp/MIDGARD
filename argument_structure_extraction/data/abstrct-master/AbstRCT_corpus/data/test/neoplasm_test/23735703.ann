@@ -1,0 +1,11 @@
+T1	Premise 1113 1167	Although quality of life did not differ significantly,
+T2	Premise 1168 1234	chemotherapy compliance was significantly higher in the PRE group.
+T3	Premise 1018 1112	Pathological complete response was observed in 22 (8.2%) and 16 patients (6.1%), respectively.
+T4	Premise 1235 1364	The proportion of responders who received Cycles 3 and 4 was significantly higher in the PRE group (90.4% versus 75.2%, p=0.001).
+T5	Premise 1365 1545	In responders, the dose intensity of Cycles 3 and 4 was higher in the PRE group than in the PERI group (mean relative dose intensity of 90.4% versus 82.6%, respectively; p=0.0007).
+T6	Premise 1546 1679	There was no difference between GP and TC in 3-year OS (HR=0.97 [95% confidence interval (CI): 0.76-1.25], p=0.80) or response rates.
+T7	Premise 1689 1730	the regimens' toxicity profiles differed.
+T8	Claim 1731 1883	This study failed to demonstrate any difference in survival between patients receiving preoperative and perioperative chemotherapy in early-stage NSCLC.
+T9	Claim 1884 1995	The increase from two to four preoperative chemotherapy cycles did not increase the pathological response rate.
+R1	Support Arg1:T6 Arg2:T8	
+R2	Support Arg1:T3 Arg2:T9	

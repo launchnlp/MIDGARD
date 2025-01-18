@@ -1,0 +1,7 @@
+
+
+To report one-year results of the Tube Versus Trabeculectomy (TVT) Study.
+Multicenter randomized clinical trial.
+Setting: 17 Clinical Centers. Study Population: Patients 18 to 85 years of age who had previous trabeculectomy and/or cataract extraction with intraocular lens implantation and uncontrolled glaucoma with intraocular pressure (IOP) > or =18 mm Hg and < or =40 mm Hg on maximum tolerated medical therapy. Interventions: 350 mm(2) Baerveldt glaucoma implant or trabeculectomy with mitomycin C (MMC). Main Outcome Measures: IOP, visual acuity, and reoperation for glaucoma.
+A total of 212 eyes of 212 patients were enrolled, including 107 in the tube group and 105 in the trabeculectomy group. At one year, IOP (mean +/- SD) was 12.4 +/- 3.9 mm Hg in the tube group and 12.7 +/- 5.8 mm Hg in the trabeculectomy group (P = .73). The number of glaucoma medications (mean +/- SD) was 1.3 +/- 1.3 in the tube group and 0.5 +/- 0.9 in the trabeculectomy group (P < .001). The cumulative probability of failure during the first year of follow-up was 3.9% in the tube group and 13.5% in the trabeculectomy group (P = .017).
+Nonvalved tube shunt surgery was more likely to maintain IOP control and avoid persistent hypotony or reoperation for glaucoma than trabeculectomy with MMC during the first year of follow-up in the TVT Study. Both surgical procedures produced similar IOP reduction at one year, but there was less need for supplemental medical therapy following trabeculectomy with MMC.

@@ -1,0 +1,13 @@
+T1	Premise 909 1027	PFS was similar in the two arms [HR: XP vs. EP: 1.012 (95 % CI 0.785-1.304); median 10.4 months XP vs. 9.2 months EP].
+T2	Premise 1028 1164	Overall survival was also similar [HR 1.027 (95 % CI 0.740-1.424); median 22.0 vs. 26.1 months], and response rate was 47 % versus 42 %.
+T3	Premise 1165 1320	Both regimens were tolerable: there were more grade 3/4 diarrhea and grade 3 hand-foot syndromes with XP and more grade 3/4 hematologic toxicities with EP.
+T4	Premise 1321 1360	There were no major differences in QoL.
+T5	Claim 1423 1461	first-line XP was active and feasible.
+T6	Claim 1361 1422	Although, noninferiority of XP to EP was formally not proven,
+T7	Claim 1462 1604	XP is a valid first-line alternative to anthracycline/taxane regimens, especially in patients previously treated with adjuvant anthracyclines.
+R1	Partial-Attack Arg1:T6 Arg2:T5	
+R2	Support Arg1:T5 Arg2:T7	
+R3	Support Arg1:T4 Arg2:T7	
+R4	Support Arg1:T3 Arg2:T7	
+R5	Support Arg1:T2 Arg2:T5	
+R6	Support Arg1:T1 Arg2:T5	

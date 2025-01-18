@@ -1,0 +1,6 @@
+T1	Premise 996 1243	Beyond tumor and nodal stage, Karnofsky performance status, primary site, cigarette use, use of concurrent chemotherapy, and altered fractionation schedules, the FACT-H&amp;N score was independently predictive of LRC (but not OS), with p = 0.0038.
+T2	Premise 1244 1350	The functional well-being component of the FACT-H&amp;N predicted most significantly for LRC (p = 0.0004).
+T3	Claim 1351 1495	This study represents, to our knowledge, the largest analysis of HRQOL as a prognostic factor in locally advanced head and neck cancer patients.
+T4	Claim 1496 1678	The results of this study have demonstrated the importance of baseline HRQOL as a significant and independent predictor of LRC in patients with locally advanced head and neck cancer.
+R1	Support Arg1:T2 Arg2:T4	
+R2	Support Arg1:T1 Arg2:T4	

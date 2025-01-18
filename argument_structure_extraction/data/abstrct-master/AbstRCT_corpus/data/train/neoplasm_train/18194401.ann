@@ -1,0 +1,9 @@
+T1	Premise 697 911	This negative impact tended to last longer in the HDC group, as for most of the QLQ-C30 scales, the QOL scores of HDC patients tend to improve at a slower rate than that of patients receiving standard chemotherapy.
+T2	Premise 927 1089	physical functioning remains deteriorated 1 year after inclusion for HDC patients comparatively to conventional chemotherapy patients (85.99 vs. 76.65, P = 0.021)
+T3	Premise 1091 1186	and the pain score was still higher in the HDC group at that time (28.32 vs. 15.97, P = 0.004).
+T4	Claim 1187 1247	HDC has a negative impact on QOL even after treatment phase.
+T5	Premise 607 696	Toxicity of HDC has a strong negative impact on patients' QOL during the treatment phase.
+R1	Support Arg1:T1 Arg2:T5	
+R2	Support Arg1:T5 Arg2:T4	
+R3	Support Arg1:T3 Arg2:T4	
+R4	Support Arg1:T2 Arg2:T4	

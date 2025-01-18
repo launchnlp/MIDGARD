@@ -1,0 +1,5 @@
+T1	Premise 1095 1306	At 6 and 12 months, 55% and 39% of intervention patients had a 50% or greater reduction in depressive symptoms (SCL-20) from baseline compared to 34% and 20% of usual care participants (P = 0.003 and P = 0.029).
+T2	Premise 1307 1544	Intervention patients also experienced greater remission rates (P = 0.031), more depression-free days (P < 0.001), less functional impairment (P = 0.011), and greater quality of life (P = 0.039) at 12 months than usual care participants.
+T3	Claim 1545 1696	The IMPACT collaborative care program appears to be feasible and effective for depression among older cancer patients in diverse primary care settings.
+R1	Support Arg1:T1 Arg2:T3	
+R2	Support Arg1:T2 Arg2:T3	

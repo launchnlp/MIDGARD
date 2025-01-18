@@ -1,0 +1,5 @@
+T1	Premise 1640 1759	The median TDD in HRQOL was 8.3 months with EVE + EXE versus 5.8 months with PBO + EXE (hazard ratio, 0.74; P = .0084).
+T2	Premise 1760 1917	At the 10-point minimal important difference, the median TDD with EVE + EXE was 11.7 months versus 8.4 months with PBO + EXE (hazard ratio, 0.80; P = .1017).
+T3	Claim 1918 2122	In patients with advanced breast cancer who develop disease progression after treatment with nonsteroidal aromatase inhibitors, EVE + EXE was associated with a longer TDD in global HRQOL versus PBO + EXE.
+R1	Support Arg1:T1 Arg2:T3	
+R2	Support Arg1:T2 Arg2:T3	

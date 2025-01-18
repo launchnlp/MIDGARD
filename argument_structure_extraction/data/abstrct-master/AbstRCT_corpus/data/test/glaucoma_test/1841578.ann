@@ -1,0 +1,4 @@
+T1	Premise 472 655	Fifteen eyes (88%) in the mitomycin group and seven (47%) in the fluorouracil group achieved an intraocular pressure of less than or equal to 20 mm Hg without antiglaucoma medication.
+T2	Premise 697 810	Corneal complications were less common in the group given mitomycin than in that given fluorouracil (12% vs 53%).
+T3	Claim 811 883	The incidence of other complications was similar between the two groups.
+R1	Support Arg1:T2 Arg2:T3	

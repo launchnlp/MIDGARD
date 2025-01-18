@@ -1,0 +1,13 @@
+T1	Claim 1925 2016	The dorzolamide/timolol combination and latanoprost were equally effective at lowering IOP.
+T2	Premise 954 1221	At baseline, the mean daytime diurnal IOP was 26.1 mmHg in the dorzolamide/timolol combination group versus 25.6 mmHg in the latanoprost group in Study 1, and 25.3 mmHg in the dorzolamide/timolol combination group versus 24.7 mmHg in the latanoprost group in Study 2.
+T3	Premise 1222 1459	After 3 months, the mean daytime diurnal IOP was 18.9 mmHg for the dorzolamide/timolol combination versus 18.4 mmHg for latanoprost in Study 1, and 17.4 mmHg for the dorzolamide/timolol combination versus 17.5 for latanoprost in Study 2.
+T4	Premise 1460 1642	The difference between treatments in mean IOP change at 3 months was -0.04 mmHg [95% confidence interval (CI) -0.85, 0.77] in Study 1, and -0.57 mmHg (95% CI -1.31, 0.16) in Study 2.
+T5	Claim 1782 1832	Both treatments were well tolerated over 3 months,
+T6	Premise 1643 1781	The probability that the true difference lay between -1.5 and 1.5 mmHg, the predefined bounds for equivalence, was >0.950 in both studies.
+T7	Premise 1833 1924	although ocular stinging occurred more frequently with the dorzolamide/timolol combination.
+R1	Partial-Attack Arg1:T7 Arg2:T5	
+R2	Support Arg1:T4 Arg2:T1	
+R3	Support Arg1:T3 Arg2:T1	
+R4	Support Arg1:T2 Arg2:T1	
+R5	Attack Arg1:T6 Arg2:T4	
+R6	Attack Arg1:T6 Arg2:T3	

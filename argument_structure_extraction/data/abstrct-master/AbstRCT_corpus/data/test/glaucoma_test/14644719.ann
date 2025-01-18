@@ -1,0 +1,10 @@
+T1	Claim 1682 1865	In individuals with glaucoma or ocular hypertension, uncontrolled on a topical beta-blocker alone, bimatoprost lowered IOP more consistently than did combined timolol and dorzolamide.
+T2	Premise 839 942	Bimatoprost provided significantly greater IOP lowering compared with combined timolol and dorzolamide.
+T3	Premise 943 1132	At the 8 AM measurements, bimatoprost lowered mean IOP 6.8 mmHg to 7.6 mmHg from baseline, whereas combined timolol and dorzolamide lowered mean IOP 4.4 to 5.0 mmHg from baseline (P<0.001).
+T5	Premise 1133 1251	At the last follow-up, patients had better diurnal IOP control with bimatoprost than combined timolol and dorzolamide.
+T6	Premise 1252 1495	At 8 AM at the 3-month visit, the percentages of patients achieving IOPs of <or =13 mmHg, < or =14 mmHg, < or =15 mmHg, or < or =16 mmHg were more than twice as high for bimatoprost than for combined timolol and dorzolamide (all P< or =0.008).
+T7	Premise 1496 1681	Taste perversion, ocular burning, and stinging with instillation were more common with combined timolol and dorzolamide, whereas conjunctival hyperemia was more common with bimatoprost.
+R1	Support Arg1:T6 Arg2:T1	
+R2	Support Arg1:T5 Arg2:T1	
+R3	Support Arg1:T3 Arg2:T1	
+R4	Support Arg1:T2 Arg2:T1	

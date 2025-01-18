@@ -1,0 +1,9 @@
+T1	Premise 1276 1478	Time to progression was longer for docetaxel patients than for best supportive care patients (10.6 v 6.7 weeks, respectively; P <.001), as was median survival (7.0 v 4.6 months; log-rank test, P =.047).
+T2	Premise 1479 1701	The difference was more significant for docetaxel 75 mg/m(2) patients, compared with corresponding best supportive care patients (7.5 v 4.6 months; log-rank test, P =.010; 1-year survival, 37% v 11%; chi(2) test, P =.003).
+T3	Premise 1702 1855	Febrile neutropenia occurred in 11 patients treated with docetaxel 100 mg/m(2), three of whom died, and in one patient treated with docetaxel 75 mg/m(2).
+T4	Premise 1856 2007	Grade 3 or 4 nonhematologic toxicity, with the exception of diarrhea, occurred at a similar rate in both the docetaxel and best supportive care groups.
+T5	Claim 2008 2089	Treatment with docetaxel is associated with significant prolongation of survival,
+T6	Claim 2094 2172	at a dose of 75 mg/m(2), the benefits of docetaxel therapy outweigh the risks.
+R1	Support Arg1:T1 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T6	

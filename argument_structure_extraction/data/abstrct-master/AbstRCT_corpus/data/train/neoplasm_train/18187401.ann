@@ -1,0 +1,9 @@
+T1	Premise 1188 1348	The SF-36 MCS and PCS, Health Utilities Index Mark 3, EuroQol 5D, and UDI scores were improved significantly in both groups at 6 months and afterward (P < .05).
+T2	Claim 1920 1961	Both UAE and hysterectomy improved HRQOL.
+T3	Claim 1962 2044	No differences were observed between groups regarding HRQOL at 24-month follow-up.
+T4	Claim 2045 2146	On the basis of HRQOL results, the authors determined that UAE is a good alternative to hysterectomy.
+T5	Premise 1789 1919	At 24-month follow-up, patients in the hysterectomy group were significantly more satisfied than those in the UAE group (P = .02).
+R1	Support Arg1:T1 Arg2:T2	
+R2	Attack Arg1:T5 Arg2:T3	
+R3	Support Arg1:T2 Arg2:T4	
+R4	Support Arg1:T3 Arg2:T4	

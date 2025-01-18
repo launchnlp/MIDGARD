@@ -1,0 +1,8 @@
+T1	Claim 1 111	Axillary clearance in early breast cancer aims to improve locoregional control and provide staging information
+T3	Premise 936 1147	In both the patients' subjective assessment of their QL and the physicians' perception of the patients' QL, the largest adverse QL effects of Ax were observed from baseline to the first postoperative assessment,
+T4	Premise 1148 1206	but the differences tended to disappear in 6 to 12 months.
+T5	Premise 1207 1463	At a median follow-up of 6.6 years, results for Sx + Ax and Sx yielded similar DFS (6-year DFS, 67% v 66%; hazard ratio [HR] Sx + Ax/Sx, 1.06; 95% CI, 0.79 to 1.42; P = .69) and OS (6-year OS, 75% v 73%; HR Sx + Ax/Sx, 1.05; 95% CI, 0.76 to 1.46; P = .77).
+T6	Claim 1464 1658	Avoiding axillary clearance for women > or = 60 years old who have clinically node-negative disease and receive Tam for endocrine-responsive disease yields similar efficacy with better early QL.
+R1	Support Arg1:T5 Arg2:T6	
+R2	Partial-Attack Arg1:T4 Arg2:T3	
+R3	Support Arg1:T3 Arg2:T6	

@@ -1,0 +1,13 @@
+T1	MajorClaim 1 83	The impact of prolonged subclinical hyperthyroidism on quality of life is unclear.
+T5	Premise 1322 1433	After 6 months, none of the quality of life parameters in the low-TSH group was different from baseline values.
+T6	Premise 1434 1543	In the euthyroid group, motivation was significantly improved (Multidimensional Fatigue Index-20, P = 0.003),
+T7	Premise 1544 1620	although this parameter did not differ from the reference group at baseline.
+T8	Premise 1621 1735	A probable worsening in role limitations as a result of physical problems (Short Form-36; P = 0.050) was observed.
+T9	Premise 1736 1781	No improvement in the SDQ score was observed.
+T10	Claim 1782 1897	In summary, quality of life in patients with DTC and long-term subclinical hyperthyroidism in general is preserved.
+T11	Claim 1898 1969	Restoration of euthyroidism in general does not affect quality of life.
+R1	Partial-Attack Arg1:T7 Arg2:T6	
+R2	Support Arg1:T5 Arg2:T11	
+R3	Support Arg1:T6 Arg2:T10	
+R4	Support Arg1:T9 Arg2:T11	
+R5	Partial-Attack Arg1:T8 Arg2:T10	

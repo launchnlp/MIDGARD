@@ -1,0 +1,5 @@
+T1	Claim 1637 1814	Low-pressure glaucoma patients treated with brimonidine 0.2% who do not develop ocular allergy are less likely to have field progression than patients treated with timolol 0.5%.
+T2	Premise 1099 1283	Statistically fewer brimonidine-treated patients (9, 9.1%) had visual field progression by pointwise linear regression than timolol-treated patients (31, 39.2%, log-rank 12.4, P=.001).
+T3	Premise 1284 1378	Mean treated IOP was similar for brimonidine- and timolol-treated patients at all time points.
+T4	Premise 1379 1538	More brimonidine-treated (28, 28.3%) than timolol-treated (9, 11.4%) patients discontinued study participation because of drug-related adverse events (P=.008).
+T5	Claim 1539 1636	Similar differences in progression were observed when analyzed by GCPM and the 3-omitting method.

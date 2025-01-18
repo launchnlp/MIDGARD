@@ -1,0 +1,14 @@
+T2	Claim 127 208	More recently coloplasty has been advocated as an alternative to a colonic pouch.
+T4	Premise 1235 1288	Twenty-three (7.4%) died within 24 months of surgery.
+T5	Premise 1289 1368	No significant difference was observed in the complications among the 4 groups.
+T6	Premise 1453 1526	There was no difference in bowel function between the CP-1 and SA groups.
+T7	Premise 1527 1640	JP patients had fewer bowel movements, less clustering, used fewer pads and had a lower FISI than the CP-2 group.
+T8	Premise 1641 1691	Other parameters were not statistically different.
+T9	Premise 1692 1754	QOL scores at 24 months were similar for each of the 4 groups.
+T10	Claim 1755 1907	In patients undergoing a restorative resection for low rectal cancer, a colonic JP offers significant advantages in function over an SA or a coloplasty.
+T11	Claim 1908 2029	In patients who cannot have a pouch, coloplasty seems not to improve the bowel function of patients over that with an SA.
+R1	Support Arg1:T7 Arg2:T10	
+R2	Support Arg1:T6 Arg2:T11	
+R3	Support Arg1:T5 Arg2:T10	
+R4	Support Arg1:T8 Arg2:T10	
+R5	Support Arg1:T9 Arg2:T10	

@@ -1,0 +1,11 @@
+T1	Premise 734 837	There was no significant difference found in the primary outcome measure, the hot flash severity score,
+T2	Premise 838 950	although there was a positive trend in the single remedy group during the first 3 months of the study (p = 0.1).
+T3	Premise 951 1088	A statistically significant improvement in general health score in both homeopathy groups (p < 0.05) on the SF-36 after 1 year was found.
+T4	Premise 1089 1238	Evidence of a homeopathic "drug proving" in the subjects receiving the homeopathic combination medicine who were not taking tamoxifen also was found.
+T5	Claim 1239 1286	Small sample size precludes definitive answers,
+T6	Claim 1287 1481	but results from this preliminary trial suggest that homeopathy may be of value in the treatment of menopausal symptoms and improving quality of life, especially in those women not on tamoxifen.
+T7	Claim 1482 1597	Larger studies should be carried out that also include healthy women who want to avoid hormone replacement therapy.
+R1	Partial-Attack Arg1:T5 Arg2:T6	
+R2	Partial-Attack Arg1:T7 Arg2:T6	
+R3	Partial-Attack Arg1:T2 Arg2:T1	
+R4	Support Arg1:T3 Arg2:T6	

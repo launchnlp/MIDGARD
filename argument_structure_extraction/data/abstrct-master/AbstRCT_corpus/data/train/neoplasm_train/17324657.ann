@@ -1,0 +1,13 @@
+T1	Premise 1105 1250	The nutrition intervention group had a higher mean total energy (P=0.029) and protein intake (P<0.001) compared with the standard practice group.
+T2	Premise 1251 1438	Mean intake per kilogram of body weight for the nutrition intervention group ranged from 28 to 31 kcal/kg/day compared with 25 to 29 kcal/kg/day for the standard practice group (P=0.022).
+T3	Premise 1439 1601	The nutrition intervention group had a higher mean protein intake (1.1 to 1.3 g/kg/day) compared with the standard practice group (1.0 to 1.1 g/kg/day) (P=0.001).
+T4	Premise 1602 1677	Although the change in fiber intake between the groups was not significant,
+T5	Premise 1678 1735	there was a trend in the anticipated direction (P=0.083).
+T6	Claim 1736 1994	Intensive nutrition intervention following the ADA MNT protocol results in improved dietary intake compared with standard practice and seems to beneficially impact nutrition-related outcomes previously observed in oncology outpatients receiving radiotherapy.
+T7	MajorClaim 1995 2100	The ADA MNT protocol for radiation oncology is a useful guide to the level of nutrition support required.
+R1	Support Arg1:T1 Arg2:T6	
+R2	Support Arg1:T2 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T6	
+R4	Support Arg1:T6 Arg2:T7	
+R5	Partial-Attack Arg1:T4 Arg2:T5	
+R6	Partial-Attack Arg1:T5 Arg2:T3	

@@ -1,0 +1,14 @@
+T1	Premise 901 982	Male sexual dysfunction was significantly increased following surgery (P < .001),
+T2	Premise 983 1039	although there was no difference between treatment arms.
+T3	Premise 1319 1408	Both treatment groups reported similar levels of decreased physical function at 3 months,
+T4	Premise 1409 1455	but thereafter it returned to baseline levels.
+T5	Premise 1456 1578	There was no evidence of any major changes between treatments or time points in terms of general health or bowel function,
+T6	Premise 1579 1703	but exploratory analysis indicated a significant (P = .006 at 2 years) increase in the level of fecal incontinence with PRE.
+T7	Claim 1704 1906	These results from a large randomized trial using validated patient-completed questionnaires show that, for males, the main adverse effect was sexual dysfunction, and the main cause of this was surgery,
+T8	Claim 1916 1979	PRE also affected sexual and some aspects of bowel functioning.
+R1	Support Arg1:T1 Arg2:T7	
+R2	Partial-Attack Arg1:T2 Arg2:T1	
+R3	Attack Arg1:T4 Arg2:T3	
+R4	Support Arg1:T3 Arg2:T7	
+R5	Attack Arg1:T5 Arg2:T8	
+R6	Attack Arg1:T6 Arg2:T5	

@@ -1,0 +1,3 @@
+T1	Claim 1454 1603	In cachectic patients with advanced cancer, oral melatonin 20 mg at night did not improve appetite, weight, or quality of life compared with placebo.
+T2	Premise 1271 1453	There were no significant differences between groups for appetite (P = .78) or other symptoms, weight (P = .17), FAACT score (P = .95), toxicity, or survival from baseline to day 28.
+R1	Support Arg1:T2 Arg2:T1	

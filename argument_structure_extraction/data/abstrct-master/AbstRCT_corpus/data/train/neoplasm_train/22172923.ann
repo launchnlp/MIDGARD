@@ -1,0 +1,11 @@
+T1	Premise 1116 1262	Comparing the changes in low-frequency low-intensity electrotherapy with manual lymphatic drainage changes, there were no significant differences.
+T2	Premise 1263 1378	Low-frequency low-intensity electrotherapy did not reduce lymphoedema volume (mean of change = 19.77 mL, P = 0.36),
+T3	Premise 1383 1609	significant reductions were observed in pain, heaviness and tightness (mean of change = 13.1, 16.2 and 6.4 mm, respectively), and FACT-B+4 summaries improved significantly (Trial Outcome Index mean of change = 5.4, P = 0.015).
+T4	Premise 1610 1689	Manual lymphatic drainage showed no significant changes in any of the outcomes.
+T5	Claim 1763 1890	the observed trend towards a better health-related quality of life is remarkable in low-frequency low-intensity electrotherapy.
+T6	Claim 1690 1762	Although there are no significant differences between treatment changes,
+R1	Partial-Attack Arg1:T6 Arg2:T5	
+R2	Support Arg1:T4 Arg2:T6	
+R3	Support Arg1:T1 Arg2:T6	
+R4	Attack Arg1:T2 Arg2:T5	
+R5	Support Arg1:T3 Arg2:T5	

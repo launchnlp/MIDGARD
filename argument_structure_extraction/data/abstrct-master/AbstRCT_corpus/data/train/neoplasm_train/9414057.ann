@@ -1,0 +1,11 @@
+T1	Claim 1324 1373	The Pain Education Program proved to be feasible:
+T2	Premise 1374 1531	75.0% of the patients had read the entire pain brochure, 55.7% had listened to the audio cassette, and 85.6% of pain scores were completed in the pain diary.
+T3	Claim 1532 1685	Results showed a significant increase in pain knowledge in patients who received the Pain Education Program and a significant decrease in pain intensity.
+T4	Premise 1686 1784	However, pain relief was mainly found in the intervention group patients without district nursing.
+T5	Claim 1785 1895	It can be concluded that the tailored Pain Education Program is effective for cancer patients in chronic pain.
+T6	MajorClaim 1896 1993	The use of the Pain Education Program by nurses should be seriously considered on oncology units.
+R1	Support Arg1:T2 Arg2:T1	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Partial-Attack Arg1:T4 Arg2:T3	
+R4	Support Arg1:T5 Arg2:T6	
+R5	Support Arg1:T1 Arg2:T6	

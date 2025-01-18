@@ -1,0 +1,8 @@
+T1	Premise 1042 1136	there were no statistically significant differences in HRQOL between the two treatment groups.
+T2	Premise 1137 1227	In both groups, selected aspects of HRQOL were impaired over time, with increased fatigue,
+T3	Premise 1228 1355	although some clinically significant improvements in emotional functioning were seen, as well as a reduction in pain over time.
+T4	Claim 1356 1428	Overall, global quality of life was maintained in both treatment groups.
+T5	Claim 1429 1625	This information is important when advising women patients of the expected HRQOL consequences of treatment regimens and should help clinicians and their patients make informed treatment decisions.
+R1	Partial-Attack Arg1:T3 Arg2:T2	
+R2	Attack Arg1:T2 Arg2:T4	
+R3	Support Arg1:T1 Arg2:T4	

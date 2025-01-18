@@ -1,0 +1,11 @@
+T1	MajorClaim 1 149	The impact of treatment on health-related quality of life (HRQoL) is an important consideration in the adjuvant treatment of operable breast cancer.
+T2	Premise 681 887	As with previously published results at 2 years, there was no statistically significant difference in the Trial Outcome Index of the FACT-B, the primary endpoint of the study, between treatments at 5 years.
+T3	Premise 888 984	There were no statistically significant differences between treatment groups in ES total scores.
+T4	Claim 1022 1103	there were differences between treatment groups in patient-reported side effects:
+T5	Premise 1104 1328	diarrhea (anastrozole 3.1% vs. tamoxifen 1.3%), vaginal dryness (18.5% vs. 9.1%), diminished libido (34.0% vs. 26.1%), and dyspareunia (17.3% vs. 8.1%) were significantly more frequent with anastrozole compared to tamoxifen.
+T6	Premise 1329 1465	Dizziness (3.1% vs. 5.4%) and vaginal discharge (1.2% vs. 5.2%) were significantly less frequent with anastrozole compared to tamoxifen.
+T7	Claim 1466 1730	In this, the first report of HRQoL over 5 years of initial adjuvant therapy with an aromatase inhibitor, we conclude that anastrozole and tamoxifen had similar impacts on HRQoL, which was maintained or slightly improved during the treatment period for both groups.
+R1	Support Arg1:T6 Arg2:T4	
+R2	Support Arg1:T5 Arg2:T4	
+R3	Support Arg1:T2 Arg2:T7	
+R4	Support Arg1:T3 Arg2:T7	

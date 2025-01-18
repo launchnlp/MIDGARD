@@ -1,0 +1,6 @@
+T1	Premise 1239 1333	Risk of all three outcomes was higher for participants with chronic kidney disease or frailty.
+T2	Premise 1334 1492	Older age was also associated with greater risk of syncope, hypotension, and falls, but there was no age-by-treatment interaction for any of the SAE outcomes.
+T3	Claim 1493 1610	Participants randomized to intensive SBP control had greater risk of hypotension and possibly syncope, but not falls.
+T4	Premise 936 1238	Randomization to intensive SBP control was associated with greater risk of an SAE involving hypotension (hazard ratio (HR) = 1.67, 95% confidence interval (CI) = 1.21-2.32, P = .002), and possibly syncope (HR = 1.32, 95% CI = 0.98-1.79, P = .07), but not falls (HR = 0.98, 95% CI = 0.75-1.29, P = .90).
+R1	Support Arg1:T2 Arg2:T3	
+R2	Support Arg1:T4 Arg2:T3	

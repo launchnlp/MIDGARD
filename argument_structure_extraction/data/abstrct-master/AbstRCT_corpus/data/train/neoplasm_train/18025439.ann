@@ -1,0 +1,9 @@
+T1	Premise 1005 1126	After a median follow-up of 48 months, 79 deaths were observed in the HDCT arm and 77 deaths were observed in the ST arm;
+T2	Premise 1127 1192	seven patients (6%) in the HDCT arm died as a result of toxicity.
+T3	Premise 1193 1364	The median OS was 24 months for the HDCT arm (95% CI, 21 to 35 months) and 28 months for ST (95% CI, 22 to 33 months; hazard ratio [HR], 0.9; 95% CI, 0.6 to 1.2; P = .43).
+T4	Premise 1365 1469	PFS was 11 months for HDCT and 9 months for ST (HR, 0.6 in favor of HDCT; 95% CI, 0.5 to 0.9; P = .006).
+T5	Claim 1470 1580	HDCT did not improve OS in women with MBC when used as consolidation after response to induction chemotherapy.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T1 Arg2:T5	
+R4	Support Arg1:T2 Arg2:T5	

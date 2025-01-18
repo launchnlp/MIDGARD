@@ -1,0 +1,17 @@
+T1	Premise 1041 1238	Adjunctive use of brimonidine purite provided greater IOP lowering than brinzolamide at 10 a.m. (p < 0.001) and 4 p.m. (p = 0.050) and equivalent IOP lowering to brinzolamide at 8 a.m. (p = 0.716).
+T2	Premise 733 911	Baseline mean diurnal IOP (+/- standard deviation, mmHg) on latanoprost was comparable between groups (brimonidine purite: 19.6 +/- 2.94; brinzolamide: 19.8 +/- 3.25; p = 0.846).
+T3	Premise 1239 1361	Blurred vision at Month 1 and bitter taste at Months 1 and 3 were more common upon instillation of brinzolamide eye drops.
+T4	Claim 1362 1496	Brimonidine purite 0.1% provided significantly lower IOP compared with brinzolamide 1% when used as adjunctive therapy to latanoprost.
+T5	Claim 1497 1543	Both adjunctive therapies were well tolerated.
+T6	Premise 1544 1623	Limitations of this study include the use of a single site and the sample size.
+T7	Claim 1624 1733	Additional studies are needed to further evaluate these drugs as adjunctive therapy to prostaglandin analogs.
+R1	Support Arg1:T6 Arg2:T7	
+R2	Partial-Attack Arg1:T6 Arg2:T5	
+R3	Partial-Attack Arg1:T6 Arg2:T4	
+R4	Partial-Attack Arg1:T7 Arg2:T5	
+R5	Partial-Attack Arg1:T7 Arg2:T4	
+R6	Support Arg1:T3 Arg2:T5	
+R7	Support Arg1:T1 Arg2:T4	
+T8	Premise 912 1040	Mean diurnal IOP at Month 3 was 16.3 +/- 2.63 mmHg with brimonidine purite and 17.8 +/- 2.19 mmHg with brinzolamide (p = 0.028).
+R8	Support Arg1:T8 Arg2:T4	
+R9	Support Arg1:T2 Arg2:T4	

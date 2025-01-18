@@ -1,0 +1,12 @@
+T4	Premise 620 698	The corresponding figures for dorzolamide were 27.2 (3.4) and 5.6 (2.6) mm Hg.
+T3	Premise 513 619	After 3 months, latanoprost reduced mean baseline diurnal IOP from 27.2 (SD 3.0) mm Hg by 8.5 (3.3) mm Hg.
+T5	Premise 699 786	The difference of 2.9 mm Hg (95% CI: 2.3-3.6) was highly significant (p<0.001, ANCOVA).
+T7	Premise 952 1118	The corresponding figures at trough were 8.1 mm Hg (31%) for latanoprost and 4.7 mm Hg (17%) for dorzolamide, a significant difference of 3.4 mm Hg (p<0.001, ANCOVA).
+T2	Claim 1119 1175	Both drugs were well tolerated systemically and locally.
+T1	Claim 1176 1324	Latanoprost was superior to dorzolamide in reducing the IOP, judged both from the effect on IOP at peak and trough and by the effect on diurnal IOP.
+T6	Premise 787 951	Latanoprost reduced IOP at peak by 8.6 mm Hg (32%) compared with 6.2 mm Hg (23%) for dorzolamide, and the difference of 2.4 mm Hg was significant (p<0.001, ANCOVA).
+R1	Support Arg1:T3 Arg2:T1	
+R2	Support Arg1:T4 Arg2:T1	
+R3	Support Arg1:T5 Arg2:T1	
+R4	Support Arg1:T6 Arg2:T1	
+R5	Support Arg1:T7 Arg2:T2	

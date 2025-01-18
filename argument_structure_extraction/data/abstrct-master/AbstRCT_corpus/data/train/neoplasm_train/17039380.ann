@@ -1,0 +1,8 @@
+T1	Premise 1183 1295	A significant improvement in symptoms after treatment was found on day 5 (p < 0.001) and on day 10 (p = 0.0002).
+T2	Claim 1296 1404	"Laying on of hands" resulted in a significant improvement of cancer- or cancer-therapy-associated symptoms.
+T3	Claim 1405 1523	The magnitude of improvement obtained was similar whether on a self-declared-healer- or an actor-provided "treatment".
+T4	Premise 755 925	There was no significant difference in average score values between the "healer" and the actor with regard to the primary (p = 0.34) or the secondary endpoint (p = 0.94),
+R1	Support Arg1:T4 Arg2:T3	
+T5	Premise 926 1070	but the comparison was limited due to major protocol violations by the "healer" who unblinded his status after the first run and quit the study.
+R2	Partial-Attack Arg1:T5 Arg2:T4	
+R3	Support Arg1:T1 Arg2:T2	

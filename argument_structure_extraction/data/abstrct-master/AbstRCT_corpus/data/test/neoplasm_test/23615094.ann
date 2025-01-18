@@ -1,0 +1,10 @@
+T1	Premise 1015 1159	Serviceable hearing was lost in 54 of 71 (76%) (CM) and 34 of 53 (64%) (GKRS) patients during the study period (not significant, log-rank test).
+T2	Premise 1160 1238	There was a significant reduction in tumor volume over time in the GKRS group.
+T3	Premise 1239 1355	The need for treatment following initial GKRS or CM differed at highly significant levels (log-rank test, P < .001).
+T4	Premise 1356 1432	Symptom and QoL development did not differ significantly between the groups.
+T5	Claim 1433 1546	In VS patients, GKRS reduces the tumor growth rate and thereby the incidence rate of new treatment about tenfold.
+T6	Claim 1547 1595	Hearing is lost at similar rates in both groups.
+T7	Claim 1596 1659	Symptoms and QoL seem not to be significantly affected by GKRS.
+R1	Support Arg1:T4 Arg2:T7	
+R2	Support Arg1:T2 Arg2:T5	
+R3	Support Arg1:T1 Arg2:T6	

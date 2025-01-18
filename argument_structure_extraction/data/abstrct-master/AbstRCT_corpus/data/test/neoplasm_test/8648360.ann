@@ -1,0 +1,15 @@
+T1	Premise 696 814	A beneficial effect of MPA on appetite was observed after both 6 weeks (P = .008) and 12 weeks (P = .01) of treatment.
+T2	Premise 815 963	After 12 weeks, a mean weight gain of 0.6 +/- 4.4 kg was seen in the MPA, versus an ongoing mean weight loss of 1.4 +/- 4.6 kg in the placebo group.
+T3	Premise 964 1030	This difference of 2.0 kg was statistically significant (P = .04).
+T4	Premise 1031 1113	During the study, several areas of QL deteriorated in the total group of patients.
+T5	Claim 1114 1285	With the exception of an improvement in appetite and possible also a reduction in nausea and vomiting, no measurable beneficial effects of MPA on QL could be demonstrated.
+T6	Premise 1286 1413	The side effects profile of MPA was favorable: only a trend toward an increase in (usually mild) peripheral edema was observed.
+T7	Claim 1414 1601	In weight-losing, advanced-stage non-hormone-sensitive cancer patients, MPA exhibits a mild side effects profile, has a beneficial effect on appetite, and may prevent further weight loss.
+T8	Claim 1602 1690	However, general QL in the present study was not measurably influenced by MPA treatment.
+R1	Partial-Attack Arg1:T8 Arg2:T7	
+R2	Support Arg1:T6 Arg2:T7	
+R3	Support Arg1:T5 Arg2:T8	
+R4	Support Arg1:T3 Arg2:T2	
+R5	Support Arg1:T2 Arg2:T7	
+R6	Support Arg1:T1 Arg2:T7	
+R7	Support Arg1:T4 Arg2:T5	

@@ -1,0 +1,14 @@
+T1	Claim 1 100	Radiotherapy is an effective palliative treatment for cancer patients with painful bone metastases.
+T4	Premise 1013 1228	Comparing the single- and multiple-fraction radiotherapy schedules, no differences were found in life expectancy (43.0 versus 40.4 weeks, P =.20) or quality-adjusted life expectancy (17.7 versus 16.0 weeks, P =.21).
+T5	Premise 1229 1533	The estimated cost of radiotherapy, including retreatments and nonmedical costs, was statistically significantly lower for the single-fraction schedule than for the multiple-fraction schedule ($2438 versus $3311, difference = $873, 95% confidence interval [CI] on the difference = $449 to $1297; P<.001).
+T6	Premise 1534 1641	The estimated difference in total societal costs was larger, also in favor of the single-fraction schedule,
+T7	Premise 1642 1774	but it was not statistically significant ($4700 versus $6453, difference = $1753, 95% CI on the difference = -$99 to $3604; P =.06).
+T8	Premise 1775 1986	For willingness-to-pay between $5000 and $40 000 per quality-adjusted life year, the single-fraction schedule was statistically significantly more cost-effective than the multiple-fraction schedule (P< or =.05).
+T9	Claim 1987 2178	Compared with multiple-fraction radiotherapy, single-fraction radiotherapy provides equal palliation and quality of life and has lower medical and societal costs, at least in The Netherlands.
+T10	Claim 2179 2327	Therefore, single-fraction radiotherapy should be considered as the palliative treatment of choice for cancer patients with painful bone metastases.
+R1	Support Arg1:T9 Arg2:T10	
+R2	Attack Arg1:T7 Arg2:T6	
+R3	Support Arg1:T6 Arg2:T9	
+R4	Support Arg1:T4 Arg2:T9	
+R5	Support Arg1:T5 Arg2:T9	
+R6	Support Arg1:T8 Arg2:T9	

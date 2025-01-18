@@ -1,0 +1,9 @@
+T1	Premise 911 1038	In CHEST-1, riociguat significantly improved RRS (p < 0.0001) and risk stratum (p < 0.001) vs placebo from baseline to Week 16.
+T2	Premise 1039 1351	RRS at baseline, and at Week 16, and change in RRS during CHEST-1 were significantly associated with survival (hazard ratios for a 1-point reduction in RRS: 0.702, 0.692, and 0.682, respectively) and clinical worsening-free survival (hazard ratios: 0.697, 0.719, and 0.754, respectively) over 2 years in CHEST-2.
+T3	Premise 1352 1434	Riociguat improved RRS in patients with inoperable and persistent/recurrent CTEPH.
+T4	Premise 1435 1553	RRS at baseline and Week 16, and change in RRS from baseline, predicted survival and clinical worsening-free survival.
+T5	Claim 1554 1688	This analysis of RRS in patients with inoperable or persistent/recurrent CTEPH suggests utility for the RRS in indications beyond PAH.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T1 Arg2:T5	
+R4	Support Arg1:T2 Arg2:T5	

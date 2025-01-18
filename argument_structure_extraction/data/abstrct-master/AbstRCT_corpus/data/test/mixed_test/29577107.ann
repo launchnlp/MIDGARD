@@ -1,0 +1,8 @@
+T1	Claim 0 67	Observational data support a role for vitamin D in type 2 diabetes,
+T2	Claim 68 109	but evidence from trials is inconclusive.
+T3	Premise 981 1099	At week 24, mean 25(OH)D changed by 20.5 and -1.6 ng/mL in the vitamin D and placebo groups, respectively (P < 0.001).
+T4	Premise 1100 1174	The vitamin D and placebo groups did not differ in change in ISR or HbA1c.
+T5	Premise 1175 1342	Among patients treated with lifestyle only (n = 28), vitamin D supplementation reduced HbA1c compared with placebo (-0.1% vs 0.3%, respectively; P = 0.034) at week 24.
+T6	Premise 1425 1577	Vitamin D3 at 4000 IU/d did not change ISR or HbA1c in patients with well-controlled type 2 diabetes on metformin not selected for vitamin D deficiency.
+R1	Partial-Attack Arg1:T2 Arg2:T1	
+R2	Support Arg1:T5 Arg2:T1	

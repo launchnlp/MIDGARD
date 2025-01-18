@@ -1,0 +1,7 @@
+T1	Premise 696 982	GEM-CAP significantly improved objective response rate (19.1% v 12.4%; P = .034) and progression-free survival (hazard ratio [HR], 0.78; 95% CI, 0.66 to 0.93; P = .004) and was associated with a trend toward improved OS (HR, 0.86; 95% CI, 0.72 to 1.02; P = .08) compared with GEM alone.
+T2	Premise 983 1223	This trend for OS benefit for GEM-CAP was consistent across different prognostic subgroups according to baseline stratification factors (stage and performance status) and remained after adjusting for these stratification factors (P = .077).
+T3	Premise 1234 1434	the meta-analysis of two additional studies involving 935 patients showed a significant survival benefit in favor of GEM-CAP (HR, 0.86; 95% CI, 0.75 to 0.98; P = .02) with no intertrial heterogeneity.
+T4	MajorClaim 1435 1608	On the basis of our trial and the meta-analysis, GEM-CAP should be considered as one of the standard first-line options in locally advanced and metastatic pancreatic cancer.
+R1	Support Arg1:T3 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	
+R3	Support Arg1:T1 Arg2:T4	

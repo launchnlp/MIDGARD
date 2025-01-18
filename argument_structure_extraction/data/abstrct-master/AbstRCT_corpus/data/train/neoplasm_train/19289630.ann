@@ -1,0 +1,12 @@
+T1	Premise 646 852	Neither gefitinib 250 nor 500 mg/day improved overall survival compared with methotrexate (hazard ratio [HR], 1.22; 95% CI, 0.95 to 1.57; P = .12; and HR, 1.12; 95% CI, 0.87 to 1.43; P = .39, respectively).
+T2	Premise 853 1156	In the gefitinib 250 mg/day, 500 mg/day, and methotrexate groups, respectively, median overall survival was 5.6, 6.0, and 6.7 months; ORRs (Response Evaluation Criteria in Solid Tumors) were 2.7%, 7.6% and 3.9%, with no statistically significant difference between either gefitinib arm and methotrexate.
+T3	Premise 1157 1200	No unexpected adverse events were observed,
+T4	Premise 1335 1524	QOL improvement rates (Functional Assessment of Cancer Therapy-Head &amp; Neck total score) were 13.4%, 18.0%, and 6.0% for gefitinib 250 mg/day, 500 mg/day, and methotrexate, respectively.
+T5	Claim 1525 1705	In patients with recurrent or metastatic SCCHN, while responses with gefitinib were seen, neither gefitinib 250 nor 500 mg/day improved overall survival compared with methotrexate.
+T6	Claim 1706 1857	With the exception of tumor hemorrhage-type events with gefitinib, the adverse event profiles were generally consistent with those previously observed.
+T7	Premise 1201 1334	except for tumor hemorrhage-type events with gefitinib (8.9%, gefitinib 250 mg/day; 11.4%, gefitinib 500 mg/day; 1.9%, methotrexate).
+R1	Support Arg1:T1 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T5	
+R3	Support Arg1:T3 Arg2:T6	
+R4	Partial-Attack Arg1:T7 Arg2:T3	
+R5	Support Arg1:T4 Arg2:T6	

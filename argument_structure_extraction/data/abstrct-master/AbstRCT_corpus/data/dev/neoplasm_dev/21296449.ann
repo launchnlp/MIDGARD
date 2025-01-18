@@ -1,0 +1,16 @@
+T1	Premise 1687 1727	There was no difference in OS (p=0.992).
+T2	Premise 1565 1686	There was a significant decrease in pain scores from baseline to post cycles 2 and 3 (p=0.025 and p=0.002, respectively).
+T3	Premise 1365 1496	No difference was observed in hospitalization rate, blood transfusions, antibiotics administration and non-haematological toxicity.
+T4	Premise 1041 1245	There was no statistical difference in the number of cycles administered (arms A, B and D: median 2 cycles and arm C: median 3 cycles) and no difference in RR: arm A=6%, arm B=6%, arm C=10%, and arm D=0%.
+T5	Premise 1246 1364	There was no statistically significant difference in grade 3/4 neutropenia and thrombocytopenia between the four arms.
+T6	Premise 1728 1857	Median survival and 6-month survival were 61, 86, 88 and 97 days and 29%, 33%, 21% and 26% for arms A, B, C, and D, respectively.
+T7	Claim 1858 1921	Clinical efficacy of docetaxel was observed at all dose levels.
+T8	Claim 1922 2035	Higher dose levels were not associated with increased toxicities, use of IV antibiotics or hospitalization rates.
+T9	Premise 2045 2204	the median survival observed is shorter than historical data and do not support further evaluation of these doses of single agent docetaxel in this population.
+R1	Support Arg1:T6 Arg2:T7	
+R2	Support Arg1:T1 Arg2:T7	
+R3	Support Arg1:T2 Arg2:T7	
+R4	Support Arg1:T3 Arg2:T7	
+R5	Support Arg1:T5 Arg2:T8	
+R6	Support Arg1:T4 Arg2:T7	
+R7	Attack Arg1:T9 Arg2:T7	

@@ -1,0 +1,6 @@
+T1	Premise 893 1103	Patients in the IG had significantly improved scores on the FACIT-Fatigue Scale at study completion, improved fatigue and pain scores, as well as overall physical functioning and mental health composite scores.
+T2	Premise 1104 1288	At study completion, participants in the IG were walking twice as far and were significantly more likely to have continued walking or another form of exercise as compared with the UCG.
+T3	Premise 1396 1483	Kaplan-Meier survival analysis did not indicate an overall survival benefit for the IG.
+T4	Claim 1484 1741	This is the first prospective, randomized controlled trial to report that participation in a home walking program confers a significant benefit in resected PPC patients with regard to fatigue levels, physical functioning, and health-related quality of life.
+R1	Support Arg1:T2 Arg2:T4	
+R2	Support Arg1:T1 Arg2:T4	

@@ -1,0 +1,8 @@
+T1	Premise 76 269	For those patients who have recurrence of disease at least 6 months after initial therapy, the paclitaxel-platinum combination has been shown to be a superior treatment to platinum monotherapy.
+T2	Claim 270 386	However, many patients develop clinically relevant neurotoxicity, frequently resulting in treatment discontinuation.
+T3	Premise 1373 1621	With a median follow-up of 17 months, median PFS was 8.6 months for gemcitabine-carboplatin (95% confidence interval [CI] 7.9-9.7 months) and 5.8 months for carboplatin (95% CI 5.2-7.1 months; hazard ratio [HR] 0.72 [95% CI 0.58-0.90; P = 0.0032]).
+T4	Premise 1622 1772	The response rate for the gemcitabine-carboplatin group was 47.2% (95% CI 39.9-54.5%) and 30.9% for carboplatin group (95% CI 24.1-37.7%; P = 0.0016).
+T5	Premise 1773 1841	The HR for overall survival was 0.96 (95% CI 0.75-1.23; P = 0.7349).
+T6	Premise 1842 2003	Patients treated with gemcitabine-carboplatin reported significantly faster palliation of abdominal symptoms and a significantly improved global quality of life.
+T7	Claim 2004 2130	Gemcitabine-carboplatin treatment significantly improves the PFS of patients with platinum-sensitive recurrent ovarian cancer.
+R1	Support Arg1:T3 Arg2:T7	

@@ -1,0 +1,5 @@
+T1	Premise 634 806	After a mean follow-up of 6 months (range, 6-8 months), success was obtained in 5 of 10 cases in the trabeculectomy group and in 0 of 10 case in the viscocanalostomy group.
+T2	Premise 807 957	With Kaplan-Meier's method, subjects with viscocanalostomy showed shorter postoperative IOP-reduction periods than subjects undergoing trabeculectomy.
+T3	Claim 958 1120	According to the results of this short-term study, trabeculectomy was more effective than viscocanalostomy in lowering IOP in glaucomatous eyes of white patients.
+R1	Support Arg1:T1 Arg2:T3	
+R2	Support Arg1:T2 Arg2:T3	

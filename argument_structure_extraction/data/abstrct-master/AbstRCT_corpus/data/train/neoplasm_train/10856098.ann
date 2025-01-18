@@ -1,0 +1,6 @@
+T1	Premise 1116 1219	The response rates, QOL, and median RD, TTP, and TTF were not significantly different between the arms.
+T2	Premise 1220 1293	Median OS was 13.8 months for arm 1 versus 14.4 months for arm 2 (P =.4).
+T3	Premise 1294 1434	Grade 3 or 4 granulocytopenia was equivalent in both arms but more grade 3/4 neurotoxicity, mild venous toxicity, and FN were seen on arm 1.
+T4	Claim 1435 1501	The survival with DOX and VNB is not superior to DOX alone in MBC.
+R1	Support Arg1:T1 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	

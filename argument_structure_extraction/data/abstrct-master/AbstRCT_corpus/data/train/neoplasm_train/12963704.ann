@@ -1,0 +1,12 @@
+T1	Premise 623 894	With a median follow-up of more than 3 years, survival did not differ among the treatment groups (median FU + LV, 11.1 months [95% CI, 10.2 to 15.0 months]; FU24h, 13.0 months [95% CI, 10.4 to 15.4 months]; FU24h + LV, 13.7 months [95% CI, 12.0 to 16.4 months]; P =.724).
+T2	Premise 895 1110	Progression-free survival (PFS) was significantly longer for FU24h + LV (median FU + LV, 4.0 months [95% CI, 3.4 to 4.9]; FU24h, 4.1 months [95% CI, 3.4 to 5.0]; FU24h + LV 5.6 months [95% CI, 4.4 to 6.7]; P =.029).
+T3	Premise 1111 1272	The response rates in the subgroup of patients with measurable disease were 12%, 10%, and 17% for FU + LV, FU24h, and FU24h + LV, respectively (not significant).
+T4	Premise 1273 1399	Occurrence of grade 3 and 4 diarrhea was higher in the FU24h + LV arm (22%) compared with the FU24h (6%) or FU + LV (9%) arms;
+T5	Premise 1400 1537	however, stomatitis (11% in FU + LV v 3% in FU24h v 5% in FU24h + LV arms) and hematologic toxicity were higher in the bolus FU + LV arm.
+T6	Claim 1538 1598	Global quality of life did not differ within the three arms.
+T7	Claim 1599 1672	Neither FU24h + LV nor FU24h prolong survival, relative to bolus FU + LV.
+T8	Claim 1673 1740	Leucovorin increases PFS if added to FU24h, but increases toxicity.
+R1	Support Arg1:T1 Arg2:T7	
+R2	Support Arg1:T2 Arg2:T8	
+R3	Support Arg1:T4 Arg2:T6	
+R4	Support Arg1:T5 Arg2:T6	

@@ -1,0 +1,8 @@
+T1	Premise 812 1025	With a median follow-up of 13 months, the overall survival was significantly better in the irinotecan group (p=0.0001), with 36.2% 1-year survival in the irinotecan group versus 13.8% in the supportive-care group.
+T2	Premise 1026 1139	The survival benefit, adjusted for prognostic factors in a multivariate analysis, remained significant (p=0.001).
+T3	Premise 1140 1341	Survival without performance-status deterioration (p=0.0001), without weight loss of more than 5% (p=0.018), and pain-free survival (p=0.003) were significantly better in the patients given irinotecan.
+T4	Premise 1342 1468	In a quality-of-life analysis, all significant differences, except on diarrhoea score, were in favour of the irinotecan group.
+T5	Claim 1469 1760	Our study shows that despite the side-effects of treatment, patients who have metastatic colorectal cancer, and for whom fluorouracil has failed, have a longer survival, fewer tumour-related symptoms, and a better quality of life when treated with irinotecan than with supportive care alone.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T1 Arg2:T5	

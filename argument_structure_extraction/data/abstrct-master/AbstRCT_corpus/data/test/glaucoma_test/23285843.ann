@@ -1,0 +1,9 @@
+T1	Claim 862 945	Topical brimonidine showed an additive IOP-lowering effect to topical PG analogues,
+T2	Claim 946 1026	although its IOP-lowering effect was inferior to topical timolol as monotherapy.
+T3	Premise 381 499	The mean changes were -4.7 +/- 2.1 (S. D.) in the timolol and -4.0 +/- 2.0 mmHg in the brimonidine group (p = 0.0138).
+T4	Premise 500 649	The 95% confidence interval of the inter-group difference was greater than the pre-determined criterion of non-inferiority of brimonidine to timolol.
+T5	Premise 650 807	When added to PG analogues, the IOP-lowering effect of brimonidine (-2.9 +/- 1.8 mmHg) was greater than that of the placebo (-2.1 +/- 1.8 mmHg) (p = 0.0010).
+R1	Partial-Attack Arg1:T2 Arg2:T1	
+R2	Support Arg1:T5 Arg2:T1	
+R3	Support Arg1:T4 Arg2:T1	
+R4	Support Arg1:T3 Arg2:T1	

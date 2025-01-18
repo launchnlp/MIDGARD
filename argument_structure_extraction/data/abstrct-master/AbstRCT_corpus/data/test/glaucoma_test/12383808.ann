@@ -1,0 +1,6 @@
+T2	Premise 915 1058	A target IOP of 21 mm Hg at 6 months was achieved in 53 of 56 (95%) eyes in the 5-FU group and 54 of 57 (95%) eyes in the MMC group (P = 1.00).
+T1	Premise 1059 1196	At 12 months, 45 of 48 (94%) eyes in the 5-FU group met a target IOP of 21 mm Hg while 48 of 54 (89%) eyes in the MMC group did (P =.49).
+T3	Premise 1197 1291	The most common complications in each group were persistent choroidal effusions and bleb leak.
+T4	Claim 1292 1457	Our study suggests that intraoperative topical 5-FU is at least as effective as intraoperative topical MMC in reducing IOP of eyes undergoing primary trabeculectomy.
+R1	Support Arg1:T1 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	

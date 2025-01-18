@@ -1,0 +1,12 @@
+T1	MajorClaim 0 69	Fracture risk is increased in individuals with type 2 diabetes (T2D).
+T3	Claim 1805 1861	The choice of insulin treatment is not influencing BTMs,
+T4	Claim 1862 1900	metformin treatment may decrease BTMs,
+T5	Claim 1905 1977	improvement of glycaemic control may influence bone resorption activity.
+T6	Premise 1751 1804	HbA1c was inversely associated with CTX but not P1NP.
+T7	Premise 1667 1750	Neither metformin nor rosiglitazone plasma concentrations was associated with BTMs.
+T8	Premise 1549 1666	Metformin and metformin + rosiglitazone but not rosiglitazone alone were associated with lower bone formation (PINP).
+T9	Premise 1468 1548	Allocation of insulin regimens was not associated with different levels of BTMs.
+T10	Premise 1317 1467	BTMs increased from baseline to month 12 and remained higher at month 24, with CTX and PINP increasing 28.5% and 23.0% (all: p < 0.001), respectively.
+R1	Support Arg1:T7 Arg2:T3	
+R2	Support Arg1:T9 Arg2:T3	
+R3	Support Arg1:T8 Arg2:T4	

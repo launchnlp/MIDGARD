@@ -1,0 +1,13 @@
+T3	Premise 1259 1422	Median progression-free survival was 18.2 months in the TC-Top arm versus 18.5 months in the TC arm (stratum-adjusted HR = 0.97 [95% CI = 0.85 to 1.10]; P = .688).
+T4	Premise 1423 1579	Median overall survival was 43.1 months for the TC-Top arm versus 44.5 months for the TC arm (stratum-adjusted HR = 1.01 [95% CI = 0.86 to 1.18]; P = .885).
+T5	Premise 1580 1680	At 3 years, overall survival in both arms was 57% (58.5% in the TC arm and 55.7% in the TC-Top arm).
+T6	Premise 1681 1988	Compared with patients in the TC arm, patients in the TC-Top arm had more grade 3-4 hematologic toxic effects (requiring more supportive care) and more grade 3-4 infections (5.1% versus 2.7%; P = .034) but did not have a statistically significant increase in febrile neutropenia (3.3% versus 3.1%; P = .80).
+T8	Premise 1989 2223	Among patients who had measurable disease (TC, n = 147; TC-Top, n = 145), overall (i.e., complete or partial) response was 69.0% (95% CI = 61.4% to 76.5%) in the TC-Top arm and 76.2% (95% CI = 69.3% to 83.1%) in the TC arm (P = .166).
+T9	Claim 2224 2371	The sequential addition of topotecan to carboplatin-paclitaxel did not result in superior overall response or progression-free or overall survival.
+T10	Claim 2372 2464	Therefore, this regimen is not recommended as standard of care treatment for ovarian cancer.
+R1	Support Arg1:T9 Arg2:T10	
+R2	Support Arg1:T8 Arg2:T9	
+R3	Support Arg1:T5 Arg2:T9	
+R4	Support Arg1:T4 Arg2:T9	
+R5	Support Arg1:T3 Arg2:T9	
+R6	Support Arg1:T6 Arg2:T10	

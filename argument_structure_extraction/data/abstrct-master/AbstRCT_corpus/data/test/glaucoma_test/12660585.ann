@@ -1,0 +1,23 @@
+T1	Premise 2558 2755	At 09.00 hours (presumed trough) on day 60, mean reductions from baseline in intraocular pressure were 6.32+/-2.87 and 5.67+/-3.30 mmHg for the alginate carteolol and standard groups, respectively.
+T2	Premise 2756 2856	At 11.00 hours (presumed peak), mean reductions were 6.70+/-2.81 and 6.55+/-3.35 mmHg, respectively.
+T3	Premise 2857 2943	At each evaluation time, the two unilateral t tests were highly significant (p<0.005),
+T5	Premise 3075 3234	Safety- Slight decreases in heart rate and blood pressure means were observed in both groups at follow-up visits with no significant difference between groups.
+T6	Premise 3235 3376	Subjective tolerance upon instillation was judged good or very good at day 60 by 100% of alginate patients and by 98.7% of standard patients.
+T7	Premise 3377 3525	Transient discomfort (mainly stinging or burning sensation) was reported by approximately 4% - 6% of patients in each treatment group at each visit.
+T8	Premise 3526 3612	A blurred vision sensation was reported by 2 out of 74 patients of the alginate group.
+T9	Premise 3613 3815	Among the 17 reported adverse events, three were assessed as drug-related: one vertigo, one superficial punctate keratitis in the alginate group and one decrease in blood pressure in the standard group.
+T10	Claim 3857 4039	The new alginate formulation of long-acting carteolol 1% given once daily is as effective as standard 1% carteolol given twice daily, with no meaningful differences regarding safety.
+T11	Claim 4228 4385	The new alginate formulation of long-acting carteolol 1% given once a day is effective and well tolerated by glaucoma patients who require chronic treatment.
+T4	Premise 3816 3856	No serious adverse events were reported.
+R1	Support Arg1:T4 Arg2:T11	
+R2	Support Arg1:T9 Arg2:T11	
+R3	Support Arg1:T8 Arg2:T11	
+R4	Support Arg1:T7 Arg2:T11	
+R5	Support Arg1:T6 Arg2:T10	
+R6	Support Arg1:T6 Arg2:T11	
+R7	Support Arg1:T3 Arg2:T2	
+R8	Support Arg1:T3 Arg2:T1	
+R9	Support Arg1:T2 Arg2:T10	
+R10	Support Arg1:T2 Arg2:T11	
+R11	Support Arg1:T1 Arg2:T10	
+R12	Support Arg1:T1 Arg2:T11	

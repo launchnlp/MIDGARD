@@ -1,0 +1,11 @@
+T1	Premise 946 1185	Compared with surgical excision, the total treatment costs of MMS are significantly higher (cost difference: primary BCC, 254 euros; 95% confidence interval, 181-324 euros; recurrent BCC, 249 euros; 95% confidence interval, 175-323 euros).
+T2	Premise 1186 1319	For primary BCC, the incremental cost-effectiveness ratio was 29,231 euros, while the ratio for recurrent BCC amounted to 8094 euros.
+T3	Premise 1320 1465	The acceptability curves showed that for these ratios, the probability of MMS being more cost-effective than surgical excision never reached 50%.
+T4	Claim 1466 1579	At present, it does not seem cost-effective to introduce MMS on a large scale for both primary and recurrent BCC.
+T5	Premise 1589 1672	because a 5-year period is normally required to determine definite recurrence rates
+T6	Claim 1674 1754	it is possible that MMS may become a cost-effective treatment for recurrent BCC.
+R1	Partial-Attack Arg1:T6 Arg2:T4	
+R2	Support Arg1:T5 Arg2:T6	
+R3	Support Arg1:T2 Arg2:T4	
+R4	Support Arg1:T3 Arg2:T4	
+R5	Support Arg1:T1 Arg2:T4	

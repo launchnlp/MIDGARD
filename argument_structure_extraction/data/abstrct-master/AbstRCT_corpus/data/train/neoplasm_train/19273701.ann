@@ -1,0 +1,13 @@
+T1	Claim 1746 1858	Cetuximab offers important HRQL and survival benefits for pretreated patients with advanced, wild-type KRAS CRC.
+T2	Premise 922 1086	PF change scores were -3.9 for cetuximab and -8.6 for BSC (P = .046) at 8 weeks and were -5.9 and -12.5 for cetuximab and BSC, respectively, (P = .027) at 16 weeks.
+T3	Premise 1087 1229	GHS change scores were -0.5 and -7.1 (P = .008) at 8 weeks and were -3.6 and -15.2 (P = .008) at 16 weeks for cetuximab and BSC, respectively.
+T4	Premise 1230 1419	In patients who had tumors with wild-type KRAS status, cetuximab resulted in less PF deterioration at 8 weeks (-0.7 v -7.2; P = .11) and 16 weeks (-3.4 v -13.8; P = .008) compared with BSC.
+T5	Premise 1420 1587	Patients with wild-type status who received cetuximab experienced improved GHS at 8 weeks, whereas patients who received BSC alone deteriorated (3.2 v -7.7; P = .002).
+T6	Premise 1650 1745	No significant differences were noted between study arms for patients with mutated KRAS tumors.
+R1	Support Arg1:T4 Arg2:T1	
+R2	Support Arg1:T3 Arg2:T1	
+R3	Support Arg1:T2 Arg2:T1	
+R4	Support Arg1:T5 Arg2:T1	
+T7	Premise 1588 1649	Cetuximab preserved GHS at 16 weeks (-0.2 v -18.1; P < .001).
+R5	Support Arg1:T7 Arg2:T1	
+R6	Support Arg1:T6 Arg2:T1	

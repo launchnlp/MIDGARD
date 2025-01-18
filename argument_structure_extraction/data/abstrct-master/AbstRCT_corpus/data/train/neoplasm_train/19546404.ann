@@ -1,0 +1,7 @@
+T1	Premise 1034 1270	Patients in the VBT group reported better social functioning (P < .002) and lower symptom scores for diarrhea, fecal leakage, the need to stay close to the toilet, and limitation in daily activities because of bowel symptoms (P < .001).
+T2	Premise 1469 1564	Patients who received EBRT reported significantly higher levels of diarrhea and bowel symptoms.
+T3	Claim 1743 1849	Vaginal brachytherapy provides a better QOL, and should be the preferred treatment from a QOL perspective.
+T4	Premise 1392 1468	Sexual functioning and symptoms did not differ between the treatment groups.
+R1	Support Arg1:T2 Arg2:T3	
+R2	Support Arg1:T4 Arg2:T3	
+R3	Support Arg1:T1 Arg2:T3	

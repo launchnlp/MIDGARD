@@ -1,0 +1,11 @@
+T1	Claim 1811 1897	PF tafluprost is an efficacious and generally well-tolerated ocular hypotensive agent.
+T2	Claim 1731 1810	The IOP-lowering effect of PF tafluprost was noninferior to that of PF timolol.
+T3	Premise 1603 1730	The percentages of PF tafluprost and PF timolol patients reporting conjunctival hyperemia were 4.4% vs 1.2% (nominal P = .016).
+T4	Premise 1457 1602	Similar percentages of PF tafluprost and PF timolol patients reported ocular pain/stinging/irritation (4.4% vs 4.6%) and pruritus (2.5% vs 1.5%).
+T6	Premise 954 1120	IOPs at the 3 time points assessed during the baseline visit ranged from 23.8 to 26.1 mm Hg in the PF tafluprost group and 23.5 to 26.0 mm Hg in the PF timolol group.
+T7	Premise 1121 1268	IOPs at the 3 time points assessed during the 12-week visit ranged from 17.4 to 18.6 mm Hg for PF tafluprost and 17.9 to 18.5 mm Hg for PF timolol.
+R1	Support Arg1:T3 Arg2:T2	
+R2	Support Arg1:T3 Arg2:T1	
+R3	Support Arg1:T4 Arg2:T1	
+R4	Support Arg1:T7 Arg2:T2	
+R5	Support Arg1:T6 Arg2:T2	

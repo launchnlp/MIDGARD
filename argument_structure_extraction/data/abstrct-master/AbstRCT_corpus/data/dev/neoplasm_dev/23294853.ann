@@ -1,0 +1,7 @@
+T1	Premise 1432 1634	The 2-weekly administration was associated with significantly longer TTTF than was 3-weekly administration (5·6 months, 95% CI 5·0-6·2 vs 4·9 months, 4·5-5·4; hazard ratio 1·3, 95% CI 1·1-1·6, p=0·014).
+T2	Premise 1635 1872	Grade 3-4 adverse events occurred more frequently in the 3-weekly than in the 2-weekly administration group, including neutropenia (93 [53%] vs 61 [36%]), leucopenia (51 [29%] vs 22 [13%]), and febrile neutropenia (25 [14%] vs six [4%]).
+T3	Premise 1873 2006	Neutropenic infections were reported more frequently in patients who received docetaxel every 3 weeks (43 [24%] vs 11 [6%], p=0·002).
+T4	Claim 2007 2237	Administration of docetaxel every 2 weeks seems to be well tolerated in patients with castration-resistant advanced prostate cancer and could be a useful option when 3-weekly single-dose administration is unlikely to be tolerated.
+R1	Support Arg1:T3 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	
+R3	Support Arg1:T1 Arg2:T4	

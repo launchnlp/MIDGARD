@@ -1,0 +1,11 @@
+T1	Premise 1356 1648	For intervention and control groups respectively, mean catheter duration was 11.74 d and 12.74 d (p=0.451); leakage on cystogram was present in six and eight cases (p=0.28); and incontinence (any involuntary urine loss) at 3 mo was 75% and 69% (p=0.391) and at 6 mo was 51% and 43% (p=0.686).
+T2	Premise 1649 1709	Urinary retention occurred only in one case (control group).
+T3	Premise 1710 1836	The percentage of cases returning to baseline in all QoL domains (except insomnia) was similar at 6 mo between the two groups.
+T4	Premise 1837 2006	Short follow-up, lack of blinding, and probable small differences in our method of MFRR performed compared with other studies were identified as significant limitations.
+T5	Premise 2007 2086	No significant difference in any of the analysed outcome measures was observed.
+T6	Claim 2087 2207	Posterior reconstruction of the musculofascial complex does not appear to improve early urinary incontinence after RALP.
+R1	Support Arg1:T5 Arg2:T6	
+R2	Support Arg1:T1 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T6	
+R4	Support Arg1:T2 Arg2:T6	
+R5	Partial-Attack Arg1:T4 Arg2:T6	

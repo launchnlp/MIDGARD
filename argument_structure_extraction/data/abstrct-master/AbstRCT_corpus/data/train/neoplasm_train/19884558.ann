@@ -1,0 +1,14 @@
+T1	Premise 928 1085	Sleep quality differed over 1 years time (F [4,162] = 7.7, P < .001; by group, F [1,173] = 4.8, P = .029; and over time by group, F [4,162] = 3.3, P = .013).
+T2	Premise 1086 1176	Pairwise comparisons revealed significant differences between groups at 90 days (P = .002)
+T3	Premise 1177 1206	but not at 1 year (P = .052).
+T4	Premise 1300 1459	The night awakenings (Actigraph) pattern was significantly different by group over time (P = .046), with no differences between groups at 90 days or at 1 year.
+T5	Premise 1460 1504	Fatigue was lower at 1 year than before CTX;
+T6	Premise 1505 1533	no group effects were found.
+T7	Claim 1534 1648	The BT group, on average, experienced significant improvement on global sleep quality compared with the HEC group,
+T8	Claim 1649 1696	but not on objective sleep or fatigue outcomes.
+R1	Partial-Attack Arg1:T8 Arg2:T7	
+R2	Support Arg1:T1 Arg2:T7	
+R3	Partial-Attack Arg1:T3 Arg2:T2	
+R4	Support Arg1:T2 Arg2:T1	
+R5	Partial-Attack Arg1:T6 Arg2:T5	
+R6	Support Arg1:T5 Arg2:T8	

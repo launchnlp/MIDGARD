@@ -1,0 +1,7 @@
+T1	Premise 977 1065	Utility scores were significantly lower in the DTX group than in the ACP and ACD groups.
+T2	Premise 1066 1168	Mean utility scores in the DTX group were lowest at 7 months and tended to remain low for a long time.
+T3	Premise 1169 1353	The combined anthracycline followed by taxane group had significantly higher utility scores that the taxane-alone group, with no significant difference depending on the type of taxane.
+T4	Premise 1354 1464	Only the FACT-G social/family well-being subscale had no relationship with EQ-5D responses and utility scores.
+T5	Claim 1465 1642	Although the regimens in this study were similar in that they included taxane, the mean utility scores and longitudinal patterns of utility scores were different among regimens.
+R1	Support Arg1:T1 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T5	

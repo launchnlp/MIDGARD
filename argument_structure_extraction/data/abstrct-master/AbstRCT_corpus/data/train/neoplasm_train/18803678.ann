@@ -1,0 +1,12 @@
+T1	Premise 1061 1289	There was a significant decrease in QoL from baseline (t0) to t1 (RRA period) in the hypothyroid group with significant differences in FACIT-F TOI (P < 10(-3)), FACT-G total score (P = 0.005) and FACIT-F total score (P = 0.003).
+T2	Premise 1290 1340	By contrast, QoL was preserved in the rhTSH group.
+T3	Premise 1462 1584	From 3 to 9 months, changes of QoL scales and subscales were no longer statistically different in both groups of patients.
+T4	Claim 1935 2047	rhTSH preserves QoL of patients undergoing RRA with similar rates of ablation success compared to hypothyrodism.
+T5	Premise 1785 1860	A higher rate of persistent thyroid remnants was observed in the rhTSH arm,
+T6	Premise 1861 1934	although in most cases uptake was < 0.1% and of no clinical significance.
+T7	Premise 1585 1784	Based on serum rhTSH-stimulated Tg alone (Tg < 0.8 microg/l, BRAHMS Tg Kryptor), no difference in ablation success was observed between rhTSH and hypothyroidism groups, 91.7% and 97.1%, respectively.
+R1	Support Arg1:T2 Arg2:T4	
+R2	Support Arg1:T1 Arg2:T4	
+R3	Attack Arg1:T6 Arg2:T5	
+R4	Support Arg1:T7 Arg2:T4	
+R5	Support Arg1:T3 Arg2:T4	

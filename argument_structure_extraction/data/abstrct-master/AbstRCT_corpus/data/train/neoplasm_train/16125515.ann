@@ -1,0 +1,8 @@
+T1	Premise 1052 1321	After the rehabilitation program, cancer survivors (n=63) displayed statistically significant improvements on health-related quality of life with effect sizes (ES) varying from 0.38 to 0.99 (RAND-36) and from -0.34 to -0.57 (RSCL), most persistent at 3-month follow-up.
+T2	Premise 1322 1479	Furthermore, statistically significant improvements in exercise capacity and muscle force of upper and lower extremities were displayed after rehabilitation.
+T3	Claim 1659 1877	A multidimensional rehabilitation program has statistically and clinically relevant beneficial effects on health-related quality of life, exercise capacity, and muscle force in cancer patients with different diagnoses.
+T4	Claim 1891 2024	if offered the choice, the majority of cancer survivors seem to prefer multidimensional programs to programs with only one component.
+T5	Premise 1480 1658	If offered a choice, 80% of the patients prior to start and 58% of the patients after completion of the program indicated that they preferred the entire multidimensional program.
+R1	Support Arg1:T5 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T3	
+R3	Support Arg1:T1 Arg2:T3	

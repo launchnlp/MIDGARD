@@ -1,0 +1,4 @@
+T1	Premise 1033 1311	CRF was significantly reduced in the intervention group, corresponding to a Fatigue score reduction of 3.04 (effect size of 0.44, 95% CI 0.17-0.72) (P = .002), the FACT-An score by 5.40 (P = .015), the FACT-An Toi score by 5.22 (P = .009) and the Anaemia-ANS by 3.76 (P = .002).
+T2	Premise 1312 1533	There was no statistically significant effect on the General Quality of Life score (FACT-G) or on any of the individual wellbeing scores; Physical (P = .13), Emotional (P = .87), Social (P = .83) and Functional (P = .26).
+T3	Claim 1534 1702	In summary, this six-week supervised multimodal exercise intervention can lead to significant reduction in self-reported CRF in cancer patients undergoing chemotherapy.
+R1	Support Arg1:T1 Arg2:T3	

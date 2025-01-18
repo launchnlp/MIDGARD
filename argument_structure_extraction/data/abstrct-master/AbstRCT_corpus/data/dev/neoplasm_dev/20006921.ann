@@ -1,0 +1,7 @@
+T1	Premise 1109 1201	The most commonly reported adverse events were nausea, abdominal pain, vomiting and fatigue.
+T2	Premise 1202 1319	At the end of the study, 62.5%, 25% and 60% had stable disease in the 120 mg, 240 mg and placebo group, respectively.
+T3	Premise 1320 1397	A higher proportion of patients in Z-360 groups reported improvement in pain.
+T4	Claim 1398 1462	Z-360 is safe and well tolerated when combined with gemcitabine.
+R1	Attack Arg1:T3 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	
+R3	Support Arg1:T1 Arg2:T4	

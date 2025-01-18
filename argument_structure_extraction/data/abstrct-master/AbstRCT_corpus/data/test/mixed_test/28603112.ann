@@ -1,0 +1,10 @@
+T1	MajorClaim 1779 1912	It is concluded that Safoof akseer e jigar possesses as effective a therapeutic value in treating hepatitis B as allopathic medicine.
+T2	Premise 1027 1188	No significant difference was identified after treatment and it was found that the efficacy of Alpha (Control drug) is same as Safoof akseer e jigar (Test drug).
+T3	Claim 1189 1284	The data offered support to the null hypothesis and therefore research hypothesis was rejected.
+T4	Premise 1285 1562	According to the statistical analysis by chi square, hepatitis B was recorded as negative in 26 patients (57.77%) out of 45 patients by the use of Interferon Alpha (control therapy) and in 27 patients (64.28%) out of 42 patients by the use of Safoof akseer e jigar (test drug).
+T5	Premise 1563 1688	Comparison of the data recorded of the patients was determined as both drugs showed significant improvement and p value>0.05.
+T6	Claim 1689 1778	The efficacy response is equal in both drugs while test drug showed more safety response.
+R1	Support Arg1:T6 Arg2:T1	
+R2	Support Arg1:T5 Arg2:T6	
+R3	Support Arg1:T4 Arg2:T6	
+R4	Support Arg1:T2 Arg2:T6	

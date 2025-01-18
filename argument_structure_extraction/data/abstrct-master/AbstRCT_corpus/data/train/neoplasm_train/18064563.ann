@@ -1,0 +1,4 @@
+T1	MajorClaim 86 216	Women with breast cancer may have an even higher risk of depression particularly in a postmenopausal or estrogen deficiency state.
+T3	Premise 1280 1555	The use of fluoxetine for 6 months resulted in an improvement in quality of life, a higher completion of adjuvant treatment (chemotherapy, hormonal therapy, chemotherapy plus hormonal therapy), and a reduction in depressive symptoms compared to patients who received placebo.
+T2	Claim 1556 1696	An antidepressant should be considered for early stage breast cancer patients with depressive symptoms who are receiving adjuvant treatment.
+R1	Support Arg1:T3 Arg2:T2	

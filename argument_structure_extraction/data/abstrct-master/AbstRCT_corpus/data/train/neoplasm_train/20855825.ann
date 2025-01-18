@@ -1,0 +1,8 @@
+T1	Premise 793 993	PFS was significantly longer for fulvestrant 500 mg (n = 362) than 250 mg (n = 374) (hazard ratio [HR] = 0.80; 95% CI, 0.68 to 0.94; P = .006), corresponding to a 20% reduction in risk of progression.
+T2	Premise 994 1093	Objective response rate was similar for fulvestrant 500 mg and 250 mg (9.1% v 10.2%, respectively).
+T3	Premise 1094 1164	CBR was 45.6% for fulvestrant 500 mg and 39.6% for fulvestrant 250 mg.
+T4	Premise 1165 1321	DoCB and OS were 16.6 and 25.1 months, respectively, for the 500-mg group, whereas DoCB and OS were 13.9 and 22.8 months, respectively, in the 250-mg group.
+T5	Claim 1322 1398	Fulvestrant 500 mg was well tolerated with no dose-dependent adverse events.
+T6	Claim 1399 1429	QOL was similar for both arms.
+T7	Claim 1430 1556	Fulvestrant 500 mg was associated with a statistically significant increase in PFS and not associated with increased toxicity,
+R1	Support Arg1:T1 Arg2:T7	

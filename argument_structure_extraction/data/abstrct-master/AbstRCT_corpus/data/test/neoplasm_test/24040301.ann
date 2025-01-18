@@ -1,0 +1,8 @@
+T1	MajorClaim 1 81	Postcancer fatigue is a frequently occurring problem, impairing quality of life.
+T2	Claim 1625 1793	This may suggest that, although postcancer fatigue and chronic fatigue syndrome show strong resemblances as a clinical syndrome, the underlying physiology is different.
+T3	Premise 1225 1397	Change scores of volumetric and metabolic parameters from baseline to follow-up were not significantly different between patients in the therapy and the waiting list group.
+T4	Premise 1398 1525	Patients in the therapy group reported a significant larger decrease in fatigue scores than patients in the waiting list group.
+T5	Premise 1526 1624	No relation was found between postcancer fatigue and the studied volumetric and metabolic markers.
+R1	Support Arg1:T5 Arg2:T2	
+R2	Support Arg1:T4 Arg2:T2	
+R3	Support Arg1:T3 Arg2:T2	

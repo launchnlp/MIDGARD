@@ -1,0 +1,10 @@
+T1	Claim 2906 2995	These results provide further support for the efficacy of abiraterone in this population.
+T2	Claim 1 250	Abiraterone acetate plus prednisone significantly improves radiographic progression-free survival in asymptomatic or mildly symptomatic, chemotherapy-naive patients with metastatic castration-resistant prostate cancer compared with prednisone alone.
+T3	Claim 2728 2905	Abiraterone plus prednisone delays patient-reported pain progression and HRQoL deterioration in chemotherapy-naive patients with metastatic castration-resistant prostate cancer.
+T4	Premise 2303 2727	Median time to HRQoL deterioration was longer in patients assigned to abiraterone plus prednisone than in those assigned to placebo plus prednisone as assessed by the FACT-P total score (12·7 months [95% CI 11·1-14·0] vs 8·3 months [7·4-10·6]; HR 0·78, 95% CI 0·66-0·92; p=0·003) and by the score on its prostate-cancer-specific subscale (11·1 months [8·6-13·8] vs 5·8 months [5·5-8·3]; HR 0·70, 95% CI 0·60-0·83; p<0·0001).
+T5	Premise 2024 2302	Median time to progression of worst pain was also longer with abiraterone plus prednisone (26·7 months [95% CI 19·4-not estimable]) than with placebo plus prednisone (19·4 months [16·6-not estimable]), but the difference was not significant (HR 0·85, 95% CI 0·69-1·04; p=0·109).
+T6	Premise 1561 2023	Median time to progression of mean pain intensity was longer in patients assigned to abiraterone plus prednisone (26·7 months [95% CI 19·3-not estimable]) than in those assigned to placebo plus prednisone (18·4 months [14·9-not estimable]; hazard ratio [HR] 0·82, 95% CI 0·67-1·00; p=0·0490), as was median time to progression of pain interference with daily activities (10·3 months [95% CI 9·3-13·0] vs 7·4 months [6·4-8·6]; HR 0·79, 95% CI 0·67-0·93; p=0·005).
+R1	Support Arg1:T4 Arg2:T3	
+R2	Support Arg1:T5 Arg2:T3	
+R3	Support Arg1:T6 Arg2:T3	
+R4	Support Arg1:T3 Arg2:T1	

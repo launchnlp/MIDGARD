@@ -1,0 +1,8 @@
+T1	Premise 1175 1214	fatigue, nausea, and vomiting worsened,
+T2	Premise 1215 1277	but there was a reduction in pain and no change in global QOL.
+T3	Premise 1278 1362	Patients in the observation arm showed considerable improvements in QOL by 3 months.
+T4	Premise 977 1115	The two groups were comparable, with low global QOL scores and significant symptom burden, especially pain and fatigue, after thoracotomy.
+T5	Premise 1363 1496	QOL, except for symptoms of sensory neuropathy and hearing loss, in those treated with chemotherapy returned to baseline by 9 months.
+T6	Claim 1497 1702	The findings of this trial indicate that the negative effects of adjuvant chemotherapy on QOL appear to be temporary, and that improvements (with a return to baseline function) are likely in most patients.
+R1	Partial-Attack Arg1:T2 Arg2:T1	
+R2	Support Arg1:T5 Arg2:T6	

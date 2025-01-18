@@ -1,0 +1,9 @@
+T1	Premise 891 1040	An objective response (complete [CR] or partial [PR]) was obtained in 55%, 48%, 16%, and 7% of patients treated with CEF, E, M, and MV, respectively.
+T2	Premise 1041 1138	A response to CEF tended to last longer than a response to E (median, 12 v 10.5 months; P = .07).
+T3	Premise 1139 1263	Treatment-related toxicity was less in the single-agent arm and quality-of-life (QOL) analysis favored the single-agent arm.
+T4	Premise 1264 1356	No significant difference in time to progression or survival was found between the two arms.
+T5	Premise 1357 1577	Similarly, no difference in survival was found when the patients who received both the planned first-and second-line treatments were compared or when survival was calculated from the beginning of the second-line therapy.
+T6	Claim 1578 1770	Patients treated with single-agent E followed by single-agent M had similar survival, but less treatment-related toxicity and better QOL as compared with those treated with CEF followed by MV.
+R1	Support Arg1:T4 Arg2:T6	
+R2	Support Arg1:T5 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T6	

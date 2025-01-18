@@ -1,0 +1,12 @@
+T1	Premise 1257 1363	The most favorable effect was observed in patients with low hepatic tumor load and resected primary tumor.
+T2	Premise 1364 1455	Seven and nine deaths were observed in the octreotide LAR and placebo groups, respectively.
+T3	Premise 1456 1516	The HR for overall survival was 0.81 (95% CI, 0.30 to 2.18).
+T4	Claim 1517 1677	Octreotide LAR significantly lengthens time to tumor progression compared with placebo in patients with functionally active and inactive metastatic midgut NETs.
+T5	Premise 1678 1763	Because of the low number of observed deaths, survival analysis was not confirmatory.
+T6	Premise 873 1045	Median time to tumor progression in the octreotide LAR and placebo groups was 14.3 and 6 months, respectively (hazard ratio [HR] = 0.34; 95% CI, 0.20 to 0.59; P = .000072).
+T7	Premise 1046 1195	After 6 months of treatment, stable disease was observed in 66.7% of patients in the octreotide LAR group and 37.2% of patients in the placebo group.
+R1	Support Arg1:T6 Arg2:T4
+R2	Support Arg1:T7 Arg2:T4
+R3	Support Arg1:T1 Arg2:T4
+R4	Support Arg1:T2 Arg2:T4
+R5	Attack Arg1:T5 Arg2:T3

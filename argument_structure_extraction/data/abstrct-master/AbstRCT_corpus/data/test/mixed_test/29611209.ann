@@ -1,0 +1,8 @@
+T1	Claim 1663 1760	Survival advantage was significant with regular surveillance but not with irregular surveillance.
+T5	Premise 773 1093	Patients in the regular surveillance group were diagnosed at earlier stages ([very] early stage, 64.4%) than the irregular surveillance (40.4%) or nonsurveillance (26.9%) groups and had more chance for curative treatments (52.4%) than the irregular surveillance (39.4%) or nonsurveillance (23.3%) groups (all P < 0.001).
+T6	Premise 1094 1393	Mortality risk was significantly lower in the regular surveillance group (adjusted hazard ratio [aHR], 0.69; 95% [CI], 0.57-0.83) but not in the irregular surveillance group (aHR, 0.94; 95% CI, 0.69-1.28) compared with the nonsurveillance group after adjusting for confounding factors and lead-time.
+T7	Premise 1394 1558	When the subjects were restricted to cirrhotic patients or Child-Pugh class A/B patients, similar results were obtained for mortality risk reduction between groups.
+T8	Claim 1559 1662	HCC surveillance was associated with longer survival owing to earlier diagnosis and curative treatment.
+R1	Support Arg1:T7 Arg2:T1	
+R2	Support Arg1:T6 Arg2:T1	
+R3	Support Arg1:T5 Arg2:T8	

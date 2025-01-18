@@ -1,0 +1,11 @@
+T1	Premise 854 972	Depression scores yielded a linear interaction comparing UCO and SMEX (p = 0.019), with decreases in SMEX but not UCO.
+T2	Premise 973 1100	Anxiety scores yielded a quadratic interaction comparing UCO and SMEX (p = 0.049), with trends for changes in SMEX but not UCO.
+T3	Premise 770 853	Interaction effects for mental and physical well-being scores were not significant.
+T4	Premise 1101 1400	Additional analyses yielded quadratic interactions for exercise activity comparing UCO and SMEX (p = 0.022), with positive changes in SMEX but not UCO, and for stress management activity comparing UCO and SM (p < 0.001) and UCO and SMEX (p = 0.013), with positive changes in SM and SMEX but not UCO.
+T5	Claim 1401 1526	Only the combined intervention yielded effects on quality of life outcomes, and these were limited to anxiety and depression.
+T6	Premise 1527 1673	These findings are consistent with evidence that only the combined intervention yielded increases in both exercise and stress management activity.
+R1	Support Arg1:T3 Arg2:T5	
+R2	Support Arg1:T1 Arg2:T5	
+R3	Support Arg1:T2 Arg2:T5	
+R4	Support Arg1:T4 Arg2:T5	
+R5	Support Arg1:T6 Arg2:T5	

@@ -1,0 +1,11 @@
+T1	Premise 861 912	Major toxicity was similar across all three groups.
+T2	Premise 913 1093	With a median follow-up time of 12 months and 382 deaths, there was no clear survival benefit when comparing PCV with TMZ (hazard ratio [HR], 0.91; 95% CI, 0.74 to 1.11; P = .350).
+T3	Premise 1094 1192	For TMZ-5 versus TMZ-21, 12-week PFS rates were similar (63.6% and 65.7%, respectively; P = .745),
+T4	Premise 1193 1417	but TMZ-5 improved overall PFS (HR, 1.38; 95% CI, 1.05 to 1.82; P = .023), survival (HR, 1.32; 95% CI, 0.99 to 1.75; P = .056), and global quality of life (49% v 19% improved > 10 points at 6 months, respectively; P = .005).
+T5	Claim 1418 1621	Although TMZ (both arms combined) did not show a clear benefit compared with PCV, comparison of the TMZ schedules demonstrated that the 21-day schedule was inferior to the 5-day schedule in this setting.
+T7	Claim 1622 1721	This challenges the current understanding of increasing TMZ dose-intensity by prolonged scheduling.
+R1	Support Arg1:T5 Arg2:T7	
+R3	Support Arg1:T1 Arg2:T5	
+R4	Support Arg1:T2 Arg2:T5	
+R5	Support Arg1:T3 Arg2:T5	
+R2	Partial-Attack Arg1:T4 Arg2:T3	

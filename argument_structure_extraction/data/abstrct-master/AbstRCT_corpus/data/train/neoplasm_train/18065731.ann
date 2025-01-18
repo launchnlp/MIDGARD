@@ -1,0 +1,11 @@
+T1	Premise 777 864	True acupuncture was associated with 0.8 fewer hot flashes per day than sham at 6 weeks
+T2	Premise 866 954	but the difference did not reach statistical significance (95% CI, -0.7 to 2.4; P = .3).
+T3	Premise 955 1103	When participants in the sham acupuncture group were crossed over to true acupuncture, a further reduction in the frequency of hot flashes was seen.
+T4	Claim 1206 1286	Hot flash frequency in breast cancer patients was reduced following acupuncture.
+R1	Attack Arg1:T2 Arg2:T1	
+T5	Claim 1447 1588	We cannot exclude the possibility that a longer and more intense acupuncture intervention could produce a larger reduction of these symptoms.
+T6	Premise 1296 1446	when compared with sham acupuncture, the reduction by the acupuncture regimen as provided in the current study did not reach statistical significance.
+R2	Support Arg1:T1 Arg2:T4	
+R3	Support Arg1:T3 Arg2:T4	
+R4	Attack Arg1:T6 Arg2:T4	
+R5	Support Arg1:T6 Arg2:T5	

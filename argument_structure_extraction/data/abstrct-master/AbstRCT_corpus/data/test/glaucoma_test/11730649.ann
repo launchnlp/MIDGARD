@@ -1,0 +1,13 @@
+T1	Claim 2055 2278	Travoprost produced clinically relevant and statistically significant additional intraocular pressure reductions from baseline when used adjunctively with timolol in subjects with open-angle glaucoma or ocular hypertension.
+T2	Premise 886 1047	Mean baseline values (25 mm Hg) for subjects at eligibility (while maintained on timolol) were not significantly different (P <.0001) among the treatment groups.
+T3	Premise 1048 1207	The intraocular pressure was lowered an additional -5.7 to -7.2 mm Hg and -5.1 to -6.7 mm Hg in the travoprost 0.004% and 0.0015% concentrations, respectively.
+T4	Premise 1208 1311	These changes were significantly (P < or =.0001) different from the vehicle group (-1.3 to -2.8 mm Hg).
+T5	Premise 1312 1553	The intraocular pressure range on treatment at all visit times over the 6-month treatment period ranged from 17.9 to 19.2 mm Hg for travoprost 0.004% and 18.3 to 20.1 mm Hg for travoprost 0.0015% compared with 22.4 to 24.1 mm Hg for vehicle.
+T6	Premise 1554 1705	Average hyperemia scores ranged from trace to mild (mean 0.5 on a scale of 0 = none/trace; 1= mild; 2 = moderate; 3 = severe) for all treatment groups.
+T7	Premise 1706 1782	No iris pigmentation changes were observed in any patient during this study.
+T8	Premise 1783 1983	There were no clinically or statistically significant changes from baseline in visual acuity, ocular cells and flare, fundus parameter, cup-to-disk ratio and visual field between the treatment groups.
+T9	Premise 1984 2054	There were no serious adverse events reported for any treatment group.
+R1	Support Arg1:T2 Arg2:T1	
+R2	Support Arg1:T3 Arg2:T1	
+R3	Support Arg1:T4 Arg2:T3	
+R4	Support Arg1:T5 Arg2:T1	

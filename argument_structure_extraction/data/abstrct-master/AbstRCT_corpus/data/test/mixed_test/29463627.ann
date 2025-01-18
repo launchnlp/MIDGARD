@@ -1,0 +1,10 @@
+T1	Premise 809 1018	Compared with the spironolactone group (n=95), the clonidine group (n=92) presented similar rates of achieving the primary end point (20.5% versus 20.8%, respectively; relative risk, 1.01 [0.55-1.88]; P=1.00).
+T2	Premise 1019 1197	Secondary end point analysis showed similar office BP (33.3% versus 29.3%) and ambulatory BP monitoring (44% versus 46.2%) control for spironolactone and clonidine, respectively.
+T3	Premise 1207 1333	spironolactone promoted greater decrease in 24-h systolic and diastolic BP and diastolic daytime ambulatory BP than clonidine.
+T4	Claim 1507 1635	clonidine was not superior to spironolactone in true resistant hypertensive patients, but the overall BP control was low (≈21%).
+T5	Claim 1710 1767	spironolactone is preferable for the fourth-drug therapy.
+R1	Support Arg1:T3 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T4	
+R3	Support Arg1:T4 Arg2:T5	
+R4	Support Arg1:T1 Arg2:T4	
+R5	Support Arg1:T3 Arg2:T4	

@@ -1,0 +1,10 @@
+T1	Claim 1 108	Tumor necrosis factor-alpha (TNF-alpha) is a putative mediator of the cancer anorexia/weight loss syndrome.
+T2	Premise 762 884	Over time, weight gain was found to be minimal in both treatment arms; no patient gained >or=10% of their baseline weight.
+T3	Premise 885 986	Previously validated appetite questionnaires revealed negligible improvements in both treatment arms.
+T4	Premise 987 1124	The median survival was also comparable (175 days vs 148 days in etanercept-treated and placebo-exposed patients, respectively; P = .82).
+T5	Premise 1134 1344	preliminary data regarding adverse events demonstrated that patients treated with etanercept had higher rates of neurotoxicity (29% vs 0%) but lower rates of anemia (0% vs 19%) and thrombocytopenia (0% vs 14%).
+T6	Premise 1345 1392	Infection rates were negligible in both groups.
+T7	Premise 1393 1627	Genotyping for TNF-alpha-238 and TNF-alpha-308 polymorphisms revealed no clinical significance for these genotypes, except for a preliminary association between presence of the -238 G/A genotype and relatively less favorable survival.
+T8	Claim 1628 1779	Etanercept, as prescribed in the current trial, does not appear to palliate the cancer anorexia/weight loss syndrome in patients with advanced disease.
+R1	Support Arg1:T3 Arg2:T8	
+R2	Support Arg1:T2 Arg2:T8	

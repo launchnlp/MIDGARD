@@ -1,0 +1,12 @@
+T1	Premise 1031 1300	After 1 month of treatment, latanoprost significantly reduced intraocular pressure (mean +/- SEM) by 6.1 +/- 0.5 mm Hg (P <.001) and unoprostone by 4.2 +/- 0.4 mm Hg (P <.001) adjusted from an overall baseline of 22.3 +/- 0.5 mm Hg and 23.2 +/- 0.4 mm Hg, respectively.
+T2	Premise 1301 1445	The difference of 1.9 mm Hg between treatments was statistically significant in favor of latanoprost [P =.003, analysis of covariance (ANCOVA)].
+T3	Premise 1446 1658	Unadjusted analysis of responders using the percentage decrease in intraocular pressure showed that the proportion of responders in the latanoprost-treated group was greater than in the unoprostone-treated group.
+T4	Premise 1659 1731	Adverse ocular symptoms and findings were mild in both treatment groups.
+T5	Premise 1732 1807	Eye redness and ocular irritation were the most frequently reported events.
+T6	Claim 1808 2031	Latanoprost once daily was significantly more effective in reducing intraocular pressure compared with unoprostone twice daily after 1 month of treatment in patients with primary open-angle glaucoma and ocular hypertension.
+T7	Claim 2032 2094	Both drugs were well tolerated with few ocular adverse events.
+R1	Support Arg1:T4 Arg2:T7	
+R2	Support Arg1:T5 Arg2:T7	
+R3	Support Arg1:T3 Arg2:T6	
+R4	Support Arg1:T1 Arg2:T2	
+R5	Support Arg1:T2 Arg2:T6	

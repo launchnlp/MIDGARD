@@ -1,0 +1,16 @@
+T1	Claim 1 152	Facial hirsutism is one of the characteristic features of polycystic ovary syndrome (PCOS), and this can lead to high levels of depression and anxiety.
+T2	Premise 838 1036	Self-reported severity of facial hair in the intervention group (n = 51) fell from 7.3 to 3.6 over the 6-month study period; for the control group (n = 37) the corresponding scores were 7.1 and 6.1.
+T3	Premise 1037 1136	The change was significantly greater in the intervention group [ancova F((1,83)) = 24.5, P < 0.05].
+T4	Premise 1137 1315	Self-reported time spent on hair removal declined from 112 to 21 min per week in the intervention group and from 92 to 56 min in the control group [F((1,80)) = 10.2, P </= 0.05].
+T5	Premise 1316 1462	Mean depression scores fell from 6.7 to 3.6 in the intervention group, compared with 6.1 to 5.4 in the control group [F((1,83)) = 14.7, P < 0.05].
+T6	Premise 1463 1588	A similar change was seen for mean anxiety scores: intervention 11.1 to 8.2, control 9.6 to 9.3 [F((1,84)) = 17.8, P < 0.05].
+T7	Premise 1589 1750	Psychological quality of life also improved more in the intervention group, from 49.6 to 61.2 vs. 50.1 to 51.5 in the control group [F((1,84)) = 10.9, P < 0.05].
+T8	Claim 1751 1910	Laser treatment appeared to reduce the severity of facial hair and time spent on hair removal as well as alleviating depression and anxiety in women with PCOS.
+T9	Claim 1911 2056	These findings suggest that ways of making this method of hair removal more widely available to women with facial hirsutism should be considered.
+R1	Support Arg1:T8 Arg2:T9	
+R2	Support Arg1:T7 Arg2:T8	
+R3	Support Arg1:T5 Arg2:T8	
+R4	Support Arg1:T6 Arg2:T8	
+R5	Support Arg1:T4 Arg2:T8	
+R6	Partial-Attack Arg1:T3 Arg2:T2	
+R7	Partial-Attack Arg1:T2 Arg2:T8	

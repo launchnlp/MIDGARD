@@ -1,0 +1,9 @@
+T1	Premise 786 959	The total effective rate in the treatment group was: 84.38% (54/64), and in the control group it was 88.33% (53/60), showing no significant difference between them (P>0.05),
+T2	Premise 960 1106	but the analgesia initiating time and the optimal analgesia effect revealing time in the treatment group were significantly shorter (both P<0.01).
+T3	Premise 1117 1386	XZP was better in improving patients' QOL, showing more significant improvements in the treatment group than those in the control group in aspects of mental condition, walking capacity, working capacity, social acceptability, sleep and joy of living (P<0.05 or P<0.01).
+T4	Premise 1387 1560	Lower incidence of adverse reactions, such as nausea, vomiting, mouth dryness, dizziness, etc., especially constipation, was noted in the treatment group (P<0.05 or P<0.01).
+T5	Claim 1561 1790	Applying an external compress: of XZP showed a synergistic action with 3L analgesia for shortening the initiating time and the optimal effect revealing time, and could evidently enhance patients' QOL with fewer adverse reactions.
+R1	Support Arg1:T3 Arg2:T5	
+R2	Partial-Attack Arg1:T2 Arg2:T1	
+R3	Attack Arg1:T1 Arg2:T5	
+R4	Support Arg1:T4 Arg2:T5	

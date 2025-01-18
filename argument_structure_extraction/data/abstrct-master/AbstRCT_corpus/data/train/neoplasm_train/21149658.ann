@@ -1,0 +1,5 @@
+T2	Premise 1227 1298	For BT versus RP, there was no difference in bowel or hormonal domains,
+T3	Premise 1303 1467	men treated with BT scored better in urinary (91.8 v 88.1; P = .02) and sexual (52.5 v 39.2; P = .001) domains, and in patient satisfaction (93.6 v 76.9; P < .001).
+T4	Claim 1644 1778	HRQOL evaluated 3.2 to 6.5 years after treatment showed an advantage for BT in urinary and sexual domains and in patient satisfaction.
+R1	Support Arg1:T3 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	

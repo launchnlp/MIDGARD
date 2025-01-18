@@ -1,0 +1,9 @@
+T1	Claim 1616 1831	Vesatolimod was safe and well-tolerated in patients with CHB, demonstrating consistent dose-dependent pharmacodynamic induction of ISG15 without significant systemic induction of IFNα expression or related symptoms.
+T2	Premise 1017 1120	Most (41-80%) experienced ≥1 AE during the study with the majority of AEs mild or moderate in severity.
+T3	Premise 1121 1241	No significant declines in HBsAg were observed at the primary (Week 24) or secondary endpoints (Weeks 4, 8, 12, and 48).
+T4	Premise 1242 1389	ISG15 induction was dose-dependent and consistent after repeat dosing, returning closer to baseline by one week after treatment at all dose levels;
+T5	Premise 1390 1494	no patient demonstrated significant serum interferon alpha (IFNα) expression at any timepoint evaluated.
+T6	Premise 1495 1615	Multivariate analyses showed that ≥2-fold ISG15 induction is associated with 2- or 4-mg vesatolimod dose and female sex.
+R1	Support Arg1:T2 Arg2:T1	
+R2	Support Arg1:T4 Arg2:T1	
+R3	Support Arg1:T5 Arg2:T1	

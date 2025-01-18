@@ -1,0 +1,9 @@
+T3	Premise 1022 1122	No between-treatment differences were observed for changes in quality of life or performance status,
+T4	Premise 1127 1259	patients started on strong opioids had significantly better pain relief than patients treated according to WHO guidelines (P=0.041).
+T5	Premise 1260 1502	Additionally, patients started on strong opioids required significantly fewer changes in therapy, had greater reduction in pain when a change was initiated, and reported greater satisfaction with treatment than the comparator group (P=0.041).
+T6	Claim 1503 1607	Strong opioids were safe and well-tolerated, with no development of tolerance or serious adverse events.
+T7	Claim 1608 1723	These data suggest the utility of strong opioids for first-line treatment of pain in patients with terminal cancer.
+R1	Support Arg1:T3 Arg2:T7	
+R2	Support Arg1:T6 Arg2:T7	
+R3	Support Arg1:T4 Arg2:T7	
+R4	Support Arg1:T5 Arg2:T7	

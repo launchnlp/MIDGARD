@@ -1,0 +1,13 @@
+T1	Claim 1 161	DPPE (tesmilifene) plus doxorubicin (DOX) demonstrated a significant improvement in survival versus DOX in a phase III clinical trial in advanced breast cancer.
+T2	Premise 162 332	However, DPPE is associated with unusual toxicity in the form of hallucinations, nausea and vomiting which were anticipated to impact on short-term quality of life (QOL).
+T3	Premise 861 1011	No statistically significant difference in QOL response between treatment arms was found for any domain or item except nausea and vomiting (P = 0.04).
+T4	Premise 1012 1185	Cross-sectional comparisons showed statistically significant differences for some domains/items at specific assessment times with all differences favoring the DOX alone arm.
+T5	Premise 1186 1286	Patients on DPPE/DOX arm were significantly worse in terms of average and median pain change scores.
+T6	Claim 1350 1503	in general, the QOL analyses were concordant and showed that patients on DOX alone had fewer disease and treatment related adverse events and better QOL.
+T8	Claim 1504 1709	Interestingly, the QOL response analysis also showed that aggressive premedication regimens appear to ameliorate potential negative effects of DPPE on emesis and nausea as measured by patient assessed QOL.
+T7	Claim 1287 1344	Different analyses yielded slightly different conclusions
+R1	Partial-Attack Arg1:T7 Arg2:T6	
+R2	Partial-Attack Arg1:T2 Arg2:T1	
+R3	Support Arg1:T3 Arg2:T6	
+R4	Support Arg1:T4 Arg2:T7	
+R5	Support Arg1:T5 Arg2:T8	

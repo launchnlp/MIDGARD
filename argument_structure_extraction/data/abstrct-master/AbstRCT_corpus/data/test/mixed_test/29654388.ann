@@ -1,0 +1,12 @@
+T1	MajorClaim 0 101	The immunosuppressive drug rapamycin may influence insulin sensitivity in insulin-responsive tissues.
+T2	Claim 1795 1921	This treatment may improve short-term ITx outcomes, possibly in selected patients with T1DM complicated by insulin resistance.
+T3	Claim 1679 1794	Rapamycin pre-treatment before ITx succeeds in reducing insulin requirement, enhancing hepatic insulin sensitivity.
+T4	Premise 1465 1615	Hepatic glucose production decreased after rapamycin pre-treatment (- 1.1 ± 1.1 mg/kg/min, p = 0.04) and after ITx (- 1.6 ± 0.6 mg/kg/min, p = 0.015),
+T5	Premise 1622 1678	no changes in peripheral glucose disposal were observed.
+T6	Premise 1201 1312	Fasting glucose and HbA1c significantly decreased 1 year after ITx in Group 1 (HbA1c: - 2.1 ± 1.4%, p = 0.002),
+T7	Premise 1319 1464	fasting C-peptide (+0.5 ± 0.3 nmol/l, p = 0.002) and SUITO index increased (+57.4 ± 39.7, p = 0.016), without differences between the two groups.
+T8	Premise 964 1200	DIR reduction 1 year after ITx was greater in Group 1 as compared to Group 2 (- 37 ± 15 vs. - 19 ± 13 U/day, p = 0.005) and remained significant after adjusting for gender, age, glucose and baseline HbA1c (beta = 18.2 ± 5.9, p = 0.006).
+T10	Premise 834 963	We found a significant reduction in DIR after rapamycin pre-treatment (- 8 ± 6 U/day, mean ± SD, p < 0.001) and 1 year after ITx.
+R1	Support Arg1:T4 Arg2:T3	
+R2	Support Arg1:T10 Arg2:T3	
+R3	Support Arg1:T8 Arg2:T3	

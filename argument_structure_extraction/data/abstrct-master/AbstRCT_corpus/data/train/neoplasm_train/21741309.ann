@@ -1,0 +1,11 @@
+T1	Premise 1747 1869	No significant differences were noted in the distress levels before and after completion of the study in the three groups.
+T2	Premise 1870 2274	For the secondary outcomes, patients reported that dignity therapy was significantly more likely than the other two interventions to have been helpful (χ(2)=35·50, df=2; p<0·0001), improve quality of life (χ(2)=14·52; p=0·001), increase sense of dignity (χ(2)=12·66; p=0·002), change how their family saw and appreciated them (χ(2)=33·81; p<0·0001), and be helpful to their family (χ(2)=33·86; p<0·0001).
+T3	Premise 2275 2521	Dignity therapy was significantly better than client-centred care in improving spiritual wellbeing (χ(2)=10·35; p=0·006), and was significantly better than standard palliative care in terms of lessening sadness or depression (χ(2)=9·38; p=0·009);
+T4	Premise 2522 2717	significantly more patients who had received dignity therapy reported that the study group had been satisfactory, compared with those who received standard palliative care (χ(2)=29·58; p<0·0001).
+T5	Claim 2718 2863	Although the ability of dignity therapy to mitigate outright distress, such as depression, desire for death or suicidality, has yet to be proven,
+T6	Claim 2864 2987	its benefits in terms of self-reported end-of-life experiences support its clinical application for patients nearing death.
+R1	Support Arg1:T1 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T5	
+R3	Support Arg1:T4 Arg2:T6	
+R4	Support Arg1:T3 Arg2:T6	
+R5	Partial-Attack Arg1:T5 Arg2:T6	

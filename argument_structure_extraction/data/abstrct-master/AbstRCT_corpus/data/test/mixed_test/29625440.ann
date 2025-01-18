@@ -1,0 +1,5 @@
+T1	Premise 1304 1410	Changes in UACR category were not different among treatment groups at the 52-week visit (global P = 0.29).
+T3	Premise 943 1143	Average change in mean arterial pressure from baseline to 2 years was -1.2 ± 15, -1.8 ± 13.5, -2.6 ± 14.4 mm Hg in the aflibercept, bevacizumab, and ranibizumab groups, respectively (global P = 0.69).
+T4	Claim 1411 1613	There do not appear to be treatment group differences for changes in blood pressure or UACR as a reflection of kidney function in patients with DME treated with aflibercept, bevacizumab, or ranibizumab.
+R1	Support Arg1:T1 Arg2:T4	
+R2	Support Arg1:T3 Arg2:T4	

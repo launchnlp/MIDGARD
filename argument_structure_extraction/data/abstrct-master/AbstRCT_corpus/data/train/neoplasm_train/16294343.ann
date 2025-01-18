@@ -1,0 +1,9 @@
+T2	Premise 1259 1470	Participants completing the intervention demonstrated improvement in male overall distress (P < 0.01), male global sexual function (P < 0.0001), and female global sexual function (P < 0.05) at 3-month follow-up,
+T3	Premise 1471 1533	but regression toward baseline was noted at 6-month follow-up.
+T4	Premise 1534 1662	However, utilization of ED treatments increased from 31% at the time of study entry to 49% at the 6-month follow-up (P = 0.003).
+T5	Claim 1663 1833	The results of this brief pilot counseling intervention demonstrated significant gains in sexual function and satisfaction and increased utilization of treatments for ED.
+T6	Claim 1834 1986	However, modifications are needed in future randomized trials to reduce the rate of premature termination and to improve long-term maintenance of gains.
+R1	Partial-Attack Arg1:T6 Arg2:T5	
+R2	Partial-Attack Arg1:T3 Arg2:T2	
+R3	Support Arg1:T2 Arg2:T5	
+R4	Support Arg1:T4 Arg2:T5	

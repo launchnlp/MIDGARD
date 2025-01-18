@@ -1,0 +1,8 @@
+T1	Premise 1128 1223	Chronic HFHT compared with LFLT intake significantly increased plasma theobromine (p < 0.0001).
+T2	Premise 865 1127	Compared with LFLT, acute HFHT intake significantly increased plasma epicatechin and theobromine (p < 0.0001), decreased AIx (p < 0.0001) and increased diastolic BP (3.49 ± 3.40 mmHg increase in HFHT group vs 1.55 ± 2.59 mmHg increase in LFLT group, p = 0.0008).
+T3	Claim 1298 1516	Acute consumption of HFHT, compared to LFLT, increased plasma epicatechin and theobromine concentrations and decreased arterial stiffness, with no effect on endothelial function and a marginal increase in diastolic BP.
+T4	Claim 1517 1711	Chronic HFHT intake increased plasma theobromine, though it did not have positive impacts on endothelial function, arterial stiffness or BP when compared to LFLT in pregnant women at risk of PE.
+R1	Support Arg1:T1 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	
+R3	Support Arg1:T2 Arg2:T3	
+R4	Support Arg1:T1 Arg2:T3	

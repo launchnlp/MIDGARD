@@ -1,0 +1,9 @@
+T1	Premise 794 963	Results showed overall significant improvements in psychosocial stress and quality of life in both the MBAT and educational support groups immediately post-intervention;
+T2	Premise 964 1141	however, participants with high stress levels at baseline had significantly improved overall outcomes only in the MBAT group, both immediately post-intervention and at 6 months.
+T3	Premise 1155 1311	at 6 months follow-up, participants attending five or more sessions trended toward retaining treatment effects better in the MBAT than in the control group.
+T4	Premise 1321 1511	black women and white women were similar in terms of how they benefited from the MBAT intervention, even though white participants tended to have higher educational level and marital status.
+T5	Claim 1512 1676	In conclusion, MBAT is associated with significant, sustained benefits across a diverse range of breast cancer patients, particularly those with high stress levels.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T2 Arg2:T5	
+R4	Support Arg1:T1 Arg2:T5	

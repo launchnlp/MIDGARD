@@ -1,0 +1,7 @@
+T1	Premise 908 1133	Analysing response to FUFA and FOLFIRI in the per protocol set (n=119) after un-blinding TS in the data base revealed a trend to better overall response to FOLFIRI (9/19, 47%) in TS high compared to FUFA (5/23, 22%, p=0.077).
+T2	Premise 1134 1294	In patients with biopsies taken from liver lesions (n=91) overall response to FOLFIRI and FUFA in TS high was 53% (9/17) and 18% (3/17), respectively (p=0.035).
+T3	Premise 1295 1398	In patients with low TS, no remarkable difference in overall response to FOLFIRI and FUFA was observed.
+T4	Claim 1399 1470	Taking a pre-treatment biopsy is a safe and feasible procedure in mCRC.
+T5	Claim 1471 1646	After validation of our data in a larger group TS determination may have the potential to better help direct systemic treatment in patients with primarily non-resectable mCRC.
+R1	Support Arg1:T2 Arg2:T4	
+R2	Support Arg1:T1 Arg2:T5	

@@ -1,0 +1,9 @@
+T1	Premise 997 1221	Patients in both treatment conditions showed improvements in pain, depression, QOL, and self-efficacy, and caregivers in both conditions showed improvements in anxiety and self-efficacy from baseline to four-month follow-up.
+T2	Premise 1222 1363	Results of exploratory analyses suggested that the CST intervention was more beneficial to patients/caregivers with Stage II and III cancers,
+T3	Premise 1372 1470	the education/support intervention was more beneficial to patients/caregivers with Stage I cancer.
+T4	Claim 1528 1660	results from this study suggest that psychosocial interventions can lead to improvements in a range of outcomes for cancer patients.
+T5	Premise 1471 1527	Taken together with the broader literature in this area,
+R1	Support Arg1:T5 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	
+R3	Attack Arg1:T3 Arg2:T4	
+R4	Support Arg1:T1 Arg2:T4	

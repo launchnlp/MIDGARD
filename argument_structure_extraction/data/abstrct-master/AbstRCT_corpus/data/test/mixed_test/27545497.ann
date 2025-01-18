@@ -1,0 +1,15 @@
+T1	Claim 1824 1987	Tenofovir disoproxil fumarate (TDF) monotherapy was effective and well tolerated without TDF resistance development in CHB patients with LAM-R, for up to 240weeks.
+T2	Premise 690 817	At week 240, 83.0% of patients in the TDF arm, and 82.7% of patients in the FTC/TDF treatment arm had HBV DNA<69IU/ml (p=0.96).
+T3	Premise 818 945	Rates of normal alanine aminotransferase (ALT) and normalised ALT were similar between groups (p=0.41 and p=0.97 respectively).
+T4	Premise 946 1066	Hepatitis B e antigen loss and seroconversion at week 240 were similar between groups, (p=0.41 and p=0.67 respectively).
+T5	Premise 1067 1206	Overall, six patients achieved hepatitis B surface antigen (HBsAg) loss and one patient (FTC/TDF arm) had HBsAg seroconversion by week 240.
+T6	Premise 1207 1253	No TDF resistance was observed up to week 240.
+T7	Premise 1254 1344	Treatment was generally well tolerated, and renal events were mild and infrequent (∼8.6%).
+T8	Premise 1345 1454	The mean change in bone mineral density at week 240 was -0.98% and -2.54% at the spine and hip, respectively.
+T9	Claim 1455 1546	TDF monotherapy was effective and well tolerated in LAM-R CHB patients for up to 240 weeks.
+R1	Support Arg1:T7 Arg2:T9	
+R2	Support Arg1:T7 Arg2:T1	
+R3	Support Arg1:T6 Arg2:T9	
+R4	Support Arg1:T6 Arg2:T1	
+R5	Support Arg1:T5 Arg2:T9	
+R6	Support Arg1:T5 Arg2:T1	

@@ -1,0 +1,8 @@
+T1	Premise 958 1037	The mean IOP was significantly lower after 1 year in both the groups (P<0.001).
+T2	Premise 1038 1157	The mean IOP in the first month of follow-up was lower in the study group (control; 20.4±9.7, study; 13.6±6.5, P<0.01).
+T3	Premise 1158 1252	The success rate at 1 year was 78% for the study group and 76% for the control group (P=0.82).
+T4	Claim 1311 1500	Intravitreal injection of triamcinolone acetonide in neovascular glaucoma did not affect the intermediate-term success of the silicone Ahmed valve nor reduce the incidence of complications.
+T5	Premise 1501 1576	The mean IOP spike in the first month was lower in the triamcinolone group.
+T6	Premise 1253 1310	Complication rates were not different between the groups.
+R1	Support Arg1:T6 Arg2:T4	
+R2	Support Arg1:T3 Arg2:T4	

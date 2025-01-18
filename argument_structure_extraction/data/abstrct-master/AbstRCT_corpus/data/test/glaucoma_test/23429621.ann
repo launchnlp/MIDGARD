@@ -1,0 +1,10 @@
+T1	Claim 1273 1333	Both drops provided effective IOP reduction that was greater
+T2	Claim 1338 1423	patients were more likely to achieve lower target pressures with BTFC than with TTFC.
+T3	Premise 653 752	Both drops provided statistically significant IOP reductions from baseline at all visits (P<0.001).
+T4	Premise 753 855	BTFC provided greater significant mean IOP reductions from baseline than TTFC at each visit (P<0.001).
+T5	Premise 856 1002	Mean IOP reductions were 11.34 and 6.42 mm Hg at 2 weeks (P=0.000), and 11.17 and 7.89 mmHg at 6 months (P=0.001) for BTFC and TTFC, respectively.
+T6	Premise 1003 1272	IOPs at 2 weeks were 18 mm Hg in 36 (90.8%) versus 22 (55%) eyes and 16 mm Hg in 28 (70%) versus 16 (40%) eyes (P<0.001), and at 6 months, 18 mm Hg in 38 (95%) versus 28 (70%) eyes and 16 mm Hg in 30 (75%) versus 18 (45%) eyes for BTFC and TTFC, respectively (P<0.001).
+R1	Support Arg1:T3 Arg2:T1	
+R2	Support Arg1:T4 Arg2:T2	
+R3	Support Arg1:T5 Arg2:T1	
+R4	Support Arg1:T6 Arg2:T1	

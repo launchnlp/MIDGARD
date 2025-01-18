@@ -1,0 +1,8 @@
+T1	Premise 804 979	Subdomain analysis revealed a clinically moderate improvement from baseline for LAC in total QOL index at 18 months (P = 0.02) as well as other small symptomatic improvements.
+T2	Premise 1212 1343	Eighteen months after surgery, any differences in quality of life between patients randomized to LAC or open colectomy favored LAC.
+T3	Premise 1344 1393	However, the magnitude of the benefits was small.
+T4	Claim 1394 1583	Patients with poor preoperative QOL appear to be at higher risk for difficult postoperative courses, and may be candidates for enhanced ancillary services to address their particular needs.
+R1	Partial-Attack Arg1:T3 Arg2:T2	
+T5	Claim 1 211	Postoperative outcomes of patients undergoing laparoscopic-assisted colectomy (LAC) have shown modest improvements in recovery but only minimal differences in quality of life (QOL) compared with open colectomy.
+R2	Support Arg1:T1 Arg2:T5	
+R3	Support Arg1:T2 Arg2:T5	

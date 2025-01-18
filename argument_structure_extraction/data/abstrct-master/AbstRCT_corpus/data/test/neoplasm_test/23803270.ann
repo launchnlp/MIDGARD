@@ -1,0 +1,13 @@
+T1	Premise 951 1037	No statistically significant between-group differences were found in volume reduction;
+T2	Premise 1038 1123	however, all groups had clinically and statistically significant reduction in volume.
+T3	Premise 1124 1202	No group differences were noted in psychological and physical symptoms or QOL;
+T4	Premise 1203 1290	however, treatment-related improvements were noted in symptom burden within all groups.
+T5	Premise 1291 1351	Skin improvement was noted in each group that received LLLT.
+T6	Claim 1352 1435	LLLT with bandaging may offer a time-saving therapeutic option to conventional MLD.
+T7	Claim 1451 1531	compression bandaging alone could account for the demonstrated volume reduction.
+T8	Claim 1532 1570	APNs can effectively treat lymphedema.
+T9	Claim 1654 1725	Lasers may provide effective, less burdensome treatment for lymphedema.
+T10	Claim 1726 1828	APNs with lymphedema certification can effectively treat this patient population with the use of LLLT.
+T11	Claim 1842 1921	bioelectrical impedance and tape measurements can be used to assess lymphedema.
+R1	Partial-Attack Arg1:T2 Arg2:T1	
+R2	Support Arg1:T1 Arg2:T7	

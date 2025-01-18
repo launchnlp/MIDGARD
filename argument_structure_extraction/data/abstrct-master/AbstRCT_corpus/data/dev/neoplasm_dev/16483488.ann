@@ -1,0 +1,9 @@
+T1	Premise 813 1006	The response rate was 35.7% vs. 43.8% (P = 0.4), median TTP was 4.7 months vs. 5.5 months (P = 0.6), one-year survival rate was 38.5% vs. 58.6% (P = 0.07) in the NL and NP groups, respectively.
+T2	Premise 1007 1137	Grade I-II neuro-sensory toxicity occurred significantly more frequent in NL group than in NP group (68.4% vs. 36.4%, P = 0.0017).
+T3	Premise 1138 1265	However, Grade I-II granulocytopenia was significantly less occurred in NL group than in NP group (49.4% vs. 70.6%, P = 0.037).
+T4	Premise 1266 1353	There was no statistically difference between the two groups regarding quality of life.
+T5	Claim 1354 1460	Due to good efficacy and tolerability, the NL regimen offered a new candidate for treating advanced NSCLC.
+R1	Support Arg1:T3 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T5	
+R3	Support Arg1:T1 Arg2:T5	
+R4	Support Arg1:T4 Arg2:T5	

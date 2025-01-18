@@ -1,0 +1,9 @@
+T1	Claim 1253 1343	Preservative-free latanoprost has the same efficacy as BPL, with improved local tolerance.
+T2	Premise 1085 1252	Upon instillation, the global subjective ocular symptom score was significantly lower on T2345 than BPL on D42 (0.15 vs 0.41; p=0.001) and D84 (0.18 vs 0.46; p=0.001).
+T3	Premise 936 1084	Moderate to severe conjunctival hyperaemia was less frequent on T2345 than on BPL at D42 (20.2% vs 30.6%; p=0.003) and D84 (21.4% vs 29.1%; p=0.02).
+T4	Premise 803 935	The most frequent ocular adverse event, drug intolerance, was reported in 1 (0.5%) patient on T2345 versus 4 (2.1%) patients on BPL.
+T6	Premise 612 754	Mean IOP reduction (D0-D84) was -8.6 ±2.6 mm Hg (-36%) on T2345 and -9.0 ±2.4 mm Hg (-38%) on BPL, confirming non-inferiority of T2345 to BPL.
+R1	Support Arg1:T2 Arg2:T1	
+R2	Support Arg1:T6 Arg2:T1	
+R3	Support Arg1:T4 Arg2:T1	
+R4	Partial-Attack Arg1:T3 Arg2:T1	

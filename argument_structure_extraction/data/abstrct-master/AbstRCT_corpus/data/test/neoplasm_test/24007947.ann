@@ -1,0 +1,13 @@
+T1	MajorClaim 1 79	Analgesia and early quality of recovery may be improved by epidural analgesia.
+T2	Premise 767 905	More patients without epidural (34%) ceased opioid analgesia 3-5 days after surgery compared to patients who had an epidural (7%; p<0.01).
+T3	Premise 906 1030	Postoperative complications (any grade) occurred in 86% of patients with and in 66% of patients without an epidural (p<0.01)
+T4	Premise 1035 1094	there was no difference in serious adverse events (p=0.19).
+T5	Premise 1095 1227	Epidural analgesia was associated with increased length of stay (up to 48 days compared to up to 34 days in the non-epidural group).
+T6	Claim 1228 1316	There was no difference in postoperative quality of life up to six months after surgery.
+T7	Claim 1317 1469	Epidural analgesia was associated with an increase in any, but not serious, postoperative complications and length of stay after abdominal hysterectomy.
+T8	MajorClaim 1470 1581	Randomised controlled trials are needed to examine the effect of epidural analgesia on surgical adverse events,
+T9	Claim 1596 1678	the present data do not support a quality of life benefit with epidural analgesia.
+R1	Attack Arg1:T9 Arg2:T1	
+R2	Support Arg1:T5 Arg2:T7	
+R3	Support Arg1:T4 Arg2:T7	
+R4	Support Arg1:T3 Arg2:T7	

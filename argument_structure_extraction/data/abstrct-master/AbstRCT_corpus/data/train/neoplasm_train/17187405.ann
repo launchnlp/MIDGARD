@@ -1,0 +1,15 @@
+T3	Claim 133 250	Somatostatin has been shown to have antimitotic activity in endocrine as well as in a variety of nonendocrine tumors.
+T4	Premise 251 305	Expression of somatostatin receptors is found in HCCs,
+T5	Claim 310 385	the efficacy of the somatostatin analogue octreotide remains controversial.
+T6	Premise 829 880	There was no difference in the cumulative survival.
+T7	Premise 881 991	The median survival time was 4.7 months in the octreotide group compared with 5.3 months in the control group.
+T8	Premise 992 1093	Six-month survival rates were 41% for octreotide patients and 42% for control patients, respectively.
+T9	Premise 1094 1243	The unadjusted relative risk for mortality in the octreotide group compared with patients in the control group was 1.11 (95% CI 0.76-1.63; P = 0.59).
+T10	Premise 1244 1428	When adjusted for Okuda, CTP, and Cancer of the Liver Italian Program (CLIP) scores, the relative risk for octreotide did not change markedly and was 1.05 (95% CI 0.71-1.55; P = 0.83).
+T11	Claim 1429 1507	The CLIP score seems to predict survival better than both Okuda and CTP score.
+T12	Claim 1508 1662	The randomized controlled double-blind HECTOR trial showed no survival benefit for HCC patients treated with long-acting octreotide compared with placebo.
+R1	Support Arg1:T10 Arg2:T12	
+R2	Support Arg1:T9 Arg2:T12	
+R3	Support Arg1:T8 Arg2:T12	
+R4	Support Arg1:T7 Arg2:T12	
+R5	Support Arg1:T6 Arg2:T12	

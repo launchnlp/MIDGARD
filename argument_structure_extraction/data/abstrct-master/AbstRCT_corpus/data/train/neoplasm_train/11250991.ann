@@ -1,0 +1,18 @@
+T1	Premise 1118 1193	The projected 2-year PFS is 90.4% on three cycles and 89.4% on four cycles.
+T2	Premise 1194 1297	The difference in PFS between three and four cycles is -1.0% (80% confidence limit [CL], -3.8%, +1.8%).
+T3	Claim 1298 1421	Equivalence for three versus four cycles is claimed because both the upper and lower bounds of the 80% CL are less than 5%.
+T4	Premise 1422 1558	In the 5- versus 3-day comparison, the projected 2-year PFS is 88.8% and 89.7%, respectively (difference, -0.9%, (80% CL, -4.1%, +2.2%).
+T5	Claim 1566 1613	equivalence is claimed in this comparison also.
+T6	Premise 1614 1696	Frequencies of hematologic and nonhematologic toxicities were essentially similar.
+T7	Premise 1697 1770	Quality of life was maintained better in patients receiving three cycles;
+T8	Premise 1771 1834	no differences were detected between 3 and 5 days of treatment.
+T9	Claim 1852 1960	three cycles of BEP, with etoposide at 500 mg/m(2), is sufficient therapy in good-prognosis germ cell cancer
+T10	Claim 1970 2085	the administration of the chemotherapy in 3 days has no detrimental effect on the effectiveness of the BEP regimen.
+R1	Support Arg1:T1 Arg2:T9	
+R2	Support Arg1:T2 Arg2:T3	
+R3	Support Arg1:T3 Arg2:T9	
+R4	Support Arg1:T4 Arg2:T5	
+R5	Support Arg1:T5 Arg2:T10	
+R6	Support Arg1:T3 Arg2:T9	
+R7	Support Arg1:T7 Arg2:T9	
+R8	Support Arg1:T8 Arg2:T10	

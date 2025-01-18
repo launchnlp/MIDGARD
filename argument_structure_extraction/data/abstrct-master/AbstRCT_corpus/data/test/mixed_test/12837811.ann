@@ -1,0 +1,19 @@
+T1	Premise 533 701	Patients treated with DC had a median survival of 11.3 v 10.1 months for VC-treated patients (P =.044; hazard ratio, 1.183 [97.2% confidence interval, 0.989 to 1.416]).
+T2	Premise 702 791	The 2-year survival rate was 21% for DC-treated patients and 14% for VC-treated patients.
+T3	Premise 792 890	Overall response rate was 31.6% for DC-treated patients v 24.5% for VC-treated patients (P =.029).
+T4	Premise 891 1075	Median survival (9.4 v 9.9 months [for VC]; P =.657; hazard ratio, 1.048 [97.2 confidence interval, 0.877 to 1.253]) and response (23.9%) with DCb were similar to those results for VC.
+T5	Premise 1076 1179	Neutropenia, thrombocytopenia, infection, and febrile neutropenia were similar with all three regimens.
+T6	Premise 1180 1276	Grade 3 to 4 anemia, nausea, and vomiting were more common (P <.01) with VC than with DC or DCb.
+T7	Premise 1277 1426	Patients treated with either docetaxel regimen had consistently improved QoL compared with VC-treated patients, who experienced deterioration in QoL.
+T8	Claim 1427 1502	DC resulted in a more favorable overall response and survival rate than VC.
+T9	Claim 1503 1611	Both DC and DCb were better tolerated and provided patients with consistently improved QoL compared with VC.
+T10	Claim 1612 1807	These findings demonstrate that a docetaxel plus platinum combination is an effective treatment option with a favorable therapeutic index for first-line treatment of advanced or metastatic NSCLC.
+R1	Support Arg1:T9 Arg2:T10	
+R2	Support Arg1:T8 Arg2:T10	
+R3	Support Arg1:T7 Arg2:T9	
+R4	Support Arg1:T4 Arg2:T8	
+R5	Support Arg1:T3 Arg2:T8	
+R6	Support Arg1:T2 Arg2:T8	
+R7	Support Arg1:T1 Arg2:T8	
+R8	Support Arg1:T5 Arg2:T9	
+R9	Support Arg1:T6 Arg2:T9	

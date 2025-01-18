@@ -1,0 +1,7 @@
+T1	Premise 1099 1199	The average increase in arm volume was 2.8% in the SNBM group and 4.2% in the RAC group (P = 0.002).
+T2	Premise 1200 1358	Patients in the SNBM group gave lower ratings for arm swelling (P < 0.001), symptoms (P < 0.001), and dysfunctions (P = 0.02), but not disabilities (P = 0.5).
+T3	Premise 1359 1465	Sentinel nodes were found in 95% of the SNBM group (29% positive) and 93% of the RAC group (25% positive).
+T4	Claim 1554 1672	SNBM was successfully undertaken in a wide range of surgical centers and caused significantly less morbidity than RAC.
+R1	Support Arg1:T3 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	
+R3	Support Arg1:T1 Arg2:T4	

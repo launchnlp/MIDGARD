@@ -1,0 +1,11 @@
+T1	MajorClaim 45 148	octreotide, the long acting somatostatin analogue, improves survival of animals with pancreatic cancer.
+T2	Premise 632 906	The patients treated with octreotide showed a significant advantage in quality of life (restored appetite, improvement of digestion and intestine function, remission of abdominal pain and preservation of baseline body weight) with a mean > 80 of karnofsky performance score.
+T3	Premise 907 1040	Monitoring of tumour size changes (US-TC) over the 6 months study period, showed slackened neoplastic growth in all treated patients,
+T4	Premise 1041 1125	whereas neoplasm grew according to an almost exponential trend in untreated patients
+T5	Premise 1132 1171	survival was better in treated patients
+T6	Premise 1329 1396	Karnofsky performance score was particularly high in both patients.
+T7	Claim 1425 1479	octreotide is endowed with antiproliferative activity.
+T8	Claim 1494 1607	octreotide therapy seems to confer a survival benefit and a better quality of life in advanced pancreatic tumour.
+R1	Support Arg1:T8 Arg2:T1	
+R2	Support Arg1:T2 Arg2:T8	
+R3	Support Arg1:T5 Arg2:T8	

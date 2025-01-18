@@ -1,0 +1,15 @@
+T1	Premise 730 865	At radiotherapy completion, energy intake increased in G1/G2 (P < or = .04), G1 more than G2 (P = .001), and decreased in G3 (P < .01).
+T2	Premise 866 982	Protein intake increased in G1/G2 (P < or = .007), G1 less than G2 (not significant), and decreased in G3 (P < .01).
+T3	Premise 983 1060	At 3 months, G1 maintained nutritional intake and G2/G3 returned to baseline.
+T4	Premise 1061 1175	After radiotherapy and at 3 months, rates of anorexia, nausea, vomiting, and diarrhea were higher in G3 (P < .05).
+T5	Premise 1176 1451	At radiotherapy completion, in G1 all QoL function scores improved proportionally to adequate intake or nutritional status (P < .05); whereas in G2 only three of six function scores improved proportionally to protein intake (P = .04), and in G3 all scores worsened (P < .05).
+T7	Premise 1452 1665	At 3 months, G1 patients maintained/improved function, symptoms, and single-item scores (P < .02); in G2, only few function and symptom scales improved (P < .05); in G3, QoL remained as poor as after radiotherapy.
+T11	Premise 1666 1796	In G1/G2, respectively, improvement/deterioration of QoL correlated with better or poorer intake or nutritional status (P < .003).
+T12	Claim 1797 1868	During radiotherapy, both interventions positively influenced outcomes;
+T14	Claim 1869 2029	dietary counseling was of similar or higher benefit, whereas even 3 months after RT, it was the only method to sustain a significant impact on patient outcomes.
+R1	Support Arg1:T1 Arg2:T12	
+R2	Support Arg1:T3 Arg2:T14	
+R3	Support Arg1:T2 Arg2:T12	
+R4	Support Arg1:T4 Arg2:T14	
+R5	Support Arg1:T5 Arg2:T12	
+R6	Support Arg1:T7 Arg2:T14	

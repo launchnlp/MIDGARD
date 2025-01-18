@@ -1,0 +1,12 @@
+T1	Premise 968 1020	Ocular irritation was frequently seen in DTFC group.
+T2	Premise 759 920	Intra-ocular pressure (IOP) change from baseline at 9 AM/11 AM pooled over the 8 weeks was -3.3/-3.3 mmHg in the BTFC group and -2.9/-3.4 mmHg in the DTFC group,
+T3	Premise 1030 1079	blurred vision was frequently seen in BTFC group,
+T4	Claim 1235 1359	Non-inferiority of BTFC to DTFC in IOP reduction was demonstrated after adding onto PGA therapy in Japanese OAG/OH patients.
+T5	Claim 1369 1438	the score of blurred vision was transiently higher in BTFC than DTFC,
+T7	Claim 1503 1579	BTFC can be considered as a safe and effective agent for glaucoma treatment.
+T6	Claim 1439 1496	treatment difference decreased and disappeared with time.
+R1	Partial-Attack Arg1:T6 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T5	
+T8	Premise 1177 1234	No noteworthy issue was observed in other safety outcome.
+R3	Support Arg1:T8 Arg2:T7	
+R4	Support Arg1:T2 Arg2:T4	

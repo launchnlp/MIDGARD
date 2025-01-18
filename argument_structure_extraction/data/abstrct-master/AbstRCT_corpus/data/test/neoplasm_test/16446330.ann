@@ -1,0 +1,7 @@
+T1	Premise 1093 1311	Patients in the TC arm showed better means scores after treatment on overall QoL (P = .012), physical functioning (P = .012), role functioning (P = .005), and cognitive functioning (P = .024), compared with the PT arm.
+T2	Premise 1312 1536	Concerning symptom experience, patients undergoing TC showed less nausea and vomiting (P < .001), less appetite loss (P < .001), and less fatigue (P = .033) after completion of treatment compared with patients undergoing PT.
+T3	Claim 1537 1610	The TC regimen achieved better QoL outcomes compared with the PT regimen.
+T4	Claim 1611 1734	Thus, clinicians may consider replacing cisplatin with carboplatin when treating ovarian cancer patients with chemotherapy.
+R1	Support Arg1:T3 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T3	
+R3	Support Arg1:T1 Arg2:T3	

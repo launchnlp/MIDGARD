@@ -1,0 +1,12 @@
+T1	Premise 1008 1140	Epoetin alfa, compared with placebo, significantly decreased transfusion requirements (P =.0057) and increased hemoglobin (P <.001).
+T2	Premise 1141 1354	Improvement of all primary cancer- and anemia-specific QOL domains, including energy level, ability to do daily activities, and fatigue, was significantly (P <.01) greater for epoetin alfa versus placebo patients.
+T3	Premise 1420 1524	Kaplan-Meier estimates showed a trend in overall survival favoring epoetin alfa (P =.13, log-rank test),
+T4	Premise 1529 1628	Cox regression analysis showed an estimated hazards ratio of 1.309 (P =.052) favoring epoetin alfa.
+T5	Premise 1629 1675	Adverse events were comparable between groups.
+T6	Claim 1676 1816	Epoetin alfa safely and effectively ameliorates anemia and significantly improves QOL in cancer patients receiving nonplatinum chemotherapy.
+T7	Claim 1817 1923	Encouraging results regarding increased survival warrant another trial designed to confirm these findings.
+R1	Support Arg1:T5 Arg2:T6	
+R2	Support Arg1:T2 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T7	
+R4	Support Arg1:T1 Arg2:T6	
+R5	Support Arg1:T4 Arg2:T6	

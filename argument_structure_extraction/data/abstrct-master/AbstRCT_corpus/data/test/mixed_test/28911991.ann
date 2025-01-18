@@ -1,0 +1,11 @@
+T1	Premise 674 857	Fewer complications were noted in eyes receiving sclerostomy (5/29, 17.2%) as compared to control group eyes (12/31, 38.7%), though differences were marginally significant (P = .065).
+T2	Premise 858 959	Four control group, but no sclerostomy group, eyes developed postoperative uveal effusions (P = .04).
+T3	Premise 960 1150	In multivariable models, sclerostomy decreased the odds of an intraoperative or postoperative complication by 80% (odds ratio [OR] = 0.2, 95% confidence interval [CI] = 0.04-0.92, P = .039);
+T4	Premise 1151 1507	SICS was associated with a significantly higher risk of complications as compared to phacoemulsification (OR = 5.95, 95% CI = 1.49-23.73, P = .012), while high preoperative intraocular pressure (OR = 4.54, 95% CI = 0.99-20.9, P = .052) and greater lens thickness (OR = 3.38, 95% CI = 0.88-12.91, P = .075) demonstrated a marginally significant association.
+T5	Claim 1508 1620	Cataract surgery in eyes with nanophthalmos is associated with a high risk for vision-threatening complications.
+T6	Claim 1621 1751	Performing a simultaneous prophylactic sclerostomy with cataract surgery reduces complication rates, particularly uveal effusions.
+T7	MajorClaim 1752 1861	Cataract surgery at earlier stages by phacoemulsification may be more beneficial than undergoing manual SICS.
+R1	Support Arg1:T2 Arg2:T5	
+R2	Support Arg1:T1 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T6	
+R4	Support Arg1:T4 Arg2:T6	

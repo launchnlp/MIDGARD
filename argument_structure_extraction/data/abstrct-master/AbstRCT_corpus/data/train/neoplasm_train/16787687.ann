@@ -1,0 +1,11 @@
+T1	Claim 1 98	Patients with advanced non-small cell lung cancer (NSCLC) do not have curative treatment options;
+T3	Premise 710 980	Overall, patients treated with either docetaxel-containing regimen had better QoL than VC-treated patients (LCSS global item "QoL today": P=0.064 for DC and P=0.016 for DCb versus VC; EQ-5D global item "health state today": P=0.016 for DC and P<0.001 for DCb versus VC).
+T4	Premise 981 1061	DC-treated patients experienced improved pain relief compared with VC (P=0.033),
+T5	Premise 1070 1110	pain relief with DCb and VC was similar.
+T6	Premise 1111 1398	Patients treated with either docetaxel regimen had more favorable changes in performance status (P=0.065 for DC and P<0.001 for DCb versus VC) and mean weight loss (0.06 kg, gain of 0.08 kg, and 2.27 kg for DC, DCb, and VC, respectively; P<0.001 for both DC versus VC and DCb versus VC).
+T7	Claim 1399 1521	The TAX 326 study shows that docetaxel-platinum regimens relieve symptoms and improve QoL in patients with advanced NSCLC.
+T8	Claim 1522 1673	DCb and DC were superior to VC in all QoL outcomes assessed except for the difference between DC and VC in LCSS "QoL today", which was not significant.
+R1	Support Arg1:T3 Arg2:T8	
+R2	Support Arg1:T4 Arg2:T8	
+R3	Support Arg1:T5 Arg2:T7	
+R4	Support Arg1:T6 Arg2:T7	

@@ -1,0 +1,12 @@
+T1	Premise 785 875	Breast IMRT significantly improved the dose distribution compared with standard radiation.
+T2	Premise 876 1088	This translated into a lower proportion of patients experiencing moist desquamation during or up to 6 weeks after their radiation treatment; 31.2% with IMRT compared with 47.8% with standard treatment (P = .002).
+T3	Premise 1089 1262	A multivariate analysis found the use of breast IMRT (P = .003) and smaller breast size (P < .001) were significantly associated with a decreased risk of moist desquamation.
+T4	Premise 1263 1326	The use of IMRT did not correlate with pain and quality of life
+T5	Claim 1458 1571	Breast IMRT significantly reduced the occurrence of moist desquamation compared with a standard wedged technique.
+T6	Claim 1572 1663	Moist desquamation was correlated with increased pain and reduction in the quality of life.
+T7	Premise 1332 1457	the presence of moist desquamation did significantly correlate with pain (P = .002) and a reduced quality of life (P = .003).
+T8	MajorClaim 74 184	It is more likely in full-breasted women and when the radiation is distributed nonhomogeneously in the breast.
+T9	MajorClaim 1 73	Dermatitis is a frequent adverse effect of adjuvant breast radiotherapy.
+R1	Support Arg1:T7 Arg2:T6	
+R2	Support Arg1:T1 Arg2:T2	
+R3	Support Arg1:T3 Arg2:T5	

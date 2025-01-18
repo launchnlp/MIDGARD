@@ -1,0 +1,11 @@
+T1	Premise 507 723	In 389 eligible patients, the relative dose intensities (RDIs) of cyclophosphamide (median, 96.3% v 93.9%; P =.01) and doxorubicin (median, 95.4% v 93.3%; P =.04) were higher in patients treated with CHOP plus G-CSF.
+T2	Premise 724 821	The complete response rates were 55% and 52% for CHOP and CHOP plus G-CSF, respectively (P =.63).
+T3	Premise 822 975	The actuarial overall survival at 5 years was 22% with CHOP alone, compared with 24% with CHOP plus G-CSF (P =.76), with a median follow-up of 33 months.
+T4	Premise 976 1142	Patients treated with CHOP plus G-CSF had an identical incidence of infections, with World Health Organization grade 3 to 4 (34 of 1,191 cycles v 36 of 1,195 cycles).
+T5	Premise 1143 1268	Only the cumulative days with antibiotics were fewer with CHOP plus G-CSF (median, 0 v 6 days; P =.006) than with CHOP alone.
+T6	Premise 1269 1357	The number of hospital admissions and the number of days in hospital were not different.
+T7	Claim 1358 1410	In elderly patients, G-CSF improved the RDI of CHOP,
+T8	Premise 1411 1495	but this did not lead to a higher complete response rate or better overall survival.
+T9	Claim 1496 1537	G-CSF did not prevent serious infections.
+R1	Partial-Attack Arg1:T8 Arg2:T7	
+R2	Support Arg1:T1 Arg2:T7	

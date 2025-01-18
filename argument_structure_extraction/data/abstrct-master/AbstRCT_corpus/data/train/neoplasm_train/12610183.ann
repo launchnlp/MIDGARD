@@ -1,0 +1,5 @@
+T1	Premise 985 1116	The dose-intensified arm was slightly more emetogenic and generated more grade 3 to 4 anemia but less febrile neutropenia episodes.
+T4	Premise 1187 1347	The median PFS was 34 and 33.7 months for CEF and EC, respectively (P =.68), and the 5-year survival rate was 53% and 51% for CEF and EC, respectively (P =.94).
+T5	Claim 1348 1510	Dose-intensified EC does not provide a measurable therapeutic benefit over CEF as neoadjuvant chemotherapy for unselected locally advanced breast cancer patients.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T1 Arg2:T5	

@@ -1,0 +1,9 @@
+T1	Premise 947 1072	Compliance rates for the EORTC questionnaires were acceptable at 72%-93% of eligible patients out to the 12-month assessment.
+T2	Premise 1073 1236	Systemic side effect (SE) change scores were significantly improved for TCH-treated patients compared with AC→TH and AC→T at EOC, suggesting improved tolerability.
+T3	Premise 1237 1440	Physical functioning (PF) was only slightly worse at midpoint for those receiving TCH, compared with patients who were just starting on taxane in an AC→TH regimen, but was otherwise similar between arms.
+T5	Claim 1441 1645	All treatment arms recovered from the deterioration in SE, PF, and Global Health Scale scores by 1 year and median future perspective change scores continued to improve throughout treatment and follow-up.
+T6	Claim 1646 1781	HRQL outcomes for adjuvant docetaxel and trastuzumab-based regimens are favorable and support TCH as a more tolerable treatment option.
+R1	Support Arg1:T2 Arg2:T6	
+R2	Support Arg1:T3 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T5	
+R4	Support Arg1:T2 Arg2:T5	

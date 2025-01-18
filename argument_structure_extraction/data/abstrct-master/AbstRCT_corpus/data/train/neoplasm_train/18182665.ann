@@ -1,0 +1,7 @@
+T1	Premise 696 790	The survival benefit of D3P compared with MP has persisted with extended follow-up (P = .004).
+T2	Premise 993 1117	More patients survived >/= 3 years in the D3P and D1P arms (18.6% and 16.6%, respectively) compared with the MP arm (13.5%).
+T3	Premise 1118 1364	Similar trends in survival between treatment arms were seen for men greater than and less than 65 years of age, for those with and without pain at baseline, and for those with baseline PSA greater than and less than the median value of 115 ng/mL.
+T4	Claim 1365 1499	The present analysis confirms that survival of men with metastatic HRPC is significantly longer after treatment with D3P than with MP.
+R1	Support Arg1:T1 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	
+R3	Support Arg1:T3 Arg2:T4	

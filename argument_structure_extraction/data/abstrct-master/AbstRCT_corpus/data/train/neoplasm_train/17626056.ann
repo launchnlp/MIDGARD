@@ -1,0 +1,8 @@
+T1	Premise 1215 1464	When combined hormone therapy (n=2196) was compared with placebo (n=2189), there was a significant increase in the number of major cardiovascular events (7 v 0, P=0.016) and venous thromboembolisms (22 v 3, hazard ratio 7.36 (95% CI 2.20 to 24.60)).
+T2	Premise 1465 1745	There were no statistically significant differences in numbers of breast or other cancers (22 v 25, hazard ratio 0.88 (0.49 to 1.56)), cerebrovascular events (14 v 19, 0.73 (0.37 to 1.46)), fractures (40 v 58, 0.69 (0.46 to 1.03)), and overall deaths (8 v 5, 1.60 (0.52 to 4.89)).
+T3	Premise 1746 1871	Comparison of combined hormone therapy (n=815) versus oestrogen therapy (n=826) outcomes revealed no significant differences.
+T4	Claim 1872 1993	Hormone replacement therapy increases cardiovascular and thromboembolic risk when started many years after the menopause.
+T5	Claim 1994 2111	The results are consistent with the findings of the women's health initiative study and secondary prevention studies.
+T6	Claim 2112 2267	Research is needed to assess the long term risks and benefits of starting hormone replacement therapy near the menopause, when the effect may be different.
+R1	Partial-Attack Arg1:T6 Arg2:T4	
+R2	Support Arg1:T1 Arg2:T4	

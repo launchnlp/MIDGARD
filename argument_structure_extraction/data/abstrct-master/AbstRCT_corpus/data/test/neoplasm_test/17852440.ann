@@ -1,0 +1,15 @@
+T1	Claim 1 144	Patients receiving chemotherapy for cancer often develop anemia, which can contribute to increased morbidity and reduced quality of life (QOL).
+T2	Claim 145 249	Chemotherapy-induced anemia can be successfully treated using recombinant human erythropoietin (rHuEPO).
+T3	Premise 1335 1494	Among the 30 patients evaluable for hematologic response, the mean increase in Hb from baseline to time of final evaluation was 3.08 +/- 1.48 g/dl (p < 0.001).
+T4	Premise 1495 1657	An increase in Hb of > or = 2 g/dl, in the absence of blood transfusion, occurred in 70% of patients (21 of 30 patients) who were on the study for > or = 30 days.
+T5	Premise 1658 1797	The overall response rate (Hb increase > or = 2 g/dl or Hb > or = 12 g/dl in the absence of blood transfusion) was 90% (27 of 30 patients).
+T6	Premise 1798 2082	In 30 patients who were evaluable for QOL assessment, epoetin-alpha therapy was found to significantly (p < 0.001) improve mean cancer linear analog scale (CLAS) scores for energy level, ability to perform daily activity, and overall QOL from baseline to the time of final evaluation.
+T7	Premise 2083 2131	QW epoetin-alpha was found to be well tolerated.
+T8	Claim 2132 2335	Treatment with QW epoetin-alpha was found to increase Hb levels, decrease transfusion requirement, and improve functional status and QOL in anemic patients with ALL in maintenance receiving chemotherapy.
+T9	Claim 2336 2498	The once-weekly schedule is convenient, safe, and may reduce the burden on patients, parents, and their caregivers by reducing the number of visits to the clinic.
+R1	Support Arg1:T7 Arg2:T9	
+R2	Support Arg1:T3 Arg2:T8	
+R3	Support Arg1:T4 Arg2:T8	
+R4	Support Arg1:T5 Arg2:T8	
+R5	Support Arg1:T8 Arg2:T9	
+R6	Support Arg1:T6 Arg2:T8	

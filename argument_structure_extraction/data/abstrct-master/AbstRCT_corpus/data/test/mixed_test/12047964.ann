@@ -1,0 +1,12 @@
+T1	Premise 798 967	The hazard ratios for overall survival were 0.88 (95% CI 0.70-1.12, p=0.17) for de Gramont versus Lokich, and 0.99 (0.79-1.25, p=0.94) for de Gramont versus raltitrexed.
+T2	Premise 688 797	For the de Gramont, Lokich, and raltitrexed groups, respectively, median survival was 294, 302, and 266 days.
+T3	Premise 968 1138	An increase in treatment-related deaths was seen on raltitrexed (de Gramont one, Lokich two, raltitrexed 18) due to combined gastrointestinal and haematological toxicity.
+T4	Premise 1139 1302	Patients' assessment of quality of life showed that raltitrexed was inferior to the fluorouracil-based regimens, especially in terms of palliation and functioning.
+T5	Claim 1303 1408	The deGramont and Lokich regimens were similar in terms of survival, quality of life, and response rates.
+T6	Claim 1409 1503	The Lokich regimen was associated with more central line complications and hand-foot syndrome.
+T7	Claim 1504 1622	Raltitrexed showed similar response rates and overall survival to the de Gramont regimen and was easier to administer,
+T8	Claim 1623 1685	but resulted in greater toxicity and inferior quality of life.
+R1	Support Arg1:T2 Arg2:T5	
+R2	Support Arg1:T1 Arg2:T5	
+R3	Partial-Attack Arg1:T8 Arg2:T7	
+R4	Support Arg1:T4 Arg2:T8	

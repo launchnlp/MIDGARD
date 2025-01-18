@@ -1,0 +1,21 @@
+T2	Premise 862 941	Dysphagia improved more rapidly after stent placement than after brachytherapy,
+T3	Premise 942 1007	but long-term relief of dysphagia was better after brachytherapy.
+T4	Premise 1008 1208	For generic HRQoL, there was an overall significant difference in favour of brachytherapy on four out of five functional scales of the EORTC QLQ-C30 (role, emotional, cognitive and social) (P < 0.05).
+T5	Premise 1209 1425	Generic HRQoL deteriorated over time on all functional scales of the EORTC QLQ C-30 and EQ-5D, in particular physical and role functioning (on average -23 and -24 on a 100 points scale during 0.5 years of follow-up).
+T6	Premise 1426 1478	This decline was more pronounced in the stent group.
+T7	Premise 1479 1672	Major improvements were seen on the dysphagia and eating scales of the EORTC OES-23, in contrast to other scales of this disease-specific measure, which remained almost stable during follow-up.
+T9	Premise 1673 1774	Reported levels of chest or abdominal pain remained stable during follow-up in both treatment groups,
+T10	Premise 1775 1823	general pain levels increased to a minor extent.
+T11	Claim 1824 1963	The effects of single dose brachytherapy on HRQoL compared favourably to those of stent placement for the palliation of oesophageal cancer.
+T12	Claim 1964 2066	Future studies on palliative care for oesophageal cancer should at least include generic HRQoL scales,
+T13	Premise 2067 2202	since these were more responsive in measuring patients' functioning and well-being during follow-up than disease-specific HRQoL scales.
+R1	Partial-Attack Arg1:T3 Arg2:T2	
+R2	Support Arg1:T6 Arg2:T11	
+R3	Support Arg1:T5 Arg2:T11	
+R4	Support Arg1:T4 Arg2:T11	
+R5	Support Arg1:T13 Arg2:T12	
+R6	Partial-Attack Arg1:T12 Arg2:T11	
+R7	Support Arg1:T2 Arg2:T11	
+R8	Support Arg1:T7 Arg2:T11	
+R9	Support Arg1:T9 Arg2:T11	
+R10	Support Arg1:T10 Arg2:T11	

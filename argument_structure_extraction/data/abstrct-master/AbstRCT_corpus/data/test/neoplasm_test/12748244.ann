@@ -1,0 +1,16 @@
+T1	Premise 579 633	Efficacy was similar for the 250- and 500-mg/d groups.
+T2	Premise 634 1011	Objective tumor response rates were 18.4% (95% confidence interval [CI], 11.5 to 27.3) and 19.0% (95% CI, 12.1 to 27.9); among evaluable patients, symptom improvement rates were 40.3% (95% CI, 28.5 to 53.0) and 37.0% (95% CI, 26.0 to 49.1); median progression-free survival times were 2.7 and 2.8 months; and median overall survival times were 7.6 and 8.0 months, respectively.
+T4	Premise 1124 1252	Adverse events (AEs) at both dose levels were generally mild (grade 1 or 2) and consisted mainly of skin reactions and diarrhea.
+T3	Premise 1012 1123	Symptom improvements were recorded for 69.2% (250 mg/d) and 85.7% (500 mg/d) of patients with a tumor response.
+T5	Premise 1253 1321	Drug-related toxicities were more frequent in the higher-dose group.
+T6	Premise 1322 1439	Withdrawal due to drug-related AEs was 1.9% and 9.4% for patients receiving gefitinib 250 and 500 mg/d, respectively.
+T7	Claim 1440 1580	Gefitinib showed clinically meaningful antitumor activity and provided symptom relief as second- and third-line treatment in these patients.
+T8	Claim 1581 1631	At 250 mg/d, gefitinib had a favorable AE profile.
+T9	Claim 1632 1735	Gefitinib 250 mg/d is an important, novel treatment option for patients with pretreated advanced NSCLC.
+R1	Support Arg1:T6 Arg2:T8	
+R2	Support Arg1:T5 Arg2:T8	
+R3	Support Arg1:T4 Arg2:T8	
+R4	Support Arg1:T8 Arg2:T9	
+R5	Support Arg1:T7 Arg2:T9	
+R6	Support Arg1:T3 Arg2:T7	
+R7	Support Arg1:T2 Arg2:T7	

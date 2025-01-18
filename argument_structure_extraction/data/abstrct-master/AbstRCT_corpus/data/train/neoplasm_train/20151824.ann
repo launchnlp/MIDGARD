@@ -1,0 +1,9 @@
+T1	Premise 1224 1380	In all study groups, serum TSH levels showed very good stimulation (mean, 82.24 +/- 18.21 mU/L), without significant between-group differences (p = 0.5213).
+T2	Premise 1598 1766	The successful ablation rate was 91.0% in T4-WD Group, 91.7% in T3-WD Group, and 91.3% in rhTSH Group, without significant between-preparation differences (p = 0.2061).
+T3	Premise 1767 1851	QoL was better preserved in rhTSH Group than in T4-WD and T3-WD Groups (p < 0.0001).
+T4	Premise 1852 1944	However, there was no QoL difference at the time of ablation between T4-WD and T3-WD Groups.
+T5	Claim 1945 2126	Our study indicates that use of rhTSH preserves QoL in patients undergoing RI ablation and affords an ablation success rate comparable to that seen after thyroid hormone withdrawal.
+R1	Partial-Attack Arg1:T4 Arg2:T3	
+R2	Support Arg1:T2 Arg2:T5	
+R3	Support Arg1:T3 Arg2:T5	
+R4	Support Arg1:T1 Arg2:T5	

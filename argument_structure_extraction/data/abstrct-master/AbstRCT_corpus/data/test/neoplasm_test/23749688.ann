@@ -1,0 +1,11 @@
+T1	Premise 760 980	Meaningful differences in aerobic fitness between the exercise and usual care groups at both the 8-week [mean 3.0 mL kg(-1) min(-1) (95 % CI -1.1-7.0)] and 3-month follow-up [2.1 mL kg(-1) min(-1) (-2.3-6.6)] were found,
+T2	Premise 981 1066	although these differences did not achieve statistical significance (p values >0.14).
+T3	Premise 1067 1374	Self-reported physical activity increased in the exercise group (EG) compared to the usual care group at both 8-week (p = 0.01) and 3-month follow-up (p = 0.03) and significant differences in favour of the EG were found for physical well-being at both the 8-week (p = 0.03) and 3-month follow-up (p = 0.04).
+T4	Premise 1375 1553	Improvements in fatigue (p = 0.01), total quality of life plus fatigue (p = 0.04), and a composite physical functioning score (p = 0.01) at the 3-month follow-up were also found.
+T5	Claim 1554 1777	The PEACH trial suggests that 8 weeks of supervised aerobic exercise training was feasible and may improve aerobic fitness, fatigue and quality of life in de-conditioned cancer survivors during the early survivorship phase.
+T6	Claim 1778 1913	Exercise interventions commenced in the early survivorship phase appear safe, feasible and may lead to improvements in QOL and fatigue.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Attack Arg1:T2 Arg2:T1	
+R4	Support Arg1:T1 Arg2:T5	
+R5	Support Arg1:T5 Arg2:T6	

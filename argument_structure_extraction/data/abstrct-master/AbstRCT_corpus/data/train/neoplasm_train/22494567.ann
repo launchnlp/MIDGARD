@@ -1,0 +1,14 @@
+T1	Premise 1292 1472	PFS was significantly prolonged in the erlotinib treatment arm, both overall (hazard ratio [HR]: 0.57; p=0.0067) and in patients with EGFR IHC-positive disease (HR=0.50; p=0.0057).
+T2	Premise 1473 1602	There was a trend towards an increase in OS, which reached statistical significance in the EGFR IHC-positive subgroup (p=0.0233).
+T3	Premise 1603 1717	The overall response rate was significantly higher with erlotinib compared with placebo (24% versus 5%; p=0.0025).
+T4	Claim 1718 1813	Erlotinib was generally well tolerated and had no negative impact on QoL in this subpopulation.
+T5	Premise 1814 1896	The most common treatment-related adverse events were rash, diarrhea and pruritus.
+T6	Claim 1897 2042	Erlotinib was effective and well tolerated in Asian patients, producing benefits consistent with those observed in the overall SATURN population.
+T7	MajorClaim 2043 2217	Maintenance treatment with erlotinib appears to be a useful option for the management of Asian patients with advanced NSCLC without progression after first-line chemotherapy.
+R1	Support Arg1:T6 Arg2:T7	
+R2	Support Arg1:T4 Arg2:T7	
+R3	Support Arg1:T3 Arg2:T6	
+R4	Support Arg1:T4 Arg2:T6	
+R5	Support Arg1:T5 Arg2:T4	
+R6	Support Arg1:T2 Arg2:T6	
+R7	Support Arg1:T1 Arg2:T6	

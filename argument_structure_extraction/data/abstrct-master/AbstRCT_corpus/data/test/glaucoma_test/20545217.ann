@@ -1,0 +1,7 @@
+T1	Premise 422 656	Mean intraocular pressure (IOP) changes from baseline were -4.0 +/- 1.7 mmHg in Tafluprost administered patients and -1.4 +/- 1.8 mmHg in Placebo administered patients at 4 weeks, with a statistically significant difference (p<0.001).
+T2	Premise 657 775	IOP change at 4 weeks, % IOP reduction at 2 and 4 weeks were also significantly greater in Tafluprost than in Placebo.
+T3	Premise 776 887	A total of 51.0% in Tafluprost treated group and 8.9% in Placebo treated group reported adverse drug reactions.
+T4	Claim 888 972	These results indicate that Tafluprost is clinically useful in the treatment of NTG.
+R1	Support Arg1:T3 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	
+R3	Support Arg1:T1 Arg2:T4	

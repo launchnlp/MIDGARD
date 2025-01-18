@@ -1,0 +1,5 @@
+T1	Premise 933 1035	Patients carrying a GCLC 77 genotype had a worse overall survival (hazard ratio (HR) = 1.5, p = 0.05).
+T2	Premise 1036 1360	Patients carrying the GPX1-CC genotype had a clinically significant decline in the UNISCALE (odds ratio (OR): 7.5; p = 0.04), total Functional Assessment of Cancer Therapy-Lung score (OR: 11.0; p = 0.04), physical (OR: 7.1; p = 0.03), functional (OR: 5.2; p = 0.04), and emotional well-being constructs (OR: 23.8; p = 0.01).
+T3	Claim 1361 1515	Genotypes of glutathione-related enzymes, especially GCLC, may be used as host factors in predicting patients' survival after platinum-based chemotherapy.
+T4	Claim 1516 1576	GPX1 may be an inherited factor in predicting patients' QOL.
+T5	Claim 1577 1737	Further investigation to define and measure the effects of these genes in chemotherapeutic regimens, drug toxicities, disease progression, and QOL are critical.

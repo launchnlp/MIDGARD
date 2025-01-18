@@ -1,0 +1,12 @@
+T1	Premise 1275 1474	High self-assessed quality of life was reported by 62 (35%) of 179 men allocated radical prostatectomy, 55 (34%) of 160 men assigned to watchful waiting, and 93 (45%) of 208 men in the control group.
+T2	Premise 1475 1643	Anxiety was higher in the SPCG-4 groups (77 [43%] of 178 and 69 [43%] of 161 men) than in the control group (68 [33%] of 208 men; relative risk 1·42, 95% CI 1·07-1·88).
+T3	Premise 1644 1935	Prevalence of erectile dysfunction was 84% (146 of 173 men) in the radical prostatectomy group, 80% (122 of 153) in the watchful-waiting group, and 46% (95 of 208) in the control group and prevalence of urinary leakage was 41% (71 of 173), 11% (18 of 164), and 3% (six of 209), respectively.
+T4	Premise 1936 2088	Distress caused by these symptoms was reported significantly more often by men allocated radical prostatectomy than by men assigned to watchful waiting.
+T5	Premise 2089 2444	In a longitudinal analysis of men in SPCG-4 who provided information at two follow-up points 9 years apart, 38 (45%) of 85 men allocated radical prostatectomy and 48 (60%) of 80 men allocated watchful waiting reported an increase in number of physical symptoms; 50 (61%) of 82 and 47 (64%) of 74 men, respectively, reported a reduction in quality of life.
+T6	Premise 2445 2564	For men in SPCG-4, negative side-effects were common and added more stress than was reported in the control population.
+T7	Claim 2565 2677	In the radical prostatectomy group, erectile dysfunction and urinary leakage were often consequences of surgery.
+T8	Claim 2678 2758	In the watchful-waiting group, side-effects can be caused by tumour progression.
+T9	Claim 2759 2956	The number and severity of side-effects changes over time at a higher rate than is caused by normal ageing and a loss of sexual ability is a persistent psychological problem for both interventions.
+R1	Support Arg1:T6 Arg2:T9	
+R2	Support Arg1:T5 Arg2:T9	
+T10	Claim 1 108	For men with localised prostate cancer, surgery provides a survival benefit compared with watchful waiting.

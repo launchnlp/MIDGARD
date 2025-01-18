@@ -1,0 +1,12 @@
+T1	Premise 1127 1199	The overall response rate was 51% in arm A and 38% in arm B (p = 0.147).
+T2	Premise 1200 1247	Grade 3/4 toxicity in both arms was acceptable.
+T3	Premise 1248 1363	There was no difference in median progression-free survival between the two arms (5.5 versus 5.0 months, p = 0.19).
+T4	Premise 1364 1408	Patients in arm A had longer median survival
+T5	Premise 1409 1492	but this did not reach statistical significance (13.1 versus 8.3 months, p = 0.25).
+T6	Claim 1493 1539	No difference in quality of life was observed.
+R1	Attack Arg1:T5 Arg2:T4	
+T7	Claim 1595 1733	radiation therapy alone as it demonstrated a response rate greater than 50%, and data suggested that arm A had superior survival to arm B.
+R2	Support Arg1:T1 Arg2:T7	
+R3	Support Arg1:T4 Arg2:T7	
+R4	Support Arg1:T2 Arg2:T6	
+R5	Attack Arg1:T3 Arg2:T7	

@@ -1,0 +1,15 @@
+T1	Claim 1 116	Low anterior resection with coloanal anastomosis prevents a definitive stoma in patients with distal rectal cancer.
+T2	Premise 117 327	However, imperative stool urge, stool fragmentation, prolonged stooling sessions, and minor problems of incontinence are frequently observed in the postoperative situation and negatively affect quality of life.
+T4	Premise 1512 1633	problems with continence for liquids or gas occurred less frequently in the colonic J-pouch group 6 months after surgery.
+T5	Premise 1634 1753	The frequency of bowel movements was lower in the J-pouch group (2.5 per day) than in the coloanal group (4.7 per day).
+T6	Premise 1767 1935	in a manometric study at the same postoperative point, neorectal capacity was decreased to a similar degree in both groups compared with the preoperative rectal volume.
+T7	Premise 1942 2043	the expected and postulated reservoir effect could not be achieved by forming a 5-cm colonic J-pouch.
+T8	Claim 2044 2169	The colonic J-pouch was superior with regard to continence for gas and liquids compared with a straight coloanal anastomosis.
+T9	Claim 2183 2286	stool frequency was significantly lower in the J-pouch group than in the coloanal reconstruction group.
+T10	Claim 2357 2515	we speculate that the advantage of the colonic J-pouch is not in the creation of a larger neorectal reservoir but rather may be related to decreased motility.
+T3	Premise 2296 2356	because neorectal capacity decreased equally in both groups,
+R1	Support Arg1:T3 Arg2:T10	
+R2	Support Arg1:T4 Arg2:T8	
+R3	Support Arg1:T5 Arg2:T9	
+R4	Support Arg1:T6 Arg2:T10	
+R5	Support Arg1:T7 Arg2:T10	

@@ -1,0 +1,11 @@
+T1	Premise 1310 1465	There were no significant differences in the need for digital pressure, postoperative bleb needling with 5-fluorouracil, or number of postoperative visits.
+T2	Premise 1531 1661	Early leaks of the conjunctival wound closure occurred in 6 eyes in the 1-site group and in 0 eyes in the 2-site group (P = 0.03).
+T3	Claim 1810 1999	One-site fornix-based and 2-site limbus-based phacotrabeculectomy were similarly effective in lowering IOP and reducing the need for antiglaucoma medications over a 3-year follow-up period.
+T4	Premise 1086 1240	At the end of the study, 73% of 1-site eyes and 78.4% of 2-site eyes had IOPs of less than 18 mmHg while receiving no antiglaucoma medications (P = 0.59).
+T5	Premise 1241 1309	Visual acuity was similar for both groups at 3 months after surgery.
+T6	Premise 667 870	Mean preoperative IOP was 20.1+/-3.8 mmHg in the 1-site group and 19.5+/-5.3 mmHg in the 2-site group (P = 0.56) using a mean of 2.3+/-0.9 and 2.5+/-0.9 antiglaucoma medications, respectively (P = 0.27).
+R1	Support Arg1:T1 Arg2:T3	
+R2	Support Arg1:T4 Arg2:T3	
+T7	Premise 871 1085	After 3 years of follow-up, the mean IOP was 12.6+/-4.8 mmHg in the 1-site group and 11.7+/-4.0 mmHg in the 2-site group (P = 0.40), receiving a mean of 0.3+/-0.7 and 0.4+/-0.9 medications, respectively (P = 0.59).
+R3	Support Arg1:T7 Arg2:T3	
+R4	Support Arg1:T6 Arg2:T3	

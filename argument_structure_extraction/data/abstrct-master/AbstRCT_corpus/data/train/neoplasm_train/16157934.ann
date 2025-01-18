@@ -1,0 +1,7 @@
+T1	Premise 659 822	No differences were seen between groups in mean change scores from baseline for the SF-36 physical and mental component summary scores at 6, 12, 24, and 36 months.
+T2	Premise 823 1145	Small (< 0.2 standard deviations) but statistically significant differences in mean change scores from baseline were seen for the SF-36 domains of physical functioning (12 months), bodily pain (6 months) and vitality (6 and 12 months), and the MENQOL vasomotor (6, 12, and 24 months) and sexual domains (12 and 24 months).
+T3	Premise 1146 1406	On the response analysis, a significant difference was seen between groups for the bodily pain domain (percentage of patients reporting a worsening of QOL, 47% placebo v 51% letrozole; P = .009) and the vasomotor domain (22% placebo v 29% letrozole; P = .001).
+T4	Claim 1407 1463	Letrozole did not have an adverse impact on overall QOL.
+T5	Claim 1464 1621	Small effects were seen in some domains consistent with a minority of patients experiencing changes in QOL compatible with a reduction in estrogen synthesis.
+R1	Support Arg1:T2 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T4	

@@ -1,0 +1,9 @@
+T1	Claim 1911 2010	Both fixed brimonidine-timolol and timolol were well tolerated as agents adjunctive to latanoprost.
+T2	Claim 1719 1910	Fixed-combination brimonidine-timolol reduced IOP significantly more effectively than timolol when used as adjunctive therapy to latanoprost in patients with glaucoma and ocular hypertension.
+T3	Premise 1625 1718	Biomicroscopy findings were similar between the treatment groups after 12 weeks of treatment.
+T4	Premise 1523 1624	Adverse events occurred in 14.7% of fixed brimonidine-timolol patients and 12.7% of timolol patients.
+T5	Premise 1244 1522	Patients treated with fixed brimonidine-timolol adjunctive to latanoprost were significantly more likely than patients treated with adjunctive timolol to achieve an IOP <18 mmHg (P = 0.028) and a  20% reduction in IOP from baseline (P = 0.047) at both 8 am and 10 am in week 12.
+T6	Premise 1059 1243	The mean additional reduction from latanoprost-treated baseline IOP was 8.3 mmHg (35.5%) with fixed brimonidine-timolol and 6.2 mmHg (27.0%) with timolol at 10 am, week 12 (P < 0.001).
+R1	Support Arg1:T4 Arg2:T1	
+R2	Support Arg1:T5 Arg2:T2	
+R3	Support Arg1:T6 Arg2:T2	

@@ -1,0 +1,9 @@
+T1	Claim 1581 1718	Severely immunosuppressed individuals with raised pretreatment AST/ALT or HBsAg seropositivity need closer monitoring for hepatotoxicity.
+T4	Premise 919 1040	Among 426 participants (53% male, median age 35 years, median CD4 count 19 cells/µL), 31 developed hepatotoxicity (7.3%).
+T5	Premise 1041 1312	Raised pretreatment AST/ALT (odds ratio [OR] 3.6, 95% confidence interval [CI]: 1.7 to 7.7) and hepatitis B surface antigen (HBsAg) seropositivity at baseline (OR 4.7, 95% CI: 1.7 to 12.9) were significantly associated with an increased risk of developing hepatotoxicity.
+T6	Premise 1313 1519	Participants with both raised AST/ALT and positive HBsAg had a higher risk (OR 19.9, 95% CI: 5.3 to 74.3) and earlier onset of hepatotoxicity than participants who did not have these conditions at baseline.
+T7	Claim 1520 1580	The incidence of hepatotoxicity during IPT and ART was high.
+R1	Support Arg1:T6 Arg2:T1	
+R2	Support Arg1:T6 Arg2:T7	
+R3	Support Arg1:T5 Arg2:T7	
+R4	Support Arg1:T4 Arg2:T7	

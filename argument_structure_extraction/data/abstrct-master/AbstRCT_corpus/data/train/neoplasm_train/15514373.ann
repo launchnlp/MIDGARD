@@ -1,0 +1,5 @@
+T1	Premise 723 936	The overall response rates, which were confirmed by an independent expert panel, were 13% (95% CI, 3.4% to 23.3%), 27% (95% CI, 14.1% to 40.4%), and 40% (95% CI, 25.7% to 54.3%) for arms A, B, and C, respectively.
+T2	Premise 937 1357	Median progression-free survival and overall survival times were 3.2 months (95% CI, 1.8 to 4.6 months) and 6.8 months (95% CI, 2.6 to 11.1 months) with LV5FU2, respectively; 4.9 months (95% CI, 3.5 to 6.3 months) and 9.5 months (95% CI, 6.9 to 12.2 months) with LV5FU2-cisplatin, respectively; and 6.9 months (95% CI, 5.5 to 8.3 months) and 11.3 months (95% CI, 9.3 to 13.3 months) with LV5FU2-irinotecan, respectively.
+T3	Claim 1358 1489	Of the three regimens tested, the combination of LV5FU2-irinotecan is the most promising and will be assessed in a phase III trial.
+R1	Support Arg1:T2 Arg2:T3	
+R2	Support Arg1:T1 Arg2:T3	

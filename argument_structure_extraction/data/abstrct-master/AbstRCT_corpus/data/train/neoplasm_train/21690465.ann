@@ -1,0 +1,10 @@
+T1	Premise 1199 1352	Patients in the intervention arm discussed more symptoms over time compared with patients in the attention-control (P = .008) and control (P = .04) arms.
+T2	Premise 1353 1411	No study arm effect was observed for function discussions.
+T3	Premise 1509 1637	Clinic discussions were associated with severity of patient-reported symptoms but not with patient-reported functional concerns.
+T4	Premise 1638 1724	A positive longitudinal impact of the intervention on symptom discussion was observed,
+T5	Premise 1725 1826	but not for function discussion, suggesting that potentially serious problems may remain unaddressed.
+T6	Claim 1827 1947	Training oncologists in responding to patient-reported functional concerns may increase the impact of this intervention.
+R1	Partial-Attack Arg1:T5 Arg2:T4	
+R2	Support Arg1:T4 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T6	
+R4	Attack Arg1:T2 Arg2:T6	

@@ -1,0 +1,11 @@
+T1	Premise 847 967	Pain reduction was significant from day 4 till end of treatment with SAMITAL® and from days 7 to 21 in placebo patients.
+T2	Premise 776 846	No significant improvement was observed in the placebo group (n = 10).
+T3	Premise 604 775	Mean scores for the severity of OM were significantly (p < 0.05 versus baseline) reduced from day 31 until the end of treatment in patients treated with SAMITAL® (n = 20).
+T4	Premise 968 1127	SAMITAL® also significantly improved quality of life, as shown by improvements in scores for relevant daily activities including eating, drinking and sleeping.
+T5	Premise 1229 1355	No severe adverse events were observed with SAMITAL®, and systemic absorption of relevant active ingredients was undetectable.
+T6	Claim 1356 1515	SAMITAL® significantly decreased the severity of chemo/radiotherapy-induced OM in patients with head and neck cancer, with no treatment-related adverse events.
+T7	Claim 1516 1705	Pain relief lasted through the treatment period, and improvements in quality of life were reflected by the significant benefits of SAMITAL® on activities like drinking, eating and speaking.
+R1	Support Arg1:T5 Arg2:T6	
+R2	Support Arg1:T4 Arg2:T7	
+R3	Support Arg1:T1 Arg2:T7	
+R4	Support Arg1:T3 Arg2:T6	

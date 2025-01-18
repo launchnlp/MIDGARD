@@ -1,0 +1,5 @@
+T1	Claim 1681 1839	Nocturnal administration of BCAA granules in patients with cirrhosis reduced the occurrence of muscle cramps in the leg but did not improve the patients' QOL.
+T3	Premise 1107 1333	There was no significant difference in any of the subjects revealed by the questionnaire regarding subjective or objective symptoms, or by the SF-8 between the daytime group and the nocturnal group after 3 months of treatment.
+T4	Premise 1334 1487	The daytime group showed a significant effect on general health, vitality, social functioning, mental health, and role emotional as revealed on the SF-8.
+T5	Premise 1488 1680	Conversely, the nocturnal group exhibited a significant decrease in the occurrence of muscle cramps in the legs (P = 0.014) and significantly improved Fisher's ratio after 3 months (P = 0.04).
+R1	Support Arg1:T5 Arg2:T1	

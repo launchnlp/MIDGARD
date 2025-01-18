@@ -1,0 +1,5 @@
+T1	Claim 2021 2307	This research study indicates that live music therapy using patient-preferred music can be beneficial in improving quality of life indicators such as anxiety, perception of the hospitalization or procedure, relaxation, and stress in patients undergoing surgical procedures of the brain.
+T2	Premise 1401 1603	Results indicated statistically significant differences for 4 of the 6 quality of life measures: anxiety (p = .03), perception of hospitalization (p = .03), relaxation (p = .001), and stress (p = .001).
+T3	Premise 1604 1700	No statistically significant differences were found for mood (p > .05) or pain (p > .05) levels.
+R1	Support Arg1:T2 Arg2:T1	
+R2	Support Arg1:T3 Arg2:T1	

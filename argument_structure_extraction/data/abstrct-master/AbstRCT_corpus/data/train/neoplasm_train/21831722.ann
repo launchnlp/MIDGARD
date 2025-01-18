@@ -1,0 +1,5 @@
+T1	Claim 1585 1763	This study demonstrates that a brief, predominantly group-based resilience training intervention is feasible in patients with previous breast cancer; also, it may be efficacious.
+T2	Premise 1325 1501	A statistically significant improvement in resilience, perceived stress, anxiety, and overall quality of life at 12 weeks, compared with baseline was observed in the study arm.
+T3	Premise 1502 1584	No significant difference in any of these measures was noted in the control group.
+R1	Support Arg1:T2 Arg2:T1	
+R2	Support Arg1:T3 Arg2:T1	

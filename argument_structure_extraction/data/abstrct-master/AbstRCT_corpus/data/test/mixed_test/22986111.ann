@@ -1,0 +1,10 @@
+T1	Claim 1343 1485	Trabeculectomy is more effective than phacoemulsification in reducing dependence on glaucoma drugs, but is associated with more complications.
+T2	Claim 1215 1342	Both phacoemulsification and trabeculectomy are effective in reducing IOP in medically uncontrolled CACG eyes without cataract.
+T3	Premise 1137 1214	Eight (33%) of 24 trabeculectomy eyes demonstrated cataract during follow-up.
+T4	Premise 1013 1136	trabeculectomy was associated with significantly more surgical complications than phacoemulsification (46% vs 4%; P=0.001).
+T5	Premise 869 1003	Over first 24 months, trabeculectomy-treated eyes required on average 1.1 fewer drugs than phacoemulsification-treated eyes (P<0.001).
+T6	Premise 648 868	Phacoemulsification and trabeculectomy resulted in significant and comparable IOP reduction at 24 months after surgery (reduction of 8.4 mmHg or 34% for phacoemulsification vs 8.9 mmHg or 36% for trabeculectomy; P=0.76).
+R1	Support Arg1:T3 Arg2:T1	
+R2	Support Arg1:T4 Arg2:T1	
+R3	Support Arg1:T5 Arg2:T1	
+R4	Support Arg1:T6 Arg2:T2	

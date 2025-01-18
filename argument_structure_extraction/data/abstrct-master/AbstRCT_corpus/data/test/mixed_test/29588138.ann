@@ -1,0 +1,7 @@
+T1	MajorClaim 0 126	Cardiovascular complications are one of main cause of increased mortality and morbidity among Diabetes Mellitus (DM) patients.
+T2	Premise 905 1048	Eight weeks supplementation with EPA led to significant reductions in Met (p < 0.002) and Cys (p < 0.001) compared with the placebo (p < 0.06).
+T3	MajorClaim 127 327	Altered metabolism of sulphur amino acids in diabetes reflected as increases in concentration of methionine and cysteine/cystine in the blood which known as a markers of Cardiovascular Diseases (CVD).
+T4	Premise 1062 1151	compared to placebo a significant reduction in AIP were seen after taking EPA (p < 0.04).
+T5	Claim 1152 1339	EPA supplementation in patients with T2DM for eight weeks had beneficial effects on Met, Cys and AIP, which may attribute to the prevention of vascular complications in the T2DM patients.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T5	

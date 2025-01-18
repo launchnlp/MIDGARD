@@ -1,0 +1,11 @@
+T1	Premise 745 885	The QLQ-C30 subscales physical function (P=0.044) and constipation (P<0.001) showed an improvement during induction in favour of the MP arm.
+T2	Premise 886 1012	During thalidomide maintenance, the scores for the QLQ-MY24 paraesthesia became significantly higher in the MPT arm (P<0.001).
+T3	Premise 1013 1187	The QLQ-C30 subscales pain (P=0.12), insomnia (P=0.068), appetite loss (P=0.074) and the QLQ-MY24 item sick (P=0.086) scored marginally better during thalidomide maintenance.
+T4	Premise 1188 1357	The overall QoL-scale QLQ-C30-HRQoL showed a significant time trend towards more favourable mean values during protocol treatment without differences between MP and MPT.
+T5	Claim 1658 1832	This study shows that the higher frequency of toxicity associated with MPT does not translate into a negative effect on HRQoL and that MPT holds a better patient perspective.
+T6	Premise 1358 1657	For the QLQ-C30 subscales emotional function and future perspectives, difference in favour of the MPT arm from the start of treatment was observed (P=0.018 and P=0.045, respectively) with no significant 'time × arm' interaction, indicating a persistent better patient perspective with MPT treatment.
+R1	Support Arg1:T2 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T4 Arg2:T5	
+R4	Support Arg1:T6 Arg2:T5	
+R5	Support Arg1:T1 Arg2:T5	

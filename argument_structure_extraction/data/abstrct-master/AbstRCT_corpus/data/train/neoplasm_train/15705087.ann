@@ -1,0 +1,16 @@
+T1	Premise 1367 1567	The use of prophylactic tamsulosin resulted in a statistically lower dysuria severity score (difference of 2.7 vs 4.2, P < 0.005) at 1 month, with no discernible differences at 3, 6, 12 and 18 months.
+T2	Premise 1568 1622	Patients with dysuria had a statistically higher IPSS.
+T3	Premise 1623 1683	The dysuria resolved faster in patients implanted with 103Pd
+T5	Premise 1780 1889	In multivariate analysis, prophylactic alpha-blockers resulted in statistically lower maximum dysuria scores,
+T6	Premise 1890 2026	while the maximum IPSS after implantation and isotope type (but only at 6 months) were the best predictors of the resolution of dysuria.
+T7	Claim 2027 2087	Dysuria is common after brachytherapy but is typically mild.
+T9	Claim 2088 2163	Prophylactic alpha-blockers gave significantly lower maximum dysuria scores
+T10	Claim 2164 2221	but did not affect the time to the resolution of dysuria.
+T11	Claim 2222 2309	The maximum IPSS after the implant was the best predictor of the resolution of dysuria.
+R1	Partial-Attack Arg1:T10 Arg2:T9	
+R2	Support Arg1:T5 Arg2:T9	
+R3	Support Arg1:T6 Arg2:T11	
+T4	Premise 1684 1779	but was unaffected by the use of supplemental radiotherapy and/or androgen deprivation therapy.
+R4	Partial-Attack Arg1:T4 Arg2:T3	
+R5	Support Arg1:T3 Arg2:T9	
+R6	Support Arg1:T2 Arg2:T11	

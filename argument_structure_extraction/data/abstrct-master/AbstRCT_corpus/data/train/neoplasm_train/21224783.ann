@@ -1,0 +1,9 @@
+T1	Claim 1773 1847	Pilates exercises are effective and safe in female breast cancer patients.
+T2	Premise 1650 1772	When the two exercise groups were compared, there were significant differences in 6MWT in pilates-exercise group (P<0.05).
+T3	Premise 1316 1486	After the exercise program, improvements were observed in Group 1 in 6-minute walk test, BDI, EORTC QLQ-C30 functional, and EORTC QLQ-C30 BR23 functional scores (P<0.05).
+T4	Premise 1500 1649	no significant improvement was observed in Group 2 after the exercise program in any of parameters in comparison to the pre-exercise period (P>0.05).
+T5	Claim 1848 1920	There is a need for further studies so that its effect can be confirmed.
+R1	Partial-Attack Arg1:T5 Arg2:T1	
+R2	Support Arg1:T2 Arg2:T1	
+R3	Support Arg1:T3 Arg2:T1	
+R4	Support Arg1:T4 Arg2:T1	

@@ -1,0 +1,18 @@
+T1	Premise 550 745	The overall response rate was 8.4% (95% confidence interval [CI]) 3.2% to 13.7% for patients treated with PVI 5-FU alone compared with 17.6%; 95% CI 10.3% to 25.1% for PVI 5-FU plus MMC (P =.04).
+T2	Premise 746 849	Median failure-free survival was 2.8 months for PVI 5-FU and 3.8 months for PVI 5-FU plus MMC (P =.14).
+T3	Premise 850 940	Median survival was 5.1 months for PVI 5-FU and 6.5 months for PVI 5-FU plus MMC (P =.34).
+T4	Premise 941 975	Toxicities in both arms were mild.
+T5	Premise 976 1106	There was an increased incidence of neutropenia in the 5-FU plus MMC arm (P <.01), although no differences in infection were seen.
+T6	Premise 1107 1155	No patients developed hemolytic uremic syndrome.
+T7	Claim 1156 1278	Global QOL improved significantly after 24 weeks of treatment compared with baseline for patients receiving 5-FU plus MMC,
+T8	Premise 1279 1358	although there was no statistically significant difference in QOL between arms.
+T9	Claim 1533 1675	These results emphasize the importance of chemotherapy in this setting and the continuing value of the fluoropyrimidines in pancreatic cancer.
+T10	Claim 1359 1478	PVI 5-FU plus MMC resulted in a superior response rate in comparison with PVI 5-FU alone in advanced pancreatic cancer,
+T11	Claim 1479 1532	but this did not translate into a survival advantage.
+R1	Partial-Attack Arg1:T11 Arg2:T10	
+R2	Partial-Attack Arg1:T8 Arg2:T7	
+R3	Support Arg1:T10 Arg2:T9	
+R4	Support Arg1:T7 Arg2:T9	
+R5	Support Arg1:T1 Arg2:T10	
+R6	Support Arg1:T2 Arg2:T11	
+R7	Support Arg1:T3 Arg2:T11	

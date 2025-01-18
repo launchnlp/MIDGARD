@@ -1,0 +1,9 @@
+T1	Premise 1326 1366	No serious adverse events were reported.
+T2	Premise 1367 1469	Compared with PLC, CDB-2914 significantly reduced leiomyoma volume after three cycles, or 90-102 days.
+T3	Claim 1597 1677	In this small study, CDB-2914 was well-tolerated without serious adverse events.
+T4	Claim 1678 1749	Thus, there may be a role for CDB-2914 in the treatment of leiomyomata.
+R1	Support Arg1:T3 Arg2:T4	
+R2	Support Arg1:T1 Arg2:T3	
+T5	Premise 1470 1596	CDB-2914 treatment resulted in improvements in the concern subscale of the Uterine Fibroid Symptom Quality of Life assessment.
+R3	Support Arg1:T5 Arg2:T4	
+R4	Support Arg1:T2 Arg2:T4	

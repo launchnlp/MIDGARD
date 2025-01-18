@@ -1,0 +1,6 @@
+T1	Claim 786 882	Both treatments resulted in significant reductions in mean intervisit IOP range during 26 weeks.
+T2	Premise 1057 1210	After treatment, 6% (19/313) and 11% (35/318) of patients in the latanoprost and timolol groups, respectively, had high intervisit IOP ranges (P = .026).
+T3	Premise 1211 1454	Significant risk factors for high posttreatment intervisit range (multivariate logistic regression) were high pretreatment intervisit IOP range, treatment with timolol, Black race, longer time since diagnosis, and higher mean pretreatment IOP.
+T4	Claim 1455 1573	Compared with timolol, treatment with latanoprost results in significantly fewer patients with a high IOP fluctuation.
+R1	Support Arg1:T2 Arg2:T1	
+R2	Support Arg1:T2 Arg2:T4	

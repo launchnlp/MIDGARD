@@ -1,0 +1,7 @@
+T1	MajorClaim 167 242	Hormone replacement therapy is often either undesirable or contraindicated.
+T2	MajorClaim 243 294	Safe, effective non-hormonal treatments are needed.
+T3	Premise 1626 1886	Group CBT significantly reduced HFNS problem rating at 9 weeks after randomisation compared with usual care (mean difference -1·67, 95% CI -2·43 to -0·91; p<0·0001) and improvements were maintained at 26 weeks (mean difference -1·76, -2·54 to -0·99; p<0·0001).
+T4	Premise 1887 1929	We recorded no CBT-related adverse events.
+T5	Claim 1930 2110	Group CBT seems to be a safe and effective treatment for women who have problematic HFNS after breast cancer treatment with additional benefits to mood, sleep, and quality of life.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T5	

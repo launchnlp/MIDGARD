@@ -1,0 +1,7 @@
+T1	Claim 1545 1729	In eyes with synechial primary angle-closure or primary angle-closure glaucoma, both iridotomy alone or combined with iridoplasty provide a significant and equivalent reduction in IOP.
+T2	Premise 1027 1234	IOP was reduced from 24.66 +/- 13.76 mm Hg to 19.03 +/- 6.21 mm Hg in the iridotomy group (P < .001) and from 27.96 +/- 13.06 mm Hg to 20.45 +/- 7.26 mm Hg in the iridotomy plus iridoplasty group (P < .001).
+T3	Premise 1235 1414	Extent of peripheral anterior synechiae was decreased by 1 more clock-hour after iridoplasty compared with that after iridotomy in the iridotomy plus iridoplasty group (P < .001).
+T4	Premise 1415 1544	There was no significant difference in IOP, medications, need for surgery, or visual function between groups at the 1-year visit.
+T5	Claim 1730 1832	There is also a possible reduction in peripheral anterior synechiae, more so in the iridoplasty group.
+R1	Support Arg1:T2 Arg2:T1	
+R2	Support Arg1:T3 Arg2:T5	

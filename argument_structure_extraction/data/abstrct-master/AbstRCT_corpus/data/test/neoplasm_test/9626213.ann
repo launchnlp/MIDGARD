@@ -1,0 +1,19 @@
+T1	Premise 663 970	Hematologic toxicity was significantly more severe in arm A (leukopenia, neutropenia, and thrombocytopenia grade 3 or 4: 66% v 19%, 83% v 55%, 36% v 2% in arms A and B, respectively), which resulted in more febrile neutropenia (27% v 3% in arms A and B, respectively), dose reductions, and treatment delays.
+T2	Premise 971 1074	There were a total of nine toxic deaths, six due to neutropenic sepsis: five in arm A and one in arm B.
+T3	Premise 1075 1279	In contrast, arthralgia/myalgia (grade 2 or 3, 4% v 17%), peripheral neurotoxicity (grade 2 or 3, 6% v 29%), and hypersensitivity reactions (1% v 7%, all grades) were significantly more frequent in arm B.
+T4	Claim 1280 1364	The frequency and severity of other toxicities were comparable between the two arms.
+T5	Premise 1365 1481	Responses were one complete and 44 partial on arm A (28%) and two complete and 61 partial (41%) on arm B (P = .018).
+T6	Premise 1482 1634	There was no significant difference in survival, with median and 1-year survivals 9.9 versus 9.7 months and 41% versus 43%, respectively in arm A and B.
+T7	Premise 1635 1713	Progression-free survival was 4.9 and 5.4 months in arm A and B, respectively.
+T8	Premise 1950 2116	Arm B achieved a better score at week 6 for emotional, cognitive and social functioning, global health status, fatigue, and appetite loss, which was lost at 12 weeks.
+T9	Claim 2117 2216	In conclusion, arm B appears superior to arm A with regard to response rate, side effects, and QoL.
+T10	Claim 2217 2252	Although survival was not improved,
+T11	Claim 2253 2325	arm B offers a better palliation for advanced NSCLC patients than arm A.
+R1	Partial-Attack Arg1:T10 Arg2:T11	
+R2	Support Arg1:T8 Arg2:T9	
+R3	Support Arg1:T7 Arg2:T10	
+R4	Support Arg1:T6 Arg2:T10	
+R5	Support Arg1:T5 Arg2:T9	
+R6	Support Arg1:T2 Arg2:T4	
+R7	Partial-Attack Arg1:T3 Arg2:T4	
+R8	Partial-Attack Arg1:T1 Arg2:T4	

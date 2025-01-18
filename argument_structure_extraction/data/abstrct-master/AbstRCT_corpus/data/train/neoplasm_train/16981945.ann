@@ -1,0 +1,10 @@
+T3	MajorClaim 172 262	There is no consensus on an accepted intervention that significantly reduces its severity.
+T4	Claim 1216 1377	We could not identify any significant difference in the incidence of severe mucositis based on whether patients were allocated to receive misoprostol or placebo.
+T5	Premise 1378 1481	There was no significant difference in the mean area under the mucositis curve (13.2 vs 16.6; P = 0.1).
+T6	Premise 1482 1610	Patients allocated to misoprostol did report slightly increased soreness (7.6 vs 6.9; P = 0.04) and a greater use of analgesics.
+T7	Premise 1611 1765	However, this difference did not translate into a worse feeling of general well-being as measured by a simple visual analogue scale (5.8 vs 5.2; P = 0.3).
+T8	Claim 1766 1885	In conclusion, we were unable to identify a reduction in radiation-induced mucositis in patients receiving misoprostol.
+T9	MajorClaim 1886 2115	There is a paucity of high-level evidence on potentially useful interventions and a continued need for new and innovative research, incorporating quality-of-life measurements, in patients experiencing radiation-induced mucositis.
+R1	Partial-Attack Arg1:T7 Arg2:T6	
+R2	Partial-Attack Arg1:T6 Arg2:T8	
+R3	Support Arg1:T5 Arg2:T8	

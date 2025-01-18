@@ -1,0 +1,9 @@
+T1	Premise 1211 1486	At 6 months, there was a clinically relevant, but nonsignificant reduction in presentations to emergency departments (21% vs 33%; χ1 = 1.41, P = .23) and readmission to the hospital (37% vs 47%; χ1 = 0.82, P = .37) among intervention compared with control group participants.
+T2	Premise 1487 1629	Nonsignificant differences between groups were found for all unmet supportive care need and quality-of-life scores, change scores, and trends.
+T3	Premise 1630 1755	However, at 6 months, total quality-of-life scores were higher for intervention group patients than controls (106.0 vs 98.6).
+T4	Claim 1803 2008	Improvements in total quality-of-life change scores demonstrated that at 6 months, improvements were more than twice as large and clinically significant in the intervention compared with the control group.
+T5	Claim 2009 2173	CONNECT has shown promising indications on health system and patient outcomes that warrant a larger study to further investigate the potential of this intervention.
+R1	Support Arg1:T3 Arg2:T4	
+R2	Support Arg1:T4 Arg2:T5	
+R3	Support Arg1:T2 Arg2:T5	
+R4	Support Arg1:T1 Arg2:T5	

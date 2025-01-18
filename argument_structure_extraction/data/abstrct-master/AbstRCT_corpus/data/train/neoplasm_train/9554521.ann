@@ -1,0 +1,17 @@
+T2	MajorClaim 62 136	there is no standard therapy for patients with advanced gastric carcinoma.
+T3	Claim 137 237	The superiority of combination therapy over monochemotherapy has not been demonstrated convincingly.
+T4	Premise 1312 1405	The median duration of response was 8.8 and 8.3 months, respectively, in Study A and Study B.
+T5	Premise 1406 1478	The median survival reached 8 months in Study A and 9 months in Study B.
+T6	Premise 1479 1589	In the whole population of patients survival was significantly higher in patients with a PS of 0-1 (P < 0.05).
+T7	Premise 1590 1756	Patients with a PS of 0-1 and a resected tumor had the significantly longest survival both in EEP-L treated patients and in all evaluable patients in the two studies.
+T8	Premise 1757 1885	The most frequent World Health Organization Grade 3-4 toxic effects were gastrointestinal in Study A and hematologic in Study B.
+T9	Premise 1886 1926	No treatment-related death was observed.
+T10	Claim 1927 2069	The efficacy of 5-FU, modulated with 6S-LV, is moderate in patients with advanced gastric carcinoma, similar to cisplatin-containing regimens.
+T11	Claim 2070 2236	PS and other prognostic factors could influence the response rate, which does not appear to be a reliable parameter for evaluating the outcome of chemotherapy trials.
+R1	Support Arg1:T3 Arg2:T2	
+R2	Support Arg1:T9 Arg2:T10	
+R3	Support Arg1:T4 Arg2:T10	
+R4	Support Arg1:T5 Arg2:T10	
+R5	Support Arg1:T6 Arg2:T11	
+R6	Support Arg1:T7 Arg2:T11	
+R7	Support Arg1:T8 Arg2:T10	

@@ -1,0 +1,10 @@
+T1	Claim 1 144	It has been shown that nonpharmacologic interventions are effective management techniques for cancer-related fatigue (CRF) in cancer survivors.
+T3	Premise 1342 1400	The intervention demonstrated a trend toward improved CRF,
+T4	Premise 1401 1485	although this effect was reduced once confounders had been controlled statistically.
+T5	Premise 1486 1739	There was a significant improvement in physical functioning (coefficient, 10.0; 95% confidence interval, 2.5-17.5; P = .009), and this effect remained once the confounding effects of mood disturbance and comorbid disorders were controlled statistically.
+T6	Premise 1740 1793	No decrease in fatigue-related distress was detected.
+T7	Claim 1794 1988	The behaviorally oriented intervention brought about significant improvements in physical functioning, indicated a trend toward improved CRF, but detected no effect for fatigue-related distress.
+R1	Support Arg1:T6 Arg2:T7	
+R2	Support Arg1:T3 Arg2:T7	
+R3	Partial-Attack Arg1:T4 Arg2:T3	
+R4	Support Arg1:T5 Arg2:T7	

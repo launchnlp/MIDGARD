@@ -1,0 +1,11 @@
+T1	Premise 1175 1452	At 4 years, 64 (18%) of 353 patients on combined therapy and 39 (12%) of 337 on endocrine-alone therapy had moderate to severe urinary bother (p=0.005), and 16 (4%) of 355 on combined therapy and five (2%) of 338 on endocrine treatment alone had pain while urinating (p=0.024).
+T2	Premise 1453 1590	37 (11%) of 350 in the combined group and 23 (7%) of 35 in the endocrine-only group had overall bother from all bowel symptoms (p=0.022).
+T3	Premise 1591 1725	281 (85%) of 332 in the combined-treatment group and 227 (72%) of 313 in the endocrine-only group had erectile dysfunction (p=0.0002).
+T4	Premise 1726 1874	Quality of life at 4 years was similar, with the exception of decreased social function in patients receiving endocrine treatment plus radiotherapy.
+T6	Claim 1875 2007	Although addition of radiotherapy to endocrine treatment significantly increased some treatment-related symptoms, none were serious.
+R1	Support Arg1:T1 Arg2:T6	
+R2	Support Arg1:T4 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T6	
+R4	Support Arg1:T2 Arg2:T6	
+T5	Claim 2070 2213	the increase of symptoms seems acceptable and has little extra effect on quality of life after 4 years compared with endocrine treatment alone.
+R5	Support Arg1:T6 Arg2:T5	

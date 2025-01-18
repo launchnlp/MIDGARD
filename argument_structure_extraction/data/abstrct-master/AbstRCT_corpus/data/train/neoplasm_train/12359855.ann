@@ -1,0 +1,11 @@
+T1	Claim 1 85	Bone metastases are a common cause of morbidity in patients with prostate carcinoma.
+T3	Premise 964 1318	A greater proportion of patients who received placebo had skeletal-related events than those who received zoledronic acid at 4 mg (44.2% versus 33.2%; difference = -11.0%, 95% confidence interval [CI] = -20.3% to -1.8%; P =.021) or those who received zoledronic acid at 8/4 mg (38.5%; difference versus placebo = -5.8%, 95% CI = -15.1% to 3.6%; P =.222).
+T4	Premise 1319 1594	Median time to first skeletal-related event was 321 days for patients who received placebo, was not reached for patients who received zoledronic acid at 4 mg (P =.011 versus placebo), and was 363 days for those who received zoledronic acid at 8/4 mg (P =.491 versus placebo).
+T5	Premise 1595 1803	Compared with urinary markers in patients who received placebo, urinary markers of bone resorption were statistically significantly decreased in patients who received zoledronic acid at either dose (P =.001).
+T6	Premise 1804 1924	Pain and analgesic scores increased more in patients who received placebo than in patients who received zoledronic acid,
+T7	Premise 1929 2042	there were no differences in disease progression, performance status, or quality-of-life scores among the groups.
+T8	Claim 2043 2116	Zoledronic acid at 4 mg given as a 15-minute infusion was well tolerated,
+T9	Claim 2121 2184	the 8-mg dose was associated with renal function deterioration.
+T10	Claim 2185 2290	Zoledronic acid at 4 mg reduced skeletal-related events in prostate cancer patients with bone metastases.
+R1	Support Arg1:T3 Arg2:T10	
+R2	Support Arg1:T4 Arg2:T10	

@@ -1,0 +1,8 @@
+T1	Premise 915 1136	For the chemotherapy group, the mean Quality Adjusted Life Months over 24 months (QALM-24) was 9.6 (95% CI: 8.7, 11.2) months compared with the mean QALM-24 of 8.6 (95% CI: 7.6, 10.5) months for the no chemotherapy group.
+T2	Premise 1137 1315	For the chemoradiation group, the mean QALM-24 was 7.1 (95% CI: 6.0, 9.0) months compared with the mean QALM-24 of 8.1 (95% CI: 7.0, 10.0) months for the no chemoradiation group.
+T3	Claim 1476 1622	Chemotherapy provided on average an additional 1.0 quality-adjusted life months within a restricted 2-year time period from the time of resection.
+T4	Claim 1316 1475	The previously reported survival advantage supporting the use of adjuvant chemotherapy is maintained when adjusted using quality adjusted survival methodology.
+R1	Support Arg1:T2 Arg2:T4	
+R2	Support Arg1:T1 Arg2:T4	
+R3	Support Arg1:T2 Arg2:T3	
+R4	Support Arg1:T1 Arg2:T3	

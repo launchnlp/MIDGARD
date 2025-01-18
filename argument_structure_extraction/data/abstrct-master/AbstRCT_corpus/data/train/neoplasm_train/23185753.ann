@@ -1,0 +1,13 @@
+T1	Premise 805 999	Compared with the control group of the same period, the 6-month and 1-year WBC and Hb increased, the 1-year PLT increased in the treatment group, showing statistical difference (P<0.05, P<0.01).
+T2	Premise 1000 1155	Compared with 1-year treatment in the treatment group, the 2-and 3-year psychological functions and the general symptoms scores decreased (P<0.05, P<0.01).
+T3	Premise 1156 1334	Compared with the control group of the same period, the 2-and 3-year somatic functions, psychological functions, and the general symptoms scores decreased in the treatment group;
+T4	Premise 1335 1425	the 2-year somatic functions and psychological functions decreased in the treatment group;
+T5	Premise 1426 1572	the 3-year psychological functions and the general symptoms scores decreased in the treatment group, all with statistical difference (all P<0.05).
+T6	Premise 1573 1772	Compared with the control group, the death number decreased, the survival rate increased, the life span of dead children was prolonged in the treatment group, showing statistical difference (P<0.05).
+T7	Claim 1773 1925	FJD combined chemotherapy could effectively improve the QOL of solid tumor children patients, elevate their survival rate, and prolong their life spans.
+R1	Support Arg1:T6 Arg2:T7	
+R2	Support Arg1:T5 Arg2:T7	
+R3	Support Arg1:T3 Arg2:T7	
+R4	Support Arg1:T4 Arg2:T7	
+R5	Support Arg1:T2 Arg2:T7	
+R6	Support Arg1:T1 Arg2:T7	

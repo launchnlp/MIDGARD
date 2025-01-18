@@ -1,0 +1,10 @@
+T1	Premise 1200 1316	The Cronbach's alpha coefficients were 0.79 and 0.73 for the body image and fear of recurrence scales, respectively.
+T2	Premise 1317 1416	Significant benefit in body image and satisfaction with treatment was observed in the BCT patients.
+T3	Premise 1417 1501	No significant difference was observed in fear of recurrence between the two groups.
+T4	Premise 1502 1628	Ratings of cosmetic results decreased with time, in line with clinical observations of long-term side-effects of radiotherapy.
+T5	Claim 1629 1720	Wide excision appeared to be the most important predictive factor for poor cosmetic result.
+T6	Claim 1721 1937	In this multicentre randomised study, BCT helped to maintain the patients' body image, resulted in higher satisfaction with treatment and yielded no significant difference from MRM with respect to fear of recurrence.
+R1	Support Arg1:T2 Arg2:T6	
+R2	Support Arg1:T3 Arg2:T6	
+R3	Support Arg1:T1 Arg2:T6	
+R4	Partial-Attack Arg1:T4 Arg2:T6	

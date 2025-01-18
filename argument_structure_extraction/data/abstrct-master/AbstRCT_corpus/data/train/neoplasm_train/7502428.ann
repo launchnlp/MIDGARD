@@ -1,0 +1,15 @@
+T1	Premise 918 1183	Treatment effects favored castration for both endpoints (P < or = 0.002), with hazard ratios (bicalutamide:castration) of 1.54 (95% confidence interval [CI], 1.18 to 2.00) for time to treatment failure and 1.6 (95% CI, 1.19 to 2.15) for time to disease progression.
+T2	Premise 1184 1293	From the 1-year survival analysis, the hazard ratio for probability of death was 1.29 (95% CI, 0.96 to 1.72).
+T3	Premise 1294 1394	Thus far, with a median follow-up of 86 weeks, median survival has not been reached in either group.
+T4	Premise 1395 1586	Changes from baseline in several quality of life variables were significantly different (P < or = 0.01) between treatment groups periodically from months 1 to 6, and all favored bicalutamide.
+T6	Premise 1587 1657	Overall, the antiandrogen was well tolerated compared with castration;
+T7	Premise 1658 1759	with bicalutamide, hot flushes occurred less often and breast tenderness and gynecomastia more often.
+T8	Premise 1760 1849	Although a dosage of 50 mg of bicalutamide once daily was not as effective as castration,
+T9	Claim 1850 2030	the favorable quality of life outcomes and the low incidence of nonhormonal adverse events provide reasons to evaluate bicalutamide, as a single therapeutic agent, at higher doses.
+R1	Partial-Attack Arg1:T8 Arg2:T9	
+R2	Support Arg1:T7 Arg2:T9	
+R3	Support Arg1:T6 Arg2:T9	
+R4	Support Arg1:T4 Arg2:T9	
+R5	Partial-Attack Arg1:T1 Arg2:T9	
+R6	Support Arg1:T2 Arg2:T9	
+R7	Partial-Attack Arg1:T3 Arg2:T2

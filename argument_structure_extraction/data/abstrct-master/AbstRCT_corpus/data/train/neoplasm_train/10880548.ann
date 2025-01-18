@@ -1,0 +1,8 @@
+T1	MajorClaim 1 223	Menopausal symptoms (e.g., hot flashes, vaginal dryness, and stress urinary incontinence) are very common in breast cancer survivors and cannot be managed with standard estrogen replacement therapy (ERT) in these patients.
+T2	Premise 1493 1661	Patients receiving the intervention demonstrated statistically significant improvement (P =.0004) in menopausal symptoms but no significant change in vitality (P =.77).
+T3	Premise 1662 1789	Sexual functioning was statistically significantly improved (P =.04) in the treatment group compared with the usual-care group.
+T4	Claim 1790 2009	A clinical assessment and intervention program for menopausal symptom management in breast cancer survivors is feasible and acceptable to patients, leading to reduction in symptoms and improvement in sexual functioning.
+T5	Claim 2010 2079	Measurable improvement in a general QOL measure was not demonstrated.
+R1	Support Arg1:T2 Arg2:T4	
+R2	Support Arg1:T3 Arg2:T4	
+R3	Partial-Attack Arg1:T5 Arg2:T4	

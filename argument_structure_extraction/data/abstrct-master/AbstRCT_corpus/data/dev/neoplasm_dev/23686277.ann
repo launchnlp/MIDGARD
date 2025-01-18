@@ -1,0 +1,13 @@
+T1	Premise 1058 1138	The trial had to be stopped prematurely due to insufficient patient recruitment.
+T2	Premise 1139 1255	There was no difference in the amount of blood loss between both groups: LAP 261.5 ± 195.4 ml, CON 228.1 ± 119.5 ml.
+T3	Claim 1299 1371	Laparoscopic surgery was superior regarding the length of skin incision;
+T4	Claim 1385 1449	the conventional approach was superior in duration of operation.
+T5	Premise 1450 1586	There were no discrepancies in length of hospital stay, postoperative pain, bowel function, and quality of life between both approaches.
+T6	Claim 1644 1729	There was no difference with respect to blood loss between the LAP and the CON group.
+T7	Claim 1730 1839	The LAP approach is feasible for restorative proctocolectomy, and IPAA seems at least as safe as CON surgery.
+R1	Support Arg1:T5 Arg2:T7	
+R2	Support Arg1:T2 Arg2:T6	
+R3	Partial-Attack Arg1:T1 Arg2:T3	
+R4	Partial-Attack Arg1:T1 Arg2:T4	
+R5	Partial-Attack Arg1:T1 Arg2:T6	
+R6	Partial-Attack Arg1:T1 Arg2:T7	

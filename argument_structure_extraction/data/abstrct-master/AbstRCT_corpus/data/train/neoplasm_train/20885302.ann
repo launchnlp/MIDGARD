@@ -1,0 +1,6 @@
+T1	MajorClaim 1 50	Systematic assessment is vital to palliative care
+T2	Premise 938 1095	Results showed improved patient depression (P < .001) as a result of the intervention and improvement in both groups in patients' quality of life (P < .001).
+T3	Premise 1096 1248	No other patient outcomes (symptom distress, spiritual needs) or caregiver outcomes (depression, support, spiritual needs) were significantly different.
+T4	Premise 1370 1535	Hospice care was so good during the study that overall quality of life improved as a result of standard care and left little room for improvement in other variables.
+T5	Claim 1536 1602	Systematic assessment of depression is needed in hospice patients.
+R1	Support Arg1:T4 Arg2:T5	

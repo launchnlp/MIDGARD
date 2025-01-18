@@ -1,0 +1,5 @@
+T1	Premise 1204 1357	After a median follow-up time of 9.64 months, incidence rates of grades 2-4 acute diarrhea were similar in both groups (49% placebo vs 44% LAO; P = .21).
+T2	Premise 1358 1532	No statistically significant treatment differences in chemotherapy or radiation delivery, medical resource utilization, patient-reported bowel function, or QoL were observed.
+T3	Claim 1533 1709	In this study, the prophylactic use of LAO did not prevent the incidence or reduce the severity of diarrhea and had no notable impact on patient-reported bowel function or QoL.
+R1	Support Arg1:T2 Arg2:T3	
+R2	Support Arg1:T1 Arg2:T3	

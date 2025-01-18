@@ -1,0 +1,12 @@
+T1	Premise 905 1025	Significant differences in QoL emerged in activity limitation, physical capacity, and sexual functioning, favouring IAD.
+T2	Premise 1026 1319	No significant differences emerged in the prevalence of AEs: 87 patients in the IAD arm (31.8%) and 95 in the CAD arm (33.9%) had cardiovascular (CV) AEs (p=0.59), with 25 (9.1%) and 29 (10.4%) withdrawn (p=0.62), and 21 (7.7%) and 24 (8.6%) dying because of a CV event (p=0.70), respectively;
+T3	Premise 1320 1403	bone fractures occurred in 19 (6.9%) and 15 (5.4%) patients (p=0.44), respectively.
+T4	Premise 1404 1483	Hot flushes or night sweats were the most common ADRs (47.1% vs 50.4%; p=0.44).
+T5	Premise 1484 1602	Erectile dysfunction (15.7% vs 7.9%; p=0.042) and depressed mood (2.2 vs 0%; p=0.032) were more common in the IAD arm.
+T6	Claim 1603 1676	IAD showed benefits in the treatment of advanced PCa with respect to QoL.
+T7	Claim 1677 1736	The prevalence of AEs was not significantly lower with IAD.
+R1	Support Arg1:T5 Arg2:T7	
+R2	Support Arg1:T4 Arg2:T7	
+R3	Support Arg1:T2 Arg2:T7	
+R4	Support Arg1:T3 Arg2:T7	
+R5	Support Arg1:T1 Arg2:T6	

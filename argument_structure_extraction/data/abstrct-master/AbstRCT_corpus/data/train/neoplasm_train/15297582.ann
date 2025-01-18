@@ -1,0 +1,8 @@
+T2	Premise 1119 1232	On average, there were significantly higher volumes of tris-acryl microspheres used (9.0 mL vs 3.0 mL; P =.0001),
+T3	Premise 1241 1311	microcatheter occlusion was more common with PVA (28% vs 4%, P =.001).
+T4	Premise 1312 1438	There were no differences in pain severity, other postprocedural symptoms, or medication use between the two treatment groups.
+T5	Premise 1439 1594	There were also no differences in the frequency of incompletely infarcted leiomyomas, degree of improvement in symptom score, patient satisfaction, or QOL.
+T6	Claim 1595 1723	No substantive differences were detected between outcomes of embolization with PVA particles or tris-acryl gelatin microspheres.
+R1	Support Arg1:T5 Arg2:T6	
+R2	Support Arg1:T4 Arg2:T6	
+R3	Support Arg1:T2 Arg2:T6	

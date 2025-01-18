@@ -1,0 +1,7 @@
+T1	Premise 1264 1455	Median survival was: OSC + WBRT 49 days (95% confidence interval 39-61), OSC 51 days (95% confidence interval 27-57) - hazard ratio 1.11 (95% confidence interval 0.80-1.53) in favour of WBRT.
+T2	Premise 1456 1528	Quality of life assessed using EQ-5D showed no evidence of a difference.
+T3	Premise 1529 1659	The estimated mean QALYs was: OSC + WBRT 31 days and OSC 30 days, difference -1 day (95% confidence interval -12.0 to +13.2 days).
+T4	Claim 1660 1801	These interim data indicate no early evidence of detriment to quality of life, overall survival or QALYs for patients allocated to OSC alone.
+R1	Support Arg1:T2 Arg2:T4	
+R2	Support Arg1:T3 Arg2:T4	
+R3	Support Arg1:T1 Arg2:T4	

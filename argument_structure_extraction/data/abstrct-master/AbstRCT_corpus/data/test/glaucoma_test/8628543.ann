@@ -1,0 +1,9 @@
+T1	Premise 633 839	Diurnal IOP (9:00 am, 1:00 pm, 5:00 pm) was reduced from 25.2 to 16.7 mmHg (33.7%) with lantanoprost and from 25.4 to 17.1 mmHg (32.7%) with timolol as determined at the end of the 6-month treatment period.
+T2	Premise 918 1036	Latanoprost caused a somewhat more conjunctival hyperemia than timolol and more corneal punctuate epithelial erosions.
+T3	Premise 1046 1087	both drugs were generally well tolerated.
+T4	Premise 1088 1217	The most significant side effect of latanoprost was increased pigmentation of the iris which was observed in 15 patients (10.1%).
+T5	Claim 1218 1277	Timolol caused more systemic side effects than latanoprost.
+T6	Claim 1278 1406	Latanoprost 0.005% administered once daily in the evening reduced IOP at least as well as timolol 0.5% administered twice daily.
+T7	Claim 1407 1476	Latanoprost was generally well tolerated systemically and in the eye.
+R1	Support Arg1:T3 Arg2:T7	
+R2	Support Arg1:T1 Arg2:T6	

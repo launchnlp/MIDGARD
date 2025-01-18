@@ -1,0 +1,12 @@
+T1	Premise 900 1056	Gefitinib did not show better OS compared with GP (hazard ratio [HR], 0.932; 95% CI, 0.716 to 1.213; P = .604; median OS, 22.3 v 22.9 months, respectively).
+T2	Premise 1057 1157	The 1-year PFS rates were 16.7% with gefitinib and 2.8% with GP (HR, 1.198; 95% CI, 0.944 to 1.520).
+T3	Premise 1158 1224	Response rates were 55% with gefitinib and 46% with GP (P = .101).
+T4	Premise 1225 1307	Myelosuppression, renal insufficiency, and fatigue were more common in the GP arm,
+T5	Premise 1312 1388	skin toxicities and liver dysfunction were more common in the gefitinib arm.
+T6	Premise 1389 1475	Two patients (1.3%) in the gefitinib arm developed interstitial lung disease and died.
+T7	Claim 1476 1569	Gefitinib failed to demonstrate superior OS compared with GP as first-line therapy for NSLAs.
+R1	Support Arg1:T6 Arg2:T7	
+R2	Support Arg1:T5 Arg2:T7	
+R3	Partial-Attack Arg1:T4 Arg2:T7	
+R4	Support Arg1:T1 Arg2:T7	
+R5	Support Arg1:T2 Arg2:T7	

@@ -1,0 +1,11 @@
+T1	Premise 918 1041	There was a significant survival advantage for GCa compared with MIC (hazard ratio, 0.76; 95% CI, 0.61 to 0. 93; P = .008).
+T2	Premise 1042 1242	Median survival was 10 months with GCa and 7.6 months with MIC (difference, 2.4 months; 95% CI, 1.0 to 4.0), and 1-year survival was 40% with GCa and 30% with MIC (difference, 10%; 95% CI, 3% to 18%).
+T3	Premise 1243 1316	Overall response rates were similar (42% for GCa v 41% for MIC; P = .84).
+T4	Premise 1317 1367	More thrombocytopenia occurred with GCa (P = .03),
+T5	Premise 1368 1442	but this was not associated with increased hospital admission or fatality.
+T6	Premise 1443 1591	GCa caused less nausea, vomiting, constipation, and alopecia and was associated with fewer admissions for administration and better quality of life.
+T7	Claim 1592 1732	In patients with advanced NSCLC, GCa chemotherapy was shown to be a better-tolerated treatment that conferred a survival advantage over MIC.
+R1	Support Arg1:T1 Arg2:T7	
+R2	Support Arg1:T2 Arg2:T7	
+R3	Partial-Attack Arg1:T5 Arg2:T4	
+R4	Support Arg1:T6 Arg2:T7	

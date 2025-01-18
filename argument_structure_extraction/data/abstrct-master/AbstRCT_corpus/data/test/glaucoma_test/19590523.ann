@@ -1,0 +1,7 @@
+T1	Premise 1030 1152	At 24 months, complete success rates were 53.3% for the ELT group and 40% for the SLT group (P=0.35, Fisher's exact test);
+T2	Claim 1422 1528	Both ELT and SLT proved to be effective techniques in the treatment of POAG refractory to medical therapy.
+T3	Premise 1153 1257	qualified success rates were 33.3% for the ELT and 26.6% for the SLT group (P=0.5, Fisher's exact test).
+T4	Premise 1258 1421	Mean IOP decreased from 25.0+/-1.9 to 17.6+/-2.2 mmHg (-29.6%; P<0.0001) in the ELT group and from 23.9+/-0.9 to 19.1+/-1.8 mmHg (-21%; P<0.0001) in the SLT group.
+R1	Support Arg1:T1 Arg2:T2	
+R2	Support Arg1:T4 Arg2:T2	
+R3	Support Arg1:T3 Arg2:T2	

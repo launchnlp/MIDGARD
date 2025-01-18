@@ -1,0 +1,21 @@
+T1	Premise 872 1096	Tamoxifen reduced the risk of invasive breast cancer by 49% (two-sided P<.00001), with cumulative incidence through 69 months of follow-up of 43.4 versus 22.0 per 1000 women in the placebo and tamoxifen groups, respectively.
+T3	Premise 1214 1381	risk was also reduced in women with a history of lobular carcinoma in situ (56%) or atypical hyperplasia (86%) and in those with any category of predicted 5-year risk.
+T4	Premise 1382 1464	Tamoxifen reduced the risk of noninvasive breast cancer by 50% (two-sided P<.002).
+T5	Premise 1465 1625	Tamoxifen reduced the occurrence of estrogen receptor-positive tumors by 69%, but no difference in the occurrence of estrogen receptor-negative tumors was seen.
+T7	Premise 1626 1796	Tamoxifen administration did not alter the average annual rate of ischemic heart disease; however, a reduction in hip, radius (Colles'), and spine fractures was observed.
+T9	Premise 1797 1998	The rate of endometrial cancer was increased in the tamoxifen group (risk ratio = 2.53; 95% confidence interval = 1.35-4.97); this increased risk occurred predominantly in women aged 50 years or older.
+T11	Premise 2080 2137	no endometrial cancer deaths have occurred in this group.
+T12	Premise 2138 2246	No liver cancers or increase in colon, rectal, ovarian, or other tumors was observed in the tamoxifen group.
+T13	Premise 2247 2421	The rates of stroke, pulmonary embolism, and deep-vein thrombosis were elevated in the tamoxifen group; these events occurred more frequently in women aged 50 years or older.
+T15	Claim 2422 2498	Tamoxifen decreases the incidence of invasive and noninvasive breast cancer.
+T16	Claim 2499 2671	Despite side effects resulting from administration of tamoxifen, its use as a breast cancer preventive agent is appropriate in many women at increased risk for the disease.
+R1	Support Arg1:T15 Arg2:T16	
+R2	Support Arg1:T1 Arg2:T15	
+R3	Support Arg1:T4 Arg2:T15	
+R4	Support Arg1:T3 Arg2:T16	
+R5	Support Arg1:T5 Arg2:T16	
+R6	Support Arg1:T7 Arg2:T16	
+R7	Partial-Attack Arg1:T9 Arg2:T16	
+R8	Partial-Attack Arg1:T11 Arg2:T9	
+R9	Support Arg1:T12 Arg2:T16	
+R10	Support Arg1:T13 Arg2:T16	

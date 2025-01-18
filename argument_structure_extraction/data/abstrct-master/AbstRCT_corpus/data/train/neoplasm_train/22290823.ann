@@ -1,0 +1,8 @@
+T1	Premise 1257 1458	Significant group by time interactions showed that there was an improvement in dyads' coping (p < 0.05), self-efficacy (p < 0.05), and social QOL (p < 0.01) and in caregivers' emotional QOL (p < 0.05).
+T4	Premise 1538 1598	Risk for distress accounted for very few moderation effects.
+T5	Premise 1599 1683	Both brief and extensive programs had positive outcomes for patient-caregiver dyads,
+T6	Premise 1684 1710	but few sustained effects.
+T7	Claim 1711 1777	Patient-caregiver dyads benefit when viewed as the 'unit of care'.
+R1	Partial-Attack Arg1:T6 Arg2:T5	
+R2	Support Arg1:T1 Arg2:T7	
+R3	Support Arg1:T5 Arg2:T7	

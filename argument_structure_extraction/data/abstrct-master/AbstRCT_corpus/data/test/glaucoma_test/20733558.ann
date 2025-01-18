@@ -1,0 +1,9 @@
+T1	Premise 773 937	At 1 year after surgery, the mean IOP was 15.6+/-2.4mm Hg in the ologen group (P<0.01, 43% reduction) and 11.5+/-4.1 mm Hg in the MMC group (P<0.01, 50% reduction).
+T2	Claim 1470 1558	However, the bleb morphology caused more problems in the MMC group (avascularity score).
+T3	Claim 1343 1469	The complete success rate using trabeculectomy with the ologen implant is lower than that achieved by trabeculectomy with MMC.
+T4	Premise 938 1102	No anti-glaucomatous medication was necessary in the MMC group in the first year of follow-up, whereas five patients in the ologen group required topical treatment.
+T6	Premise 1103 1192	The absolute success rate was 100% in the MMC group and 50% in the ologen group (P=0.01).
+T7	Premise 1193 1342	After 1 year, filtering blebs developed significantly more avascular areas in the MMC group (score=1.4) than in the ologen group (score=2.8; P<0.01).
+R1	Partial-Attack Arg1:T2 Arg2:T3	
+R3	Support Arg1:T6 Arg2:T3	
+R2	Support Arg1:T1 Arg2:T3	

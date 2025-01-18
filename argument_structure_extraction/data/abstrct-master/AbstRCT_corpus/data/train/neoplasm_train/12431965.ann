@@ -1,0 +1,11 @@
+T1	Claim 1 111	Increased expression of metalloproteinases is associated with poor prognosis in small-cell lung cancer (SCLC).
+T2	Premise 859 1028	Best response to induction therapy was complete remission for 176 patients (33%), partial remission for 341 (64%), and 15 patients (3%) had undergone surgical resection.
+T3	Premise 1155 1262	Median survivals for marimastat and placebo patients were 9.3 months and 9.7 months, respectively (P =.90).
+T4	Premise 1029 1154	The median time to progression for marimastat patients was 4.3 months compared with 4.4 months for placebo patients (P =.81).
+T5	Premise 1263 1353	Toxicity was generally limited to musculoskeletal symptoms (18% grade 3/4 for marimastat).
+T6	Premise 1354 1524	Dose modifications for musculoskeletal toxicity were required in 90 patients (33%) on the marimastat arm, and 87 (32%) permanently stopped marimastat because of toxicity.
+T7	Premise 1525 1607	Patients on marimastat had significantly poorer quality of life at 3 and 6 months.
+T8	Claim 1608 1748	Treatment with marimastat after induction therapy for SCLC did not result in improved survival and had a negative impact on quality of life.
+R1	Support Arg1:T3 Arg2:T8	
+R2	Support Arg1:T5 Arg2:T8	
+R3	Support Arg1:T7 Arg2:T8	

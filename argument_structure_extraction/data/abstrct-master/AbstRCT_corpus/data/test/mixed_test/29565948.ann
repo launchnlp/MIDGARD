@@ -1,0 +1,14 @@
+T1	MajorClaim 0 85	Sodium nitrite has been reported to be effective in reducing chronic peripheral pain.
+T2	Premise 1274 1327	There were no reports of treatment-related headaches.
+T3	Premise 1167 1273	The number of subjects reporting adverse events and the number of adverse events did not change with dose.
+T4	Premise 1446 1636	In the NPSI assessment, patients in the 40 mg and 80 mg dose group reported a 12.7% and 22.0% reduction in pain, respectively, compared to an 8.4% reduction by patients in the placebo group.
+T5	Premise 1707 1840	the 40 mg dosing group reported the greatest reduction in pain using the McGill Pain index and via patient logs of daily pain scores,
+T6	Premise 1847 2035	the mean of pain scores reported by subjects in the 40 mg group dropped by day 41 and generally stayed lower than the mean of scores reported by subjects in either of the other two groups.
+T7	Premise 2036 2155	Patients in the 80 mg SR-nitrite group had an improvement in both Nerve Sensory Conductance and Nerve Sensory Velocity.
+T8	Premise 2156 2208	No changes were observed in HbA1c levels or PulseOx.
+T9	Premise 2363 2632	In a previous study of patients with peripheral arterial disease (PAD), 40 mg BID treatment led to a statistically significant reduction in reported pain, similar trends were observed at the end of the trial period for most of the pain questionnaires used in the study.
+T11	Claim 2850 3019	The ability to alleviate pain with BID treatment of SR-nitrite offers promise for a new non-addictive, non-sedating treatment of chronic pain and warrants further study.
+T12	Premise 2633 2849	The 80 mg BID treatment had the more pronounced affect on bioactivity (quantitative sensory testing), which was similar to the PAD study, where this dose group had the greatest improvement in FMD {AU: spell out FMD}.
+T14	Claim 2209 2362	Sustained release sodium nitrite prevents the prevalent reports of headaches by patients treated with an immediate release formulation of sodium nitrite.
+R1	Support Arg1:T9 Arg2:T11	
+R2	Support Arg1:T2 Arg2:T14	

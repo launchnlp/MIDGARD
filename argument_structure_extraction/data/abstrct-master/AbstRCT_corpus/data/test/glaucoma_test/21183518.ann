@@ -1,0 +1,9 @@
+T1	Premise 707 835	125 of 277 patients (45.1%) experienced pain in the lidocaine group, compared with 123 of 229 patients (53.7%) in the BSS group.
+T2	Claim 836 1025	The proportion of patients who experienced pain was significantly lower in the intracameral lidocaine group compared with the BSS group (multivariate OR 0.68, 95% CI 0.47 to 0.97; p=0.034).
+T3	Premise 1026 1139	The median pain score (range) was 0.0 for intracameral lidocaine group compared with 1.0 for BSS group (p=0.039).
+T4	Premise 1140 1325	Pain was more common in females (54.3% vs 43.6%; OR 1.56), non-Chinese (62.3% vs 46.9%; OR 2.13) and those who had previous cataract surgery to the fellow eye (55.3% vs 44.7%; OR 1.61).
+T5	Claim 1326 1477	The use of 0.5 cc of 1% intracameral lidocaine during phacoemulsification under topical anaesthesia significantly reduces pain experienced by patients.
+R1	Support Arg1:T1 Arg2:T2	
+T6	Claim 1478 1559	Risk factors for pain include females, non-Chinese and previous cataract surgery.
+R2	Support Arg1:T4 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T5	

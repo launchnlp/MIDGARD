@@ -1,0 +1,9 @@
+T1	Premise 1360 1530	According to the Radiation Therapy Oncology Group scale, the Grade 2 or greater rectal toxicity rate was 14% and 19.5% for the 70- and 80-Gy arms (p = .22), respectively.
+T2	Premise 1531 1618	The Grade 2 or greater urinary toxicity was 10% at 70 Gy and 17.5% at 80 Gy (p = .046).
+T3	Premise 1676 1745	Bladder toxicity was more frequent at 80 Gy than at 70 Gy (p = .039).
+T4	Premise 1619 1675	Similar results were observed using the LENT-SOMA scale.
+T5	Premise 1746 1912	The quality-of-life questionnaire results before and 5 years after treatment were available for 103 patients with no differences found between the 70- and 80-Gy arms.
+T6	Claim 1913 2012	High-dose radiotherapy provided a better 5-year biochemical outcome with slightly greater toxicity.
+R1	Support Arg1:T3 Arg2:T6	
+R2	Attack Arg1:T2 Arg2:T6	
+R3	Support Arg1:T1 Arg2:T6	

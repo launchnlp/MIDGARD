@@ -1,0 +1,9 @@
+T1	Premise 451 609	Mean (+/-SD) preoperative and 1-year postoperative intraocular pressures in the 5-fluorouracil group were 26.9 (+/-9.5) and 15.3 (+/-5.8) mm Hg, respectively.
+T2	Premise 610 701	In the control group these were 25.9 (+/-8.1) mm Hg, and 15.8 (+/-5.1) mm Hg, respectively.
+T3	Premise 702 847	The patients who received 5-fluorouracil had a mean reduction in intraocular pressure of 11.5 (+/-9.1) mm Hg at a median follow-up of 52.3 weeks.
+T4	Premise 848 970	The control group had a mean reduction in intraocular pressure of 10.2 (+/-8.7) mm Hg at a median follow-up of 52.6 weeks.
+T5	Premise 1025 1266	Three postoperative subconjunctival 5-fluorouracil injections of 5 mg each after trabeculectomy in eyes at low risk for failure had no statistically or clinically significant effect on reduction of intraocular pressure with 1-year follow-up.
+T6	Claim 1267 1366	Enhancement of success in this group of patients may require a larger total dose of 5-fluorouracil.
+T7	Premise 971 1024	These differences were not statistically significant.
+R1	Attack Arg1:T7 Arg2:T4	
+R2	Attack Arg1:T7 Arg2:T3	

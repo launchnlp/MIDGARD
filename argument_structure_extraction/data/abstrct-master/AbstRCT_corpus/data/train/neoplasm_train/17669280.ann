@@ -1,0 +1,28 @@
+T1	Claim 1298 1564	The hypothesised improvement in overall quality of life with the omission of radiotherapy was not seen in the EuroQol assessment or in the functionality and symptoms summary domains of the European Organisation for Research in the Treatment of Cancer (EORTC) scales.
+T2	Premise 1761 1845	Differences were most apparent shortly after the time of completion of radiotherapy.
+T3	Claim 1846 1985	Radiotherapy was then associated with increased breast symptoms and with greater fatigue but with less insomnia and endocrine side-effects.
+T4	Premise 1986 2154	Patients had significant concerns about the delivery of radiotherapy services, such as transport, accommodation and travel costs associated with receiving radiotherapy.
+T5	Premise 2155 2303	By the end of follow-up, patients receiving radiotherapy were expressing less anxiety about recurrence than those who had not received radiotherapy.
+T6	Premise 2304 2356	Functionality was not greatly affected by treatment.
+T7	Premise 2357 2543	Within the randomised controlled trial, the Barthel Index demonstrated a small but significant fall in functionality with radiotherapy compared with the no radiotherapy arm of the trial.
+T8	Premise 2544 2622	Results from the non-randomised patients did not confirm this effect, however.
+T9	Premise 2623 2687	Cosmetic results were better in those not receiving radiotherapy
+T10	Premise 2688 2753	but this did not appear to be an important issue to the patients.
+T11	Claim 2754 2869	The use of home-based assessments by a research nurse proved to be an effective way of obtaining high-quality data.
+T12	Premise 2993 3121	In the follow-up in this study, there were no recurrences, and the quality of life utilities from EuroQol were almost identical.
+T13	Premise 3122 3345	Although there are no differences in overall quality of life scores between the patients treated with and without radiotherapy, there are several dimensions that exhibit significant advantage to the omission of irradiation.
+T14	Premise 3346 3439	Over the first 15 months, radiotherapy for this population is not a cost-effective treatment.
+T15	Claim 3517 3598	the eventual cost-effectiveness will only become clear after long-term follow-up.
+T16	Claim 3599 3817	Extrapolations from these data suggest that radiotherapy may not be a cost-effective treatment unless it results in a recurrence rate that is at least 5% lower in absolute terms than those treated without radiotherapy.
+T17	Claim 3818 3987	Further research is needed into a number of areas including the long-term aspects of quality of life, clinical outcomes, costs and consequences of omitting radiotherapy.
+R1	Partial-Attack Arg1:T10 Arg2:T9	
+R2	Partial-Attack Arg1:T15 Arg2:T16	
+T18	Claim 3453 3512	early postoperative outcome does not give a complete answer
+R3	Partial-Attack Arg1:T17 Arg2:T16	
+R4	Support Arg1:T18 Arg2:T17	
+R5	Support Arg1:T12 Arg2:T18	
+R6	Support Arg1:T14 Arg2:T16	
+R7	Support Arg1:T13 Arg2:T18	
+R8	Partial-Attack Arg1:T8 Arg2:T7	
+R9	Support Arg1:T6 Arg2:T18	
+R10	Support Arg1:T2 Arg2:T3	

@@ -1,0 +1,11 @@
+T2	Premise 680 845	There was no statistically significant difference between ECD reduction in group BSS Plus 13.1 ± 2.0% and Ringer 9.2 ± 1.9% (p<0.05) at day 60 or in any study visit.
+T3	Premise 846 1010	There was no statistically significant difference between CV increase in group BSS Plus 23.0 ± 3.0% and Ringer 20.2 ± 4.0% (p<0.05) at day 60 or in any study visit.
+T4	Premise 1011 1141	CCT was significantly increased (p<0.05) at 1, 8, 15 and 30 days postoperatively, returning to baseline at 60 days in both groups.
+T5	Premise 1142 1222	There was no significant difference in CCT increase in both groups at any visit.
+T6	Premise 1238 1451	there were statistically significant correlations between ECD loss and phacoemulsification time (p<0.0001) and ECD loss and irrigation solution volume (p<0.0001) in the Ringer group, but not in the BSS Plus group.
+T7	Claim 1452 1549	Ringers solution was similar to BSS Plus for corneal preservation in atraumatic cataract surgery.
+T1	Claim 1550 1756	However, our study demonstrates that there is a trend towards lower postoperative endothelial cell density for surgeries with longer phacoemulsification time and higher irrigation volumes if Ringer is used.
+R1	Partial-Attack Arg1:T1 Arg2:T7	
+R2	Support Arg1:T5 Arg2:T7	
+R3	Support Arg1:T4 Arg2:T7	
+R4	Support Arg1:T2 Arg2:T1	

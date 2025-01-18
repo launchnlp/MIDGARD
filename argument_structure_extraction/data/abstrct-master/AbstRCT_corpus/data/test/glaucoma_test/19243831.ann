@@ -1,0 +1,8 @@
+T1	Premise 674 903	Combined phacotrabeculectomy resulted in lower mean postoperative IOP than phacoemulsification alone at 3 months (14.0 vs 17.0 mmHg, P = 0.01), 15 months (13.2 vs 15.4 mmHg, P = 0.02), and 18 months (13.6 vs 15.9 mmHg, P = 0.01).
+T2	Premise 904 1067	Combined phacotrabeculectomy resulted in 1.25 fewer topical glaucoma drugs (P<0.001) in the 24-month postoperative period, compared with phacoemulsification alone.
+T3	Premise 1068 1241	Combined surgery was associated with more postoperative complications (P<0.001) and more progression of optic neuropathy (P = 0.03), compared with phacoemulsification alone.
+T4	Claim 1242 1428	Combined phacotrabeculectomy with adjunctive mitomycin C is more effective than phacoemulsification alone in controlling IOP in medically uncontrolled CACG eyes with coexisting cataract.
+T5	Claim 1429 1510	Combined phacotrabeculectomy is associated with more postoperative complications.
+R1	Support Arg1:T3 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T4	
+R3	Support Arg1:T1 Arg2:T4	

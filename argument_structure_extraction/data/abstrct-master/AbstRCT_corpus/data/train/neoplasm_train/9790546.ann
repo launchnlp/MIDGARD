@@ -1,0 +1,11 @@
+T1	Claim 1 152	For patients with metastatic prostate cancer, treatment is primarily palliative, relying mainly on the suppression of systemic androgen hormone levels.
+T2	Premise 1171 1510	Cross-sectional analyses (corrected for multiple testing) identified statistically significant differences that favored orchiectomy plus placebo for two of the five primary QOL parameters as follows: patients receiving flutamide reported more diarrhea at 3 months (P = .001) and worse emotional functioning at 3 and 6 months (both P<.003).
+T3	Premise 1511 1559	Longitudinal analyses replicated these findings.
+T4	Premise 1560 1625	Other analyzed QOL parameters favored the group receiving placebo
+T5	Premise 1626 1703	but were not statistically significant after adjustment for multiple testing.
+T6	Claim 1704 1923	We found a consistent pattern of better QOL outcomes at each follow-up assessment during the first 6 months of treatment for orchiectomized patients with metastatic prostate cancer who received placebo versus flutamide.
+T7	Claim 1924 2026	Improvement over time was evident in both treatment groups but more so for patients receiving placebo.
+R1	Support Arg1:T3 Arg2:T2	
+R2	Partial-Attack Arg1:T5 Arg2:T4	
+R3	Support Arg1:T4 Arg2:T6	
+R4	Support Arg1:T2 Arg2:T7	

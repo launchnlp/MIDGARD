@@ -1,0 +1,10 @@
+T1	Premise 584 755	Latanoprost reduced IOP (mean (SD)) by 8.4 (3.8) mm Hg and bimatoprost by 8.9 (3.9) mm Hg from a baseline of 25.2 (3.6) mm Hg and 25.2 (3.6) mm Hg respectively (p = 0.23).
+T3	Premise 797 939	however there were twice as many reports of an adverse event in the bimatoprost group (81%) compared with the latanoprost group (40%, p<0.01).
+T2	Premise 1021 1169	22 subjects (37.9%) treated with bimatoprost experienced ocular hyperaemia as compared with 13 subjects (22.4%) treated with latanoprost (p = 0.11).
+T4	Claim 1170 1300	Bimatoprost once daily was similarly effective in reducing IOP compared with latanoprost once daily in subjects with chronic PACG.
+T5	Claim 1301 1364	Both drugs were well tolerated with mild ocular adverse events.
+T6	Premise 756 796	Adverse events were mild in both groups;
+R1	Support Arg1:T6 Arg2:T5	
+R2	Partial-Attack Arg1:T3 Arg2:T6	
+R3	Support Arg1:T1 Arg2:T4	
+R4	Support Arg1:T2 Arg2:T5	

@@ -1,0 +1,13 @@
+T1	MajorClaim 1 95	The incidence and development of cancer are closely related to dysfunction of immune function.
+T2	Premise 1003 1133	DC/CIK treatment prolongs progression-free survival (3.20 months [95% CI, 2.94-3.50] vs 2.56 months [95% CI, 2.39-2.73]; P <0.05).
+T3	Premise 1134 1275	In the treatment group, the proportion of NK cells, T-cell subgroups CD3+, CD4+ and CD8+ had a significant change before and after treatment.
+T4	Premise 1276 1397	Liver and kidney function and blood tests of the treatment group were within the normal range before and after treatment.
+T5	Premise 1398 1524	In the treatment group, 1 case suffered from chest distress, 3 cases suffered from acratia, and 4 cases suffered from pyrexia.
+T6	Claim 1525 1682	DC/CIK treatment had potential benefit for patients with advanced non-small cell lung cancer compared with the control group and had no obvious side effects.
+T7	Claim 1683 1794	DC/CIK treatment is a safe and effective method for maintenance therapy of advanced non-small cell lung cancer.
+R1	Support Arg1:T5 Arg2:T7	
+R2	Support Arg1:T4 Arg2:T7	
+R3	Support Arg1:T5 Arg2:T6	
+R4	Support Arg1:T3 Arg2:T6	
+R5	Support Arg1:T2 Arg2:T6	
+R6	Support Arg1:T2 Arg2:T7	

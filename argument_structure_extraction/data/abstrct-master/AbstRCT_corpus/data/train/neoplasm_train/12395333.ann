@@ -1,0 +1,13 @@
+T2	Claim 159 269	Tamoxifen (TMX) is believed to inhibit HCC positive for estrogen receptor (ER), but most HCCs are ER negative.
+T3	Claim 270 362	Results of previous phase 3 trials in inoperable HCC have been conflicting and inconclusive.
+T4	Claim 363 440	At higher doses, however, TMX inhibits HCC through ER-independent mechanisms.
+T5	Premise 1112 1317	Three-month survival rates for the P, TMX60, and TMX120 groups were 44%, 41%, and 35%, respectively, with a statistically significant trend difference in survival across the 3 treatment regimens (P =.011).
+T6	Premise 1318 1468	There was a significantly higher risk of death in the TMX120 group compared with the P group (hazard ratio, 1.39; 95% confidence interval, 1.07-1.81).
+T7	Premise 1469 1525	Adverse drug reactions were reported in 3% (9 patients),
+T8	Premise 1530 1564	8 patients were lost to follow-up.
+T9	Claim 1580 1703	TMX does not prolong survival in patients with inoperable HCC and has an increasingly negative impact with increasing dose.
+T10	Claim 1704 1758	No appreciable advantage to QoL with TMX was observed.
+R1	Support Arg1:T8 Arg2:T9	
+R2	Support Arg1:T6 Arg2:T9	
+R3	Support Arg1:T5 Arg2:T9	
+R4	Support Arg1:T7 Arg2:T10	

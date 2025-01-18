@@ -1,0 +1,12 @@
+T1	Premise 1315 1438	Nausea and vomiting is the only notable symptom that was worse in whole stomach group at the time of 2 years after surgery,
+T2	Claim 1460 1533	patients in whole stomach group suffered more severe nausea and vomiting.
+T3	Claim 1534 1717	Narrow gastric tube reconstruction may be a good alternative choice for patients undergoing oncologic esophagectomy in view of better health-related quality of life after the surgery.
+T4	Premise 900 1137	At the time of 6 months and 1 year after surgery, the reflux scores were lower in narrow gastric tube group than in whole stomach group, which revealed that there were less problems of reflux in the patients of narrow gastric tube group;
+T5	Premise 1149 1314	the score of physical function scale in narrow gastric tube group was higher conversely, which suggested that the patients gain a better status in physical function.
+T6	Premise 679 899	At the time of 3 weeks after surgery, the reflux and dyspnea scores were higher in whole stomach group than in narrow gastric tube group, which meant that the patients in whole stomach group suffered more severe problem.
+T7	Premise 559 678	The perioperative complication rate was 26.9% in narrow gastric tube group and 48.1% in whole stomach group (P = 0.31).
+R1	Support Arg1:T1 Arg2:T2	
+R2	Support Arg1:T7 Arg2:T3	
+R3	Support Arg1:T6 Arg2:T2	
+R4	Support Arg1:T4 Arg2:T3	
+R5	Support Arg1:T5 Arg2:T3	

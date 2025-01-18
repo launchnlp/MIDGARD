@@ -1,0 +1,11 @@
+T1	Premise 924 1156	Ablation success rates were 85.0% in the group receiving low-dose radioiodine versus 88.9% in the group receiving the high dose and 87.1% in the thyrotropin alfa group versus 86.7% in the group undergoing thyroid hormone withdrawal.
+T2	Premise 1157 1267	All 95% confidence intervals for the differences were within ±10 percentage points, indicating noninferiority.
+T3	Premise 1268 1474	Similar results were found for low-dose radioiodine plus thyrotropin alfa (84.3%) versus high-dose radioiodine plus thyroid hormone withdrawal (87.6%) or high-dose radioiodine plus thyrotropin alfa (90.2%).
+T4	Premise 1475 1604	More patients in the high-dose group than in the low-dose group were hospitalized for at least 3 days (36.3% vs. 13.0%, P<0.001).
+T5	Premise 1605 1837	The proportions of patients with adverse events were 21% in the low-dose group versus 33% in the high-dose group (P=0.007) and 23% in the thyrotropin alfa group versus 30% in the group undergoing thyroid hormone withdrawal (P=0.11).
+T6	Claim 1838 1960	Low-dose radioiodine plus thyrotropin alfa was as effective as high-dose radioiodine, with a lower rate of adverse events.
+R1	Support Arg1:T5 Arg2:T6	
+R2	Support Arg1:T4 Arg2:T6	
+R3	Support Arg1:T2 Arg2:T1	
+R4	Support Arg1:T1 Arg2:T6	
+R5	Support Arg1:T3 Arg2:T6	

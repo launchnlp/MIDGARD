@@ -1,0 +1,9 @@
+T1	Premise 706 935	Using an area under the serum concentration-time curve analysis, there was no evidence that methylphenidate, as compared with placebo, improved the primary end point of cancer-related fatigue in this patient population (P = .35).
+T2	Premise 936 1116	Comparisons of secondary end points, including clinically significant changes in quality-of-life variables and cancer-related fatigue change from baseline, were similarly negative.
+T3	Premise 1117 1426	However, a subset analysis suggested that patients with more severe fatigue and/or with more advanced disease did have some fatigue improvement with methylphenidate (eg, in patients with stage III or IV disease, the mean improvement in usual fatigue was 19.7 with methylphenidate v 2.1 with placebo; P = .02).
+T4	Premise 1427 1579	There was a significant difference in self-reported toxicities (SED), with increased levels of nervousness and appetite loss in the methylphenidate arm.
+T5	Claim 1580 1744	This clinical trial was unable to support the primary prestudy hypothesis that the chosen long-acting methylphenidate product would decrease cancer-related fatigue.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T2 Arg2:T5	
+R4	Support Arg1:T1 Arg2:T5	

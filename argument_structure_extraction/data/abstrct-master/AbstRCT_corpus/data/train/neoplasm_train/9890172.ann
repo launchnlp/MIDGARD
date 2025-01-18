@@ -1,0 +1,11 @@
+T1	Claim 1 154	Vinorelbine, a semisynthetic vinca alkaloid, represents a well-tolerated treatment for elderly patients with advanced non-small-cell lung cancer (NSCLC).
+T2	Premise 1260 1450	Vinorelbine-treated patients scored better than control patients on QoL functioning scales, and they reported fewer lung cancer-related symptoms but reported worse toxicity-related symptoms.
+T5	Premise 1451 1563	There was a statistically significant (two-sided P = .03) survival advantage for patients receiving vinorelbine;
+T6	Premise 1564 1643	median survival increased from 21 to 28 weeks in the vinorelbine-treated group.
+T7	Premise 1644 1736	The relative hazard of death for vinorelbine-treated patients was 0.65 (95% CI = 0.45-0.93).
+T8	Claim 1737 1841	Vinorelbine improves survival of elderly patients with advanced NSCLC and possibly improves overall QoL.
+R1	Support Arg1:T8 Arg2:T1	
+R2	Support Arg1:T5 Arg2:T8	
+R3	Support Arg1:T6 Arg2:T8	
+R4	Support Arg1:T2 Arg2:T8	
+R5	Support Arg1:T7 Arg2:T8	

@@ -1,0 +1,16 @@
+T1	Premise 567 676	Symptomatic response during the first four weeks was seen after pamidronate, but not with placebo (P < 0.05).
+T3	Premise 677 767	Quality of life was maintained with pamidronate and deteriorated after placebo (P < 0.05).
+T4	Premise 768 818	Resorption markers did not decrease after placebo,
+T5	Premise 819 893	but NTx and Crosslaps both decreased by 70% after pamidronate (P = 0.001).
+T6	Premise 894 963	A second infusion of pamidronate did not decrease resorption further,
+T7	Premise 964 1052	but maintained the suppression of resorption at similar levels for a further four weeks.
+T8	Premise 1053 1141	Symptomatic response to pamidronate correlated closely with the rate of bone resorption;
+T9	Premise 1142 1557	it was more frequent in those patients with an initial NTx value of < 2 times the upper limit of normal (17 of 27, 62%) and in those where the level of Ntx returned to normal (19 of 32, 59%), than in the patients with either high baseline values of NTx (> 2 times the upper limit of normal) or Ntx levels which failed to normalise for whom the response frequencies were 2 of 16 (13%) and 0 of 11 (0%), respectively.
+T10	Claim 1558 1653	Subjective benefit after intravenous pamidronate is confirmed in this placebo-controlled study.
+T11	Claim 1654 1762	The new bone resorption markers of collagen breakdown were able to predict clinical response to pamidronate.
+R1	Support Arg1:T8 Arg2:T11	
+R2	Partial-Attack Arg1:T7 Arg2:T6	
+R3	Partial-Attack Arg1:T5 Arg2:T4	
+R4	Support Arg1:T1 Arg2:T10	
+R5	Support Arg1:T3 Arg2:T10	
+R6	Support Arg1:T4 Arg2:T11	

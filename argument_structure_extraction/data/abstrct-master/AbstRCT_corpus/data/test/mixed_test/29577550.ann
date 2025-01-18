@@ -1,0 +1,8 @@
+T1	MajorClaim 0 129	Methionine aminopeptidase 2 (MetAP2) inhibition has been shown to result in significant weight loss and improved glucose control.
+T3	Premise 742 872	ZGN-1061 was well tolerated across all doses with most frequent adverse events of mild headache and procedural-related irritation.
+T4	Premise 921 1082	All doses of ZGN-1061 were rapidly absorbed and cleared, resulting in short duration of exposure that is anticipated to minimize potential off-drug target risks.
+T5	Premise 1178 1232	Safety observations were consistent with SAD findings.
+T6	Premise 1233 1375	Efficacy measures in the MAD phase indicated trends for weight change (-1.5 kg total ZGN-1061 vs -0.2 kg placebo) and other biomarker changes.
+T7	Claim 1376 1447	ZGN-1061 was well tolerated with no safety signals in all doses tested.
+T8	Claim 1461 1605	the desired pharmacokinetic profile and preliminary efficacy observations with ZGN-1061 support evaluation in larger and longer clinical trials.
+R1	Support Arg1:T3 Arg2:T7	

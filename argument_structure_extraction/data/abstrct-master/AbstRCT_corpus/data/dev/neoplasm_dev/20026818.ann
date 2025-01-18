@@ -1,0 +1,9 @@
+T1	Premise 923 1011	Approximately one-half had hematologic toxicities and toxicity-related treatment delays.
+T2	Premise 1012 1261	Approximately one-quarter had neurotoxicities and/or ototoxicites, moist desquamation, pneumonia, nausea and vomiting requiring hospitalization or intravenous fluids, dehydration or malnutrition requiring hospitalization, and mild or moderate fever.
+T3	Premise 1262 1437	Although patients receiving the current intensity-modulated radiation therapy (IMRT) protocol using the Pinnacle(3) planning system had more toxicity-related treatment delays,
+T4	Premise 1438 1680	they had fewer toxicities and better functional and health-related quality of life outcomes compared with those receiving conventional lateral opposing-field radiation or the initial IMRT protocol using the Best nomos PEACOCK planning system.
+T5	Claim 1681 1884	Patients receiving CRT experience a substantial number of treatment-related adverse events, primarily affecting oropharyngeal and laryngeal function, with improvement noted for the current IMRT protocol.
+R1	Support Arg1:T1 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T5	
+R3	Support Arg1:T3 Arg2:T5	
+R4	Support Arg1:T4 Arg2:T5	

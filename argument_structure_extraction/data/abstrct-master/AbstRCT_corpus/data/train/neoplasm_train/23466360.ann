@@ -1,0 +1,12 @@
+T1	Premise 1004 1075	Urinary function declined when the IUS V285 was 0.4% (ρ=-0.32, p=0.04);
+T2	Premise 1076 1177	bother worsened when the IUS V35 was 99% (ρ=-0.31, p=0.05) or the EUS V240 was 63% (ρ=-0.31, p=0.05);
+T3	Premise 1178 1285	irritation increased when the IUS V35 was 95% (ρ=-0.37, p=0.02) and the EUS V265 was 24% (ρ=-0.32, p=0.04);
+T4	Premise 1290 1352	urgency worsened when the IUS V35 was 99.5% (ρ=-0.38, p=0.02).
+T5	Premise 1353 1405	Incontinence did not correlate with EUS or IUS dose.
+T6	Claim 1406 1529	Doses to the IUS and EUS on MRI/CT predicted worse urinary function, with greater bother, irritative symptoms, and urgency.
+T7	MajorClaim 1530 1676	Incorporating MRI-based dose-volume histogram analysis into the treatment planning process may reduce acute urinary morbidity after brachytherapy.
+R1	Support Arg1:T1 Arg2:T6	
+R2	Support Arg1:T2 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T6	
+R4	Support Arg1:T4 Arg2:T6	
+R5	Support Arg1:T6 Arg2:T7	

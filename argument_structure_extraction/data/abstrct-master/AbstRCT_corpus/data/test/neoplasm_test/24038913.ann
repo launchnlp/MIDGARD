@@ -1,0 +1,6 @@
+T1	Claim 1455 1509	QOL and survival data were similar for the two groups.
+T2	Claim 1510 1622	A larger prospective study is justified to study the efficacy of chemotherapy only regimens in younger children.
+T3	Premise 1344 1454	Analysis of QOL outcomes with a median length of follow-up of 15.1 years (9.5-19.2) showed comparable results.
+T4	Premise 1228 1343	Molecular marker analysis showed that a smaller proportion of patients <3 years harbored TP53 mutations (P = 0.05).
+T5	Premise 960 1227	Patients <3 years (n = 49, 19.5% of all enrolled patients) at diagnosis had a 10-year EFS and OS of 29 ± 6.5% and 37.5 ± 7%, respectively, while for patients 3-6 years (n = 34, 13.5% of all enrolled patients) 10-year EFS and OS were 35 ± 8% and 36 ± 8%, respectively.
+R1	Support Arg1:T3 Arg2:T1	

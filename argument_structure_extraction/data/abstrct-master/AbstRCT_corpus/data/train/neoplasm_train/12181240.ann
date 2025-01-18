@@ -1,0 +1,12 @@
+T1	Claim 1 83	Chemotherapy is moderately efficient as a treatment for pancreatic adenocarcinoma,
+T2	Claim 84 172	but patient survival and quality of life has improved with this modality in some trials.
+T3	Premise 1271 1482	Toxicity (WHO grade 3-4) was lower with FU than with FUP (20% versus 48%, P <0.001), as was neutropenia (6% versus 23%), vomiting (4% versus 17%) and toxicity-related deaths (one versus four early in the trial).
+T4	Premise 1483 1605	The response rate was low in both arms, but superior in the FUP arm: 12% versus 0% (intention-to-treat analysis, P <0.01).
+T5	Premise 1606 1761	The survival rates at 6 months were 28% and 38% for the FU and FUP arms, respectively, and 1-year survival rates were 9% and 17% (log-rank test, P = 0.10).
+T6	Premise 1762 1860	One-year progression-free survival was 0% with FU versus 10% with FUP (log-rank test, P = 0.0001).
+T7	Claim 1861 2030	In advanced pancreatic carcinomas with a poor prognosis, FUP was superior to FU in terms of response and progression-free survival, but not in terms of overall survival.
+T8	Claim 2142 2219	A more effective, better tolerated version of this FUP combination is needed.
+R1	Support Arg1:T2 Arg2:T1	
+R2	Support Arg1:T4 Arg2:T7	
+R3	Support Arg1:T5 Arg2:T7	
+R4	Support Arg1:T6 Arg2:T7	

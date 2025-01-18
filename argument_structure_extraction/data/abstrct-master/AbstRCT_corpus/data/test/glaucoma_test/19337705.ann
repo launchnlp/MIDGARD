@@ -1,0 +1,7 @@
+T1	Premise 1022 1207	At 1-year follow-up, complete success rates were 81.8% for Ex-PRESS and 47.5% for trabeculectomy (P=0.0020), and 71.7% and 37.5% (P=0.0070), respectively, for the more stringent target.
+T2	Premise 1208 1298	There was a similar level of postoperative interventions and complications for each group.
+T3	Claim 1299 1506	In open-angle glaucoma, the Ex-PRESS mini glaucoma shunt implanted under a superficial scleral flap produces significantly higher success rates, and a similar complication rate, compared with trabeculectomy.
+T4	Claim 1507 1584	The Ex-PRESS is a safe and effective device for treating open-angle glaucoma.
+R1	Support Arg1:T2 Arg2:T4	
+R2	Support Arg1:T1 Arg2:T4	
+R3	Support Arg1:T1 Arg2:T3	

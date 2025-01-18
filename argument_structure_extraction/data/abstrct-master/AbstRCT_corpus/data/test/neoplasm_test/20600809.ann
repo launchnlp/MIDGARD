@@ -1,0 +1,8 @@
+T1	Premise 961 1181	HT patients had a minimal decrease in natural killer cell cytotoxicity (NKCC) over the course of treatment whereas NKCC of RT and UC patients declined sharply during chemoradiation (group by time interaction: p = 0.018).
+T2	Premise 1182 1382	HT patients showed greater decreases in two different indicators of depressed mood (CES-D depressed mood subscale and POMS depression scale) compared to RT and UC (group by time interactions: p<0.05).
+T3	Premise 1383 1482	No between group differences were observed in QOL, treatment delay, or clinically-rated toxicities.
+T4	Claim 1483 1603	HT may benefit cervical cancer patients by moderating effects of chemoradiation on depressed mood and cellular immunity.
+T5	Claim 1604 1685	Effects of HT on toxicities, treatment delay, QOL, and fatigue were not observed.
+R1	Support Arg1:T3 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T4	
+R3	Support Arg1:T1 Arg2:T4	

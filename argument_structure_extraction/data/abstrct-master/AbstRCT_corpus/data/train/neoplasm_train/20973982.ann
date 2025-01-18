@@ -1,0 +1,6 @@
+T1	Premise 1672 1724	Reported adverse events were similar between groups.
+T2	Premise 1725 1788	A slight increase in transfusions was reported in the QW group.
+T3	Claim 1789 1972	Darbepoetin alfa, when administered synchronously with chemotherapy, on an EDS appears to be similarly efficacious to darbepoetin alfa weekly dosing with no unexpected adverse events.
+T4	Premise 1203 1321	Seventy-one percent of patients in the EDS group and 76% in the QW group achieved the target hemoglobin of ≥11.0 g/dL.
+R1	Support Arg1:T1 Arg2:T3	
+R2	Support Arg1:T4 Arg2:T3	

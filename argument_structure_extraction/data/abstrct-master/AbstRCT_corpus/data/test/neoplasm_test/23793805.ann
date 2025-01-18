@@ -1,0 +1,11 @@
+T1	Premise 878 1139	The LADG and ODG groups showed similar survival [5-year DFS rate: 98.8 % vs. 97.6 %, respectively (P = 0.514), 5-year overall survival (OS) rate: 97.6 vs. 96.3 %, respectively (P = 0.721)] or overall complication rate (29.3 vs. 42.7 %, respectively; P = 0.073).
+T2	Premise 1140 1261	Mild complications were significantly less frequent in the LADG group than in the ODG group (23.2 vs. 41.5 %; P = 0.012).
+T3	Premise 1262 1406	The rates of moderate, severe, and long-term complications (i.e., 31 days to 5 years after surgery) did not differ significantly between groups.
+T4	Premise 1407 1498	No clinically meaningful differences were detected between the two groups in long-term QOL.
+T5	Claim 1499 1579	LADG showed similar DFS and OS compared to ODG in treating early gastric cancer.
+T6	Claim 1580 1644	Marginal benefits in mild complications were observed with LADG.
+T7	Claim 1645 1731	LADG did not show advantages over ODG regarding other complications and long-term QOL.
+R1	Support Arg1:T1 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T7	
+R4	Support Arg1:T4 Arg2:T7	

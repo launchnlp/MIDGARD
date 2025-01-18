@@ -1,0 +1,11 @@
+T1	Claim 2409 2497	GS-9620 might therefore be included in therapies to increase the immune response to HBV.
+T6	Premise 1414 1659	T cells collected at baseline before addition of GS-9620, when patients were receiving only nucleos(t)ide therapy, had greater responses to HBV than T cells from treatment-naïve patients, based on cytokine production in response to HBV peptides.
+T7	Premise 1660 1777	However, during or after administration of GS-9620, T cells produced higher levels of cytokines compared to baseline.
+T8	Premise 1778 1957	NK-cell activation and function increased after patients were given GS-9620, but the ability of NK cells to suppress T-cell responses was lower during GS-9620 therapy than before.
+T9	Premise 1958 2057	Changes in T-cell or NK-cell function did not correlate with levels of hepatitis B surface antigen.
+T10	Premise 2058 2192	Serum levels of hepatitis B surface antigen did not decrease significantly compared to baseline in patients given any dose of GS-9620.
+T11	Claim 2193 2408	Twelve weeks administration of GS-9620 had no significant effect on serum hepatitis B surface antigen levels, but did appear to increase T-cell and NK-cell responses and reduce the ability of NK to suppress T cells.
+R1	Support Arg1:T11 Arg2:T1	
+R2	Support Arg1:T10 Arg2:T11	
+R3	Support Arg1:T8 Arg2:T11	
+R4	Support Arg1:T7 Arg2:T11	

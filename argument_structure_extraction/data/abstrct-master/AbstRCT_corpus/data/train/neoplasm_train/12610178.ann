@@ -1,0 +1,12 @@
+T1	Claim 1 147	Randomized trials in fluorouracil (FU)-refractory colorectal cancer demonstrate significant survival advantages for patients receiving irinotecan.
+T2	Premise 679 961	With median follow-up of 15.8 months, there was no significant difference in 1-year survival (46% v 41%, respectively; P =.42), median survival (9.9 v 9.9 months, respectively; P =.43), or median time to progression (4.0 v 3.0 months, respectively; P =.54) between the two regimens.
+T3	Premise 962 1081	Grade 3/4 diarrhea occurred in 36% of patients treated weekly and in 19% of those treated once every 3 weeks (P =.002).
+T4	Premise 1082 1200	Grade 3/4 neutropenia occurred in 29% of patients treated weekly and 34% of those treated once every 3 weeks (P =.35).
+T5	Premise 1201 1358	Treatment-related mortality occurred in five patients (5.3%) receiving irinotecan weekly and three patients (1.6%) given therapy once every 3 weeks (P =.12).
+T6	Premise 1359 1439	Global quality of life was not statistically different between treatment groups.
+T7	Claim 1440 1608	Irinotecan schedules of weekly and of once every 3 weeks demonstrated similar efficacy and quality of life in patients with FU-refractory, metastatic colorectal cancer.
+T8	Claim 1609 1714	The regimen of once every 3 weeks was associated with a significantly lower incidence of severe diarrhea.
+R1	Support Arg1:T5 Arg2:T7	
+R2	Support Arg1:T4 Arg2:T7	
+R3	Support Arg1:T3 Arg2:T8	
+R4	Support Arg1:T2 Arg2:T7	

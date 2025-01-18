@@ -1,0 +1,7 @@
+T1	MajorClaim 0 142	Multiple studies have evaluated the hypoglycemic effect of cinnamon in patients with diabetes mellitus (DM) type II, with conflicting results.
+T2	Premise 974 1235	Cinnamon supplementation led to improvement of all anthropometric (BMI, body fat, and visceral fat), glycemic (FPG, 2hpp, HbA1C, Fasting Insulin, and Insulin Resistance), and lipids (Cholesterol Total, LDL-c and HDL-c) outcomes (except for triglycerides level).
+T3	Premise 1236 1380	All observed changes (except for Cholesterol Total and LDL-c) were significantly more prominent in patients with higher baseline BMI (BMI ≥ 27).
+T4	Claim 1381 1527	Based on the study findings, cinnamon may improve anthropometric parameters, glycemic indices and lipid profile of patients with type II diabetes.
+T5	Claim 1528 1624	These benefits are significantly more prominent in patients with higher baseline BMI (BMI ≥ 27).
+R1	Support Arg1:T3 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T4	

@@ -1,0 +1,14 @@
+T1	Premise 761 847	Overall survival was longer with DCF versus CF (23% risk reduction; log-rank P = .02).
+T2	Premise 848 903	Two-year survival rate was 18% with DCF and 9% with CF.
+T3	Premise 904 961	Overall response rate was higher with DCF (chi2 P = .01).
+T4	Premise 962 1053	Grade 3 to 4 treatment-related adverse events occurred in 69% (DCF) v 59% (CF) of patients.
+T5	Premise 1054 1197	Frequent grade 3 to 4 toxicities for DCF v CF were: neutropenia (82% v 57%), stomatitis (21% v 27%), diarrhea (19% v 8%), lethargy (19% v 14%).
+T6	Premise 1198 1269	Complicated neutropenia was more frequent with DCF than CF (29% v 12%).
+T7	Claim 1270 1419	Adding docetaxel to CF significantly improved TTP, survival, and response rate in gastric cancer patients, but resulted in some increase in toxicity.
+T9	Claim 1420 1564	Incorporation of docetaxel, as in DCF or with other active drug(s), is a new therapy option for patients with untreated advanced gastric cancer.
+R1	Support Arg1:T6 Arg2:T7	
+R2	Support Arg1:T5 Arg2:T7	
+R3	Support Arg1:T7 Arg2:T9	
+R4	Support Arg1:T3 Arg2:T7	
+R5	Support Arg1:T2 Arg2:T7	
+R6	Support Arg1:T1 Arg2:T7	

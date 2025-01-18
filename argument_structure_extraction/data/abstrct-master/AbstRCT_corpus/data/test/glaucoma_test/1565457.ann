@@ -1,0 +1,5 @@
+T1	Premise 308 608	Six months after surgery, intraocular pressures averaged 10.9 +/- 5.3 mmHg (mean +/- standard deviation) in the MMC-treated eyes versus 14.2 +/- 5.5 mmHg in the 5-FU-treated eyes (P = 0.08) and were less than or equal to 12 mmHg in 60.0% of MMC-treated eyes and 21.1% of 5-FU-treated eyes (P = 0.03).
+T2	Premise 806 922	Drug-induced corneal epithelial defects were seen in nine 5-FU-treated eyes and in no MMC-treated eyes (P = 0.0004).
+T3	Claim 923 1168	These results suggest that intraoperative MMC may be a viable alternative to postoperative 5-FU, with lower overall intraocular pressures, decreased dependence on postoperative ocular antihypertensive medications, and decreased corneal toxicity.
+R1	Support Arg1:T2 Arg2:T3	
+R2	Support Arg1:T1 Arg2:T3	

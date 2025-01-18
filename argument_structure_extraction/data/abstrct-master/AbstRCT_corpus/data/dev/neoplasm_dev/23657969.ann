@@ -1,0 +1,3 @@
+T1	Claim 1550 1828	This randomized controlled trial revealed that TSM program appears to be a feasible and acceptable intervention and may be associated with short-term improvements in objective and subjective cognitive function as well as mental health and spirituality in breast cancer patients.
+T3	Premise 1134 1549	Relative to the control group, women in the TSM group performed better on the verbal memory test (Rey Auditory Verbal Learning Test trial 1) (p = 0.06) and the short-term memory and processing speed task (Digit Symbol) (p = 0.09) and reported improved cognitive function (p = 0.06), cognitive abilities (p = 0.08), mental health (p = 0.04), and spirituality (p = 0.05) at the end of treatment but not 1 month later.
+R1	Support Arg1:T3 Arg2:T1	

@@ -1,0 +1,8 @@
+T1	Premise 854 1209	At the post-treatment assessment, IMCP participants demonstrated significantly greater improvement than the control condition for the primary outcomes of spiritual well-being (b = 0.39; P <.001, including both components of spiritual well-being (sense of meaning: b = 0.34; P = .003 and faith: b = 0.42; P = .03), and quality of life (b = 0.76; P = .013).
+T2	Premise 1210 1449	Significantly greater improvements for IMCP patients were also observed for the secondary outcomes of symptom burden (b = -6.56; P < .001) and symptom-related distress (b = -0.47; P < .001) but not for anxiety, depression, or hopelessness.
+T3	Premise 1450 1606	At the 2-month follow-up assessment, the improvements observed for the IMCP group were no longer significantly greater than those observed for the TM group.
+T4	Claim 1607 1719	IMCP has clear short-term benefits for spiritual suffering and quality of life in patients with advanced cancer.
+R1	Support Arg1:T2 Arg2:T4	
+R2	Partial-Attack Arg1:T3 Arg2:T2	
+R3	Support Arg1:T1 Arg2:T4	
+R4	Partial-Attack Arg1:T3 Arg2:T1	

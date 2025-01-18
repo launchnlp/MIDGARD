@@ -1,0 +1,11 @@
+T1	Premise 1867 2024	RT was then associated with increased breast symptoms and with greater (self-reported) fatigue, but with lower levels of insomnia and endocrine side effects.
+T3	Premise 2025 2285	These statistically significant differences in breast symptoms persisted for up to 5 years after RT [mean difference, RT was 5.27 units greater than no RT, 95% confidence interval (CI) of 1.46 to 9.07], with similar, though non-significant, trends in insomnia.
+T4	Premise 2286 2466	No significant difference was found in the overall quality of life measure, with the no RT group having 0.36 units greater quality of life than the RT group (95% CI -5.09 to 5.81).
+T5	Claim 2467 2603	Breast RT is tolerated well by most older breast cancer patients without impairing their overall health-related quality of life (HRQoL).
+T6	Claim 2683 2764	our results show that the addition of RT does not impair overall quality of life.
+T7	Claim 2765 2861	Further economic modelling on the longer-term costs and consequences of omitting RT is required.
+R1	Partial-Attack Arg1:T7 Arg2:T6	
+R2	Support Arg1:T4 Arg2:T5	
+R4	Support Arg1:T5 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T1	
+R5	Attack Arg1:T1 Arg2:T6	

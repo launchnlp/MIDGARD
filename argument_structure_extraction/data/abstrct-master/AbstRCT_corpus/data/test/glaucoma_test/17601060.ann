@@ -1,0 +1,11 @@
+T1	Premise 817 914	Intraocular pressure was significantly reduced during the entire follow-up period in both groups.
+T2	Premise 915 1088	In the long-acting drug group, the reduction of intraocular pressure was -3.5 +/- 0.2, -4.3 +/- 0.2 and -4.6 +/- 0.3 mmHg at 2, 4, and 8 weeks, respectively (paired t test).
+T3	Claim 1257 1406	The safety profile was similar in both groups, and the tolerance for the long-acting eye drops was as good as for the currently-prescribed eye drops.
+T4	Claim 1492 1603	the long-acting eye drops seem to be an efficacious formulation for clinical use in Japanese glaucoma patients.
+T5	Claim 1407 1491	Because the efficacy of both drugs was equivalent, with an identical safety profile,
+R1	Support Arg1:T5 Arg2:T4	
+R2	Support Arg1:T1 Arg2:T4	
+R3	Support Arg1:T3 Arg2:T5	
+T6	Premise 1089 1256	In the currently-prescribed drug group, the reduction of intraocular pressure was -4.1 +/- 0.2, -4.4 +/- 0.3 and--4.6 +/- 0.2 mmHg at 2, 4, and 8 weeks(paired t test).
+R4	Support Arg1:T6 Arg2:T4	
+R5	Support Arg1:T2 Arg2:T4	

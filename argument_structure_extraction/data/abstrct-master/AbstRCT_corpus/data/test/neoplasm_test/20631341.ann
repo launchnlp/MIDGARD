@@ -1,0 +1,8 @@
+T1	Premise 1585 1803	Overall survival remained better in those assigned to 3B(90)E(500)P than in those assigned to 4B(30)E(360)P (8-year survival: 92% vs 83%; hazard ratio of death = 0.38, 95% confidence interval = 0.15 to 0.97, P = .037).
+T2	Premise 1804 2092	Progression-free survival favored 3B(90)E(500)P but was not statistically significantly different between the treatment groups (8-year progression-free survival, 3B(90)E(500)P vs 4B(30)E(360)P: 86% vs 79%; hazard ratio of progression = 0.6, 95% confidence interval = 0.3 to 1.1, P = .15).
+T3	Claim 2093 2183	At the end of treatment, average scores for most side effect scales favored 3B(90)E(500)P.
+T4	Premise 2184 2358	After the completion of treatment, average GLQ-8 scores for numbness (P = .003) and hair loss (P = .04) and the Spitzer Quality of Life Index (P = .05) favored 3B(90)E(500)P.
+T5	Claim 2359 2456	The survival benefit of 3B(90)E(500)P over 4B(30)E(360)P was maintained with long-term follow-up.
+R1	Support Arg1:T4 Arg2:T3	
+R2	Support Arg1:T1 Arg2:T5	
+R3	Support Arg1:T2 Arg2:T5	

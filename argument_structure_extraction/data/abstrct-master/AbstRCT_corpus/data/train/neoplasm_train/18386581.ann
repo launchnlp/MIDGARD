@@ -1,0 +1,9 @@
+T1	Premise 595 912	The KPS score in the treated group after treatment was improved in 13 patients (23.6%), stabilized in 27 (49.6%) and declined in 15 (27.3%), while in the control group, it was improved in 7 (13.2%), stabilized in 21 (39.6%) and declined in 25 (47.2%), the difference between the two groups was significant (P < 0.05).
+T2	Premise 913 1077	The results from evaluation with QLQ-C30 questionnaire and LC30 scale in the treated group was also superior to those in the control group (P < 0.05), respectively.
+T3	Premise 1078 1263	The scores of TCM efficacy (24.52 +/- 8.98 vs 29.76 +/- 7.09, P < 0.05) and the 6-min walking distance (233.4 +/- 29.2 m vs 205.8 +/- 31.9 m, P < 0.05) were better in the treated group.
+T4	Premise 1264 1587	After treatment in the treated group, the body weight was increased in 11 patients (20.0%), stabilized in 28 (50.9%) and decreased in 16 (29.1%), while in the control group it was increased in 5 (9.4%), stabilized in 26 (49.1%) and decreased in 22 (41.5%), difference between the two groups was significant, too (P < 0.05).
+T5	Claim 1588 1733	TCM therapy for removing toxic substance and unblocking meridians can improve the post-radiation QOL of patients with lung cancer to some extent.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T2 Arg2:T5	
+R4	Support Arg1:T1 Arg2:T5	

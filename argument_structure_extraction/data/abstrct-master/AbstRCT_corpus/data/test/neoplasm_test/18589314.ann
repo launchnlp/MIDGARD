@@ -1,0 +1,11 @@
+T1	Premise 1103 1294	The mean total costs per patient in the UAE group were significantly lower than those in the hysterectomy group ($11,626 vs $18,563; mean difference, -$6,936 [-37%], 95% CI: -$9,548, $4,281).
+T2	Claim 1909 2029	From a societal economic perspective, UAE is the superior treatment strategy in women with symptomatic uterine fibroids.
+T3	Premise 1837 1908	The 24-month cumulative cost of UAE is lower than that of hysterectomy.
+T4	Premise 1589 1753	The costs related to absence from work differed significantly between the treatment strategies in favor of UAE (mean difference, -$5,453; 95% CI: -$7,718, -$3,107).
+T5	Premise 1295 1450	The direct medical in-hospital costs were significantly lower in the UAE group: $6,688 vs $8,313 (mean difference, -$1,624 [-20%], 95% CI: -$2,605, -$586).
+T6	Premise 1451 1588	Direct medical out-of-hospital and direct nonmedical costs were low in both groups (mean cost difference, $156 in favor of hysterectomy).
+R1	Support Arg1:T3 Arg2:T2	
+R2	Support Arg1:T4 Arg2:T2	
+R3	Support Arg1:T6 Arg2:T2	
+R4	Support Arg1:T5 Arg2:T2	
+R5	Support Arg1:T1 Arg2:T2	

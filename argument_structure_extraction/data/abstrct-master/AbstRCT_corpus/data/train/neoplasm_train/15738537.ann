@@ -1,0 +1,17 @@
+T1	Claim 1 210	Bevacizumab, a monoclonal antibody against vascular endothelial growth factor, increases survival when combined with irinotecan-based chemotherapy in first-line treatment of metastatic colorectal cancer (CRC).
+T2	Premise 918 1056	Median survival was 16.6 months for the FU/LV/bevacizumab group and 12.9 months for the FU/LV/placebo group (hazard ratio, 0.79; P = .16).
+T3	Premise 1057 1156	Median progression-free survival was 9.2 months (FU/LV/bevacizumab) and 5.5 months (FU/LV/placebo);
+T4	Premise 1157 1189	hazard ratio was 0.50; P = .0002
+T5	Premise 1191 1274	Response rates were 26.0% (FU/LV/bevacizumab) and 15.2% (FU/LV/placebo) (P = .055);
+T6	Premise 1275 1362	duration of response was 9.2 months (FU/LV/bevacizumab) and 6.8 months (FU/LV/placebo);
+T7	Premise 1363 1395	hazard ratio was 0.42; P = .088.
+T8	Premise 1396 1470	Grade 3 hypertension was more common with bevacizumab treatment (16% v 3%)
+T9	Premise 1471 1556	but was controlled with oral medication and did not cause study drug discontinuation.
+T10	Claim 1557 1833	Addition of bevacizumab to FU/LV as first-line therapy in CRC patients who were not considered optimal candidates for first-line irinotecan treatment provided clinically significant patient benefit, including statistically significant improvement in progression-free survival.
+R1	Partial-Attack Arg1:T9 Arg2:T8	
+R2	Support Arg1:T3 Arg2:T10	
+R3	Support Arg1:T4 Arg2:T10	
+R4	Support Arg1:T5 Arg2:T10	
+R5	Support Arg1:T2 Arg2:T10	
+R6	Support Arg1:T7 Arg2:T10	
+R7	Support Arg1:T6 Arg2:T10	

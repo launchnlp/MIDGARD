@@ -1,0 +1,8 @@
+T2	Premise 775 1127	No significant differences were observed among groups for HBeAg seroconversion (PEG-IFN alfa-2a+placebo, 36.3%; PEG-IFN alfa-2a+ETV, 29.5%; and PEG-IFN alfa-2a+ADV, 27.4%), HBeAg loss (37.4%, 32.2%, and 28.6%, respectively) or change in hepatitis B surface antigen (HBsAg) levels from baseline (-0.56 IU/mL, -0.60 IU/mL, and -0.41 IU/mL, respectively).
+T3	Premise 1128 1471	However, hepatitis B virus DNA levels were higher with PEG-IFN alfa-2a+placebo than PEG-IFN alfa+ETV at week 64 (p = 0.0412), 76 (p = 0.0311), and 88 (p = 0.0113), and alanine aminotransferase (ALT) normalization rate was higher with PEG-IFN alfa-2a+placebo than PEG-IFN alfa-2a+ADV (p = 0.0283) or PEG-IFN alfa-2a+ETV (p = 0.0369) at week 88.
+T4	Premise 1472 1599	Sub-analysis of results revealed an association between on-treatment HBsAg and ALT levels and efficacy 48 weeks post-treatment.
+T5	Premise 1600 1645	Safety was comparable among treatment groups.
+T6	Claim 1646 1795	Pre-therapy with ADV or ETV followed by PEG-IFN alfa-2a is not superior to PEG-IFN alfa-2a monotherapy in Taiwanese patients with HBeAg-positive CHB.
+R1	Support Arg1:T2 Arg2:T6	
+R2	Partial-Attack Arg1:T3 Arg2:T6	
+R3	Support Arg1:T5 Arg2:T6	

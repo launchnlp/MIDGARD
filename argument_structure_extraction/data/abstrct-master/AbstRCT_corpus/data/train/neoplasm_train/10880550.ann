@@ -1,0 +1,10 @@
+T1	Claim 1 135	In phase II trials, paclitaxel has been shown to have antitumor activity in patients with advanced non-small-cell lung cancer (NSCLC).
+T3	Premise 1028 1226	Survival was statistically significantly better in the paclitaxel plus supportive care arm than in the supportive care alone arm (two-sided P =.037) (median survival = 6.8 months versus 4.8 months).
+T4	Premise 1227 1380	Cox multivariate analysis showed paclitaxel plus supportive care to be statistically significantly associated with improved survival (two-sided P =.048).
+T5	Premise 1381 1421	QOL was similar for both treatment arms,
+T6	Premise 1422 1610	except for the functional activity score of the Rotterdam Symptom Checklist, where QOL data statistically significantly favored the paclitaxel plus supportive care arm (two-sided P =.043).
+T7	Claim 1611 1829	The addition of paclitaxel to best supportive care significantly improved survival and time to disease progression compared with best supportive care in patients with advanced NSCLC and may improve some aspects of QOL.
+R1	Support Arg1:T3 Arg2:T7	
+R2	Support Arg1:T4 Arg2:T7	
+R3	Partial-Attack Arg1:T6 Arg2:T5	
+R4	Support Arg1:T5 Arg2:T7	

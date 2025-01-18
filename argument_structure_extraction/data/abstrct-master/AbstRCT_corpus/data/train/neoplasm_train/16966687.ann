@@ -1,0 +1,16 @@
+T1	Claim 1 70	Most patients with advanced ovarian cancer develop recurrent disease.
+T2	Claim 71 232	For those patients who recur at least 6 months after initial therapy, paclitaxel platinum has shown a modest survival advantage over platinum without paclitaxel;
+T3	Premise 233 348	however, many patients develop clinically relevant neurotoxicity, frequently resulting in treatment discontinuation
+T4	Premise 1140 1214	The hazard ration (HR) for PFS was 0.72 (95% CI, 0.58 to 0.90; P = .0031).
+T5	Premise 1215 1360	Response rate was 47.2% (95% CI, 39.9% to 54.5%) for gemcitabine plus carboplatin and 30.9% (95% CI, 24.1% to 37.7%) for carboplatin (P = .0016).
+T6	Premise 1361 1431	The HR for overall survival was 0.96 (95% CI, 0.75 to1.23; P = .7349).
+T7	Premise 1432 1570	While myelosuppression was significantly more common in the combination, sequelae such as febrile neutropenia or infections were uncommon.
+T9	Premise 1571 1662	No statistically significant differences in quality of life scores between arms were noted.
+T10	Claim 1663 1833	Gemcitabine plus carboplatin significantly improves PFS and response rate without worsening quality of life for patients with platinum-sensitive recurrent ovarian cancer.
+R1	Partial-Attack Arg1:T3 Arg2:T2	
+T8	Premise 955 1139	With a median follow-up of 17 months, median PFS was 8.6 months (95% CI, 7.9 to 9.7 months) for gemcitabine plus carboplatin and 5.8 months (95% CI, 5.2 to 7.1 months) for carboplatin.
+R2	Support Arg1:T8 Arg2:T10	
+R3	Support Arg1:T9 Arg2:T10	
+R4	Support Arg1:T6 Arg2:T10	
+R5	Support Arg1:T5 Arg2:T10	
+R6	Support Arg1:T4 Arg2:T10	

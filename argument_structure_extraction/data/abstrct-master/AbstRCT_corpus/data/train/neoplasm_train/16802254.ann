@@ -1,0 +1,5 @@
+T1	Premise 1130 1345	In response to training, QOL, VO2peak (mean 3.9 ml/kg/min; 95 % CI, 0.93, 6.90) performance in leg press (17.9 kg; 95 % CI, 12.8, 22.4) and sit-stand test (- 0.67 s; 95 % CI, - 0.52, - 1.2) improved (p < or = 0.05).
+T2	Premise 1346 1402	We observed no significant changes in the control group.
+T3	Claim 1403 1567	Combined cardiorespiratory and resistance training, even of very brief duration, improves the QOL and the overall physical fitness of women breast cancer survivors.
+R1	Support Arg1:T1 Arg2:T3	
+R2	Support Arg1:T2 Arg2:T3	

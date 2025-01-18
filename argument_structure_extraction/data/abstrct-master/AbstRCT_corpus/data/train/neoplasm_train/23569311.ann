@@ -1,0 +1,8 @@
+T1	Claim 1889 1998	Combining bevacizumab with docetaxel and trastuzumab did not significantly improve investigator-assessed PFS.
+T2	Premise 1725 1888	High baseline plasma vascular endothelial growth factor A (VEGF-A) concentrations were associated with greater bevacizumab benefit (not statistically significant).
+T3	Claim 1624 1724	Grade ≥ 3 febrile neutropenia and hypertension were more common with bevacizumab-containing therapy.
+T4	Premise 1571 1623	The RR was 70% versus 74%, respectively (P = .3492).
+T5	Premise 1203 1402	The hazard ratio for investigator-assessed PFS was 0.82 (95% CI, 0.65 to 1.02; P = .0775; median PFS, 13.7 v 16.5 months in the non-bevacizumab and bevacizumab arms, respectively; PFS events in 72%).
+T6	Premise 1403 1570	The Independent Review Committee-assessed PFS hazard ratio was 0.72 (95% CI, 0.54 to 0.94; P = .0162; median PFS, 13.9 v 16.8 months, respectively; PFS events in 53%).
+R1	Support Arg1:T6 Arg2:T1	
+R2	Support Arg1:T5 Arg2:T1	

@@ -1,0 +1,9 @@
+T1	Premise 1012 1119	Hospital stay for patients who received EOF (n=71) was 4.7 vs. 5.8 days for the TOF group (n=72) (P=0.006).
+T2	Premise 1120 1237	The mean level of postoperative satisfaction was significantly higher in the EOF group (82.8 vs. 71.7 mm, P B 0.001).
+T3	Claim 1604 1718	On the basis of these findings, the policy of EOF should be used after a complex gynecologic oncologic laparotomy.
+T4	Premise 1448 1603	Variables such as nausea and vomiting, analgesic and antiemetic requirement as well as level of pain and quality of life were not different between groups.
+T5	Premise 1238 1447	Patients who received the TOF scheme had significantly higher overall postoperative complications (39 vs. 17% in EOF group, P=0.003) and infective complications (14% in TOF group vs. 3% in EOF group, P=0.017).
+R1	Support Arg1:T1 Arg2:T3	
+R2	Support Arg1:T2 Arg2:T3	
+R3	Support Arg1:T4 Arg2:T3	
+R4	Support Arg1:T5 Arg2:T3	

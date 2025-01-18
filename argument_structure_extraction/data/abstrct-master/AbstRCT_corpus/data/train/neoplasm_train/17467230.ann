@@ -1,0 +1,18 @@
+T1	Claim 1 96	Psychological interventions are efficacious in reducing emotional distress for cancer patients.
+T2	Claim 97 198	However, it is not clear whether psychological improvements are, in turn, related to improved health.
+T3	Premise 918 1018	A path model revealed that intervention participation directly improved health (p<.05) at 12 months.
+T4	Premise 1019 1196	These effects remained when statistically controlling for baseline levels of distress, immunity, and health as well as sociodemographic, disease, and cancer treatment variables.
+T5	Premise 1197 1314	Regarding the mechanisms for achieving better health, support was found for an indirect effect of distress reduction.
+T6	Premise 1315 1441	That is, by specifically lowering intervention patients' distress at 4 months, their health was improved at 12 months (p<.05).
+T7	Premise 1442 1563	Although the intervention simultaneously improved patients' T-cell blastogenesis in response to phytohemagglutinin (PHA),
+T8	Premise 1564 1619	the latter increases were unrelated to improved health.
+T9	Premise 1620 1697	A convergence of biobehavioral effects and health improvements were observed.
+T10	Claim 1698 1835	Behavioral change, rather than immunity change, was influential in achieving lower levels of symptomatology and higher functional status.
+T11	Claim 1836 1928	Distress reduction is highlighted as an important mechanism by which health can be improved.
+R1	Attack Arg1:T11 Arg2:T2	
+R2	Support Arg1:T3 Arg2:T11	
+R3	Support Arg1:T4 Arg2:T3	
+R4	Support Arg1:T5 Arg2:T11	
+R5	Support Arg1:T6 Arg2:T11	
+R6	Partial-Attack Arg1:T8 Arg2:T7	
+R7	Support Arg1:T9 Arg2:T11	

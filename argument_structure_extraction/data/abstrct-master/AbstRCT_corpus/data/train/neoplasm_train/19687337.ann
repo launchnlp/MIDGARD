@@ -1,0 +1,9 @@
+T1	Premise 856 1182	At postintervention, AET was superior to UC for patient-rated physical functioning (mean group difference, +9.0; 95% CI, 2.0 to 16.0; P = .012), overall QoL (P = .021), fatigue (P = .013), happiness (P = .004), depression (P = .005), general health (P < .001), cardiovascular fitness (P < .001), and lean body mass (P = .008).
+T2	Premise 1280 1358	AET did not interfere with chemotherapy completion rate or treatment response.
+T3	Premise 1359 1574	At 6-month follow-up, AET was still borderline or significantly superior to UC for overall QoL (P = .054), happiness (P = .034), and depression (P = .009) without an increased risk of disease recurrence/progression.
+T4	MajorClaim 1748 1860	Exercise training to improve cardiovascular fitness should be considered in the management of lymphoma patients.
+T5	Claim 1575 1747	AET significantly improved important patient-rated outcomes and objective physical functioning in lymphoma patients without interfering with medical treatments or response.
+R1	Support Arg1:T5 Arg2:T4	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T2 Arg2:T5	
+R4	Support Arg1:T1 Arg2:T5	

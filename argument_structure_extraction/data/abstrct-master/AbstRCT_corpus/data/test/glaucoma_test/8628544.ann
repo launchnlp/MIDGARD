@@ -1,0 +1,10 @@
+T1	Premise 944 1020	Pulse rate was significantly reduced with timolol, but not with latanoprost.
+T2	Premise 1021 1125	Slightly more conjunctival hyperemia appeared in latanoprost-treated compared with timolol-treated eyes.
+T3	Claim 1126 1193	Fewer subjective side effects occurred in latanoprost-treated eyes.
+T4	Claim 1538 1674	no significant difference between treatment groups occurred visual acuity, slit-lamp examination, blood pressure, and laboratory values.
+T5	MajorClaim 1675 1758	Latanoprost has the potential for becoming a new first-line treatment for glaucoma.
+T6	Premise 425 575	Intraocular pressure (IOP) was significantly (P<0.001) reduced and maintained by both medications without evidence of a long-term drift over 6 months.
+T7	Premise 576 809	Comparing 6-month with baseline diurnal IOP values, the IOP reduction (mean +/- standard deviation) achieved with latanoprost (-6.7 +/- 3.4 mmHg) was significantly (P<0.001) greater than that produced with timolol (4.9 +/- 2.9 mmHg).
+T8	Premise 1194 1438	Both eyes of a patient with a characteristic, concentric iris heterochromia (darker centrally) at baseline showed a definite, photographically documented increase in pigmentation during latanoprost treatment, making the irides uniformly darker.
+R1	Support Arg1:T3 Arg2:T5	
+R2	Support Arg1:T4 Arg2:T5	

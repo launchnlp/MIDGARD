@@ -1,0 +1,8 @@
+T1	Premise 808 1108	We observed a significant reduction in anxiety (STAI, POMS) among group participants, a reduction in anger, depression and fatigue (POMS), a significant improvement in vigor and interpersonal relationships (POMS), in emotional and role functioning, in health status and fatigue level (EORTC QLQ-C30).
+T2	Premise 1122 1194	coping strategies (MAC) were not significantly different between groups.
+T3	Premise 1195 1293	No group-related negative effects were observed and the global satisfaction levels were very high.
+T4	Claim 1294 1493	This study demonstrates the feasibility and effectiveness of a psycho-educational intervention, which can accelerate the reduction of those negative affects which are present at the end of treatment.
+T5	Claim 1494 1601	It represents an excellent complement or an alternative to individual psycho-oncologic therapeutic support,
+R1	Support Arg1:T3 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	
+R3	Support Arg1:T1 Arg2:T4	

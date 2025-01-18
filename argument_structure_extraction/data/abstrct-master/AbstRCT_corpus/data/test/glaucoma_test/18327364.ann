@@ -1,0 +1,5 @@
+T1	Premise 774 1024	The mean (standard error of mean [SE]) IOP reductions at months one was 7.2 (0.4), at month 3 was 7.3 (0.4), and at month 6 was 7.1 (0.3) mm Hg for the latanoprost group and 7.5 (0.3), 7.8 (0.3), and 7.4 (0.3) mm Hg for the dorzolamide/timolol group.
+T3	Claim 1067 1189	The latanoprost and dorzolamide/timolol combination were equally effective at lowering IOP compared to untreated baseline.
+R1	Support Arg1:T1 Arg2:T3	
+T2	Claim 1025 1066	The 2 therapies were similarly effective.
+R2	Support Arg1:T1 Arg2:T2	

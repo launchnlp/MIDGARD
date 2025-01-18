@@ -1,0 +1,6 @@
+T1	Premise 935 1212	At 6 months, the mean systolic blood pressure fell by 27.0 mm Hg (to 125.8 mm Hg) in the intervention group and by 9.3 mm Hg (to 145.4 mm Hg) in the control group; the mean reduction was 21.6 mm Hg greater with the intervention (95% confidence interval, 14.7 to 28.4; P<0.001).
+T2	Premise 1213 1397	A blood-pressure level of less than 130/80 mm Hg was achieved among 63.6% of the participants in the intervention group versus 11.7% of the participants in the control group (P<0.001).
+T3	Premise 1398 1534	In the intervention group, the rate of cohort retention was 95%, and there were few adverse events (three cases of acute kidney injury).
+T4	Claim 1535 1763	Among black male barbershop patrons with uncontrolled hypertension, health promotion by barbers resulted in larger blood-pressure reduction when coupled with medication management in barbershops by specialty-trained pharmacists.
+R1	Support Arg1:T2 Arg2:T4	
+R2	Support Arg1:T1 Arg2:T4	

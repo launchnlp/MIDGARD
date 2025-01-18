@@ -1,0 +1,9 @@
+T1	Premise 867 1007	With a mixed modeling approach, total FACIT F scores for the entire sample declined at a significant rate (p = 0.003) beginning with cycle 3
+T2	Premise 1008 1067	but at a slower rate for the experimental group (p = 0.02).
+T3	Premise 1068 1233	Fatigue scores indicated less increase and physical well-being subscale scores showed less decline for the experimental group (p = 0.008 and p = 0.02, respectively).
+T4	Premise 1234 1451	Women with advanced breast cancer randomized to the seated exercise intervention had a slower decline in total and physical well-being and less increase in fatigue scores starting with the third cycle of chemotherapy.
+T5	Claim 1452 1592	Seated exercise may be a feasible exercise program for women with advanced cancer for controlling fatigue and improving physical well-being.
+R1	Partial-Attack Arg1:T2 Arg2:T1	
+R2	Support Arg1:T1 Arg2:T5	
+R3	Support Arg1:T3 Arg2:T5	
+R4	Support Arg1:T4 Arg2:T5	

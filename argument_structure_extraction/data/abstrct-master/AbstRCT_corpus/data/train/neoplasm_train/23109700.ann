@@ -1,0 +1,5 @@
+T1	Premise 1121 1283	The difference in the mean General Fatigue score, between those who received the intervention and those who did not, was -3.11 (95% CI, -3.97 to -2.25; P < .001).
+T2	Premise 1284 1780	The intervention also improved all other fatigue aspects measured by MFI, including Physical Fatigue and Mental Fatigue (acupuncture effect, -2.36 and -1.94, respectively; both at P < .001), anxiety and depression (acupuncture effect, -1.83 and -2.13, respectively; both at P < .001), and quality of life (Physical Well-Being effect, 3.30; Functional Well-Being effect, 3.57; both at P < .001; Emotional Well-Being effect, 1.93; P = .001; and Social Functioning Well-Being effect, 1.05; P < .05).
+T3	Claim 1781 1894	Acupuncture is an effective intervention for managing the symptom of CRF and improving patients' quality of life.
+R1	Support Arg1:T1 Arg2:T3	
+R2	Support Arg1:T2 Arg2:T3	

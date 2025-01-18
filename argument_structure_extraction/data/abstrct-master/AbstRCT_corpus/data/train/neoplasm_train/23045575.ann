@@ -1,0 +1,7 @@
+T1	Premise 769 1244	Compared with the control group, the intervention groups had a significant decrease in levels of endocrine symptoms (Functional Assessment of Cancer Therapy-Endocrine Symptoms; P<.001; effect size, 0.31-0.52) and urinary symptoms (Bristol Female Lower Urinary Tract Symptoms Questionnaire; P=.002; effect size, 0.29-0.33), and they showed an improvement in physical functioning (36-Item Short Form Health Survey physical functioning subscale; P=.002; effect size, 0.37-0.46).
+T2	Premise 1245 1559	The groups that included CBT also showed a significant decrease in the perceived burden of hot flashes and night sweats (problem rating scale of the Hot Flush Rating Scale; P<.001; effect size, 0.39-0.56) and an increase in sexual activity (Sexual Activity Questionnaire habit subscale; P=.027; effect size, 0.65).
+T3	Claim 1640 1834	CBT and PE can have salutary effects on endocrine symptoms and, to a lesser degree, on sexuality and physical functioning of patients with breast cancer experiencing treatment-induced menopause.
+T4	Claim 1835 1948	Future work is needed to improve the design and the planning of these interventions to improve program adherence.
+R1	Partial-Attack Arg1:T4 Arg2:T3	
+R2	Support Arg1:T2 Arg2:T3	
+R3	Support Arg1:T1 Arg2:T3	

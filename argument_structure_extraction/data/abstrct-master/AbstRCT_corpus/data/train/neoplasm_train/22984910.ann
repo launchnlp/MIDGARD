@@ -1,0 +1,11 @@
+T1	Premise 831 983	both treatment modalities resulted in significant decrease in the total arm volume (12.2% decrease in Group II and 14.9% decrease in Group I) (p<0.001),
+T2	Premise 984 1055	no significant difference (p=0.582) was found between those two groups.
+T3	Premise 1056 1194	Similarly, ASES scores were significantly (p=0.001) improved in both Group I and II without any significant difference between the groups.
+T4	Premise 1195 1411	While emotional functioning, fatigue, and pain scores were significantly improved in both groups, global health status, functional and cognitive functioning scores appeared to be improved only in patients of group I.
+T5	Claim 1412 1641	Different treatment modalities consisting of MLD and compression bandage(complex decongestive therapy) or IPC and SLD appear to be effective in the treatment of LE with similar therapeutic efficacy in patients with breast cancer.
+T6	Claim 1642 1757	However, combination modalities including IPC and SLD may be the preferred choices for their applicability at home.
+R1	Partial-Attack Arg1:T6 Arg2:T5	
+R2	Support Arg1:T4 Arg2:T5	
+R3	Support Arg1:T3 Arg2:T5	
+R4	Support Arg1:T1 Arg2:T5	
+R5	Support Arg1:T2 Arg2:T5	

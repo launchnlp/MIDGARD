@@ -1,0 +1,7 @@
+T1	Premise 740 988	Overall, patients assigned to receive stress management training did not report significantly less psychological distress on the Medical Outcomes Study 36-Item Short Form (SF-36) Mental Component Summary Scale than did those assigned to usual care.
+T2	Premise 1128 1458	patients with above-average levels of psychological distress (scores < or = 50) who were randomly assigned to the intervention condition reported significant improvement in their distress compared with those assigned to usual care only on the SF-36 Mental Health Subscale and the Center for Epidemiologic Studies Depression Scale.
+T3	Claim 1459 1630	This study found that self-administered stress management training is effective only in those radiotherapy patients with initially higher levels of psychological distress.
+T4	Claim 1631 1776	Additional research should examine the benefits of stress management training targeted specifically to patients experiencing heightened distress.
+R1	Partial-Attack Arg1:T4 Arg2:T3	
+R2	Support Arg1:T1 Arg2:T3	
+R3	Support Arg1:T2 Arg2:T3	

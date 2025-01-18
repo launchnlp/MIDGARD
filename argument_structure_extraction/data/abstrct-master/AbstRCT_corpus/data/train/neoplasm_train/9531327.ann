@@ -1,0 +1,9 @@
+T1	Premise 559 711	CR after remission induction treatment was achieved in 55% of the patients in the control group and in 56% of the patients in the GM-CSF group (P = NS).
+T2	Premise 712 892	The duration of survival and disease-free survival at 2 years after randomization were estimated at 22% and 19% for the control group and 22% and 14% for the GM-CSF group (P = NS).
+T3	Premise 893 1049	Considering the short-term quality of life, the administration of GM-CSF resulted in more problems with regard to depressed mood, diarrhoea and rash/eczema.
+T4	Premise 1050 1156	With regard to the long-term quality of life there were no significant differences between the two groups.
+T5	Premise 1157 1318	The average costs of the primary treatment were higher in GM-CSF-treated patients than in the control group, i.e. US$40782 and US$34465, respectively (P < 0.01).
+T6	Premise 1319 1395	The costs during the follow-up period did not differ between the two groups.
+T7	Claim 1396 1600	The results of this randomized clinical trial indicate that daunomycin-cytosine arabinoside plus GM-CSF is not a cost-effective treatment strategy when compared with daunomycin-cytosine arabinoside alone.
+R1	Partial-Attack Arg1:T6 Arg2:T7	
+R2	Support Arg1:T5 Arg2:T7	

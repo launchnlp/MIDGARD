@@ -1,0 +1,17 @@
+T1	Premise 780 862	Complete and partial response rates to induction PE were 3% and 32%, respectively.
+T2	Premise 863 956	A 7% response rate was observed with topotecan (complete response, 2%; partial response, 5%).
+T3	Premise 957 1027	The median survival time for all 402 eligible patients was 9.6 months.
+T4	Premise 1028 1198	Progression-free survival (PFS) from date of randomization on step 2 was significantly better with topotecan compared with observation (3.6 months v 2.3 months; P <.001).
+T5	Premise 1208 1371	overall survival from date of randomization on step 2 was not significantly different between the observation and topotecan arms (8.9 months v 9.3 months; P =.43).
+T6	Premise 1372 1524	Grade 4 neutropenia and thrombocytopenia occurred in 50% and 3%, respectively, of PE patients in step 1 and 60% and 13% of topotecan patients in step 2.
+T7	Premise 1525 1612	Grade 4/5 infection was observed in 4.6% of PE patients and 1.8% of topotecan patients.
+T8	Premise 1613 1682	Grade 3/4 anemia developed in 22% of patients who received topotecan.
+T9	Premise 1683 1820	No difference in quality of life between topotecan and observation was observed at any assessment time or for any of the subscale scores.
+T10	Claim 1821 1989	Four cycles of PE induction therapy followed by four cycles of topotecan improved PFS but failed to improve overall survival or quality of life in extensive-stage SCLC.
+T11	Claim 1990 2124	Four cycles of standard PE remains an appropriate first-line treatment for extensive-stage SCLC patients with good performance status.
+R1	Support Arg1:T10 Arg2:T11	
+R2	Support Arg1:T1 Arg2:T11	
+R3	Support Arg1:T3 Arg2:T10	
+R4	Support Arg1:T4 Arg2:T10	
+R5	Support Arg1:T5 Arg2:T10	
+R6	Support Arg1:T9 Arg2:T10	

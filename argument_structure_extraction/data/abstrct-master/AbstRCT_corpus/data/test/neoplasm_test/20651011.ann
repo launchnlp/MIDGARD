@@ -1,0 +1,15 @@
+T1	Premise 1353 1435	Over time, levels of fatigue significantly decreased in all domains in all groups,
+T2	Premise 1436 1478	except in mental fatigue in the WLC group.
+T3	Premise 1479 1683	Analyses of variance of postintervention fatigue showed statistically significant group effects on general fatigue, on physical and mental fatigue, and on reduced activation but not on reduced motivation.
+T4	Premise 1684 1879	Compared with the WLC group, the PT group reported significantly greater decline in 4 domains of fatigue, whereas the PT+CBT group reported significantly greater decline in physical fatigue only.
+T5	Premise 1880 1973	No significant differences in decline in fatigue were found between the PT+CBT and PT groups.
+T6	Premise 1974 2143	Physical training combined with cognitive-behavioral therapy and physical training alone had significant and beneficial effects on fatigue compared with no intervention.
+T7	Claim 2144 2306	Physical training was equally effective as or more effective than physical training combined with cognitive-behavioral therapy in reducing cancer-related fatigue,
+T8	Claim 2323 2436	cognitive-behavioral therapy did not have additional beneficial effects beyond the benefits of physical training.
+R1	Support Arg1:T7 Arg2:T8	
+R2	Support Arg1:T6 Arg2:T7	
+R3	Support Arg1:T5 Arg2:T7	
+R4	Support Arg1:T4 Arg2:T7	
+R5	Partial-Attack Arg1:T2 Arg2:T1	
+R6	Support Arg1:T1 Arg2:T7	
+R7	Support Arg1:T3 Arg2:T7	

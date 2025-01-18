@@ -1,0 +1,13 @@
+T1	Premise 715 912	Both groups exhibited significant decreases in hot flashes, depressive symptoms, and other quality-of-life symptoms, including significant improvements in mental health from pre- to post-treatment.
+T2	Premise 913 1016	These changes were similar in both groups, indicating that acupuncture was as effective as venlafaxine.
+T3	Premise 1017 1184	By 2 weeks post-treatment, the venlafaxine group experienced significant increases in hot flashes, whereas hot flashes in the acupuncture group remained at low levels.
+T4	Premise 1185 1367	The venlafaxine group experienced 18 incidences of adverse effects (eg, nausea, dry mouth, dizziness, anxiety), whereas the acupuncture group experienced no negative adverse effects.
+T5	Premise 1368 1539	Acupuncture had the additional benefit of increased sex drive in some women, and most reported an improvement in their energy, clarity of thought, and sense of well-being.
+T6	Claim 1540 1611	Acupuncture appears to be equivalent to drug therapy in these patients.
+T7	Claim 1612 1760	It is a safe, effective and durable treatment for vasomotor symptoms secondary to long-term antiestrogen hormone use in patients with breast cancer.
+R1	Support Arg1:T1 Arg2:T6	
+R2	Support Arg1:T2 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T6	
+R4	Support Arg1:T6 Arg2:T7	
+R5	Support Arg1:T4 Arg2:T6	
+R6	Support Arg1:T4 Arg2:T7	

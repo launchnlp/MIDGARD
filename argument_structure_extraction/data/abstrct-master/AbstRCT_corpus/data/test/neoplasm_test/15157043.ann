@@ -1,0 +1,8 @@
+T1	Claim 1 114	Recombinant human erythropoietin (r-HuEPO) corrects cancer-related anemia and, thereby, improves quality of life.
+T2	Premise 1045 1091	No patient in G1 developed a thrombotic event.
+T3	Premise 974 1044	In all four patients, Hgb levels were normal at the time of the event.
+T4	Premise 1092 1206	There were no significant differences in demographic characteristics or current chemotherapy regimen in G1 vs. G2.
+T5	Premise 1285 1442	The increased incidence of thrombotic events in the r-HuEPO (G2) arm of this study exceeds that in prior studies in this population and prior r-HuEPO trials.
+T6	Claim 1443 1521	This may relate to the administration of r-HuEPO in this high-risk population,
+T7	Claim 1522 1619	but the small sample size and possible predisposing risk factors preclude definitive conclusions.
+R1	Partial-Attack Arg1:T7 Arg2:T6	

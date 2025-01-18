@@ -1,0 +1,15 @@
+T1	Claim 1 99	Amitriptyline is the most common analgesic adjuvant used in cancer patients with neuropathic pain,
+T2	Claim 112 160	no specific studies have demonstrated a benefit.
+T3	Premise 1210 1474	No significant benefits in analgesia were found in the global pain intensity of the previous week of treatment, the least pain intensity or the pain evaluated just after a week of treatment, at the moment of the visit, when amitriptyline was compared with placebo.
+T4	Premise 1475 1545	A significant difference was evidenced for the worst pain (P < 0.035).
+T5	Premise 1546 1615	No differences in opioid doses during the period of study were found.
+T6	Premise 1616 1765	Drowsiness, confusion and dry mouth were significantly more intense with amitriptyline than with placebo (P < 0.036, 0.003, and 0.034, respectively).
+T7	Premise 1766 1884	There were no substantial differences between the two treatments in Spitzer's quality of life score and for each item.
+T8	Premise 1885 1965	No differences in patients' preference for the two treatment periods were found.
+T9	Claim 1966 2053	The analgesic effects of amitriptyline were slight and associated with adverse effects.
+T10	Claim 2101 2168	the extensive use of the drug for cancer pain should be questioned.
+R1	Support Arg1:T6 Arg2:T9	
+R2	Support Arg1:T3 Arg2:T9	
+R3	Support Arg1:T4 Arg2:T9	
+R4	Support Arg1:T5 Arg2:T10	
+R5	Support Arg1:T7 Arg2:T10	

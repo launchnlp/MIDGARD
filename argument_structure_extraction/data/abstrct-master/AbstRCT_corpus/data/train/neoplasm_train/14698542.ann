@@ -1,0 +1,24 @@
+T1	Claim 1 142	In advanced not selected NSCLC chemotherapy achieved an advantage of approximately 1-2 months on median survival versus best supportive care.
+T2	Claim 143 190	Chemotherapy seems to improve symptoms control,
+T4	Premise 1263 1524	Despite difficulties in carrying out and analysing QoL items in such patients, the global QoL evaluated by the Spitzer's questionnaire suggested an advantage for MVC regimen (P=0.05) and a significant difference was observed in global health subdomain (P=0.04).
+T5	Premise 1525 1573	The disease-related symptoms improved with time,
+T6	Premise 1578 1630	the benefits lasted for the entire treatment period.
+T7	Premise 1631 1894	When evaluated with the EORTC questionnaire there was significantly less nausea and vomiting (P=0.0001), appetite loss (P=0.01), insomnia (P=0.03), constipation (P=0.01) and peripheral neuropathy (P=0.01) in favour of MVC, and a trend for less hair loss (P=0.05).
+T8	Premise 1895 1953	The advantage lasted for all the duration of chemotherapy.
+T9	Premise 1954 2052	No differences were observed in global quality of life subdomain (P=0.40) between the two regimen.
+T11	Premise 2158 2350	we reported a response rate of 43.1 and 38.6%, respectively, in MVP and MVC arm (P=0.59) and a median survival of 10.2 and 7.2 months, respectively, for cisplatin and carboplatin arm (P=0.39).
+T12	Premise 2351 2573	The carboplatin containing regimen (MVC) has a significant better toxicity profile than the cisplatin containing (MVP) regimen as proven both by the EORTC questionnaires and by the WHO toxicity data reported by physicians.
+T13	Claim 2574 2707	No significant differences in terms of response rate, time to progression and overall survival were observed between the two regimen.
+T14	Claim 2708 2850	The two chemotherapy regimen showed a similar effectiveness in symptom palliation when evaluated with C30 addendum of EORTC QOL questionnaire.
+T15	Premise 2851 3041	With the Spitzer's questionnaires a trend towards an improved quality of life index was observed during treatment with the carboplatin combination in comparison to the cisplatin combination.
+T16	Premise 3042 3179	This difference, however, was not observed when the global quality of life was evaluated with the EORTC patients compiled questionnaires.
+T17	Claim 3180 3412	A carboplatin containing regimen with better toxicity profile and a similar potentiality for symptoms control offers an option in comparison to similar cisplatin containing combinations in the palliative treatment of advanced NSCLC.
+R1	Support Arg1:T11 Arg2:T13	
+R2	Support Arg1:T4 Arg2:T14	
+R3	Support Arg1:T5 Arg2:T14	
+R4	Support Arg1:T6 Arg2:T14	
+R5	Partial-Attack Arg1:T16 Arg2:T15	
+R6	Support Arg1:T7 Arg2:T16	
+R7	Support Arg1:T9 Arg2:T16	
+R8	Support Arg1:T14 Arg2:T17	
+R9	Support Arg1:T13 Arg2:T17	

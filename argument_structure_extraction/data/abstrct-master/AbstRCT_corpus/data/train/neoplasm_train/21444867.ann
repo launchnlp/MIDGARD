@@ -1,0 +1,11 @@
+T1	Premise 784 946	The 15-year actuarial locoregional recurrence rates were 5.8% for EBRT versus 15.5% for NAT (P < .001), and 15-year overall survival was 52% versus 60% (P = .14).
+T2	Premise 1049 1245	Patients treated with EBRT reported significant (P < .01) and clinically relevant higher rates of urinary incontinence, diarrhea, and fecal leakage leading to more limitations in daily activities.
+T3	Premise 1246 1390	Increased symptoms were reflected by the frequent use of incontinence materials after EBRT (day and night use, 42.9% v 15.2% for NAT; P < .001).
+T4	Premise 1391 1525	Patients treated with EBRT reported lower scores on the SF-36 scales "physical functioning" (P = .004) and "role-physical" (P = .003).
+T5	Claim 1526 1690	EBRT for endometrial cancer is associated with long-term urinary and bowel symptoms and lower physical and role-physical functioning, even 15 years after treatment.
+T6	MajorClaim 1691 1819	Despite its efficacy in reducing locoregional recurrence, EBRT should be avoided in patients with low- and intermediate-risk EC.
+R1	Support Arg1:T5 Arg2:T6	
+R2	Support Arg1:T4 Arg2:T5	
+R3	Support Arg1:T3 Arg2:T5	
+R4	Support Arg1:T2 Arg2:T5	
+R5	Support Arg1:T1 Arg2:T5	

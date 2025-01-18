@@ -1,0 +1,11 @@
+T1	Premise 994 1150	Gastrointestinal and GU toxicity persisted 5 years after RT and did not differ between the two dose schedules other than in regard to urgency of defecation.
+T2	Premise 1151 1294	However, 1-month GI toxicity was not only worse in patients with the hypofractionated RT schedule but also adversely affected daily activities.
+T3	Premise 1295 1390	Nadir prostate-specific antigen values occurred at a median of 18.0 (3.0-54.0) months after RT.
+T4	Premise 1391 1561	A total of 76 biochemical relapses, with or without clinical relapses, have occurred since; of these, 37 were in the hypofractionated and 39 in the conventional schedule.
+T6	Premise 1562 1728	The 5-year biochemical +/- clinical relapse-free and overall survival was 55.9% and 85.3% respectively for all patients, and did not differ between the two schedules.
+T7	Claim 1855 1940	The hypofractionated schedule is equivalent in efficacy to the conventional schedule.
+T8	Claim 1729 1854	Radiation therapy for prostate carcinoma causes persistent GI toxicity that is largely independent of the two dose schedules.
+R1	Support Arg1:T6 Arg2:T7	
+R2	Support Arg1:T4 Arg2:T7	
+R3	Support Arg1:T2 Arg2:T8	
+R4	Support Arg1:T1 Arg2:T7	

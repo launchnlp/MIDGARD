@@ -1,0 +1,5 @@
+T1	Claim 1945 2057	LLLT was effective in improving the patient's subjective experience of OM and QOL in HNC patients receiving CRT.
+T2	Premise 1809 1944	a significant reduction (p < 0.001) in incidence of severe OM, need for opioid analgesics, and total parenteral nutrition was observed.
+T3	Premise 1635 1802	Results analysis revealed that OMWQ-HN (F = 12.199, df = 6,1314, p < 0.001) and FACT-HN (p < 0.05) scores were significantly lower in LLLT than placebo group patients.
+R1	Support Arg1:T2 Arg2:T1	
+R2	Support Arg1:T3 Arg2:T1	

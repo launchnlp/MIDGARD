@@ -1,0 +1,10 @@
+T2	Claim 74 196	Aerobic exercise and psychosocial interventions have been shown to reduce the severity of this symptom in cancer patients.
+T3	Premise 927 1113	Physical performance of the training group improved significantly during the programme (9.4+/-20 watts, p=0.01) but remained unchanged in the relaxation group (1.5+/-14.8 watts, p=0.37).
+T5	Premise 1114 1303	Fatigue and global health scores improved in both groups during the intervention (fatigue: training group 21%, relaxation group 19%; global health of both groups 19%, p for all < or =0.01);
+T6	Premise 1304 1403	however, there was no significant difference between changes in the scores of both groups (p=0.67).
+T7	Claim 1404 1549	We conclude that a structured aerobic training programme improves the physical performance of patients recovering from surgery for solid tumours.
+T8	Claim 1550 1664	However, exercise is not better than progressive relaxation training for the treatment of fatigue in this setting.
+R1	Partial-Attack Arg1:T6 Arg2:T5	
+R2	Partial-Attack Arg1:T8 Arg2:T7	
+R3	Support Arg1:T3 Arg2:T7	
+R4	Support Arg1:T5 Arg2:T8	

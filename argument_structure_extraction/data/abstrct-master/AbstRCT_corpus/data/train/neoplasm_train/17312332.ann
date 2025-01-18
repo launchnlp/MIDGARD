@@ -1,0 +1,8 @@
+T1	Claim 1 164	Previous trials have suggested a quality-of-life (QOL) improvement for anemic cancer patients treated with erythropoietin, but few used QOL as the primary outcome.
+T2	Premise 1046 1210	This revealed a significant difference in the median survival in favor of the patients on the placebo arm of the trial (63 v 129 days; hazard ratio, 1.84; P = .04).
+T3	Premise 1252 1319	Patient numbers compromised the interpretation of the QOL analysis,
+T4	Premise 1324 1386	a positive Hgb response was noted with epoetin alfa treatment.
+T5	Claim 1387 1511	An unplanned safety analysis suggested decreased overall survival in patients with advanced NSCLC treated with epoetin alfa.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Partial-Attack Arg1:T3 Arg2:T5	
+R3	Support Arg1:T2 Arg2:T5	

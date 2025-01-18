@@ -1,0 +1,17 @@
+T1	Premise 668 743	Median PFS was 2.3 months for each arm (HR, 1.004; 95% CI, 0.841 to 1.199).
+T2	Premise 744 891	ORR, stable disease, median OS, were 4.4% versus 5.5%, 36.0% versus 39.6%, 6.7 versus 7.2 months (HR, 0.973; 95% CI, 0.805 to 1.176), respectively.
+T3	Premise 892 992	No significant difference in patient benefit and QOL (Functional Assessment of Cancer Therapy-Lung).
+T4	Premise 993 1036	No unexpected adverse events were observed.
+T5	Premise 1037 1614	Grade higher than 0 (vinflunine v docetaxel) anemia (82.1% v 79.8%), neutropenia (49.3 v 39.02%), thrombocytopenia (30.6% v 14.3%), febrile neutropenia (3.3% v 4.7%), constipation (39.2% v 11.7%), fatigue (36.6% v 33.9%), injection site reaction (31.9% v 0.7%), nausea (26.7% v 23.7%), vomiting (23.8% v 14.2%), alopecia (19.8% v 35.4%), stomatis (19.4% v 12.4%), abdominal pain (20.1% v 3.6%), myalgia (14.7% v 6.6%), peripheral neuropathy (10.7% v 15.0%), arthralgia (7.0% v 7.7%), diarrhea (6.2% v 12.4%), edema (1.5% v 5.4%), and nail disorders (1.1% v 5;1%) were observed.
+T6	Claim 1615 1715	This noninferiority phase III study showed similar efficacy end points for vinflunine and docetaxel.
+T7	Claim 1716 1808	Despite higher rates of some adverse effects (anemia, abdominal pain, constipation, fatigue)
+T8	Claim 1809 1867	the overall toxicity profile of vinflunine was manageable.
+T9	MajorClaim 1879 1966	VFL may be another option in the second-line treatment of patients with advanced NSCLC.
+R1	Partial-Attack Arg1:T7 Arg2:T8	
+R2	Support Arg1:T8 Arg2:T9	
+R3	Support Arg1:T6 Arg2:T9	
+R4	Support Arg1:T4 Arg2:T8	
+R5	Support Arg1:T5 Arg2:T7	
+R6	Support Arg1:T3 Arg2:T6	
+R7	Support Arg1:T2 Arg2:T6	
+R8	Support Arg1:T1 Arg2:T6	

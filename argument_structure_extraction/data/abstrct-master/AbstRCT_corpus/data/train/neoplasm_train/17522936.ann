@@ -1,0 +1,9 @@
+T1	Premise 966 1053	There were no differences in functional outcome, morbidity, or QOL between LRP and ORP.
+T2	Premise 1181 1365	The body image and cosmesis scores of female patients were significantly higher in the LRP group than in the ORP group (body image, 17.4 vs 14.9; cosmesis, 19.1 vs 13.0, respectively).
+T3	Premise 1366 1483	The female patients in the ORP group had significantly lower body image scores than the male patients (14.9 vs 18.3).
+T4	Claim 1484 1595	This study is the first to show that ORP has a negative impact on body image and cosmesis as compared with LRP.
+T5	Claim 1596 1670	Functional outcome, QOL, and morbidity are similar for the two approaches.
+T6	Claim 1671 1869	The advantages of a long-lasting improved body image and cosmesis for this relatively young patient population may compensate for the longer operating times and higher costs, particularly for women.
+R1	Support Arg1:T3 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	
+R3	Support Arg1:T1 Arg2:T5	

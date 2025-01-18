@@ -1,0 +1,7 @@
+
+
+To compare the intraocular pressure (IOP)-lowering effect and safety of latanoprost 0.005% once daily with that of unoprostone 0.15% twice daily for patients with primary open-angle glaucoma or ocular hypertension.
+Randomized clinical trial.
+In a prospective, 8-week, investigator-masked, parallel-group study conducted at numerous centers in the United States, 165 previously treated patients with IOP >or= 25 mm Hg in one or both eyes after washout were randomly assigned to receive either latanoprost 0.005% once daily in the evening or unoprostone 0.15% twice daily. Observations procedures were Goldmann applanation tonometry, best-corrected visual acuity, slit lamp biomicroscopy, and ophthalmoscopy. The main outcome measure was change in the mean of the IOPs measured at 8:00 AM, 12 noon, and 4:00 PM between baseline (before treatment) and after 8 weeks of treatment.
+The change in the mean +/- SD of the IOPs measured at 8:00 AM, 12 noon, and 4:00 PM was -7.2 +/- 3.2 mm Hg (28%) for latanoprost (25.3 +/- 2.8 mm Hg at baseline to 18.2 +/- 2.8 mm Hg at 8 weeks) and -3.9 +/- 2.6 mm Hg (15%) for unoprostone (25.5 +/- 3.3 mm Hg at baseline to 21.6 +/- 4.0 mm Hg; P <or=.001. No serious adverse event related to either medication was reported.
+Over an 8-week period, latanoprost 0.005% once daily lowered IOP more than unoprostone 0.15% twice daily in patients with elevated IOP. Both agents were safe and well tolerated.

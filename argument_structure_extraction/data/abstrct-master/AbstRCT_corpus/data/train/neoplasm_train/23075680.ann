@@ -1,0 +1,21 @@
+T1	Premise 889 986	The total clinical effective rates in PP group and GP group were 25.20% and 17.74%, respectively.
+T2	Premise 987 1064	The total efficiencies of non-squamous cell carcinoma were 27.62% and 16.00%.
+T3	Premise 1065 1153	The tumor progression duration in these two groups was 6.5 and 5.6 months, respectively.
+T4	Premise 1154 1347	The median survival time in the two groups was 16.9 and 17.0 months, respectively, with 59.62% and 65.87% survival rates of 1 year and 27.28% and 27.93% survival rates of 2 years, respectively.
+T5	Premise 1348 1461	The total efficacy of non-squamous cell carcinoma in the PP group was significantly higher than that in GP group.
+T6	Premise 1462 1505	The results were statistically significant.
+T7	Premise 1650 1839	The rate of adverse reactions, including white blood cell reduction, lower platelet count, lower hemoglobin, and hair loss in the PP group was significantly lower than that in the GP group.
+T8	Premise 1840 1883	The results were statistically significant.
+T9	Claim 1884 2038	The clinical efficacy of pemetrexed and gemcitabine combined with cisplatin for the treatment of previously untreated advanced NSCLC was roughly the same,
+T10	Claim 2039 2141	but the adverse reactions decreased significantly in the PP group compared with those in the GP group.
+T11	MajorClaim 2142 2294	Therefore, pemetrexed combined with cisplatin can be used as a safe and effective drug for clinical first-line treatment for previously untreated NSCLC.
+R1	Partial-Attack Arg1:T10 Arg2:T9	
+R2	Support Arg1:T9 Arg2:T11	
+R3	Support Arg1:T7 Arg2:T10	
+R4	Support Arg1:T8 Arg2:T7	
+R5	Support Arg1:T6 Arg2:T5	
+R6	Support Arg1:T3 Arg2:T9	
+R7	Attack Arg1:T2 Arg2:T9	
+R8	Attack Arg1:T1 Arg2:T9	
+R9	Support Arg1:T4 Arg2:T9	
+R10	Attack Arg1:T5 Arg2:T9	

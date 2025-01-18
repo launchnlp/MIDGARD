@@ -1,0 +1,10 @@
+T1	Premise 907 962	There was a significant decrease in pad use in group A.
+T2	Premise 963 1017	After 16 wk, 39 patients versus 27 were dry (p=0.007).
+T3	Premise 1018 1171	At 20 wk, 4 wk after planned interruption of duloxetine, we observed a U-turn, 23 patients were completely dry in group A versus 38 in group B (p=0.008).
+T4	Premise 1172 1246	Whereas, after 24 wk, 31 in group A versus 41 in group B were dry (p=0.08)
+T5	Claim 1248 1359	The decrease in IEF and improvements in I-QoL scores were significantly greater in group A for the first 16 wk.
+T6	Claim 1360 1523	The data suggest that combination therapy might provide another treatment option for SUI in men that might increase the percentage of early postsurgery continence.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T2 Arg2:T5	
+R4	Support Arg1:T5 Arg2:T6	

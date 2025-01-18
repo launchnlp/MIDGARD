@@ -1,0 +1,17 @@
+T1	Premise 1059 1305	During the CEE plus MPA intervention phase, the numbers of CHD cases were 196 for CEE plus MPA vs 159 for placebo (hazard ratio [HR], 1.18; 95% CI, 0.95-1.45) and 206 vs 155, respectively, for invasive breast cancer (HR, 1.24; 95% CI, 1.01-1.53).
+T2	Premise 1306 1524	Other risks included increased stroke, pulmonary embolism, dementia (in women aged ≥65 years), gallbladder disease, and urinary incontinence; benefits included decreased hip fractures, diabetes, and vasomotor symptoms.
+T3	Premise 1525 1577	Most risks and benefits dissipated postintervention,
+T4	Premise 1578 1740	although some elevation in breast cancer risk persisted during cumulative follow-up (434 cases for CEE plus MPA vs 323 for placebo; HR, 1.28 [95% CI, 1.11-1.48]).
+T5	Premise 1741 2107	The risks and benefits were more balanced during the CEE alone intervention with 204 CHD cases for CEE alone vs 222 cases for placebo (HR, 0.94; 95% CI, 0.78-1.14) and 104 vs 135, respectively, for invasive breast cancer (HR, 0.79; 95% CI, 0.61-1.02); cumulatively, there were 168 vs 216, respectively, cases of breast cancer diagnosed (HR, 0.79; 95% CI, 0.65-0.97).
+T6	Premise 2211 2390	For CEE alone, younger women (aged 50-59 years) had more favorable results for all-cause mortality, myocardial infarction, and the global index (nominal P < .05 for trend by age).
+T7	Premise 2391 2699	Absolute risks of adverse events (measured by the global index) per 10,000 women annually taking CEE plus MPA ranged from 12 excess cases for ages of 50-59 years to 38 for ages of 70-79 years; for women taking CEE alone, from 19 fewer cases for ages of 50-59 years to 51 excess cases for ages of 70-79 years.
+T8	Claim 2759 2830	Menopausal hormone therapy has a complex pattern of risks and benefits.
+T9	Claim 2831 3004	Findings from the intervention and extended postintervention follow-up of the 2 WHI hormone therapy trials do not support use of this therapy for chronic disease prevention,
+T10	Claim 3005 3069	although it is appropriate for symptom management in some women.
+R1	Support Arg1:T10 Arg2:T9	
+R2	Partial-Attack Arg1:T3 Arg2:T2	
+R3	Partial-Attack Arg1:T4 Arg2:T3	
+R4	Support Arg1:T5 Arg2:T8	
+R5	Support Arg1:T1 Arg2:T8	
+R6	Support Arg1:T6 Arg2:T8	
+R7	Support Arg1:T7 Arg2:T8	

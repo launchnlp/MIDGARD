@@ -1,0 +1,10 @@
+T1	Premise 812 912	At radical prostatectomy, pathological variables were not significantly different in the two groups.
+T2	Premise 913 1004	Serum testosterone level was significantly higher (mean 359.2 compared to 10.5, P < 0.001),
+T3	Premise 1005 1226	complete response rate of PSA (13% compared to 57%, P = 0.028) and rate of downsizing of prostate volume (mean, -17.7% compared to -35.4%, P = 0.038) were significantly lower in the flutamide group than in the LHRH group.
+T4	Premise 1227 1441	After neoadjuvant hormone therapy, the scores on the sexual problem domain of EORTC-P (P = 0.033) and sexual desire score of SMUF (P = 0.021) were significantly higher in the flutamide group than in the LHRH group.
+T5	Claim 1604 1726	This study suggests that flutamide monotherapy can be an acceptable modality as an option for neoadjuvant hormone therapy.
+T6	Premise 1442 1603	At a median follow-up of 34 months after prostatectomy, biochemical failure-free survival rate in the flutamide group did not differ from that in the LHRH group.
+R1	Support Arg1:T3 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T5	
+R3	Support Arg1:T4 Arg2:T5	
+R4	Support Arg1:T6 Arg2:T5	

@@ -1,0 +1,7 @@
+T1	Premise 1665 1874	The mean (SD) systolic BP decreased by 8 (12) mm Hg in the standard group and by 27 (17) mm Hg in the intensive group (P < .001), with mean (SD) achieved pressures of 141 (13) and 126 (10) mm Hg, respectively.
+T2	Premise 1875 2117	Change in global perfusion did not differ between treatment groups: the mean (SD) change was -0.5 (9.4) mL/min/100 g in the standard group vs 0.7 (8.6) mL/min/100 g in the intensive group (partial η2, 0.004; 95% CI, -3.551 to 5.818; P = .63).
+T3	Premise 2118 2245	No differences were observed when the analysis examined gray or white matter only or was confined to those achieving target BP.
+T4	Claim 2422 2509	Intensive BP lowering did not reduce cerebral perfusion in severe small vessel disease.
+T5	Premise 2246 2421	The number of adverse events did not differ between treatment groups, with a mean (SD) of 0.21 (0.65) for the standard group and 0.32 (0.75) for the intensive group (P = .44).
+R1	Support Arg1:T2 Arg2:T4	
+R2	Support Arg1:T1 Arg2:T4	

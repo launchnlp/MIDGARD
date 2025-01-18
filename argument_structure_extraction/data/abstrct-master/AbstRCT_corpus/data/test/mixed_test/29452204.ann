@@ -1,0 +1,12 @@
+T1	Claim 2228 2313	It shows that a sequential combination of interferon-α and lamivudine was beneficial.
+T2	Premise 1169 1356	Of the 46 patients in the treatment group, 73.91% had undetectable serum HBV DNA, 32.61% achieved HBeAg seroconversion and 21.74% lost hepatitis B surface antigen (HBsAg) at the endpoint.
+T4	Premise 1357 1394	No LAM resistance emerged at week 96.
+T5	Premise 1395 1585	In the control group, only one (4.35%) patient underwent spontaneous HBeAg seroconversion and had undetectable serum HBV DNA during observation, and moreover, none developed HBsAg clearance.
+T6	Premise 1586 1644	For all patients, no serious adverse events were observed.
+T7	Premise 1645 1903	Antiviral treatment with a sequential combination of IFN and LAM resulted in a significant improvement in the rates of undetectable serum HBV DNA, HBeAg seroconversion and HBsAg loss in children with chronic HBV infection and immune-tolerant characteristics.
+T8	MajorClaim 1994 2072	It remains unresolved how children with immune-tolerant CHB should be treated.
+R1	Support Arg1:T6 Arg2:T1	
+R2	Support Arg1:T7 Arg2:T1	
+R3	Support Arg1:T4 Arg2:T1	
+R4	Support Arg1:T5 Arg2:T1	
+R5	Support Arg1:T2 Arg2:T1	

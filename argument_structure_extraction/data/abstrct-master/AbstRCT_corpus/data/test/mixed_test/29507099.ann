@@ -1,0 +1,7 @@
+T1	MajorClaim 0 94	Available data indicate that dietary sodium (as salt) relates directly to blood pressure (BP).
+T2	Premise 1098 1246	Normal weight and obese participants manifested significant positive relations to BP of urinary sodium; relations were weaker for overweight people.
+T3	Premise 1247 1355	At lower but not higher levels of 24-hour sodium excretion, potassium intake blunted the sodium-BP relation.
+T4	Claim 1356 1460	The adverse association of dietary sodium with BP is minimally attenuated by other dietary constituents;
+T5	Claim 1461 1593	these findings underscore the importance of reducing salt intake for the prevention and control of prehypertension and hypertension.
+R1	Support Arg1:T3 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	

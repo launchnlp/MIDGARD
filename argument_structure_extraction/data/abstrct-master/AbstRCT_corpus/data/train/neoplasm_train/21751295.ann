@@ -1,0 +1,7 @@
+T2	Premise 1087 1151	The most common reason for dropout was patients feeling too ill.
+T3	Premise 1152 1214	Attrition rates did not vary significantly between study arms.
+T4	Premise 1441 1574	There were no other significant associations between attrition and any demographic, medical, psychiatric, or study-related variables.
+T5	Claim 1575 1838	These findings highlight the challenge of maintaining advanced cancer patients in longitudinal research and suggest the need to consider alternative approaches (e.g., telemedicine) for patients who might benefit from group interventions but are too ill to travel.
+T1	MajorClaim 1 113	The generalizability of palliative care intervention research is often limited by high rates of study attrition.
+T6	Premise 933 1086	The rates of attrition at these time points were 28.1%, 17.7%, and 11.1%, respectively; 43.1% of the participants (66 of 153) completed the entire study.
+R1	Support Arg1:T6 Arg2:T1	

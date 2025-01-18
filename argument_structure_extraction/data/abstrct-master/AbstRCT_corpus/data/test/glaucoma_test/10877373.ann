@@ -1,0 +1,19 @@
+T1	Premise 831 933	Clinical success was 71% (75/106) with brimonidine and 70% (73/105) with timolol as initial treatment.
+T2	Premise 934 1025	The overall mean decrease in IOP was 6.5 mm Hg with brimonidine and 6.2 mm Hg with timolol.
+T3	Premise 1026 1072	Few patients reported a specific adverse event
+T4	Premise 1078 1232	with the exception of a slightly higher rate of ocular burning and stinging in the brimonidine group, there were no significant between-group differences.
+T5	Premise 1233 1308	No significant chronotropic effects on the heart were seen with brimonidine
+T6	Premise 1316 1408	small but significant mean decreases in heart rate were seen at months 1 and 4 with timolol.
+T7	Premise 1409 1494	Mean systolic and diastolic blood pressure remained relatively stable in both groups.
+T8	Premise 1495 1574	Quality of life remained stable, with no significant between-group differences.
+T9	Claim 1575 1761	As a first-line agent for the treatment of glaucoma and ocular hypertension, brimonidine has clinical effectiveness equivalent to timolol, but with less chronotropic effect on the heart.
+T10	MajorClaim 1762 1868	Brimonidine is a viable alternative to timolol for first-line therapy in glaucoma and ocular hypertension.
+R1	Support Arg1:T8 Arg2:T9	
+R2	Support Arg1:T9 Arg2:T10	
+R3	Support Arg1:T7 Arg2:T9	
+R4	Support Arg1:T4 Arg2:T9	
+R5	Support Arg1:T3 Arg2:T9	
+R6	Support Arg1:T2 Arg2:T9	
+R7	Support Arg1:T1 Arg2:T9	
+R8	Support Arg1:T5 Arg2:T9	
+R9	Support Arg1:T6 Arg2:T9	

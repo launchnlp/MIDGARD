@@ -1,0 +1,14 @@
+T1	Claim 1 278	Phase II and III studies have shown that the addition of interleukin-2 (IL-2) and interferon alpha-2b (IFN alpha-2b) in multiagent chemotherapy (CT) for advanced melanoma increases overall response (OR), albeit without clear evidence of an improvement in overall survival (OS).
+T2	Claim 279 388	Treatment with high-dose IL-2 can cause severe toxicity and is normally administered in an inpatient setting.
+T3	Premise 902 1018	At a median follow-up of 18 (CT) and 16 (bioCT) months, median OS was 9.5 versus 11.0 months (P =.51), respectively.
+T4	Premise 1019 1189	In the 89 CT-arm patients, 18 ORs (20.2%) (three complete responders [CRs] and 15 partial responders [PRs]) were observed according to World Health Organization criteria.
+T5	Premise 1190 1281	In the 87 bioCT-arm patients, 22 ORs (25.3%) (three CRs and 19 PRs) (P =.70) were recorded.
+T6	Premise 1282 1341	Treatment-related toxicity was fairly similar in both arms.
+T7	Claim 1342 1469	The addition of low-dose immunotherapy did not produce a statistically significant advantage in OS, time to progression, or OR.
+T8	Claim 1470 1632	However, the 11-month median OS in the bioCT arm does not differ greatly from the best results with high-dose IL-2-containing regimens reported in the literature.
+T9	Claim 1646 1740	our treatment schedule was carried out on outpatients and had an acceptable level of toxicity.
+R1	Support Arg1:T3 Arg2:T7	
+R2	Partial-Attack Arg1:T8 Arg2:T7	
+R3	Support Arg1:T4 Arg2:T7	
+R4	Support Arg1:T5 Arg2:T7	
+R5	Support Arg1:T6 Arg2:T9	

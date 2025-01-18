@@ -1,0 +1,17 @@
+T1	MajorClaim 1 52	Morbidity is an important issue in cancer research.
+T2	Claim 53 241	The observer-based toxicity scoring system used by DAHANCA (the Danish head and neck cancer study group) has proved itself sensitive to differences in toxicity in a large randomised study,
+T3	Claim 242 317	but like other toxicity scoring systems it has not been formally validated.
+T4	Premise 1075 1172	The DAHANCA toxicity scoring system and the EORTC QLQ correlated with several clinical endpoints.
+T5	Premise 1173 1252	The conceptually similar endpoints of the two methods correlated significantly.
+T6	Premise 1253 1380	The objective endpoints of the DAHANCA scoring system were only correlated with quality of life endpoints to a very low degree.
+T7	Premise 1381 1594	The DAHANCA toxicity scores had a low sensitivity (0.48-0.74) in detecting equivalent subjective complaints from the questionnaires and the observer-based scoring system severely underestimated patient complaints.
+T8	Premise 1595 1696	A specific patient group where the DAHANCA score had a higher tendency to fail could not be detected.
+T9	Claim 1697 1920	The DAHANCA toxicity score is an effective instrument in assessing objective treatment induced toxicity in head and neck cancer patients but insensitive and non-specific with regard to patient assessed subjective endpoints.
+T11	Claim 1921 2045	This weakness seems inherent in an observer-based scoring system, and will probably also apply to newer ones like CTCAE 3.0.
+R1	Partial-Attack Arg1:T3 Arg2:T2	
+R2	Partial-Attack Arg1:T11 Arg2:T9	
+R3	Support Arg1:T4 Arg2:T9	
+R4	Support Arg1:T5 Arg2:T4	
+R5	Support Arg1:T6 Arg2:T9	
+R6	Support Arg1:T7 Arg2:T9	
+R7	Support Arg1:T8 Arg2:T9	

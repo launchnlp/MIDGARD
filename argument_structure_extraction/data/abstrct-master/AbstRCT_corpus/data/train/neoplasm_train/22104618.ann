@@ -1,0 +1,12 @@
+T1	Premise 1001 1087	A small decline in visual analogue scale scores was observed (70.7 vs. 68.2, P=0.026).
+T2	Premise 727 1000	Mean index scores remained stable (0.78 at baseline [n=267], 0.79 at eight weeks [n=186], P=0.34, Wilcoxon signed rank test), attributable to a modest deterioration of physical function domain scores coincident with small improvements in pain and anxiety/depression scores.
+T3	Premise 1088 1166	HRQOL changes within chemotherapy response strata revealed stable index scores
+T4	Premise 1167 1301	but a trend of worsened physical function among patients with disease progression compared with those with stable or improved disease.
+T5	Premise 1302 1502	Visual analogue scale scores trended downward over time irrespective of chemotherapy response status, with a statistically meaningful deterioration in patients who progressed (68.9 vs. 64.4, P=0.029).
+T6	Claim 1611 1715	Response to gemcitabine treatment in APC is not associated with appreciable improvement of global HRQOL.
+T7	Claim 1805 1898	Those who respond to gemcitabine may experience a slight slowing of functional deterioration.
+R1	Partial-Attack Arg1:T4 Arg2:T3	
+R2	Support Arg1:T3 Arg2:T6	
+R3	Support Arg1:T1 Arg2:T6	
+R4	Support Arg1:T5 Arg2:T7	
+R5	Support Arg1:T2 Arg2:T6	

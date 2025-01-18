@@ -1,0 +1,13 @@
+T1	Premise 742 893	Complete or partial responses were achieved by 12% of patients treated with IFNalpha2a plus 13-CRA and 6% of patients treated with IFNalpha2a (P =.14).
+T2	Premise 894 1106	Median duration of response (complete and partial combined) in the group treated with the combination was 33 months (range, 9 to 50 months), versus 22 months (range, 5 to 38 months) for the second group (P =.03).
+T3	Premise 1107 1277	Nineteen percent of patients treated with IFNalpha2a plus 13-CRA were progression-free at 24 months, compared with 10% of patients treated with IFNalpha2a alone (P =.05).
+T4	Premise 1278 1402	Median survival time for all patients was 15 months, with no difference in survival between the two treatment arms (P =.26).
+T5	Premise 1403 1488	QOL decreased during the first 8 weeks of treatment, and a partial recovery followed.
+T6	Premise 1489 1547	Lower scores were associated with the combination therapy.
+T7	Claim 1548 1691	Response proportion and survival did not improve significantly with the addition of 13-CRA to IFNalpha2a therapy in patients with advanced RCC.
+T8	Claim 1692 1788	13-CRA may lengthen response to IFNalpha2a therapy in patients with IFNalpha2a-sensitive tumors.
+T9	Claim 1789 1876	Treatment, particularly the combination therapy, was associated with a decrease in QOL.
+R1	Support Arg1:T1 Arg2:T7	
+R2	Support Arg1:T2 Arg2:T8	
+R3	Support Arg1:T4 Arg2:T7	
+R4	Support Arg1:T5 Arg2:T9	

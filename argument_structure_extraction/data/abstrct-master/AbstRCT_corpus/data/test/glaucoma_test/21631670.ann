@@ -1,0 +1,7 @@
+T1	Claim 1547 1660	Scleral flap size had no significant effect on medium-term intraocular pressure control and complication profile.
+T2	Premise 992 1217	At 2 years, the mean intraocular pressure and cumulative probability of failure was 12.4 ± 4.6 mmHg and 0.28 for standard trabeculectomy, and 11.5 ± 3.6 mmHg and 0.27 for microtrabeculectomy (P = 0.50 and 0.89, respectively).
+T3	Premise 1218 1283	One patient in each group required Baerveldt device implantation.
+T4	Premise 1284 1434	Vision reduced ≥2 Snellen lines in 15% in the standard trabeculectomy group and 25% in the microtrabeculectomy group, mainly from cataract (P = 0.48).
+T5	Claim 1435 1546	Both trabeculectomy techniques achieved good intraocular pressure reduction and had similar complication rates.
+R1	Support Arg1:T4 Arg2:T1	
+R2	Support Arg1:T2 Arg2:T5	

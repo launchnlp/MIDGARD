@@ -1,0 +1,11 @@
+T1	Claim 180 271	The possible effectiveness of 5-FU+low-dose CDDP for colorectal cancer (CRC) is intriguing.
+T2	Claim 1 179	Recently, the treatment of advanced gastric cancer by continuous infusion of 5-fluorouracil (5-FU) with low-dose cisplatin (CDDP) has improved efficacy without severe toxicities.
+T3	Premise 938 1080	The response rate in the 5-FU+low-dose CDDP arm (n=75) was significantly higher than that in the 5-FU arm (n=77) (25.3% vs. 11.7%; P = 0.037).
+T4	Premise 1081 1238	There was no significant difference in the median overall survival time between the 5-FU+low-dose CDDP arm and the 5-FU arm (479 and 491 days, respectively).
+T5	Premise 1239 1296	Grades 3/4 toxicities occurred infrequently in both arms.
+T6	Premise 1297 1353	The quality of life was almost the same between the arms
+T7	Claim 1355 1457	Low-dose CDDP improved the response rate while keeping toxicities within clinically acceptable limits.
+T8	Claim 1458 1697	However, this combined treatment did not confer a survival advantage over treatment with continuous infusion of 5-FU alone for patients with far-advanced CRC; that might be attributable to the short CDDP administration setting of 12 weeks.
+R1	Support Arg1:T3 Arg2:T7	
+R2	Support Arg1:T5 Arg2:T7	
+R3	Support Arg1:T4 Arg2:T8	

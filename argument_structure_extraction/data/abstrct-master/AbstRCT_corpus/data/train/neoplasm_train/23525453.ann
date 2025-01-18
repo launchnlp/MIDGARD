@@ -1,0 +1,15 @@
+T1	Premise 1179 1292	Therapy with combined bevacizumab plus cisplatin significantly reduced VEGF levels in the pleural fluid (p<0.01).
+T2	Premise 994 1178	In 70 evaluable study subjects, the curative efficacy in the bevacizumab group was significantly higher than that found in the cisplatin group (83.33 vs. 50.00%, respectively; p<0.05).
+T3	Premise 1293 1481	In the bevacizumab group, the levels of VEGF in the pleural fluid were significantly lower compared to those of the cisplatin group after treatment, which showed greater efficacy (p<0.01).
+T4	Premise 1482 1600	In addition, combination therapy showed greater efficacy in the patients with high levels of VEGF expression (p<0.01).
+T5	Premise 1601 1691	There was no significant difference in grade III/IV adverse events between the two groups.
+T6	Premise 1692 1743	All procedures were well tolerated by the patients.
+T7	Claim 1744 1859	Combined intrapleural therapy with bevacizumab and cisplatin was effective and safe in managing NSCLC-mediated MPE.
+T8	MajorClaim 1860 1965	We propose that VEGF expression levels in MPE could serve as a prognostic marker for bevacizumab therapy.
+R1	Support Arg1:T6 Arg2:T7	
+R2	Support Arg1:T5 Arg2:T7	
+R3	Support Arg1:T4 Arg2:T7	
+R4	Support Arg1:T1 Arg2:T7	
+R5	Support Arg1:T7 Arg2:T8	
+T9	MajorClaim 1 106	Malignant pleural effusion (MPE) is a common complication of advanced non-small cell lung cancer (NSCLC).
+T10	MajorClaim 107 283	Bevacizumab, a humanized monoclonal antibody against vascular endothelial growth factor (VEGF), has been shown to be efficient in suppressing the accumulation of pleural fluid.

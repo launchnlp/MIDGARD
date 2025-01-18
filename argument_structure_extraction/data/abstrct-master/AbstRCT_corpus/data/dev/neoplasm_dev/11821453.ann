@@ -1,0 +1,16 @@
+T1	Premise 391 520	The objective response rate was 26% (95% confidence interval [CI], 18.2% to 34.4%), with seven complete and 23 partial responses.
+T2	Premise 521 707	Response rates in 111 assessable patients with 3+ and 2+ HER2 overexpression by immunohistochemistry (IHC) were 35% (95% CI, 24.4% to 44.7%) and none (95% CI, 0% to 15.5%), respectively.
+T3	Premise 708 823	The clinical benefit rates in assessable patients with 3+ and 2+ HER2 overexpression were 48% and 7%, respectively.
+T4	Premise 824 1044	The response rates in 108 assessable patients with and without HER2 gene amplification by fluorescence in situ hybridization (FISH) analysis were 34% (95% CI, 23.9% to 45.7%) and 7% (95% CI, 0.8% to 22.8%), respectively.
+T5	Premise 1045 1228	Seventeen (57%) of 30 patients with an objective response and 22 (51%) of 43 patients with clinical benefit had not experienced disease progression at follow-up at 12 months or later.
+T6	Premise 1229 1367	The most common treatment-related adverse events were chills (25% of patients), asthenia (23%), fever (22%), pain (18%), and nausea (14%).
+T7	Premise 1368 1538	Cardiac dysfunction occurred in two patients (2%); both had histories of cardiac disease and did not require additional intervention after discontinuation of trastuzumab.
+T8	Claim 1539 1641	There was no clear evidence of a dose-response relationship for response, survival, or adverse events.
+T9	Claim 1642 1824	Single-agent trastuzumab is active and well tolerated as first-line treatment of women with metastatic breast cancer with HER2 3+ overexpression by IHC or gene amplification by FISH.
+R1	Support Arg1:T1 Arg2:T9	
+R2	Support Arg1:T2 Arg2:T9	
+R3	Support Arg1:T3 Arg2:T9	
+R4	Support Arg1:T4 Arg2:T9	
+R5	Support Arg1:T5 Arg2:T9	
+R6	Support Arg1:T6 Arg2:T9	
+R7	Support Arg1:T7 Arg2:T9	

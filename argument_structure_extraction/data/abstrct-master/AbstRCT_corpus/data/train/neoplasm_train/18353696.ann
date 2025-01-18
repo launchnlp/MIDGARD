@@ -1,0 +1,10 @@
+T1	Premise 1005 1064	No differences in pain and symptom intensity were observed.
+T3	Premise 1206 1378	At the doses used, methadone was significantly less expensive (p<0.0001), while the use and costs of supportive drugs and other analgesics were similar in the three groups.
+T4	Premise 1379 1509	No relevant differences in adverse effects were observed among the groups during either the titration phase and chronic treatment.
+T5	Claim 1510 1658	All the three opioids used as first-line therapy were effective, well tolerated, and required similar amounts of symptomatic drugs or co-analgesics.
+T2	Premise 1065 1205	Opioid escalation index was significantly lower in patients receiving methadone (p<0.0001), although requiring up and down changes in doses.
+T6	Claim 1659 1835	Methadone was significantly less expensive, but required more changes, up and down, of the doses, suggesting that dose titration of this drug requires major clinical expertise.
+R1	Support Arg1:T1 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T5	
+R3	Support Arg1:T3 Arg2:T6	
+R4	Support Arg1:T4 Arg2:T5	

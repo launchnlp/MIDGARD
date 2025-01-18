@@ -1,0 +1,8 @@
+T1	Premise 476 702	Intention-to-treat analyses indicated that AET resulted in a nonsignificant (P = 0.16) improvement in global sleep quality compared with usual care [mean group difference = -0.64; 95% confidence interval (CI), -1.56 to +0.27].
+T2	Premise 703 1053	In planned subgroup analyses, statistically significant or borderline significant interactions were identified for type of lymphoma (P(interaction) = 0.006), current treatment status (P(interaction) = 0.036), time since diagnosis (P(interaction) = 0.010), body mass index (P(interaction) = 0.075), and baseline sleep quality (P(interaction) = 0.041).
+T3	Premise 1068 1333	AET improved global sleep quality in patients with lymphoma who had indolent non-Hodgkin lymphoma (P = 0.001), were receiving chemotherapy (P = 0.013), were <2 years post-diagnosis (P = 0.005), were obese (P = 0.025), and were poor sleepers at baseline (P = 0.007).
+T4	Claim 1334 1437	AET did not significantly improve sleep quality in this heterogeneous sample of patients with lymphoma;
+T5	Claim 1438 1501	however, clinically identifiable subgroups appeared to benefit.
+R1	Support Arg1:T1 Arg2:T4	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Partial-Attack Arg1:T5 Arg2:T4	

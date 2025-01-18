@@ -1,0 +1,9 @@
+T1	Premise 1148 1277	At 12 months post-randomisation, there was no significant difference between treatment and control groups in terms of arm volume.
+T3	Premise 1278 1434	Absolute change in arm volume at 12 months was 2.5% (95% CI -0.40 to 5.3) in the treatment group compared to 1.2% (95% CI -2.8 to 5.1) in the placebo group.
+T4	Premise 1435 1819	The difference in mean volume change between randomisation groups at 12 months was not statistically significant (P = 0.6), -1.3% (95% CI -6.1 to 3.5), nor was there a significant difference in response at 6 months (P = 0.7), where mean change in arm volume from baseline in the treatment and placebo groups was -2.3% (95% CI -7.9 to 3.4) and -1.1% (95% CI -3.9 to 1.7), respectively.
+T5	Premise 1820 2172	There were no significant differences between randomised groups in terms of secondary endpoints, including tissue induration (fibrosis) in the irradiated breast or chest wall, pectoral fold or supraclavicular fossa, change in photographic breast/chest wall appearance or patient self-assessment of function and Quality of Life at either 6 or 12 months.
+T6	Claim 2173 2517	The study fails to demonstrate efficacy of dl-alpha tocopheryl acetate plus pentoxifylline in patients with arm lymphoedema following axillary surgery and lymphatic radiotherapy, nor does it suggest any benefits of these drugs in radiation-induced induration (fibrosis) in the breast, chest wall, pectoral fold, axilla or supraclavicular fossa.
+R1	Support Arg1:T5 Arg2:T6	
+R2	Support Arg1:T4 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T6	
+R4	Support Arg1:T1 Arg2:T6	

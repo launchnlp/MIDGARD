@@ -1,0 +1,7 @@
+T1	Claim 1 141	Malnutrition occurs frequently in patients with cancer of the gastrointestinal (GI) or head and neck area and can lead to negative outcomes.
+T2	Premise 1037 1199	The NI group had statistically smaller deteriorations in weight (P<0.001), nutritional status (P=0.020) and global QoL (P=0.009) compared with those receiving UC.
+T3	Premise 1200 1318	Clinically, but not statistically significant differences in fat-free mass were observed between the groups (P=0.195).
+T4	Claim 1319 1546	Early and intensive NI appears beneficial in terms of minimising weight loss, deterioration in nutritional status, global QoL and physical function in oncology outpatients receiving radiotherapy to the GI or head and neck area.
+T5	Claim 1547 1699	Weight maintenance in this population leads to beneficial outcomes and suggests that this, rather than weight gain, may be a more appropriate aim of NI.
+R1	Support Arg1:T2 Arg2:T4	
+R2	Support Arg1:T3 Arg2:T4	

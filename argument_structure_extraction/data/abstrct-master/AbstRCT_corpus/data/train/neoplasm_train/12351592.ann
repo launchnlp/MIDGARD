@@ -1,0 +1,9 @@
+T1	Premise 1 92	Mucositis occurs in almost all patients treated with radiotherapy for head and neck cancer.
+T2	Premise 862 927	Toxicity profiles were similar between the two arms of the study.
+T3	Premise 928 1068	The median time to development of severe mucositis from the start of radiotherapy was 3.61 weeks on BCoG and 3.96 weeks on placebo (P =.61).
+T4	Premise 1069 1268	There were no statistically significant differences between the arms in the extent of severe mucositis as measured by physician, in oral toxicities as recorded by patients, or in radiotherapy delays.
+T5	Claim 1466 1602	in this group of patients treated with conventional radiotherapy, the lozenge did not impact significantly on the severity of mucositis.
+T6	Claim 1603 1815	Whether such a lozenge would be beneficial in treatment situations where rate of severe mucositis is higher (ie, in patients treated with unconventional fractionation or with concomitant chemotherapy) is unknown.
+R1	Support Arg1:T5 Arg2:T6	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T4 Arg2:T5	

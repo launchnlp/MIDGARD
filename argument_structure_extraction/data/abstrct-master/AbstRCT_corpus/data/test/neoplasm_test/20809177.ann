@@ -1,0 +1,7 @@
+T1	Premise 921 1075	The dysfunction score was 58.9 ± 15.0 after distal gastrectomy, 66.8 ± 14.1 after total gastrectomy, and 62.4 ± 21.6 after pylorus-preserving gastrectomy.
+T2	Premise 1076 1140	These values differed significantly among the groups (P = .007).
+T3	Premise 1141 1474	Dysfunction scores according to postoperative activity status were 49.1 ± 15.6 in 71 patients who resumed their activities, 56.9 ± 15.7 in 39 patients with reduced activities, 57.3 ± 8.8 in 15 patients with minimal activities, and 63.3 ± 11.8 (P < .05) in 16 patients who did not resume activities because of poor physical condition.
+T4	Claim 1475 1702	This scoring system for postoperative gastrointestinal dysfunction provides an objective measure of dysfunction related to specific surgical procedures and correlates with activities of daily living in the postoperative period.
+R1	Attack Arg1:T2 Arg2:T1	
+R2	Support Arg1:T3 Arg2:T4	
+R3	Support Arg1:T1 Arg2:T4	

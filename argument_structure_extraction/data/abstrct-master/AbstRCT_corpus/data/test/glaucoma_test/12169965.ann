@@ -1,0 +1,8 @@
+T1	Claim 1279 1413	In eyes with open-angle glaucoma, viscocanalostomy is less effective in reducing intraocular pressure than standard filtering surgery.
+T2	Premise 771 951	One day after surgery, mean (SD) intraocular pressure was 15.9 (5.2) for the trabeculectomy group (P <0.001) and 15.7 (3.6) for the viscocanalostomy group (P <0.001), respectively.
+T3	Premise 952 1162	The success rate, defined as an intraocular pressure lower than 22 mm Hg without medication, was 56.7% in the trabeculectomy group and 30% in the viscocanalostomy group at 12 months postoperatively (P = 0.041).
+T4	Premise 1163 1278	The number of postoperative complications was lower in the viscocanalostomy group than in the trabeculectomy group.
+T5	Claim 1423 1493	postoperative complications are more frequent after filtering surgery.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T1	
+R3	Partial-Attack Arg1:T2 Arg2:T1	

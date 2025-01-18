@@ -1,0 +1,7 @@
+T1	Premise 1117 1443	There were no significant survival differences between the 244 interferon-alfa-treated patients and 248 noninterferon-alfa patients (hazard ratio, 1.00; 95% CI, 0.81-1.24) or between the 247 interleukin-2 and 245 noninterleukin-2-treated patients (hazard ratio, 1.07; 95% CI, 0.87-1.33; log rank, 0.99 and 0.52, respectively).
+T2	Premise 1444 1572	Grade 3-4 toxicities were significantly more frequent in cytokine-treated patients than in medroxyprogesterone-treated patients.
+T3	Claim 1573 1753	Subcutaneous interleukin-2 and/or interferon-alfa provide no survival benefit in metastatic renal cancers of intermediate prognosis, and they induce a significant risk of toxicity.
+T5	Claim 1754 1833	Newly available angiogenesis inhibitors should be preferred for these patients.
+R1	Support Arg1:T1 Arg2:T3	
+R2	Support Arg1:T2 Arg2:T3	
+R3	Support Arg1:T3 Arg2:T5	

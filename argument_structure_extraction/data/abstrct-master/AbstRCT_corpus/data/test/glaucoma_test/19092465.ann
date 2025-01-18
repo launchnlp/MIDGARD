@@ -1,0 +1,12 @@
+T1	Premise 1167 1277	Mean diurnal IOP reduction after 8 weeks were 7.02+/-3.06 mm Hg and 6.91+/-3.67 mm Hg, respectively (P=0.811).
+T2	Premise 1278 1396	The adjusted difference between groups (analysis of covariance) at week 8 was not statistically significant (P=0.847).
+T3	Premise 1761 1839	No statistical difference in terms of adverse events was found between groups.
+T5	Claim 1996 2061	both fixed combinations are well tolerated with few side effects.
+T6	Premise 1397 1532	Mean baseline WDT peak was 27.79+/-4.29 mm Hg in the brimonidine/timolol group and 27.68+/-5.46 mm Hg in the dorzolamide/timolol group.
+T4	Claim 1840 1989	Both fixed combinations were capable of significantly reducing the mean diurnal IOP, mean diurnal peak, and mean WDT peak after 8 weeks of treatment.
+R1	Support Arg1:T3 Arg2:T5	
+T7	Premise 1533 1651	After 8 weeks of treatment, mean WDT peaks were 20.94+/-3.76 mm Hg (P<0.001) and 20.98+/-4.19 (P<0.001), respectively.
+R2	Support Arg1:T7 Arg2:T4	
+R3	Support Arg1:T6 Arg2:T4	
+R4	Attack Arg1:T2 Arg2:T1	
+R5	Support Arg1:T1 Arg2:T4	

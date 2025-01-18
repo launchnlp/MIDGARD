@@ -1,0 +1,9 @@
+T1	Premise 1103 1437	A model measuring effectiveness of CCSP on QOL (total and subscale) at 1-year follow-up showed that the CCSP group (n = 38) had significant improvement in overall QOL (p < 0.01), health and functioning (p < 0.05), and socioeconomic (p < 0.05) and psychological/spiritual well-being (p < 0.01) compared with the control group (n = 35).
+T2	Premise 1438 1536	The CCSP patients frequently used the CCSP to manage psychological (51%) and sleep problems (60%).
+T3	Premise 1537 1592	The CCSP improved QOL for patients at 1-year follow-up.
+T4	Premise 1593 1651	Patients overwhelmingly reported that CCSP was beneficial.
+T5	Claim 1652 1768	The CCSP as an effective coping intervention has potential as a self-management program for breast cancer survivors.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T2 Arg2:T5	
+R4	Support Arg1:T1 Arg2:T5	

@@ -1,0 +1,11 @@
+T1	Claim 1854 1927	No effects of the intervention were found for any outcome after one year.
+T2	Claim 1664 1779	Supervised compared to unsupervised exercise training resulted in no improvement in health-related quality of life,
+T3	Claim 1780 1853	except for the bodily pain domain, four months after lung cancer surgery.
+R1	Partial-Attack Arg1:T3 Arg2:T2	
+T4	Claim 1582 1663	We found no effect of the intervention on 6MWT or lung volumes at any time-point.
+R2	Support Arg1:T4 Arg2:T1	
+R3	Support Arg1:T2 Arg2:T1	
+T5	Premise 1484 1581	At 12 months, the tendency was reversed, with the CG presenting overall slightly better measures.
+T6	Premise 1129 1483	We found a statistically significant effect after four months in the bodily pain domain of SF36, with an estimated mean difference (EMD) of 15.3 (95% CI:4 to 26.6, p=0.01) and a trend in favour of the intervention for role physical functioning (EMD 12.04, 95% CI: -1 to 25.1, p=0.07) and physical component summary (EMD 3.76, 95% CI:-0.1 to 7.6, p=0.06).
+R4	Attack Arg1:T5 Arg2:T6	
+R5	Attack Arg1:T6 Arg2:T1	

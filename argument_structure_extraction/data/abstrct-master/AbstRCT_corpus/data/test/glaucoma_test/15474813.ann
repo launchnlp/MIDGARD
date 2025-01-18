@@ -1,0 +1,10 @@
+T1	Claim 1390 1452	the complication rate was lower in the viscocanalostomy group.
+T2	Premise 569 711	At 3 years, the mean IOP was 16.0 mmHg +/- 7.07 (SD) in the trabeculectomy group and 17.8 +/- 4.6 mmHg in the viscocanalostomy group (P=.694).
+T3	Premise 712 935	Complete success (IOP 6 to 21 mm Hg without medication) was achieved in 66.2% of eyes at 6 months and 55.1% at 3 years in the trabeculectomy group and in 52.9% and 35.3%, respectively, in the viscocanalostomy group (P>.05).
+T4	Premise 936 1156	Qualified success (IOP 6 to 21 mmHg with medication) was achieved in 95.8% of eyes at 6 months and 79.2% at 3 years in the trabeculectomy group and in 90.7% and 73.9%, respectively, in the viscocanalostomy group (P>.05).
+T5	Premise 1157 1300	Postoperative hypotony and cataract formation occurred more frequently in the trabeculectomy group than in the viscocanalostomy group (P=.002).
+T6	Claim 1301 1380	Primary trabeculectomy lowered IOP more than viscocanalostomy in POAG patients.
+R1	Support Arg1:T5 Arg2:T1	
+R2	Support Arg1:T4 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T6	
+R4	Support Arg1:T2 Arg2:T6	

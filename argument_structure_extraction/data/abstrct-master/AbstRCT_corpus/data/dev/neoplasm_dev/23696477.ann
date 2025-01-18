@@ -1,0 +1,11 @@
+T1	Premise 913 1057	Median MFD time was reduced in the ERP group (3 days versus 6 days with standard care; P < 0·001), as was LOS (4 days versus 7 days; P < 0·001).
+T2	Premise 1058 1156	The ERP significantly reduced the rate of medical complications (7 versus 27 per cent; P = 0·020),
+T3	Premise 1157 1312	but not surgical complications (15 versus 11 per cent; P = 0·612), readmissions (4 versus 0 per cent; P = 0·153) or mortality (both 2 per cent; P = 0·987).
+T4	Premise 1313 1384	QoL over 28 days was significantly better in the ERP group (P = 0·002).
+T5	Premise 1385 1433	There was no difference in patient satisfaction.
+T6	Claim 1434 1495	ERPs for open liver resection surgery are safe and effective.
+T7	Claim 1496 1627	Patients treated in the ERP recovered faster, were discharged sooner, and had fewer medical-related complications and improved QoL.
+R1	Support Arg1:T4 Arg2:T7	
+R2	Partial-Attack Arg1:T3 Arg2:T2	
+R3	Support Arg1:T2 Arg2:T6	
+R4	Support Arg1:T1 Arg2:T7	

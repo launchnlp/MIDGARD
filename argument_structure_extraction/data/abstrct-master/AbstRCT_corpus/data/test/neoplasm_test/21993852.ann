@@ -1,0 +1,9 @@
+T1	Premise 1033 1153	Only the dyspnea symptom scale showed superior results for R-Y than for B-I (B-I 13.6 ± 17.9, R-Y 8.6 ± 16.3, p = 0.02).
+T2	Premise 1154 1282	With respect to DAUGS 20, the total score did not differ significantly between the R-Y and B-I groups (24.8 vs. 23.6, p = 0.41).
+T3	Premise 1283 1386	Only reflux symptoms were significantly worse for B-I than for R-Y (0.7 ± 0.6 vs. 0.5 ± 0.6, p = 0.01).
+T4	Claim 1387 1486	The B-I and R-Y techniques were generally equivalent in terms of postoperative QOL and dysfunction.
+T5	MajorClaim 1487 1621	Both procedures seem acceptable as standard reconstructions after distal gastrectomy with regard to postoperative QOL and dysfunction.
+R1	Support Arg1:T2 Arg2:T4	
+R2	Support Arg1:T4 Arg2:T5	
+R3	Support Arg1:T3 Arg2:T4	
+R4	Support Arg1:T1 Arg2:T4	

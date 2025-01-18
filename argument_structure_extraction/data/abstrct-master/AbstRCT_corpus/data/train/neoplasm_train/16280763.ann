@@ -1,0 +1,17 @@
+T1	Premise 1080 1168	Of group 1 patients 67% had gynecomastia compared with 8% in group 2 and 34% in group 3.
+T2	Premise 1169 1267	Breast pain was more frequent in group 1 than in groups 2 and 3 (58% vs 7% and 30%, respectively).
+T3	Premise 1268 1378	Differences were significant between groups 1 and 2 (OR 0.12 p <0.001), and groups 1 and 3 (OR 0.52 p < 0.01).
+T4	Premise 1379 1525	In patients in group 1 who had gynecomastia or breast pain a significant decrease in symptoms was achieved in those receiving tamoxifen (p <0.05).
+T5	Premise 1526 1573	Treatments were well tolerated in the 3 groups.
+T6	Premise 1574 1630	No differences in QOL between groups 2 and 3 were found.
+T7	Premise 1631 1701	At a median followup of 26 months we observed 12 biochemical relapses.
+T8	Claim 1702 1805	Gynecomastia and breast pain induced by bicalutamide monotherapy after RP can be prevented and treated.
+T9	Claim 1806 1885	Tamoxifen has been shown to be more effective and safe than RT in this setting.
+T10	Claim 1886 1968	QOL and sexual function are not negatively influenced by these 2 treatment options
+R1	Support Arg1:T10 Arg2:T9	
+R2	Support Arg1:T1 Arg2:T8	
+R3	Support Arg1:T2 Arg2:T8	
+R4	Support Arg1:T3 Arg2:T2	
+R5	Support Arg1:T4 Arg2:T8	
+R6	Support Arg1:T5 Arg2:T9	
+R7	Support Arg1:T6 Arg2:T10	

@@ -1,0 +1,6 @@
+T1	Premise 848 1285	Participants in the Internet group showed significant improvements at post-assessment compared with those in the control group in overall insomnia severity (F(1,26) = 22.8; p<0.001), sleep efficiency (F(1,24) = 11.45; P = 0.002), sleep onset latency (F(1,24) = 5.18; P = 0.03), soundness of sleep (F(1,24) = 9.34; P = 0.005), restored feeling upon awakening (F(1,24) = 11.95; P = 0.002), and general fatigue (F(1,26) = 13.88; P = 0.001).
+T2	Premise 1286 1495	Although other group × time interactions were not significant, overall adjusted effect sizes for all sleep variables as well as for fatigue, depression, anxiety, and quality of life ranged from small to large.
+T3	Claim 1496 1656	CBT-I delivered through an interactive, individually tailored Internet intervention may be a viable treatment option for cancer survivors experiencing insomnia.
+T4	MajorClaim 1 55	Insomnia is a common complaint among cancer survivors.
+R1	Support Arg1:T1 Arg2:T3	
+R2	Support Arg1:T2 Arg2:T3	

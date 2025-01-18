@@ -1,0 +1,6 @@
+T1	Premise 1258 1487	Based on the results of the area under the curve (AUC) analysis, patients receiving HMB/Arg/Gln had a strong trend higher LBM throughout the study as measured by both bioimpedance (p = 0.08) and skin-fold measurements (p = 0.08).
+T2	Premise 1488 1613	Among the subset of patients receiving concurrent chemotherapy, there were again no significant differences in the endpoints.
+T3	Claim 1694 1875	This trial was unable to adequately test the ability of beta-hydroxy beta-methylbutyrate, glutamine, and arginine to reverse or prevent lean body mass wasting among cancer patients.
+R1	Support Arg1:T2 Arg2:T3	
+T4	Premise 1614 1693	The secondary endpoints were also not significantly different between the arms.
+R2	Support Arg1:T4 Arg2:T3	

@@ -1,0 +1,10 @@
+T1	Premise 1531 1600	Difference between groups (p=0.007) for BMD at femur was significant.
+T2	Premise 1601 1757	The changes of BMD in group B patients were significantly greater than patients in group A (p=0.011, CI=0.063-0.437), and group C (p=0.003, CI=0.146-0.620).
+T3	Premise 1758 1889	The mean BAP increased from baseline in group B patients but decreased from baseline in group C patients at 3 months and 15 months.
+T4	Premise 1890 2040	No statistical significance was found in the FACT-G scores and FACT-B scores among different groups at baseline, week 4, week 8 and week 12 after NHT.
+T5	Premise 2041 2161	The Breast Cancer Subscale scores in group A patients were significantly higher than that of group C patients (p=0.021).
+T6	Premise 2162 2266	After 4 weeks of NHT, negative changes of FACT-B and FACT-G scores were found in group B and C patients,
+T7	Premise 2267 2319	but there were positive changes in group A patients.
+T8	Premise 2320 2430	Significant differences of FACT-B score (p=0.008) and FACT-G score (p=0.019) were observed at that time point.
+T9	MajorClaim 1 94	Anti-aromatase therapy is important in the treatment of breast cancer in postmenopausal women
+T10	Claim 169 287	Cyclooxygenase-2 (COX-2) inhibitors have been shown to be effective in chemoprevention in animal and clinical studies.

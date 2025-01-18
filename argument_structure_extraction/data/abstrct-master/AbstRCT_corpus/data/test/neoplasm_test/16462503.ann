@@ -1,0 +1,14 @@
+T1	Claim 1 82	Fatigue has a significant impact on the quality of life (QOL) of cancer patients.
+T2	Claim 83 201	Recent research has suggested that physical activity can reduce fatigue in patients receiving active cancer treatment.
+T3	Premise 1298 1383	Most of scores indicated less fatigue (higher score) in the standard treatment group,
+T4	Premise 1384 1597	but there were no statistically significant differences found at baseline and weeks 4, 8, and 27 except for SDS at week 8 (P = 0.018) with less patients reporting significant fatigue in the standard treatment arm.
+T5	Premise 1598 1748	For the entire participant population, fatigue levels initially worsened with radiotherapy, stabilized at week 8, and returned to baseline by week 27.
+T6	Premise 1749 1855	Disease site, chemotherapy use, and radiotherapy dose did not have a significant impact on fatigue levels.
+T7	Premise 1856 1958	Radiotherapy initially caused a worsening of fatigue but with time fatigue levels returned to baseline
+T8	Claim 1960 2044	Clinically, this structured multidisciplinary intervention had no impact on fatigue,
+T9	Claim 2049 2165	there was the suggestion the multiple sessions may have contributed to worse fatigue during active cancer treatment.
+R1	Support Arg1:T7 Arg2:T9	
+R2	Partial-Attack Arg1:T4 Arg2:T3	
+R3	Partial-Attack Arg1:T3 Arg2:T8	
+R4	Support Arg1:T5 Arg2:T8	
+R5	Support Arg1:T6 Arg2:T8	

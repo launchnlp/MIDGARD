@@ -1,0 +1,7 @@
+T2	Claim 130 323	This procedure has been performed with the patient in the hypothyroid state to promote endogenous TSH stimulation and is often associated with hypothyroid symptoms and impaired quality of life.
+T3	Premise 1375 1720	Quality of life was well preserved in the euthyroid group, compared with the hypothyroid group, as demonstrated by their lower pretreatment scores on the Billewicz scale for hypothyroid signs and symptoms, 27 +/- 7 vs. 18 +/- 4 (P < 0.0001) and their significantly higher Short Form-36 Health Assessment Scale scores in five of eight categories.
+T4	Premise 1721 1865	Euthyroid patients had a statistically significant one third lower radiation dose to the blood, compared with patients in the hypothyroid group.
+T5	Claim 1866 2045	This study demonstrates comparable remnant ablation rates in patients prepared for 131I remnant ablation with 3.7 GBq by either administering rhTSH or withholding thyroid hormone.
+T6	Claim 2046 2156	rhTSH-prepared patients maintained a higher quality of life and received less radiation exposure to the blood.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T6	

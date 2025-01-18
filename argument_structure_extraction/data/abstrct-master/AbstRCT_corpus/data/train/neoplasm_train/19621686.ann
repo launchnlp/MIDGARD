@@ -1,0 +1,12 @@
+T1	Premise 1137 1299	The operation time was significantly longer, and the leakage rate was higher in the transthoracic group (Student's t-test and Fischer's exact test, respectively).
+T2	Premise 1309 1417	intraoperative blood loss and postoperative hospital stay were not significantly different (Student t-test).
+T3	Premise 1424 1537	the Kaplan-Meier survival curves of these two groups were not significantly different by log-rank test (p=0.286).
+T4	Premise 1538 1694	The score on the quality of life of transhiatal patients was significantly higher than that of transthoracic patients in the third, sixth and twelfth month.
+T5	Claim 1695 1750	Transhiatal esophagectomy is a safe and fast procedure.
+T6	Claim 1751 1810	The survival was similar to that of transthoracic approach.
+T7	Claim 1811 1869	Its leakage rate was lower and quality of life was better.
+R1	Support Arg1:T3 Arg2:T6	
+R2	Support Arg1:T4 Arg2:T7	
+R3	Support Arg1:T1 Arg2:T7	
+R4	Support Arg1:T7 Arg2:T5	
+R5	Support Arg1:T6 Arg2:T5	

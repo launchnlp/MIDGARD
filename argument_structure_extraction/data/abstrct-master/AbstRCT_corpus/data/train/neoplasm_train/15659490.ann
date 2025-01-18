@@ -1,0 +1,12 @@
+T1	MajorClaim 1 93	The role of high-dose chemotherapy (HDCT) in metastatic breast cancer remains controversial.
+T2	Claim 94 185	Trials with late intensification HDCT have failed to show an advantage in overall survival.
+T3	Premise 813 922	Intent-to-treat CR rates for patients randomized to HDCT and AT were 12.5% and 11.1%, respectively (P = .84).
+T4	Premise 923 1042	Objective response rates were 66.7% for patients in the high-dose group and 64.4% for patients in the AT arm (P = .82).
+T5	Premise 1043 1352	In an intent-to-treat analysis, there were no significant differences between the two treatments in median time to progression (HDCT, 11.1 months; AT, 10.6 months; P = .67), duration of response (HDCT, 13.9 months; AT, 14.3 months; P = .98), and overall survival (HDCT, 26.9 months; AT, 23.4 months; P = .60).
+T6	Premise 1353 1535	HDCT was associated with significantly more myelosuppression, infection, diarrhea, stomatitis, and nausea and vomiting, whereas patients treated with AT developed more neurotoxicity.
+T8	Claim 1536 1640	This trial failed to show a benefit for up-front tandem HDCT compared with standard combination therapy.
+T9	Claim 1641 1693	HDCT was associated with more acute adverse effects.
+R1	Support Arg1:T5 Arg2:T8	
+R2	Support Arg1:T4 Arg2:T8	
+R3	Support Arg1:T3 Arg2:T8	
+R4	Support Arg1:T6 Arg2:T9	

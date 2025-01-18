@@ -1,0 +1,14 @@
+T1	Claim 2408 2488	Latanoprost was better tolerated than fixed-combination dorzolamide and timolol.
+T2	Premise 1493 1668	Mean (SD) diurnal IOP reductions at week 8 before the water-drinking test were 6.9 (3.0) mm Hg for the latanoprost group and 6.4 (3.2) mm Hg for the dorzolamide/timolol group.
+T3	Premise 1425 1492	Mean baseline diurnal IOP values were similar between the 2 groups.
+T4	Premise 1669 1817	Mean IOP values were similar at all time points except at 5:00 pm, when levels were significantly lower in latanoprost-treated patients (P = 0.025).
+T5	Premise 1818 2012	After the water-drinking test, the increase in IOP values was similar between groups at baseline but lower in latanoprost-treated patients at week 8 (adjusted difference, 1.08 mm Hg; P = 0.012).
+T6	Premise 2013 2125	Fewer patients treated with latanoprost reported ocular or systemic AEs (P = 0.025 and P < 0.001, respectively).
+T7	Claim 2126 2307	In this study of patients with unilateral or bilateral primary open-angle, pigmentary, or exfoliative glaucoma or OHT IOP reductions generally were similar between treatment groups,
+T8	Claim 2308 2407	except at 5:00 pm, when the mean IOP level was significantly lower in latanoprost-treated patients.
+R1	Partial-Attack Arg1:T8 Arg2:T7	
+R2	Support Arg1:T6 Arg2:T1	
+R3	Support Arg1:T5 Arg2:T7	
+R4	Support Arg1:T4 Arg2:T8	
+R5	Support Arg1:T2 Arg2:T7	
+R6	Support Arg1:T3 Arg2:T7	

@@ -1,0 +1,10 @@
+T1	Premise 778 871	No changes were found in arm circumference or arm volume as a result of the exercise program.
+T2	Premise 872 1044	Three of the quality-of-life domains showed trends toward increases in the exercise group: physical functioning (P =.050), general health (P =.048), and vitality (P =.023).
+T3	Premise 1045 1125	Mental health increased, although not significantly, for all subjects (P =.019).
+T4	Premise 1126 1229	Arm volume measured by water displacement was correlated with calculated arm volume (r =.973, P <.001),
+T5	Premise 1230 1315	although the exercise and control group means were significantly different (P <.001).
+T6	Claim 1525 1614	Additional studies should be done in this area to determine the optimum training program.
+T8	Claim 1316 1524	Participation in an upper-body exercise program caused no changes in arm circumference or arm volume in women with lymphedema after breast cancer, and they may have experienced an increase in quality of life.
+R1	Support Arg1:T2 Arg2:T8	
+R2	Support Arg1:T1 Arg2:T8	
+R3	Partial-Attack Arg1:T5 Arg2:T4	

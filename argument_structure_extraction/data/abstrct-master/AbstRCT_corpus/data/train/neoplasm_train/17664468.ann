@@ -1,0 +1,6 @@
+T1	MajorClaim 1 193	Therapy of patients with advanced gastric or gastroesophageal junction cancer should provide symptom relief and improve quality of life (QOL) because most patients are symptomatic at baseline.
+T2	Premise 1197 1325	Time to 5% deterioration of global health status (primary end point) significantly favored DCF over CF (log-rank test, P = .01).
+T3	Premise 1326 1494	QOL was preserved longer for patients on DCF than those on CF for all time to deterioration analyses, demonstrating the statistical superiority of DCF compared with CF.
+T4	Claim 1704 1954	In V325, advanced gastric or gastroesophageal junction cancer patients receiving DCF not only had statistically improved overall survival and time to tumor-progression, but they also had better preservation of QOL compared with patients receiving CF.
+R1	Support Arg1:T3 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	

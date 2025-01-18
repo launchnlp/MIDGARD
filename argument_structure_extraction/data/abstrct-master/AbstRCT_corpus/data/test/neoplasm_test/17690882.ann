@@ -1,0 +1,14 @@
+T1	Premise 797 862	KPS was improved from baseline to post-chemotherapy in both arms.
+T2	Premise 660 796	Eighteen patients experienced brief and reversible adverse events during transfusion, including two patients with acute pulmonary edema.
+T3	Premise 863 914	QOL data showed improvement in some symptom scores,
+T4	Premise 915 1027	but there was no difference in the QOL scores between the two arms at baseline and all four cycles of treatment.
+T5	Premise 1028 1103	Similar response rates were observed in both arms (arm 1, 30%; arm 2, 35%).
+T6	Premise 1104 1276	Both arms showed similar chemotherapy duration (3.8 and 4.1 months, respectively), progression-free survival (4.0 and 4.1 months) and overall survival (9.9 and 9.3 months).
+T7	Claim 1277 1418	Red blood cell transfusion achieving Hb level above 10 g/dl might contribute to the improvement of the KPS and QOL seen in patients with AGC.
+T8	Claim 1419 1578	The observation of equivalent outcomes at the two target Hb levels supports the feasibility of anemia correction to Hb 10 g/dl, which merits further evaluation
+R1	Partial-Attack Arg1:T4 Arg2:T3	
+R2	Support Arg1:T3 Arg2:T7	
+R3	Support Arg1:T1 Arg2:T7	
+R4	Support Arg1:T2 Arg2:T7	
+R5	Support Arg1:T5 Arg2:T8	
+R6	Support Arg1:T6 Arg2:T8	

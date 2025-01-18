@@ -1,0 +1,15 @@
+T1	Premise 573 763	The incidence of WHO grade 3 or 4 anemia, neutropenia and thrombocytopenia was 29, 44 and 22% (GE group), and 28, 49 and 23% (GP group), respectively (p = 0.75, 0.95 and 0.87, respectively).
+T2	Premise 764 837	The rate of grade 2 or above nausea was numerically higher in the GP arm,
+T3	Premise 838 922	but the difference was not statistically significant (GE 15.5%, GP 27.7%, p = 0.20).
+T4	Premise 923 1010	The rate of vomiting in the GE and GP arms was 20.0 and 20.5%, respectively (p = 0.96).
+T5	Premise 1011 1128	However, subjective changes in QOL scores on nausea and vomiting were significantly higher in the GP arm (p = 0.001).
+T6	Premise 1129 1255	Other symptoms including sore mouth and hair loss were significantly higher in the GE arm (p = 0.003 and 0.007, respectively).
+T7	Premise 1256 1403	There were also significant differences observed in emotional (p = 0.014), cognitive (p = 0.028) and social functioning (p = 0.034) in favor of GP.
+T8	Premise 1404 1516	The differences in tumor response (35.5 and 46.5% for GE and GP, respectively) were not significantly different.
+T9	Premise 1517 1712	Median time to disease progression (33.8 and 40.7 weeks, respectively) and overall survival (41.4 and 57.3 weeks, respectively) were of borderline significance in favor of the GP arm (p = 0.055).
+T10	Claim 1713 1758	This toxicity profile of GE is similar to GP,
+T11	Claim 1759 1830	but the apparent inferior efficacy may discourage further investigation
+R1	Attack Arg1:T3 Arg2:T2	
+R2	Partial-Attack Arg1:T11 Arg2:T10	
+R3	Support Arg1:T9 Arg2:T11	
+R4	Support Arg1:T8 Arg2:T11	

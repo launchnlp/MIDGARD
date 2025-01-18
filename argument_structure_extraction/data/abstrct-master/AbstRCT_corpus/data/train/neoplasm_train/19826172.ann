@@ -1,0 +1,13 @@
+T1	Premise 1733 1804	No significant effect was seen on global health status/quality of life.
+T2	Claim 1805 2041	A supervised multimodal exercise intervention including high and low intensity components was feasible and could safely be used in patients with various cancers who were receiving adjuvant chemotherapy or treatment for advanced disease.
+T3	Claim 2042 2197	The intervention reduced fatigue and improved vitality, aerobic capacity, muscular strength, and physical and functional activity, and emotional wellbeing,
+T4	Claim 2198 2222	but not quality of life.
+T5	Premise 1496 1732	Improvement was noted in physical capacity: estimated mean difference between groups for maximum oxygen consumption was 0.16 l/min (95% CI 0.1 to 0.2, P<0.0001) and for muscular strength (leg press) was 29.7 kg (23.4 to 34.9, P<0.0001).
+T6	Premise 1250 1495	Significant effects were seen on vitality (effect size 0.55, 95% CI 0.27 to 0.82), physical functioning (0.37, 0.09 to 0.65), role physical (0.37, 0.10 to 0.64), role emotional (0.32, 0.05 to 0.59), and mental health (0.28, 0.02 to 0.56) scores.
+T7	Premise 986 1249	Adjusted for baseline score, disease, and demographic covariates, the intervention group showed an estimated improvement at six weeks for the primary outcome, fatigue, of -6.6 points (95% confidence interval -12.3 to -0.9, P=0.02; effect size=0.33, 0.04 to 0.61).
+R1	Partial-Attack Arg1:T4 Arg2:T3	
+R2	Support Arg1:T3 Arg2:T2	
+R3	Support Arg1:T7 Arg2:T3	
+R4	Support Arg1:T6 Arg2:T3	
+R5	Support Arg1:T5 Arg2:T3	
+R6	Support Arg1:T1 Arg2:T4	

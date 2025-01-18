@@ -1,0 +1,6 @@
+T1	Premise 1246 1451	16 (29%) patients in the open oesophagectomy group had pulmonary infection in the first 2 weeks compared with five (9%) in the minimally invasive group (relative risk [RR] 0·30, 95% CI 0·12-0·76; p=0·005).
+T2	Premise 1452 1624	19 (34%) patients in the open oesophagectomy group had pulmonary infection in-hospital compared with seven (12%) in the minimally invasive group (0·35, 0·16-0·78; p=0·005).
+T3	Premise 1625 1827	For in-hospital mortality, one patient in the open oesophagectomy group died from anastomotic leakage and two in the minimally invasive group from aspiration and mediastinitis after anastomotic leakage.
+T4	Claim 1828 1973	These findings provide evidence for the short-term benefits of minimally invasive oesophagectomy for patients with resectable oesophageal cancer.
+R1	Support Arg1:T2 Arg2:T4	
+R2	Support Arg1:T1 Arg2:T4	

@@ -1,0 +1,6 @@
+T1	Claim 2025 2318	In a setting in which the rate of mother-to-child HBV transmission was low with the administration of hepatitis B immune globulin and hepatitis B vaccine in infants born to HBeAg-positive mothers, the additional maternal use of TDF did not result in a significantly lower rate of transmission.
+T2	Premise 1557 1758	In the primary analysis, none of the 147 infants (0%; 95% confidence interval [CI], 0 to 2) in the TDF group were infected, as compared with 3 of 147 (2%; 95% CI, 0 to 6) in the placebo group (P=0.12).
+T3	Premise 1759 1830	The rate of adverse events did not differ significantly between groups.
+T4	Premise 1831 2024	The incidence of a maternal alanine aminotransferase level of more than 300 IU per liter after discontinuation of the trial regimen was 6% in the TDF group and 3% in the placebo group (P=0.29).
+R1	Support Arg1:T4 Arg2:T1	
+R2	Support Arg1:T2 Arg2:T1	

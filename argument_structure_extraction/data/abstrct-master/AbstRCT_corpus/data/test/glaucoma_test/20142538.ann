@@ -1,0 +1,10 @@
+T2	Premise 1153 1389	Diurnal IOP reductions of 30% or more from baseline to week 12 were achieved by 73.5%, 57.5%, and 32.8% of those treated with FCLT, latanoprost, and timolol, respectively (P = .007 for FCLT vs timolol; P < .001 for FCLT vs latanoprost).
+T3	Premise 1007 1152	FCLT was associated with greater percentage reductions in diurnal IOP levels and a greater likelihood of achieving lower mean diurnal IOP levels.
+T4	Premise 872 993	FCLT was statistically superior to latanoprost at 7 of 9 time points and at all 9 time points when compared with timolol.
+T5	Claim 1425 1611	Fixed-combination latanoprost-timolol therapy is as safe and effective in lowering IOP in patients with either ocular hypertension or glaucoma as monotherapy with latanoprost or timolol.
+T6	MajorClaim 1612 1725	Combination therapy can be used to treat patients for whom monotherapy does not provide sufficient IOP reduction.
+T7	MajorClaim 1726 1824	The simplicity, efficacy, and tolerability of FCLT contribute to its utility in clinical practice.
+T1	Claim 1390 1424	All therapies were well tolerated.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T2 Arg2:T5	

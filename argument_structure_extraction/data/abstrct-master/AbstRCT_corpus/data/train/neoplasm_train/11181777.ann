@@ -1,0 +1,11 @@
+T1	MajorClaim 1 121	The combination of etoposide plus cisplatin (EP) is considered to be standard therapy for small-cell lung cancer (SCLC).
+T2	Premise 1209 1465	Patients in the PCDE arm had a statistically significant higher frequency of combined complete plus partial responses compared with those in the EP arm (21% plus 55% versus 13% plus 48%, respectively; P =.02 for difference in combined objective responses).
+T3	Premise 1466 1653	Patients in the PCDE arm survived longer than those in the EP arm (1-year survival rate: 40% and 29%, respectively; median survival: 10.5 and 9.3 months, respectively; log-rank P =.0067).
+T4	Premise 1654 1812	In the Cox model, the relative risk of death for patients in the PCDE arm compared with those in the EP arm was 0.70 (95% confidence interval = 0.51 to 0.95);
+T5	Premise 1813 1881	the disease also progressed more slowly in patients in the PCDE arm.
+T6	Premise 1882 2004	Hematologic toxicity was higher in the PCDE arm (22% with documented infections compared with 8% in the EP arm; P =.0038),
+T7	Premise 2009 2099	the toxicity-related death rate was 9% in the PCDE arm versus 5.5% in the EP arm (P =.22).
+T8	Claim 2100 2182	The global health status showed similar improvement in both arms during treatment.
+T9	Claim 2183 2392	Compared with the EP regimen, the PCDE regimen yielded higher response rates and better survival rates in patients with extensive SCLC without affecting the quality of life of the patients during chemotherapy.
+R1	Support Arg1:T2 Arg2:T9	
+R2	Support Arg1:T3 Arg2:T9	

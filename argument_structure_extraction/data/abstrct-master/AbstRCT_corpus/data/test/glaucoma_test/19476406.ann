@@ -1,0 +1,9 @@
+T1	MajorClaim 2 131	Fixed combinations of 0.2% brimonidine-0.5% timolol and 2% dorzolamide-0.5% timolol are used to lower intraocular pressure (IOP).
+T2	Premise 1218 1437	At month 3, the mean (SD) reduction from baseline IOP for patients on fixed-combination monotherapy was 7.7 (4.2) mmHg (32.3%) with brimonidine-timolol versus 6.7 (5.0) mmHg (26.1%) with dorzolamide-timolol (p = 0.040).
+T3	Premise 1438 1659	The mean reduction from PGA-treated baseline IOP for patients on fixed-combination adjunctive therapy was 6.9 (4.8) mmHg (29.3%) with brimonidine-timolol versus 5.2 (3.7) mmHg (23.5%) with dorzolamide-timolol (p = 0.213).
+T4	Premise 1660 1816	Patients on brimonidine-timolol reported less burning (p < 0.001), stinging (p < 0.001), and unusual taste (p < 0.001) than patients on dorzolamide-timolol.
+T5	Claim 1817 1949	Fixed-combination brimonidine-timolol provided the same or greater IOP lowering compared with fixed-combination dorzolamide-timolol.
+T6	Claim 1950 2014	Both fixed-combination medications were safe and well-tolerated.
+R1	Support Arg1:T4 Arg2:T6	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T2 Arg2:T5	

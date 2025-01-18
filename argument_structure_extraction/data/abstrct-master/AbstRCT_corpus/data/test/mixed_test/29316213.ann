@@ -1,0 +1,7 @@
+T1	MajorClaim 41 244	valsartan/cilnidipine combination would suppress the home morning blood pressure (BP) surge (HMBPS) more effectively than a valsartan/hydrochlorothiazide combination in patients with morning hypertension
+T2	Premise 968 1248	At the end of the treatment period, the changes in nocturnal SBP and morning SBP from baseline were significant in both the valsartan/cilnidipine and valsartan/hydrochlorothiazide groups (P < .001): -5.0 vs -10.0 mm Hg (P = .035) and -10.7 vs -13.6 mm Hg (P = .142), respectively.
+T3	Premise 1249 1438	HMBPS was significantly decreased from baseline in both groups (P < .001), but there was no significant difference between the two groups: 14.4 mm Hg vs 14.0 mm Hg, respectively (P = .892).
+T5	Claim 1439 1544	Valsartan/cilnidipine could not significantly suppress HMBPS compared with valsartan/hydrochlorothiazide.
+R1	Attack Arg1:T5 Arg2:T1	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T2 Arg2:T5	

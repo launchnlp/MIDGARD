@@ -1,0 +1,9 @@
+T1	Premise 1363 1445	In the oxycodone/paracetamol group, 67% rated GI as good, very good, or excellent.
+T2	Claim 1446 1594	Patients with bone-cancer pain, already on opioids, obtain clinically important, additional pain-control, with regular oxycodone/paracetamol dosing.
+T3	Premise 970 1126	PIDs were 0·9 and 0·3 in the oxycodone/paracetamol and placebo groups respectively, on day 1 (P < 0·001), and 1·5 and 0·3 respectively on day 3 (P < 0·001).
+T4	Premise 1127 1250	Thirty-eight patients in the treatment group, and 58 in the placebo group, suffered breakthrough pain on day 3 (P < 0·001).
+T5	Premise 1251 1362	The SF-6D score decreased to 21·2 ± 2·5 in the oxycodone/paracetamol group at the end of the phase (P = 0·001).
+R1	Support Arg1:T1 Arg2:T2	
+R2	Support Arg1:T5 Arg2:T2	
+R3	Support Arg1:T3 Arg2:T2	
+R4	Attack Arg1:T4 Arg2:T2	

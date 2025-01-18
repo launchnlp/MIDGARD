@@ -1,0 +1,5 @@
+T1	Premise 1077 1422	Participants in the PPDI intervention demonstrated significant (P < .05) reductions in adverse dietary symptoms and significant improvements (P < .05) in functional status, performance status, dietary intake, adherence to dietary guidelines, dietary knowledge, and satisfaction with the intervention as compared with the control group over time.
+T2	Claim 1423 1590	The PPDI was an effective dietary intervention for patients undergoing a gastrectomy for gastric cancer and deserves additional study in other populations of patients.
+T3	MajorClaim 1591 1754	Incorporating patients' perspectives into a dietary intervention after gastrectomy for gastric cancer may contribute to improved patient outcomes and quality care.
+R1	Support Arg1:T1 Arg2:T2	
+R2	Support Arg1:T2 Arg2:T3	

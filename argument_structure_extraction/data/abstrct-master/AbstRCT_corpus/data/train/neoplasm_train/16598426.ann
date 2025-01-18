@@ -1,0 +1,17 @@
+T1	MajorClaim 1 139	Experimental and early clinical investigations have demonstrated encouraging results for estramustine in the treatment of malignant glioma
+T2	Premise 783 823	Overall the treatment was well tolerated
+T3	Premise 825 897	Mild or moderate nausea was the most common side effect of estramustine.
+T5	Premise 967 1147	For astrocytoma grade III the median survival time was 10.6 (1.3-92.7) months for the radiotherapy only group and 17.3 (0.4-96.9+) months for the estramustine + radiotherapy group.
+T6	Premise 1148 1261	In grade IV the corresponding median survival time was 12.3 (2.1-89.2) and 10.3 (0.3-91.7+) months, respectively.
+T7	Premise 1262 1406	Median time to progress for radiotherapy only and radiotherapy and estramustin group in grade III tumours was 6.5 and 10.1 months, respectively.
+T8	Premise 1407 1491	In grade IV tumours the corresponding figures were 5.1 and 3.3 months, respectively.
+T9	Premise 1492 1637	Although there was a tendency for improved survival in grade III, no statistical significant differences were found between the treatment groups.
+T10	Premise 1638 1767	No differences between the two treatment groups were evident with respect to quality of life according to the EORTC QLQ-protocol.
+T11	Claim 1768 1922	In conclusion, this first randomized study did not demonstrate any significant improvement of using estramustine in addition to conventional radiotherapy,
+T12	Claim 1923 2035	however, a trend for a positive response for the estramustine group was found in patients with grade III glioma.
+R1	Partial-Attack Arg1:T12 Arg2:T11	
+R2	Support Arg1:T10 Arg2:T11	
+R3	Support Arg1:T9 Arg2:T12	
+R4	Support Arg1:T5 Arg2:T12	
+R5	Support Arg1:T6 Arg2:T11	
+R6	Support Arg1:T7 Arg2:T12	

@@ -1,0 +1,5 @@
+T2	Premise 1336 1399	HRQOL and symptom relief were equivalent in the treatment arms.
+T3	Premise 1400 1532	No significant difference in survival among arms A, B, and C was found, with median survival 8.2, 7.0, and 6.8 months, respectively.
+T4	Claim 1533 1718	Our data indicate that protracted palliative TRT renders no improvement in symptom relief, HRQOL, or survival when compared with short-term hypofractionated treatment in advanced NSCLC.
+R1	Support Arg1:T2 Arg2:T4	
+R2	Support Arg1:T3 Arg2:T4	

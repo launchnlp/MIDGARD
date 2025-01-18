@@ -1,0 +1,6 @@
+﻿
+
+The aim of this study was to compare the efficacy of augmenting trabeculectomy with subconjunctival mitomycin C (TMMC) versus 5-fluorouracil (T5-FU) in lowering intraocular pressure (IOP).
+Forty eyes from 40 patients referred to the Nikoukari Ophthalmology University Hospital, Tabriz University of Medical Sciences, Tabriz, Iran, were enrolled in a randomized clinical trial. Patients with high-risk open angle glaucoma were allocated to receive either subconjunctival TMMC or T5-FU.
+Mean overall preoperative IOP was 30.8 mmHg. Mean preoperative IOPs in the TMMC and T5-FU groups were 31.2 ± 9.8 and 30.6 ± 9.9 mmHg, respectively. Postoperatively, mean IOPs were 11.4 ± 4.9 and 13.6 ± 3.9 mmHg, respectively for TMMC and T5-FU groups after 6 months. In spite of some existing descriptive differences in IOP between the groups, statistical tests showed no difference in mean and median IOP. Three cases of hypotonia (IOP < 6 mmHg) and 1 case of epithelial keratitis were detected.
+TMMC and T5-FU appeared to have similar efficacy in lowering IOP.

@@ -1,0 +1,5 @@
+T1	Claim 1760 1833	Sunitinib provides superior QOL compared with IFN-alpha in mRCC patients.
+T2	Premise 1148 1373	Patients receiving sunitinib reported higher FKSI-15 and FKSI-DRS scores at each cycle than those receiving IFN-alpha, with a significant difference in the overall least squares means (3.27 and 1.98, respectively; P < .0001).
+T3	Premise 1385 1533	differences in least squares means for FACT-G (and all subscales), EQ-5D Index, and EQ-VAS were all significantly favorable for sunitinib (P < .01).
+R1	Support Arg1:T2 Arg2:T1	
+R2	Support Arg1:T3 Arg2:T1	

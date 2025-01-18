@@ -1,0 +1,6 @@
+T1	Premise 994 1198	Forty-two percent (n=10) of the patients in the trabeculectomy group had a successful outcome (IOP<18 mm Hg with no treatment) at last follow-up visit, compared to 21% (n=5) in the viscocanalostomy group.
+T2	Premise 1199 1372	IOP was lower in the trab group with differences in IOP being statistically significant at month 12 (P=<0.001), 24 (P=<0.001), 30 (P=0.030), 36 (P=<0.001), and 48 (P=0.018).
+T3	Premise 1373 1468	The trabeculectomy group required less postoperative topical IOP-lowering medication (P=0.011).
+T4	Claim 1484 1584	we found trabeculectomy to be more effective at lowering IOP than viscocanalostomy in POAG patients.
+R1	Support Arg1:T2 Arg2:T4	
+R2	Support Arg1:T1 Arg2:T4	

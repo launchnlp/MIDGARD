@@ -1,0 +1,13 @@
+T2	Premise 1147 1514	The group treated with oral Etoposide had a significantly better QOL than the radiotherapy group for the total FLI-C score (adjusted mean plus standard error at 3-months 89 +/- 3 vs. 76 +/- 3; p = 0.004) and for the hardship (11 +/- 0.4 vs. 9 +/- 0.4; p = 0.001); social (10 +/- 0.4 vs. 8 +/- 0.4; p = 0.001) and nausea (9 +/- 0.4 vs. 8 +/- 0.4; p = 0.002) subscales.
+T3	Premise 1515 1669	In addition, on the physical and psychological subscales, the Etoposide group had a significantly better QOL than the other 3 treatment groups (p < 0.04).
+T4	Premise 1670 1834	The 3-drug combination, supportive care and radiotherapy groups did not differ significantly from each other with respect to the total FLI-C score or its subscales.
+T5	Premise 1835 1892	There were no group differences with respect to survival.
+T6	Claim 1893 1975	Oral Etoposide therapy resulted in better total FLI-C QOL score than radiotherapy.
+T7	Claim 1985 2104	Etoposide resulted in better physical and psychological subscale scores than radiotherapy, 3-drugs and supportive care.
+T8	Claim 2105 2259	Thus, funds permitting, oral Etoposide is a pragmatic approach to treating EKS in an environment where antiretroviral drugs are not universally available.
+T9	MajorClaim 2260 2406	The study underscores the value of undertaking studies in areas of disease prevalence and the necessity of selecting appropriate outcome measures.
+R1	Support Arg1:T7 Arg2:T8	
+R2	Support Arg1:T6 Arg2:T8	
+R3	Support Arg1:T4 Arg2:T6	
+R4	Support Arg1:T3 Arg2:T7	
+R5	Support Arg1:T2 Arg2:T6	

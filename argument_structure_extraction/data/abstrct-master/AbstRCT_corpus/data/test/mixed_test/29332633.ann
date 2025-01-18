@@ -1,0 +1,9 @@
+T1	Premise 1098 1218	Multivariate analysis indicated a positive relationship between 6MWD and the Physical Composite Score for QoL (p=0.004),
+T2	Premise 1232 1416	negative relationship between delta SPO2 and the Mental Composite Score (p=0.02), irrespective of other known prognostic factors (such as haemodynamics at right heart catheterization).
+T3	Premise 1417 1533	Depression and Trait-Anxiety were associated with a lower physical (p=0.001) and mental (p<0.001) QoL, respectively.
+T4	Claim 1534 1593	Psychological factors impact the HRQoL of treated patients.
+T5	Claim 1594 1659	A longitudinal and qualitative study should refine these results.
+R1	Partial-Attack Arg1:T5 Arg2:T4	
+R2	Support Arg1:T1 Arg2:T4	
+R3	Support Arg1:T2 Arg2:T4	
+R4	Support Arg1:T3 Arg2:T4	

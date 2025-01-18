@@ -1,0 +1,5 @@
+T1	Premise 1113 1392	Median overall survival was 17.2 months (95% CI, 13.5 to 21.9 months) with topotecan, 17.8 months (95% CI, 13.7 to 20.0 months) with topotecan plus etoposide (log-rank P = .7647), and 15.2 months (95% CI, 11.3 to 20.9 months) with topotecan plus gemcitabine (log-rank P = .2344).
+T2	Premise 1393 1503	Platinum-sensitive patients lived significantly longer than platinum-refractory patients (21.9 v 10.6 months).
+T3	Premise 1654 1735	Patients under combined treatment were at higher risk of severe thrombocytopenia.
+T4	Claim 1736 1866	Nonplatinum topotecan combinations do not provide a survival advantage over topotecan alone in women with relapsed ovarian cancer.
+R1	Support Arg1:T1 Arg2:T4	

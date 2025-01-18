@@ -1,0 +1,5 @@
+T1	Claim 1624 1806	In a case-controlled comparison, the Baerveldt-350 implant and the Ahmed valve had similar IOP control and surgical outcomes in patients with refractory glaucoma at 1-year follow-up.
+T2	Premise 1067 1623	Over a follow-up period of 1 year, no statistically significant differences were detected between the Baerveldt-350 implant versus Ahmed valve for IOP control (12.1 +/- 5.3 mm Hg vs 13.6 +/- 5.6 mm Hg respectively, at a power of 90% to detect a difference of 3.2 mm Hg between the two groups and P = 0.05), surgical success rate (65.6% vs. 65.6% respectively, complete and qualified combined), postoperative hypotony rate (37.5% vs. 34.4% respectively), and visual acuity changes of more than 1 line in Snellen visual acuity (43.3% vs. 29.0% respectively).
+T3	Premise 893 1066	Surgical success rate was defined as an IOP reduction greater than or equal to 30% and final IOP more than 5 mm Hg and less than 22 mm Hg, without devastating complications.
+R1	Support Arg1:T2 Arg2:T1	
+R2	Support Arg1:T3 Arg2:T1	

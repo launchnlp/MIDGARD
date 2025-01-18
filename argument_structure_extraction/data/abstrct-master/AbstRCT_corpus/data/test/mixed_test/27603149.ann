@@ -1,0 +1,5 @@
+T1	Claim 1460 1569	This study suggests the possibility of Korean Red Ginseng as a complementary therapy for chronic hepatitis B.
+T2	Premise 1192 1459	The non-invasive fibrosis serologic markers were further decreased in the experimental group, with significant differences after treatment observed for hyaluronic acid (p = 0.032) and transforming growth factor-β (p = 0.008), but not for type IV collagen (p = 0.174).
+T3	Premise 989 1191	Differences in several non-invasive fibrosis serologic markers (type IV collagen, hyaluronic acid, transforming growth factor-β) and in the hepatitis B virus DNA levels were compared between the groups.
+R1	Support Arg1:T2 Arg2:T1	
+R2	Support Arg1:T3 Arg2:T1	

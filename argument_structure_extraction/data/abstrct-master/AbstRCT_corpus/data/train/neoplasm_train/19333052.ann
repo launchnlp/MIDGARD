@@ -1,0 +1,9 @@
+T1	Premise 846 1090	Compared with RELP, patients receiving UM had significantly shorter duration of operation and hospital stay, shorter time periods to walk, return to daily activities, or sit without pain and to return to work or school, and fewer complications.
+T2	Premise 1091 1244	Time to final healing was significantly shorter and quality of life scores on the CWIS were higher in patients receiving RELP than in those receiving UM.
+T3	Premise 1245 1310	Patients with UM had lower levels of pain one week after surgery.
+T4	Claim 1311 1515	The unroofing and marsupialization procedure provides more clinical benefits in the treatment of pilonidal disease than rhomboid excision and Limberg flap and should be considered the procedure of choice.
+T5	Claim 1516 1649	However, it may be associated with more inconvenience in wound care and longer healing time than rhomboid excision and Lindberg flap.
+R1	Support Arg1:T3 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T5	
+R3	Support Arg1:T1 Arg2:T4	
+R4	Partial-Attack Arg1:T5 Arg2:T4	

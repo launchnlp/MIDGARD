@@ -1,0 +1,18 @@
+T1	Claim 1 269	Prospective investigations of complete decongestive lymphatic physiotherapy (CDPT), including manual lymphatic drainage (MLD), have validated the efficacy of these interventions for the initial reduction of edema and long-term maintenance of limb volume in lymphedema.
+T3	Claim 362 406	the treatments are not always well-accepted,
+T4	Claim 411 526	patients may suffer from a deterioration in quality-of-life or a time-dependent loss of initial treatment benefits.
+T5	Premise 1569 1679	Post-treatment arm volume reduced significantly after the Flexitouch, but not after self-administered massage.
+T7	Premise 1680 1772	The patients' mean weight decreased significantly with Flexitouch use, but not with massage.
+T9	Premise 1773 1850	The Flexitouch device was apparently well-tolerated and accepted by patients.
+T10	Premise 1851 1972	Serial SF-36 administration showed no deterioration in physical or psychosocial scores compared to baseline measurements;
+T11	Premise 1973 2069	there were no statistical differences in scores when the two treatment modalities were compared.
+T12	Claim 2070 2267	This short-term prospective evaluation of the Flexitouch suggests that the device may provide better maintenance edema control than self-adiminstered massage in breast cancer-associated lymphedema.
+T13	Claim 2268 2389	The apparent ease of use and reliability of response to the device suggest that further broad-scale testing is warranted.
+R1	Partial-Attack Arg1:T3 Arg2:T1	
+R2	Partial-Attack Arg1:T4 Arg2:T1	
+R3	Support Arg1:T12 Arg2:T13	
+R4	Support Arg1:T5 Arg2:T12	
+R5	Support Arg1:T7 Arg2:T12	
+R6	Support Arg1:T9 Arg2:T13	
+R7	Partial-Attack Arg1:T11 Arg2:T10	
+R8	Support Arg1:T10 Arg2:T12	

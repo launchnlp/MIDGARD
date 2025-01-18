@@ -1,0 +1,16 @@
+T1	Claim 1 136	Suramin is a novel agent that has demonstrated preliminary evidence of antitumor activity in hormone-refractory prostate cancer (HRPC).
+T2	Premise 876 998	Overall mean reductions in combined pain and opioid analgesic intake were greater for suramin plus HC (rank sum P =.0001).
+T3	Premise 999 1113	Pain response was achieved in a higher proportion of patients receiving suramin than placebo (43% v 28%; P =.001),
+T4	Premise 1118 1207	duration of response was longer for suramin responders (median, 240 v 69 days; P =.0027).
+T5	Premise 1208 1305	Time to disease progression was longer (relative risk = 1.5; 95% confidence interval, 1.2 to 1.9)
+T6	Premise 1310 1440	the proportion of patients with a greater than 50% decline in PSA was higher (33% v 16%; P =.01) in patients who received suramin.
+T7	Premise 1441 1523	Neither quality of life nor performance status was decreased by suramin treatment,
+T8	Premise 1528 1557	overall survival was similar.
+T9	Premise 1558 1647	Most adverse events were of mild or moderate intensity and were easily managed medically.
+T10	Claim 1648 1817	Outpatient treatment with suramin plus HC is well tolerated and provides moderate palliative benefit and delay in disease progression for patients with symptomatic HRPC.
+R1	Support Arg1:T2 Arg2:T10	
+R2	Support Arg1:T9 Arg2:T10	
+R3	Support Arg1:T3 Arg2:T10	
+R4	Support Arg1:T4 Arg2:T10	
+R5	Support Arg1:T5 Arg2:T10	
+R6	Support Arg1:T6 Arg2:T10	

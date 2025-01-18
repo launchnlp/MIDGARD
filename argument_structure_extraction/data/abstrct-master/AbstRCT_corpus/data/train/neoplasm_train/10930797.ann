@@ -1,0 +1,12 @@
+T1	Premise 985 1133	The final multivariate model predicted poor survival with multiple sites of visceral disease (P=0.003), DFI </=2 years (P=0.026) and pain (P=0.003).
+T2	Premise 843 984	For survival, multiple sites of visceral disease, pain, global QL and fatigue were significant prognostic factors in the univariate analysis.
+T3	Premise 1134 1248	For response, age, dyspnoea, fatigue and global QL were significant predictive factors in the univariate analysis.
+T4	Premise 1249 1408	The final multivariate model for response selected DFI (P=0.009), multiple sites of visceral disease (P=0.037) and dyspnoea (P=<0.001) using forward selection,
+T5	Premise 1409 1548	but model instability was indicated by the inclusion of fatigue and emotional function in the final model when backward selection was used.
+T6	Claim 1588 1721	patient-assessed QL variables appear to be prognostic for survival and response to chemotherapy in women with advanced breast cancer.
+T7	Claim 1722 1892	However, identification of prognostic factors from responses to questionnaires may be unstable, and their reliability and clinical utility should be tested prospectively.
+R1	Support Arg1:T3 Arg2:T6	
+R2	Support Arg1:T2 Arg2:T6	
+R3	Partial-Attack Arg1:T7 Arg2:T6	
+R4	Partial-Attack Arg1:T5 Arg2:T4	
+R5	Support Arg1:T4 Arg2:T6	

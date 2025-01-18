@@ -1,0 +1,11 @@
+T1	Claim 1377 1523	The technique of releasable sutures for trabeculectomy used in this study did not demonstrate significant advantages over standard trabeculectomy.
+T2	Premise 1229 1375	There was no difference in the occurrence of shallow chamber, choroidal detachment, macular edema, additional surgery, or hyphema (P=0.56 to 1.0).
+T3	Premise 1077 1177	The incidence of transient hypotony was higher in S group (20.4%) than the R group (9.1%) (P=0.046);
+T4	Premise 1178 1228	hypotony recovered in 80.8% (21/26) within 1 week.
+T5	Premise 757 1003	The IOP in the first week after trabeculectomy was significantly higher in the R group: day 1, 17.3 ± 8.6 versus 12.7 ± 6.0 mm Hg (P<0.001); day 3, 18.0 ± 7.3 versus 12.9 ± 6.3 mm Hg (P<0.001); day 7, 14.8 ± 6.3 versus 12.0 ± 4.9 mm Hg (P=0.001),
+T6	Premise 1008 1076	no difference was observed after the second week (P=0.659 to 0.753).
+T7	Claim 1524 1636	Releasable sutures were associated with some decrease in visual acuity and increase in postoperative complaints.
+R1	Support Arg1:T2 Arg2:T1	
+R2	Support Arg1:T3 Arg2:T1	
+R3	Partial-Attack Arg1:T5 Arg2:T1	
+R4	Support Arg1:T6 Arg2:T1	

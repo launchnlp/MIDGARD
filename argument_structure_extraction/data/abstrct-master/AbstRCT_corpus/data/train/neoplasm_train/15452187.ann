@@ -1,0 +1,15 @@
+T1	Premise 579 751	Placebo-treated patients had a mean increase in HgB of 0.9 g/dL (range, -3.8 to +5.3) compared with 2.8 g/dL (range, -2.2 to +7.5) for epoetin-treated patients (P < .0001).
+T2	Premise 752 902	During the study, 31.7% of placebo-treated patients achieved a > or = 2 g/dL HgB increase compared with 72.7% of epoetin-treated patients (P < .0001).
+T3	Premise 903 1020	The incidence of RBC transfusion for placebo and epoetin treatment arms was 39.6% and 25.3% (P = .005), respectively.
+T4	Premise 1124 1176	The incidence of toxicity in the groups was similar.
+T5	Premise 1177 1302	Changes in the average QOL scores from baseline to the end of the study were similar in the two groups (P = not significant).
+T6	Premise 1303 1512	The HgB responders (irrespective of treatment arm) had a mean change in Functional Assessment of Cancer Therapy (FACT) fatigue score from a baseline of +5.1 compared with -2.1 for the nonresponders (P = .006).
+T7	Claim 1513 1605	Epoetin alfa significantly improved HgB and reduced transfusions in this patient population.
+T8	Claim 1606 1710	These results support the use of weekly epoetin alfa as an ameliorative agent for cancer-related anemia.
+R1	Support Arg1:T7 Arg2:T8	
+R2	Support Arg1:T1 Arg2:T7	
+R3	Support Arg1:T2 Arg2:T7	
+R4	Support Arg1:T3 Arg2:T7	
+R5	Support Arg1:T4 Arg2:T8	
+R6	Support Arg1:T5 Arg2:T8	
+R7	Support Arg1:T6 Arg2:T8	

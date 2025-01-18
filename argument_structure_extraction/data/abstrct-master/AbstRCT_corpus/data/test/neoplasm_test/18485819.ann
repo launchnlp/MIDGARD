@@ -1,0 +1,15 @@
+T1	MajorClaim 1 145	Debilitating hot flushes and sleep dysfunction often affect survivors of breast cancer, most notably in those taking anti-oestrogen medications.
+T2	MajorClaim 146 262	Conventional treatments have been only partially effective in diminishing these issues, and some have serious risks.
+T3	Premise 1688 1883	The total number of hot flushes decreased from a mean of 79.4 (SD 37.4) per week before the procedure to a mean of 49.9 (SD 39.9) per week during the first 2 weeks after the procedure (p=0.0002).
+T4	Premise 1884 2049	The total number of hot flushes continued to decrease over the remaining follow-up period (weeks 3-12), and stabilised at a mean of 8.1 (SD 5.6) per week (p<0.0001).
+T5	Premise 2050 2170	The number of very severe hot flushes was decreased to near zero by the end of the follow-up period (week 12; p<0.0001).
+T6	Premise 2171 2349	Night awakenings decreased from a mean of 19.5 (SD 14.8) per week before the procedure to a mean of 7.3 (SD 7.1) per week during the first 2 weeks after the procedure (p<0.0001).
+T7	Premise 2350 2519	The total number of night awakenings continued to decrease over the remaining follow-up period (weeks 3-12) and stabilised at a mean of 1.4 (SD 1.2) per week (p<0.0001).
+T8	Claim 2520 2702	The findings of this study suggest that stellate-ganglion block can provide survivors of breast cancer with relief from hot flushes and sleep dysfunction with few or no side-effects.
+T9	MajorClaim 2703 2859	Long-term relief of symptoms has the potential to improve overall quality of life and increase compliance with anti-oestrogen medications for breast cancer.
+R1	Support Arg1:T3 Arg2:T8	
+R2	Support Arg1:T4 Arg2:T8	
+R3	Support Arg1:T5 Arg2:T8	
+R4	Support Arg1:T6 Arg2:T8	
+R5	Support Arg1:T7 Arg2:T8	
+R6	Support Arg1:T8 Arg2:T9	

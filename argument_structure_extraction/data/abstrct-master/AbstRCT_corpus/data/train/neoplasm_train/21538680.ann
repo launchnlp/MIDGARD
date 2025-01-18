@@ -1,0 +1,11 @@
+T1	Premise 1066 1179	No interactions were found between other domains of quality of life, functioning, psychological distress and CBT.
+T2	Premise 956 1065	Fatigue at T2 was predicted by a significant interaction between self-reported cognitive functioning and CBT.
+T3	Premise 1180 1261	At T3, no significant difference on fatigue was found between CBT and usual care.
+T4	Premise 1262 1370	Exploratory analyses showed that the difference nearly reached significance until 7 months postintervention.
+T5	Premise 1371 1496	Patients who experienced more concentration and memory problems at T1 benefited more from CBT for fatigue and are indicators.
+T6	Premise 1497 1654	After a year of follow-up, the effect of CBT for fatigue was no longer observed, and the effect on fatigue seemed to be diminished 7 months postintervention.
+T7	Claim 1655 1772	The implication is that CBT for fatigue should be offered to patients with cancer with the highest chance to benefit.
+R1	Support Arg1:T5 Arg2:T7	
+R2	Support Arg1:T2 Arg2:T7	
+R3	Support Arg1:T3 Arg2:T7	
+R4	Partial-Attack Arg1:T6 Arg2:T7	

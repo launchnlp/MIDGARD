@@ -1,0 +1,10 @@
+T1	Claim 1433 1592	Both Baerveldt and Ahmed glaucoma drainage implants performed well in terms of IOP control, preservation of visual function, and having low complication rates.
+T2	Premise 659 886	Both drainage implants achieved remarkable reductions in IOP; from pretreatment IOP of 40.1+/-13.8 mmHg and 43.7+/-9.3 mmHg to postoperative IOP of 17.4+/-6.2 and 14.9+/-5.5 mmHg in the Baerveldt and Ahmed groups, respectively.
+T4	Premise 887 942	A decrease in IOP of 56.6% and 65.9% had been achieved.
+T5	Premise 943 1108	Success rates were 20 (83.3%) for Baerveldt and 12 (66.7%) for Ahmed implants, whereas qualified success occurred in 1 (4.2%) Baerveldt and 3 (16.7%) Ahmed implants.
+T7	Premise 1109 1214	Conversely, failure to control IOP occurred in 3 (12.5%) Baerveldt implants and 3 (16.7%) Ahmed implants.
+T8	Premise 1215 1432	More than 80% of the patients had maintained or improved visual function, whereas only 4 (16.0%) of the patients with Baerveldt implants and 2 (16.7%) patients with Ahmed implants had loss of more than 1 Snellen line.
+R1	Support Arg1:T8 Arg2:T1	
+R2	Support Arg1:T5 Arg2:T1	
+R3	Support Arg1:T4 Arg2:T1	
+R4	Support Arg1:T2 Arg2:T1	

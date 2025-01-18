@@ -1,0 +1,10 @@
+T1	Premise 1598 1765	At a median follow-up time of 13.5 months (range 1-28+) at June 2001, among 26 patients enrolled 12 (46.1%) were still alive and 9 (75%) of them were progression-free.
+T2	Premise 1766 1953	The median duration of response was 9 months (range 0-25+), the median progression-free survival was 10.5 months (range 0-28+), the median overall survival time was 9 months (range 1-22).
+T3	Premise 1954 2071	The toxicity was significant and consisted mainly of mucositis and, to a lesser extent, neutropenia/thrombocytopenia.
+T4	Claim 2094 2229	the low serum levels of leptin and the high serum levels of proinflammatory cytokines in advanced stage cancer patients were confirmed.
+T5	Claim 2245 2371	this sequential induction chemotherapy and chemoradiotherapy program has been found moderately active and significantly toxic;
+T6	MajorClaim 2471 2542	this regimen could not be recommended for a phase III randomized study.
+R1	Support Arg1:T5 Arg2:T6	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T1 Arg2:T5	
+R4	Support Arg1:T2 Arg2:T5	

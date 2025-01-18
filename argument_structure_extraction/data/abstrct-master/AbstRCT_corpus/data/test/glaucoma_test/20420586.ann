@@ -1,0 +1,7 @@
+T1	Claim 1300 1396	Tafluprost is a new effective and well-tolerated treatment for glaucoma and ocular hypertension.
+T2	Claim 908 986	the IOP-lowering effect during the study was slightly larger with latanoprost,
+T3	Premise 737 898	Both treatments had a substantial IOP-lowering effect which persisted throughout the study (-7.1 mmHg for tafluprost and -7.7 mmHg for latanoprost at 24 months).
+T4	Premise 987 1260	this difference was clinically small and the noninferiority of tafluprost to latanoprost over all diurnal IOP measurements was shown with anova and almost reached with ancova (upper limits of the 95% confidence intervals 1.38 and 1.52 for the overall period, respectively).
+R1	Support Arg1:T3 Arg2:T1	
+R2	Partial-Attack Arg1:T4 Arg2:T2	
+R3	Support Arg1:T3 Arg2:T2	

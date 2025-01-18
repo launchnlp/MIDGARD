@@ -1,0 +1,7 @@
+T1	Premise 1045 1176	CM five-element music group showed a significant difference of HQOLI-R, KPS and symptom diary score with other groups (all P<0.01).
+T2	Premise 1177 1353	There were significant differences of HQOLI-R, symptom diary score, and KPS after treatment in CM five-element music group and other groups in the non-senior subgroup (P<0.05).
+T3	Premise 1368 1493	there were significant differences in HQOLI-R and KPS after treatment among the three groups in the senior subgroup (P<0.05).
+T4	Claim 1494 1699	CM five-element music therapy could improve the quality of life and KPS for senior and non senior advanced cancer patients, and it could improve subjective symptoms for non-senior advanced cancer patients.
+R1	Support Arg1:T1 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	
+R3	Support Arg1:T3 Arg2:T4	

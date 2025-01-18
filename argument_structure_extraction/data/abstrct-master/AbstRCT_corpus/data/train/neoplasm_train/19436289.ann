@@ -1,0 +1,9 @@
+T1	Premise 845 1123	There was a significant difference in mean dysphagia grade between treatment arms 6 weeks following treatment (P=0.046), with worse swallowing reported by rigid stent-treated patients (mean dysphagia score difference=-0.49; 95% confidence interval (CI) -0.10 to -0.89, P=0.014).
+T2	Premise 1124 1367	Global QL scores were lower at both 1 and 6 weeks following treatment for patients treated by SEMSs (mean difference QL index week 1=-0.66; 95% CI: -0.02 to -1.30, P=0.04; mean difference QL index week 6=-1.01; 95% CI -0.30 to -1.72, P=0.006).
+T3	Premise 1368 1619	These findings were associated with higher post-procedure pain scores in the SEMS patient group (mean difference of the European Organisation for Research and Treatment of Cancer QLQ C-30 pain symptom score at week 1=11.13; 95% CI: 2.89-19.4; P=0.01).
+T4	Premise 1620 1778	Although mean EQ-5D QL values differed between the treatments (P<0.001), this difference dissipated following generation of quality-adjusted life year values.
+T5	Premise 1980 2063	There were no differences in the in-hospital mortality or early complication rates,
+T6	Premise 2064 2163	but late complications were more frequent after rigid stenting (risk ratio=2.47; 95% CI 1.88-3.04).
+T7	Premise 2164 2260	There was a survival advantage for non-stent-treated patients (log-rank statistic=4.21, P=0.04).
+T8	Claim 2261 2494	The treatment choice for patients with inoperable esophageal cancer should be between a SEMS or a non-stent treatment after consideration has been given to both patient and tumor characteristics and clinician and patient preferences.
+R1	Partial-Attack Arg1:T6 Arg2:T5	

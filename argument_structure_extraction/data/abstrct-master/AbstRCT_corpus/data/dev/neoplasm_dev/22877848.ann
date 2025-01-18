@@ -1,0 +1,18 @@
+T1	Premise 1219 1588	In the three-group randomisation, in comparison with standard radiotherapy, median overall survival was significantly longer with temozolomide (8·3 months [95% CI 7·1-9·5; n=93] vs 6·0 months [95% CI 5·1-6·8; n=100], hazard ratio [HR] 0·70; 95% CI 0·52-0·93, p=0·01), but not with hypofractionated radiotherapy (7·5 months [6·5-8·6; n=98], HR 0·85 [0·64-1·12], p=0·24).
+T2	Premise 1589 1798	For all patients who received temozolomide or hypofractionated radiotherapy (n=242) overall survival was similar (8·4 months [7·3-9·4; n=119] vs 7·4 months [6·4-8·4; n=123]; HR 0·82, 95% CI 0·63-1·06; p=0·12).
+T3	Premise 1799 2093	For age older than 70 years, survival was better with temozolomide and with hypofractionated radiotherapy than with standard radiotherapy (HR for temozolomide vs standard radiotherapy 0·35 [0·21-0·56], p<0·0001; HR for hypofractionated vs standard radiotherapy 0·59 [95% CI 0·37-0·93], p=0·02).
+T4	Premise 2094 2493	Patients treated with temozolomide who had tumour MGMT promoter methylation had significantly longer survival than those without MGMT promoter methylation (9·7 months [95% CI 8·0-11·4] vs 6·8 months [5·9-7·7]; HR 0·56 [95% CI 0·34-0·93], p=0·02), but no difference was noted between those with methylated and unmethylated MGMT promoter treated with radiotherapy (HR 0·97 [95% CI 0·69-1·38]; p=0·81).
+T5	Premise 2507 2626	the most common grade 3-4 adverse events in the temozolomide group were neutropenia (n=12) and thrombocytopenia (n=18).
+T6	Premise 2627 2705	Grade 3-5 infections in all randomisation groups were reported in 18 patients.
+T7	Premise 2706 2946	Two patients had fatal infections (one in the temozolomide group and one in the standard radiotherapy group) and one in the temozolomide group with grade 2 thrombocytopenia died from complications after surgery for a gastrointestinal bleed.
+T8	Claim 2947 3047	Standard radiotherapy was associated with poor outcomes, especially in patients older than 70 years.
+T9	Claim 3048 3189	Both temozolomide and hypofractionated radiotherapy should be considered as standard treatment options in elderly patients with glioblastoma.
+T10	Claim 3190 3289	MGMT promoter methylation status might be a useful predictive marker for benefit from temozolomide.
+R1	Support Arg1:T1 Arg2:T9	
+R2	Support Arg1:T2 Arg2:T9	
+R3	Support Arg1:T3 Arg2:T8	
+R4	Support Arg1:T3 Arg2:T9	
+R5	Support Arg1:T4 Arg2:T10	
+R6	Support Arg1:T5 Arg2:T9	
+R7	Support Arg1:T6 Arg2:T9	
+R8	Partial-Attack Arg1:T7 Arg2:T9	

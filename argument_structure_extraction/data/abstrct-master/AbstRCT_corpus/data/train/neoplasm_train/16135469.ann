@@ -1,0 +1,12 @@
+T1	Claim 1 146	Evidence suggests that the re-entry phase (ie, early period after medical treatment completion) presents distinct challenges for cancer patients.
+T2	Premise 1093 1323	In analyses controlling for study site and baseline depressive symptoms, VID produced significant improvement in energy/fatigue at 6 months relative to CTL, particularly among women who felt less prepared for re-entry at baseline.
+T3	Premise 1324 1408	No significant main effect of the interventions emerged on cancer-specific distress,
+T4	Premise 1409 1537	but EDU prompted greater reduction in this outcome relative to CTL at 6 months for patients who felt more prepared for re-entry.
+T5	Premise 1538 1622	Between-group differences in the primary outcomes were not significant at 12 months,
+T6	Premise 1623 1686	and no significant effects emerged on the secondary end points.
+T7	Claim 1687 1874	A peer-modeling videotape can accelerate the recovery of energy during the re-entry phase in women treated for breast cancer, particularly among those who feel less prepared for re-entry.
+R1	Support Arg1:T2 Arg2:T7	
+R2	Partial-Attack Arg1:T4 Arg2:T3	
+R3	Partial-Attack Arg1:T3 Arg2:T7	
+R4	Support Arg1:T6 Arg2:T5	
+R5	Support Arg1:T5 Arg2:T7	

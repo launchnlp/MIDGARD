@@ -1,0 +1,14 @@
+T1	Premise 980 1083	QOL scores were increased and complication scores were improved in the postoperative periods (P < .01).
+T2	Premise 1084 1174	Postoperative BMI significantly deteriorated compared with preoperative BMI in each group.
+T3	Premise 1175 1335	The postoperative QOL and complication scores at 60 months after surgery were significantly better than those at 3 months after surgery in each group (P < .01).
+T4	Premise 1345 1469	there was no significant difference of QOL scores and postoperative complication scores between the 2 reconstruction groups.
+T5	Premise 1470 1557	The nutritional condition in the INT group was nearly the same as that in the RY group.
+T6	Premise 1558 1664	Although our patient sample was small and patients who did not complete the follow-up survey were present,
+T7	Claim 1665 1778	we could not identify any clinical difference between INT and RY after total gastrectomy 60 months after surgery.
+T8	MajorClaim 1779 1889	The safer and simpler RY method may be a more suitable reconstruction method than INT after total gastrectomy.
+R1	Partial-Attack Arg1:T6 Arg2:T7	
+R2	Attack Arg1:T7 Arg2:T8	
+R3	Support Arg1:T5 Arg2:T7	
+R4	Support Arg1:T4 Arg2:T7	
+T9	MajorClaim 1 173	The postoperative clinical superiority of the interposition of jejunum reconstruction (INT) to Roux-en-Y reconstruction (RY) after total gastrectomy has not been clarified.
+R5	Support Arg1:T7 Arg2:T9	

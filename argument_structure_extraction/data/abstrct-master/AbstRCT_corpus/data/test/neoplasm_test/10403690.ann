@@ -1,0 +1,10 @@
+T1	Claim 1526 1647	combination chemotherapy improves the quality of life as well as prolonging the survival of patients with advanced NSCLC.
+T2	Premise 983 1044	Partial response rates were 40 and 41.7% in IEP and MVP arms.
+T3	Premise 1045 1185	Median survival durations were 5.9 and 8.1 months for the IEP and MVP chemotherapy arms, and 4.1 months for BSC (log-rank test: P = 0.0003).
+T4	Premise 1186 1275	One year survival was 13, 29.8 and 39.3% for the BSC, IEP and MVP regimens, respectively.
+T5	Premise 1276 1366	Two years survival was 7.8, 6.4 and 13.1% for the BSC, IEP and MVP regimens, respectively.
+T6	Premise 1367 1508	Improvement in quality of life (QOL) scores at the first, second and third interview were seen in chemotherapy arms only, not in the BSC arm.
+R1	Support Arg1:T3 Arg2:T1	
+R2	Support Arg1:T4 Arg2:T1	
+R3	Support Arg1:T5 Arg2:T1	
+R4	Support Arg1:T6 Arg2:T1	

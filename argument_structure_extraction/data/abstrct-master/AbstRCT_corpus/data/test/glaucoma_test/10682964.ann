@@ -1,0 +1,11 @@
+T2	Claim 1745 1927	Brinzolamide produced less ocular discomfort (burning/stinging) than timolol, and total carbonic anhydrase inhibition levels remained below that known to cause systemic side effects.
+T3	Claim 1928 2063	Brinzolamide produced significant and equivalent reductions in intraocular pressure when dosed two and three times daily for 18 months.
+T4	Claim 2064 2149	Brinzolamide was safe and well tolerated by patients, with minimal ocular discomfort.
+T5	Premise 966 1185	Mean changes in intraocular pressure trough measurements ranged from -2.7 to -3.9 mm Hg with brinzolamide twice-daily dosing and -2.8 to -3.8 mm Hg three times daily dosing compared with -4.7 to -5.6 mm Hg with timolol.
+T6	MajorClaim 2 99	Oral carbonic anhydrase inhibitors used to treat glaucoma have significant systemic side effects.
+T7	Premise 839 965	All regimens produced clinically relevant and statistically significant (P<.05) intraocular pressure reductions from baseline.
+R1	Support Arg1:T2 Arg2:T4	
+R2	Support Arg1:T7 Arg2:T3	
+R3	Support Arg1:T5 Arg2:T3	
+T1	Premise 1619 1680	Adverse events were nonserious and resolved without sequelae.
+R4	Support Arg1:T1 Arg2:T4	

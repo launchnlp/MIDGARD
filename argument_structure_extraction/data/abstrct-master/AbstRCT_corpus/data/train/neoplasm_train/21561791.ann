@@ -1,0 +1,11 @@
+T1	Premise 1004 1132	The 2-year risk of progression for PSA nadir ≤ 0.2 ng/ml, and > 0.2 to 4 ng/ml in CAD was 31% and 70% (P < 0.001), respectively.
+T2	Premise 1133 1176	In the IAD group, a similar trend was seen.
+T3	Premise 1177 1327	Patients with PSA nadir ≤ 0.2 ng/ml, though had significantly higher 2-year risk of progression compared to CAD (53% vs. 31% (P = 0.03), respectively.
+T4	Premise 1368 1458	Patients without pain had a significantly lower 2-year risk of progression in both groups.
+T5	Premise 1620 1692	No QOL difference was found, although more side effects occurred in CAD.
+T6	Claim 1693 1809	Metastatic prostate cancer patients with high baseline PSA, pain, and high PSA nadir have a poor prognosis with ADT.
+T7	Claim 1810 1888	Patients with low PSA nadir do significantly worse with IAD compared with CAD.
+T8	Claim 1989 2069	IAD is not a good treatment option for many metastatic prostate cancer patients.
+T9	Premise 1459 1524	Without ADT testosterone remained at castrate level for 4 months.
+R1	Support Arg1:T7 Arg2:T8	
+R2	Support Arg1:T4 Arg2:T6	

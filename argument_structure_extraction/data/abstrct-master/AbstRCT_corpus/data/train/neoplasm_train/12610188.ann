@@ -1,0 +1,9 @@
+T2	Premise 909 1086	Median survival was 16.9 months (95% confidence interval [CI], 10.5 to 21.2 months) in the TEE arm and 23.4 months (95% CI, 12.9 to 30.6 months) for patients treated with KA/VE.
+T3	Premise 1087 1206	Many patients (24%) failed to complete at least 6 weeks of therapy, including five (8%) treatment-related early deaths.
+T4	Claim 1207 1272	Each of these regimens produced clinically significant responses,
+T5	Claim 1277 1430	the observed median survival (18.9 months for all 71 patients) compares favorably with previously published results, especially in the community setting.
+T6	Claim 1431 1524	Nonetheless, it is apparent that these first-generation regimens must be applied judiciously,
+T7	Claim 1529 1743	thus we view efforts at better patient selection and the development of more tolerable therapies as higher priorities than carrying either of these regimens to phase III evaluation in the cooperative group setting.
+R1	Support Arg1:T6 Arg2:T7	
+R2	Support Arg1:T2 Arg2:T5	
+R3	Support Arg1:T4 Arg2:T5	

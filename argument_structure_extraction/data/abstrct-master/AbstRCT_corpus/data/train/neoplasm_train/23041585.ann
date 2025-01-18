@@ -1,0 +1,12 @@
+T1	Premise 803 924	The median PFS was 12.1 months in Arm A and B [hazard ratio (HR) 0.99; 95% confidence interval (CI) 0.85-1.15; P = 0.93].
+T2	Premise 718 802	Grade 3/4 non-hematological toxicity was higher in Arm B (31% versus 22% P = 0.001).
+T3	Premise 635 717	The median AUCs (cycle 2-6) received were 6.0 (Arm A) and 7.2 (Arm B) (P < 0.001).
+T4	Premise 925 1051	The median overall survival (OS) was 34.1 and 30.7 months in Arms A and B, respectively (HR 0.98; 95% CI 0.81-1.18, P = 0.82).
+T5	Premise 1052 1274	In multivariate analysis, baseline neutrophil (P < 0.001), baseline platelet counts (P < 0.001) and the difference between white blood cell (WBC) and neutrophil count (P = 0.009) had a significant adverse prognostic value.
+T6	Claim 1275 1368	Intrapatient dose escalation of carboplatin based on nadir blood counts is feasible and safe.
+T7	Claim 1369 1444	However, it provided no improvement in PFS or OS compared with flat dosing.
+R1	Partial-Attack Arg1:T7 Arg2:T6	
+R4	Support Arg1:T2 Arg2:T6	
+R5	Support Arg1:T3 Arg2:T6	
+R3	Support Arg1:T1 Arg2:T7	
+R2	Support Arg1:T4 Arg2:T7	

@@ -1,0 +1,7 @@
+T1	Premise 1241 1337	Nausea and vomiting frequency, duration, and distress were lower for experimental group members,
+T2	Premise 1338 1464	although a high attrition rate (50%) resulted in insufficient power to detect statistically significant differences over time.
+T3	Claim 1857 1941	Flavonoid-rich fruits and vegetables may provide additional protection against CINV.
+T4	Claim 1628 1781	The effect of grape juice flavonoids on CINV should be investigated further with a larger sample to determine whether preliminary findings are supported.
+R1	Attack Arg1:T2 Arg2:T1	
+R2	Partial-Attack Arg1:T4 Arg2:T3	
+R3	Support Arg1:T1 Arg2:T3	

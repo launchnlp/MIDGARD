@@ -1,0 +1,9 @@
+T2	Premise 1249 1348	There was substantial deterioration in QOL scores immediate post-treatment (3-months) in both arms.
+T1	Premise 1349 1430	However, QOL scores gradually but definitely improved over time for most domains.
+T3	Premise 1431 1694	Global QOL, emotional/role functioning, nausea/vomiting, pain, swallowing, speech, social contact/eating, insomnia showed rapid recovery (<6months) while physical/cognitive functioning, dry mouth, sticky saliva, fatigue, senses showed delayed recovery (>6months).
+T4	Premise 1695 1783	There were no significant differences in loco-regional or survival between the two arms.
+T5	Claim 1784 1904	There is substantial deterioration in QOL after curative-intent head-neck irradiation that gradually improves over time.
+T6	Claim 1905 2143	IMRT results in clinically meaningful and statistically better QOL scores for some domains compared to 3D-CRT at several time points with comparable disease outcomes that could support its widespread adoption in routine clinical practice.
+R1	Support Arg1:T2 Arg2:T5	
+R2	Support Arg1:T1 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T6	

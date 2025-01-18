@@ -1,0 +1,10 @@
+T1	Claim 1638 1724	This result may be due to higher rates of fatigue and gastrointestinal adverse events.
+T2	Claim 1337 1637	Compared with CET/placebo, the combination of CET/BRIV worsened time to QoL deterioration for patients with K-RAS wild-type, chemotherapy-refractory, metastatic colorectal cancer on the PF and GHS scales of European Organization for Research and Treatment of Cancer Quality of Life Questionnaire C30.
+T3	Premise 1141 1336	Clinical adverse events of ≥ grade 3 were more common with CET/BRIV than with CET/placebo, including fatigue (25% vs 11%), hypertension, rash, diarrhea, abdominal pain, dehydration, and anorexia.
+T4	Premise 1046 1140	A greater percentage of patients on the CET/BRIV arm had PF worsening at 6 weeks (31% vs 17%).
+T5	Premise 911 1045	Secondary analysis favored CET/placebo for QOL response on the PF, Cognitive Function, Fatigue, Nausea, Appetite, and Diarrhea scales.
+T6	Premise 755 910	The median time to deterioration was 1.6 months versus 1.1 months for GHS (P =.02) and 5.6 months versus 1.7 months for PF (P <.0001) favoring CET/placebo.
+R1	Support Arg1:T6 Arg2:T2	
+R2	Support Arg1:T5 Arg2:T2	
+R3	Partial-Attack Arg1:T1 Arg2:T2	
+R4	Support Arg1:T3 Arg2:T1	

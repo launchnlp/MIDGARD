@@ -1,0 +1,11 @@
+T1	Premise 939 1015	There was a trend towards improved global HRQOL during the treatment period.
+T2	Premise 1016 1107	At 6 months after the end of RT, global HRQOL was higher in the TPF arm than in the PF arm,
+T3	Premise 1108 1177	but the low compliance does not allow to draw definitive conclusions.
+T4	Premise 1178 1282	Swallowing and coughing problems decreased more in the TPF arm than in the PF arm at the end of cycle 2,
+T5	Premise 1283 1307	but to a limited extent.
+T6	Claim 1308 1483	Induction chemotherapy with TPF before RT not only improves survival and reduces toxicity compared with PF but also seems to improve global HRQOL in a more sustainable manner.
+R1	Support Arg1:T4 Arg2:T6	
+R2	Partial-Attack Arg1:T5 Arg2:T4	
+R3	Support Arg1:T1 Arg2:T6	
+R4	Support Arg1:T2 Arg2:T6	
+R5	Attack Arg1:T3 Arg2:T2	

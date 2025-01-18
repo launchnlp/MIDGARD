@@ -1,0 +1,11 @@
+T1	Premise 762 967	The cumulative probability of failure during the first year of follow-up was 17.3% in the tube group and 7.9% in the trabeculectomy group (P = 0.01; hazard ratio, 2.59; 95% confidence interval, 1.20-5.60).
+T2	Premise 1224 1362	Postoperative complications developed in 36 patients (29%) in the tube group and 48 patients (41%) in the trabeculectomy group (P = 0.06).
+T3	Premise 1363 1558	Serious complications requiring reoperation or producing a loss of 2 Snellen lines or more occurred in 1 patient (1%) in the tube group and 8 patients (7%) in the trabeculectomy group (P = 0.03).
+T4	Claim 1559 1678	Trabeculectomy with MMC had a higher surgical success rate than tube shunt implantation after 1 year in the PTVT Study.
+T5	Claim 1840 1997	The frequency of serious complications producing vision loss or requiring reoperation was lower after tube shunt surgery relative to trabeculectomy with MMC.
+T6	Claim 1679 1839	Lower IOP with use of fewer glaucoma medications was achieved after trabeculectomy with MMC compared with tube shunt surgery during the first year of follow-up.
+R1	Support Arg1:T3 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T5	
+T7	Premise 968 1223	Mean ± standard deviation IOP was 13.8±4.1 mmHg in the tube group and 12.4±4.4 mmHg in the trabeculectomy group at 1 year (P = 0.01), and the number of glaucoma medications was 2.1±1.4 in the tube group and 0.9±1.4 in the trabeculectomy group (P < 0.001).
+R3	Support Arg1:T7 Arg2:T6	
+R4	Support Arg1:T1 Arg2:T4	

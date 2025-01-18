@@ -1,0 +1,9 @@
+T1	Claim 1547 1618	a 6-week treatment with LT or BT was equally effective in reducing IOP.
+T2	Claim 1632 1724	none of the administered drugs induced a significant effect on ocular blood flow parameters.
+T3	Premise 1121 1233	Both drugs were equally effective in reducing IOP (LT: -35.0% ±10.0%; BT: -33.6% ±8.8%, P=0.463 between groups).
+T4	Premise 1247 1358	no difference in ocular perfusion pressure was observed between the 2 treatment groups (P=0.1, between groups).
+T5	Premise 1359 1422	Neither LT nor BT altered ONHBF (P=0.4, baseline vs. treatment)
+T6	Premise 1427 1524	no effect on flow velocities in the retrobulbar vessels was seen with either of the 2 treatments.
+R1	Support Arg1:T5 Arg2:T2	
+R2	Support Arg1:T6 Arg2:T2	
+R3	Support Arg1:T4 Arg2:T1	

@@ -1,0 +1,10 @@
+T1	Premise 816 1070	There were no statistically significant differences in FOIS scores between intervention and control patients immediately after CRT (immediately after CRT: intervention group median score, 3 [range, 1-7], vs median control score, 4 [range, 1-6] (P = .88).
+T2	Premise 1080 1358	intervention patients had significantly better scores at months 3 and 6 (median 3-month intervention score, 7 [range, 5-7], vs median control score, 5 [range, 3-7] [P = .03]; median 6-month intervention score, 7 [range, 6-7], vs median control score, 6 [range, 3-7] [P = .009]).
+T3	Premise 1359 1460	There was no significant difference in scores at months 9 and 12 (P = .24 and P = .93, respectively).
+T4	Premise 1461 1559	The same pattern between intervention and control patients was observed for scores on the PSS-H&N.
+T5	Claim 1560 1740	Patients who performed prophylactic swallowing exercises had improved swallowing function at 3 and 6 months after CRT but not immediately after CRT or at 9 and 12 months after CRT.
+T6	Claim 1741 1916	The small sample size may have limited our ability to detect significant differences beyond 6 months of observation as well as additional significant differences in our study.
+R1	Partial-Attack Arg1:T6 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T1 Arg2:T5	
+R4	Support Arg1:T2 Arg2:T5	

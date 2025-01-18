@@ -1,0 +1,15 @@
+T1	Premise 1131 1246	By cycle 4, mean differences were clinically meaningful for most domains, indicating poorer health status with VMP.
+T2	Premise 1247 1345	From cycle 5 onwards, improvements relative to baseline/MP were observed for all domains with VMP.
+T3	Premise 1346 1443	Mean scores were generally improved by the end-of-treatment assessment vs. baseline in both arms.
+T4	Premise 1444 1622	Among responding patients, mean scores generally improved from time of response to end-of-treatment assessment, substantially driven by patients achieving complete response (CR).
+T5	Premise 1623 1766	Multivariate analysis showed a significant impact of duration of response/CR on improving global health status, pain, and appetite loss scores.
+T6	Claim 1767 1871	Analyses by bortezomib dose intensity indicated better HRQoL in patients receiving lower dose intensity.
+T7	Claim 1872 2075	These findings demonstrate clinically meaningful, transitory HRQoL decrements with VMP and relatively lower HRQoL vs. MP during early treatment cycles, associated with the expected additional toxicities.
+T8	Claim 2076 2193	However, HRQoL is not compromised in the long term, recovering by the end-of-treatment visit to be comparable vs. MP.
+R1	Partial-Attack Arg1:T8 Arg2:T7	
+R2	Support Arg1:T5 Arg2:T7	
+R3	Support Arg1:T4 Arg2:T7	
+R4	Support Arg1:T3 Arg2:T7	
+R5	Support Arg1:T2 Arg2:T7	
+R6	Support Arg1:T1 Arg2:T7	
+R7	Support Arg1:T5 Arg2:T6	

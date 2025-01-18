@@ -1,0 +1,10 @@
+T1	Premise 921 1015	Treatment was associated with significant improvements in pain (P=.024) and swelling (P<.001).
+T2	Premise 1016 1137	Of the 36 patients who reported that pain interfered with their normal work or activities at baseline, 25 (69%) improved.
+T3	Premise 1138 1210	Of the 41 patients who reported swelling at baseline, 38 (93%) improved.
+T4	Premise 1211 1421	Comparing the paclitaxel and PLD arms revealed comparable response rates (56% vs 46%; P=.49), median progression-free survival (17.5 months vs 12.2 months; P=.66), and 2-year survival rates (79% vs 78%; P=.75),
+T5	Premise 1422 1498	but somewhat more grade 3 to 5 toxicity for paclitaxel (84% vs 66%; P=.077).
+T6	Claim 1499 1687	Treatment with either paclitaxel or PLD appears to produce significant improvements in pain and swelling in patients with advanced, symptomatic, HIV-associated KS treated in the HAART era.
+R1	Support Arg1:T4 Arg2:T6	
+R2	Support Arg1:T3 Arg2:T6	
+R3	Support Arg1:T2 Arg2:T6	
+R4	Support Arg1:T1 Arg2:T6	

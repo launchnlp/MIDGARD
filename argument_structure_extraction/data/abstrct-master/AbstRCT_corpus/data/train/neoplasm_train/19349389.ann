@@ -1,0 +1,6 @@
+T1	Premise 1165 1362	During follow-up, 71% of the patients showed unaltered or improved lung expansion and 9 patients (15%) needed new pleural procedures (VATS group, 5 recurrences; TS group, 4 recurrences; p = 0.999).
+T2	Premise 1363 1489	No differences were found between groups regarding quality of life, complications, drainage time, hospital stay, and survival.
+T3	Premise 1490 1640	Immediate lung expansion did not correlate with radiologic recurrence, clinical recurrence, or complications (p = 0.60, 0.15, and 0.20, respectively).
+T4	Premise 1641 1728	Immediate partial lung expansion was a frequent finding and was more frequent after TS.
+T5	Claim 1742 1835	no correlation between immediate lung expansion and clinical outcome was found in this study.
+R1	Support Arg1:T3 Arg2:T5	

@@ -1,0 +1,9 @@
+T1	Premise 979 1072	The overall response rate was 16% in the PLD arm compared with 29% in the GEM arm (P = .056).
+T3	Premise 1073 1209	No statistically significant difference in time to progression (TTP) curves according to treatment allocation was documented (P = .411).
+T2	Premise 1210 1319	However, a trend for more favorable overall survival was documented in the PLD arm compared with the GEM arm,
+T4	Premise 1320 1395	although the P value was of borderline statistical significance (P = .048).
+R1	Attack Arg1:T4 Arg2:T2	
+R2	Partial-Attack Arg1:T2 Arg2:T3	
+T5	Premise 1396 1537	Statistically significantly higher global QOL scores were found in PLD-treated patients at the first and second postbaseline QOL assessments.
+T6	Claim 1538 1793	GEM does not provide an advantage compared with PLD in terms of TTP in ovarian cancer patients who experience recurrence within 12 months after primary treatment but should be considered in the spectrum of drugs to be possibly used in the salvage setting.
+R3	Support Arg1:T3 Arg2:T6	

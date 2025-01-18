@@ -1,0 +1,7 @@
+T1	MajorClaim 1662 1734	Rigorous standard operating procedures for data collection are required.
+T2	Claim 1535 1661	A blinded RCT investigating the role of epidural and WIC administration for postoperative analgesia following LCR is feasible.
+T3	Claim 1382 1534	Qualitative interviews suggested that patients found participation in the trial acceptable and that they would consider participating in a future trial.
+T4	Premise 1027 1140	Mean(s.d.) pain scores on the day of discharge were 1·9(3·1) in the epidural group and 0·7(0·7) in the WIC group.
+T5	Premise 1141 1212	Median length of stay was 4 (range 2-35, interquartile range 3-5) days.
+T6	Premise 1213 1335	Mean use of additional analgesia (intravenous morphine equivalents) was 12 mg in the WIC arm and 9 mg in the epidural arm.
+R1	Support Arg1:T3 Arg2:T2	

@@ -1,0 +1,12 @@
+T1	Premise 905 1197	Nine CR and twenty-seven PR were obtained on one hundred eleven evaluable patients treated in experimental arm (RR = 32%, 95% confidence interval (95% CI): 24%-42%), while two CR and eleven PR were observed among one hundred three evaluable patients in control arm (RR = 13%, 95% CI: 7%-21%).
+T3	Premise 1198 1302	WHO grade 3-4 toxicity occurred in 13% of cycles of experimental arm and in 8% of cycles in control arm.
+T4	Premise 1303 1405	The PFS was significantly longer in experimental arm (6.2 vs. 4.3 months, odds ratio 0.66, P = 0.003),
+T5	Premise 1412 1523	the overall survival was similar in both arms (14.8 months in experimental arm vs. 14.1 months in control arm);
+T6	Claim 1524 1560	quality of life was similar as well.
+T7	Premise 1561 1681	Eighty percent of patients receiving second-line chemotherapy in control arm were treated with continuous infusion 5-FU.
+T8	Claim 1695 1829	schedule-specific biochemical modulation of FU is more active than MTX --> 5-FU as first-line treatment of advanced colorectal cancer.
+T9	Claim 1830 2017	However, the overall survival was similar suggesting that alternating bolus and infusional 5-FU upfront may be as effective as giving them in sequence as first- and second-line treatment.
+R1	Support Arg1:T1 Arg2:T8	
+R2	Support Arg1:T4 Arg2:T9	
+R3	Support Arg1:T5 Arg2:T9	
+R4	Support Arg1:T3 Arg2:T6	

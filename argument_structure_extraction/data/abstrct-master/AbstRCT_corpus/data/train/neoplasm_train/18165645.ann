@@ -1,0 +1,11 @@
+T1	Premise 1086 1276	GHRQL was initially worse for the RP+RT arm but improved over time and was better at the end of the period than the GHRQL reported for RP alone (treatment arm x time interaction, P = .0004).
+T2	Premise 1277 1366	Symptom distress was significantly worse for the RP+RT arm compared with the RP alone arm
+T3	Premise 1368 1453	but the treatment arms did not differ with respect to other general measures of HRQL.
+R1	Partial-Attack Arg1:T3 Arg2:T2	
+T4	Claim 1644 1692	The addition of RT did not negatively impact ED.
+T5	Premise 1454 1570	The addition of RT to surgery resulted in more frequent urination, as well as early report of more bowel dysfunction
+T6	Premise 1572 1643	although bowel function differences disappeared over the 5-year period.
+R2	Partial-Attack Arg1:T6 Arg2:T5	
+R3	Attack Arg1:T5 Arg2:T4	
+R4	Support Arg1:T1 Arg2:T4	
+R5	Attack Arg1:T2 Arg2:T4	

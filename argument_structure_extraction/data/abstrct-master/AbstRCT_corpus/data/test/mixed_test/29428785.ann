@@ -1,0 +1,8 @@
+T1	MajorClaim 34 178	iron-containing multiple micronutrient may reduce the risk of pregnancy-induced hypertension including gestational hypertension or preeclampsia.
+T2	Premise 752 977	The incidence of pregnancy-induced hypertension was 7.1% (423/5923), 6.3% (374/5933) and 6.3% (372/5914) among the pregnant women who took folic acid only, iron-folic acid and multiple micronutrient supplements, respectively.
+T3	Premise 978 1223	The adjusted odds ratios associated with iron-folic acid supplements and multiple micronutrient supplements for pregnancy-induced hypertension were both nearly 0.88 (95% confidence interval, 0.76-1.02), compared with folic acid supplements only.
+T4	Claim 1675 1880	among pregnant women aged 20-24 years, iron-containing multiple micronutrient supplementation was associated with a reduced risk of pregnancy-induced hypertension compared with folic acid supplements only.
+T5	Premise 1224 1558	Among pregnant women aged 20-24 years, iron-folic acid (adjusted odds ratios: 0.81, 95% confidence interval: 0.67-0.96) or multiple micronutrient supplementation (adjusted odds ratios: 0.83, 95% confidence interval: 0.70-0.99) can significantly reduce the risk of pregnancy-induced hypertension compared to folic acid supplementation.
+R1	Support Arg1:T5 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	
+R3	Support Arg1:T3 Arg2:T4	

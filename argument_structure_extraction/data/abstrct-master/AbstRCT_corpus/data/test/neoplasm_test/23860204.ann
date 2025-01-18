@@ -1,0 +1,8 @@
+T1	Premise 1194 1472	Epoetin alfa avoided the decrease in hemoglobin level (no decrease in the epoetin alfa group vs -2.20g/dL change for the control group; P < .001) and statistically significantly reduced the percentage of subjects requiring red blood cell transfusion (12.8% vs 28.1%; P < .0001).
+T2	Premise 1473 1564	The incidence of thrombotic events was 7% in the epoetin alfa arm vs 3% in the control arm.
+T3	Premise 1565 1707	After a median follow-up of 62 months, epoetin alfa treatment did not affect overall survival, relapse-free survival, or intramammary relapse.
+T4	Claim 1708 1841	Epoetin alfa resulted in improved hemoglobin levels and decreased transfusions without an impact on relapse-free or overall survival.
+T5	Claim 1842 1921	However, epoetin alfa had an adverse effect, resulting in increased thrombosis.
+R1	Support Arg1:T3 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T5	
+R3	Support Arg1:T1 Arg2:T4	

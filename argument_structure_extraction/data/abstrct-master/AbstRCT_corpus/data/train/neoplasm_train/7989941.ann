@@ -1,0 +1,17 @@
+T1	Premise 1 164	Taxol (paclitaxel; Bristol-Myers Squibb, Wallingford, CT) is a new anticancer agent with activity in a number of human tumors, including epithelial ovarian cancer.
+T2	Premise 988 1075	Severe HSRs were rare (1.5% patients) and were not affected by either dose or schedule.
+T3	Premise 1076 1157	Response was slightly higher at the 175-mg/m2 dose (20%) than at 135 mg/m2 (15%),
+T4	Premise 1158 1210	but this was not statistically significant (P = .2).
+T5	Premise 1211 1319	However, progression-free survival was significantly longer in the high-dose group (19 v 14 weeks; P = .02).
+T6	Premise 1320 1410	Significantly more neutropenia was seen when Taxol was administered as a 24-hour infusion.
+T7	Premise 1411 1504	Response rates were similar in the 24- and 3-hour groups (19% and 16%, respectively; P = .6).
+T8	Premise 1505 1540	No survival differences were noted.
+T9	Claim 1541 1648	The 3-hour infusion of Taxol is safe when given with premedication and is associated with less neutropenia.
+T10	Claim 1725 1938	The observation that longer infusion produces more myelosuppression but does not yield higher response rates should lead to further studies to determine the optimal dose and schedule of this interesting new agent.
+R1	Support Arg1:T8 Arg2:T9	
+R2	Support Arg1:T7 Arg2:T9	
+R3	Support Arg1:T6 Arg2:T9	
+R4	Support Arg1:T2 Arg2:T9	
+R5	Attack Arg1:T4 Arg2:T3	
+R6	Partial-Attack Arg1:T3 Arg2:T7	
+R7	Support Arg1:T5 Arg2:T9	

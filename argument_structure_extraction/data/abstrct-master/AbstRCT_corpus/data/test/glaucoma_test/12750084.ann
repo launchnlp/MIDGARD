@@ -1,0 +1,16 @@
+T1	Premise 795 967	At the end of the 24-month follow-up, IOP of 21 mmHg or less and more than 6 mmHg was achieved in 76% in group 1 (n = 19) and in 80% in group 2 (n = 20; log-rank P = 0.60);
+T2	Premise 968 1135	an IOP between 6 and 16 mmHg was obtained in 56% in group 1 (n = 14) and in 72% in group 2 (n = 18; log-rank P = 0.17; Kaplan-Meier cumulative probability of success).
+T3	Premise 1136 1480	Complications of viscocanalostomy included one intraoperative conversion into trabeculectomy; microruptures in Descemet's membrane in five eyes; three cases of iris incarceration in the Decemet's window, two of which caused early failure of the procedure requiring reoperation; and a 1-mm to 2-mm transient self-resolving hyphema in three cases
+T4	Premise 1482 1811	Complications of trabeculectomy included one case of postoperative bleb bleeding with early transient IOP spike; one early hyphema; five cases of postoperative hypotony, two of which had a positive Seidel test from the conjunctival suture; three cases of transient choroidal detachment, two of which had shallow anterior chamber.
+T5	Premise 1812 1844	No patient required reoperation.
+T6	Premise 1845 1985	Two eyes required argon laser suture lysis, and nine underwent one or more 5-FU injections, which caused punctate keratopathy in three eyes.
+T7	Claim 1986 2090	Viscocanalostomy is an effective IOP-lowering procedure in white adults affected by open-angle glaucoma.
+T8	Claim 2091 2266	Trabeculectomy with postoperative 5-FU can probably provides lower IOPs but, with more numerous complications, greater discomfort, and more intensive postoperative management.
+R1	Support Arg1:T6 Arg2:T8	
+R2	Support Arg1:T5 Arg2:T7	
+R3	Support Arg1:T4 Arg2:T8	
+R4	Support Arg1:T3 Arg2:T8	
+R5	Support Arg1:T1 Arg2:T7	
+R6	Support Arg1:T2 Arg2:T7	
+R7	Support Arg1:T1 Arg2:T8	
+R8	Support Arg1:T2 Arg2:T8	

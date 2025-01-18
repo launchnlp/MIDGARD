@@ -1,0 +1,9 @@
+T1	Premise 1118 1242	After intervention, EG participants showed improved QOL via decreased fear of recurrence and increased mindfulness attitude.
+T2	Premise 1243 1285	At 6 weeks, initial effects were retained.
+T3	Premise 1286 1390	The MMP appears to benefit older BCSs by reducing fear of recurrence and improving mindfulness attitude.
+T4	Claim 1391 1533	Although these findings are promising, a larger study is needed to determine more specifically what short- and long-term effects are possible.
+T5	Claim 1534 1714	The combination of self-directed movement and mindfulness, as tested here, may be a valuable tool for promoting health and well-being in older long-term survivors of breast cancer.
+R1	Partial-Attack Arg1:T4 Arg2:T5	
+R2	Support Arg1:T1 Arg2:T5	
+R3	Support Arg1:T3 Arg2:T5	
+R4	Partial-Attack Arg1:T2 Arg2:T5	

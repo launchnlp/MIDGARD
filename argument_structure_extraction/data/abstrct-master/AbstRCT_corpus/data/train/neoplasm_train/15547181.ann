@@ -1,0 +1,15 @@
+T2	Premise 936 1605	After a median follow-up of 23 months, both groups had similar progression-free survival (medians of 15.0 months for docetaxel-carboplatin and 14.8 months for paclitaxel-carboplatin; hazard ratio [HR] docetaxel-paclitaxel = 0.97, 95% confidence interval [CI] = 0.83 to 1.13; P = .707), overall survival rates at 2 years (64.2% and 68.9%, respectively; HR = 1.13, 95% CI = 0.92 to 1.39; P = .238), and objective tumor (58.7% and 59.5%, respectively; difference between docetaxel and paclitaxel = -0.8%, 95% CI = -8.6% to 7.1%; P = .868) and CA-125 (75.8% and 76.8%, respectively; difference docetaxel-paclitaxel = -1.0%, 95% CI = -7.2% to 5.1%; P = .794) response rates.
+T3	Premise 1606 1946	However, docetaxel-carboplatin was associated with substantially less overall and grade 2 or higher neurotoxicity than paclitaxel-carboplatin (grade > or =2 neurosensory toxicity in 11% versus 30%, difference = 19%, 95% CI = 15% to 24%; P<.001; grade > or =2 neuromotor toxicity in 3% versus 7%, difference = 4%, 95% CI = 1% to 7%; P<.001).
+T4	Premise 1947 2195	Treatment with docetaxel-carboplatin was associated with statistically significantly more grade 3-4 neutropenia (94% versus 84%, difference = 11%, 95% CI = 7% to 14%; P<.001) and neutropenic complications than treatment with paclitaxel-carboplatin,
+T5	Premise 2196 2272	although myelosuppression did not influence dose delivery or patient safety.
+T6	Premise 2273 2321	Global quality of life was similar in both arms,
+T7	Premise 2322 2391	but substantive differences in many symptom scores favored docetaxel.
+T8	Claim 2392 2513	Docetaxel-carboplatin appears to be similar to paclitaxel-carboplatin in terms of progression-free survival and response,
+T9	Claim 2514 2591	although longer follow-up is required for a definitive statement on survival.
+T10	MajorClaim 2592 2727	Thus, docetaxel-carboplatin represents an alternative first-line chemotherapy regimen for patients with newly diagnosed ovarian cancer.
+R1	Partial-Attack Arg1:T9 Arg2:T8	
+R2	Support Arg1:T8 Arg2:T10	
+R3	Partial-Attack Arg1:T7 Arg2:T6	
+R4	Partial-Attack Arg1:T5 Arg2:T4	
+R5	Support Arg1:T2 Arg2:T8	
+R6	Support Arg1:T3 Arg2:T7	

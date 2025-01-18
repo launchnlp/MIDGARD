@@ -1,0 +1,12 @@
+T1	Premise 837 995	Amenorrhea 12 months after random assignment was significantly different between treatment groups: 69.8% for AC→T, 57.7% for TAC, and 37.9% for AT (P < .001).
+T2	Premise 996 1061	The AT group without tamoxifen had the lowest rate of amenorrhea.
+T3	Premise 1062 1152	QOL was poorer for patients receiving AC→T at 6 months but similar to others by 12 months.
+T4	Premise 1153 1226	Post-treatment symptoms were increased above baseline for all treatments.
+T5	Premise 1227 1410	Multivariable repeated measures modeling demonstrated that treatment arm, time point, age, and tamoxifen use were significantly associated with symptom severity (all P values < .002).
+T6	Claim 1411 1508	Amenorrhea rates differed significantly by treatment arm, with the AT arm having the lowest rate.
+T7	Claim 1509 1684	Patients treated with longer duration therapy (AC→T) had greater symptom severity and poorer QOL at 6 months, but did not differ from shorter duration treatments at 12 months.
+R1	Support Arg1:T1 Arg2:T6	
+R2	Support Arg1:T2 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T7	
+R4	Support Arg1:T4 Arg2:T7	
+R5	Support Arg1:T5 Arg2:T7	

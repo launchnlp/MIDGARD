@@ -1,0 +1,5 @@
+T1	Premise 1134 1255	By ITT analysis, HBV reactivation was 0% (0/33) in the study group and 10.7% (3/28) in the observation group (p = 0.091).
+T2	Premise 1256 1400	None of the patients in either group showed significant differences in liver function parameters between baseline and the last follow-up sample.
+T3	Claim 1401 1492	TDF was generally well tolerated and there were no severe treatment-related adverse events.
+T4	Claim 1493 1665	In patients with hematological malignancy and resolved hepatitis B infection receiving RTX-based regimens, HBV reactivation did not occur in patients given TDF prophylaxis.
+R1	Support Arg1:T1 Arg2:T4	

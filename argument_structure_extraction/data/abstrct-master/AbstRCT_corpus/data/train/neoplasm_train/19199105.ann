@@ -1,0 +1,12 @@
+T1	Claim 1467 1696	The study results suggest that K-tape could replace the bandage in DLT, and it could be an alternative choice for the breast-cancer-related lymphedema patient with poor short-stretch bandage compliance after 1-month intervention.
+T2	Premise 1294 1466	The acceptance of K-tape was better than the bandage, and benefits included longer wearing time, less difficulty in usage, and increased comfort and convenience (P < 0.05).
+T3	Premise 945 1063	There was no significant difference between groups in all outcome variables (P > 0.05) through the whole study period.
+T4	Premise 1064 1197	Excess limb size (circumference and water displacement) and excess water composition were reduced significantly in the bandage group;
+T5	Premise 1198 1293	excess circumference and excess water composition were reduced significantly in the tape group.
+T6	MajorClaim 1860 1926	More efficient treatment protocol is needed for clinical practice.
+T7	Claim 1784 1859	these two treatment protocols are inefficient and cost time in application.
+R1	Partial-Attack Arg1:T7 Arg2:T1	
+R2	Support Arg1:T2 Arg2:T1	
+R3	Support Arg1:T4 Arg2:T1	
+R4	Support Arg1:T3 Arg2:T1	
+R5	Support Arg1:T5 Arg2:T1	

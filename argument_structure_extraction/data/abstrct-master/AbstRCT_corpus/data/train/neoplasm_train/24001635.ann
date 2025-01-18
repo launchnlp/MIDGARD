@@ -1,0 +1,5 @@
+T1	Premise 1406 1560	Long-term benefits for older patients were seen in the anger-hostility scale at week 27 (92.2 vs. 84.2, p = 0.027) and week 52 (96.3 vs. 85.9, p = 0.005).
+T2	Premise 1185 1405	Older adult patients reported better overall QOL (LASA 74.4 vs. 62.9, p = 0.040), higher social well-being (FACT-G 91.1 vs. 83.3, p = 0.045), and fewer problems with anger (POMS anger-hostility 95.0 vs. 86.4, p = 0.028).
+T3	Claim 1561 1765	Older adult patients who received a multidisciplinary intervention to improve QOL while undergoing advanced cancer treatments benefited differently in some QOL domains, compared to younger adult patients.
+R1	Support Arg1:T1 Arg2:T3	
+R2	Support Arg1:T2 Arg2:T3	

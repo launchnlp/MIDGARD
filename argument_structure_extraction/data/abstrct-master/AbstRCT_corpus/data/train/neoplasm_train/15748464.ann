@@ -1,0 +1,11 @@
+T1	Claim 1 123	Impaired cognition, fatigue, and diminished quality of life (QOL) are commonly associated with breast cancer chemotherapy.
+T2	Premise 945 1041	Mean change in EXIT25 scores from baseline to cycle 4 in the epoetin alfa group was 1.3 +/- 3.3;
+T3	Premise 1042 1153	the mean change was 0.3 +/- 2.4 in the placebo group (a negative change indicates improved executive function).
+T4	Premise 1154 1270	There was no difference between groups in mean change in EXIT25 score from baseline to 6-month follow-up assessment.
+T5	Premise 1271 1395	Mean hemoglobin levels were higher in the epoetin alfa group compared with the placebo group after 4 cycles of chemotherapy.
+T6	Premise 1396 1592	Epoetin alfa recipients had less of a decrease in FACT-An subscale scores from baseline to cycle 4 and improvement in FACT-An subscale scores at 6-month follow-up assessment compared with placebo.
+T7	Claim 1593 1633	Epoetin alfa therapy was well tolerated.
+T8	Claim 1634 1785	These data suggest that epoetin alfa may have attenuated the cognitive impairment and fatigue that occurred during adjuvant breast cancer chemotherapy.
+R1	Support Arg1:T6 Arg2:T8	
+R2	Support Arg1:T2 Arg2:T8	
+R3	Support Arg1:T3 Arg2:T8	

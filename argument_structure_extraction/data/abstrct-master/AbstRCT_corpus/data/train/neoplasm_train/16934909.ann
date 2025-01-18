@@ -1,0 +1,12 @@
+T1	Claim 1 158	Chemotherapy prolongs survival and improves quality of life (QOL) for good performance status (PS) patients with advanced non-small cell lung cancer (NSCLC).
+T2	MajorClaim 159 244	Targeted therapies may improve chemotherapy effectiveness without worsening toxicity.
+T3	Claim 409 475	Le(y) is an attractive target since it is expressed by most NSCLC.
+T5	Premise 476 617	SGN-15 was active against Le(y)-positive tumors in early phase clinical trials and was synergistic with docetaxel in preclinical experiments.
+T6	Premise 1262 1417	Patients on Arms A and B had median survivals of 31.4 and 25.3 weeks, 12-month survivals of 29% and 24%, and 18-month survivals of 18% and 8%, respectively
+T7	Premise 1419 1450	Toxicity was mild in both arms.
+T8	Premise 1451 1478	QOL analyses favored Arm A.
+T9	Claim 1479 1582	SGN-15 plus docetaxel is a well-tolerated and active second and third line treatment for NSCLC patients
+R1	Support Arg1:T5 Arg2:T9	
+R2	Support Arg1:T8 Arg2:T9	
+R3	Support Arg1:T7 Arg2:T9	
+R4	Support Arg1:T6 Arg2:T9	

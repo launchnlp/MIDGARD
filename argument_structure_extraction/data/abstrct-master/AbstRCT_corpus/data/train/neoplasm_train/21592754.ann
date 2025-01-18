@@ -1,0 +1,8 @@
+T1	Premise 767 950	The estimated median overall survival times for RS + WBRT and S + WBRT patients were 6.2 and 2.8 months, respectively (hazard ratio 0.53, 95% confidence interval 0.20-1.43, P = 0.20).
+T2	Premise 951 1035	Corresponding median failure-free survival times were 3.1 and 1.7 months (P = 0.20).
+T3	Premise 1036 1235	For 19 'per protocol' patients, 2/10 in the RS + WBRT arm had distant intracranial failure (one also had local failure) and 3/9 S + WBRT patients had distant intracranial failure (no local failures).
+T4	Premise 1236 1286	There were no grade 3-4 late radiation toxicities.
+T5	Claim 1287 1397	Two months after starting treatment there were no significant differences in quality of life between the arms.
+T6	Claim 1398 1586	This randomised trial encountered the accrual difficulties and consequent low statistical power commonly associated with interdisciplinary studies drawing from a small eligible population,
+R1	Partial-Attack Arg1:T6 Arg2:T5	
+R2	Support Arg1:T4 Arg2:T5	

@@ -1,0 +1,11 @@
+T1	Premise 869 982	Intrusive thoughts were associated with higher levels of all symptoms at baseline and at the 12-month assessment.
+T2	Premise 983 1115	Intrusive thoughts also influenced the trajectory of pain, depressive symptoms, negative affect, and physical functioning over time;
+T3	Premise 1116 1277	women with higher intrusions at baseline started worse and improved over time, whereas those with lower intrusions remained at a constant, lower level over time.
+T4	Premise 1278 1403	Intrusions were not associated with the trajectory of fatigue, sleep, breast cancer-specific symptoms, or mental functioning;
+T5	Premise 1404 1488	women with higher intrusions at baseline started worse and remained worse over time.
+T6	Claim 1489 1685	Intrusive thoughts are associated with enduring elevations in behavioral symptoms and impaired quality of life in the year after breast cancer treatment and may be a risk factor for poor outcomes.
+R1	Support Arg1:T1 Arg2:T6	
+R2	Support Arg1:T2 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T6	
+R4	Support Arg1:T5 Arg2:T6	
+R5	Partial-Attack Arg1:T4 Arg2:T6	

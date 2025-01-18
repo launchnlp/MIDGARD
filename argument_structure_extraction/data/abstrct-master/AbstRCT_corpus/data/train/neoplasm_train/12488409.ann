@@ -1,0 +1,12 @@
+T1	Premise 894 1028	There was no difference in response rates, with 64% (complete response [CR], 9%) for fludarabine versus 52% (CR, 7%) for CVP (P =.72).
+T2	Premise 1029 1199	With a median follow-up of 42 months, median PFS (11 months v 9.1 months; P =.03) and TFS (15 months v 11 months; P =.02) were superior in patients receiving fludarabine.
+T3	Premise 1200 1310	No difference in median overall survival was detected (57 months for fludarabine v 44 months for CVP; P =.95).
+T4	Premise 1311 1432	Three patients receiving fludarabine died of treatment-related toxicity compared with none of the patients receiving CVP.
+T5	Premise 1433 1494	Peripheral neuropathy and alopecia were more common with CVP.
+T6	Premise 1495 1574	Patients receiving fludarabine had higher scores for social function (P =.008);
+T7	Premise 1575 1617	no other differences in QoL were detected.
+T8	Claim 1618 1756	In recurrent low-grade lymphoma, fludarabine improves PFS, TFS, and social function scores in comparison with CVP but does not improve OS.
+R1	Support Arg1:T6 Arg2:T8	
+R2	Support Arg1:T2 Arg2:T8	
+R3	Support Arg1:T3 Arg2:T8	
+R4	Support Arg1:T4 Arg2:T8	

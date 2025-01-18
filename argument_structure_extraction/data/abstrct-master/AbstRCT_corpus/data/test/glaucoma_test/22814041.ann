@@ -1,0 +1,10 @@
+T1	Claim 1555 1616	Both groups had a similar favorable long-term safety profile.
+T2	Premise 647 733	The incidence of adverse events was low in both groups through 24 months of follow-up.
+T3	Premise 734 926	At 24 months, the proportion of patients with an IOP of 21 mm Hg or lower without ocular hypotensive medications was significantly higher in the stent group than in the control group (P=.036).
+T4	Premise 936 1158	the mean IOP was stable between 12 months and 24 months (17.0 mm Hg ± 2.8 [SD] and 17.1 ± 2.9 mm Hg, respectively) in the stent group but increased (17.0 ± 3.1 mm Hg to 17.8 ± 3.3 mm Hg, respectively) in the control group.
+T5	Premise 1159 1356	Ocular hypotensive medication was statistically significantly lower in the stent group at 12 months; it was also lower at 24 months, although the difference was no longer statistically significant.
+T6	Claim 1357 1554	Patients with combined single trabecular micro-bypass stent and cataract surgery had significantly better IOP control on no medication through 24 months than patients having cataract surgery alone.
+R1	Support Arg1:T4 Arg2:T6	
+R2	Support Arg1:T5 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T6	
+R4	Support Arg1:T2 Arg2:T1	

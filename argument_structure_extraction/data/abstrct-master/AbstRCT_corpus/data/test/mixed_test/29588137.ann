@@ -1,0 +1,8 @@
+T1	MajorClaim 0 110	Low serum vitamin D has been associated with metabolic syndrome and Non-alcoholic fatty liver disease (NAFLD).
+T2	Claim 1154 1291	significant reduction of serum alkaline phosphatase and GGT were seen with vitamin D and calcitriol supplementation from baseline levels,
+T3	Claim 1292 1399	no beneficial effects was seen when comparing vitamin D, calcitriol and placebo groups at the end of trial.
+T4	Premise 954 1147	There was no statistically significant difference between placebo, calcitriol, vitamin D groups in terms of serum aminotransferase, alkaline phosphatase, serum GGT and lipid profile (P > 0.05).
+T5	Premise 796 953	Serum and gamma glutamyl transferase (GGT) level was also significantly decreased compared to the baseline levels after 12 weeks of treatment with vitamin D.
+T6	Premise 629 795	After 12 weeks of treatment, serum alkaline phosphatase levels was significantly decreased from baseline levels in vitamin D and calcitriol treated groups (P < 0.05).
+R1	Support Arg1:T4 Arg2:T3	
+R2	Support Arg1:T6 Arg2:T2	

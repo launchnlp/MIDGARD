@@ -1,0 +1,10 @@
+T1	Premise 880 937	Baseline characteristics were comparable for both groups,
+T2	Premise 938 1020	except that more patients with ADPKD were assigned to the placebo group (P = .03).
+T3	Premise 1021 1176	The mean liver volume decreased 2.9%, from 4606 mL (95% confidence interval (CI): 547-8665) to 4471 mL (95% CI: 542-8401 mL), in patients given lanreotide.
+T4	Premise 1177 1315	In the placebo group, the mean liver volume increased 1.6%, from 4689 mL (95% CI: 613-8765 mL) to 4895 mL (95% CI: 739-9053 mL) (P < .01).
+T5	Premise 1316 1514	Post hoc stratification for patients with ADPKD or PCLD revealed similar changes in liver volume, with statistically significant differences in patients given lanreotide (P < .01 for both diseases).
+T6	Claim 1515 1609	In patients with polycystic liver, 6 months of treatment with lanreotide reduces liver volume.
+R1	Partial-Attack Arg1:T2 Arg2:T1	
+R2	Support Arg1:T3 Arg2:T6	
+R3	Support Arg1:T4 Arg2:T6	
+R4	Support Arg1:T5 Arg2:T6	

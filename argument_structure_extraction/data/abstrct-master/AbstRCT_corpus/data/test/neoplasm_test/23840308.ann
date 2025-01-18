@@ -1,0 +1,4 @@
+T1	Premise 1203 1416	Delirium occurred in 31 patients (11.9%), and there was no significant difference between the incidence of delirium in the intervention group and the usual-care group (9.4% vs. 14.3%, OR: 0.63, 95% CI: 0.29-1.35).
+T2	Claim 1417 1642	Within this study, a geriatric liaison intervention based on frailty for the prevention of postoperative delirium in frail elderly cancer patients undergoing elective surgery for a solid tumour has not proven to be effective.
+R1	Support Arg1:T1 Arg2:T2	
+T3	MajorClaim 1 60	Delirium is a serious and common postoperative complication

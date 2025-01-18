@@ -1,0 +1,25 @@
+T3	Premise 1279 1384	The incidence of Grade 4 toxicity was 56% in patients receiving mitomycin-C and 29% in those who did not.
+T4	Premise 1385 1491	Only 1 patient in each group had acute nonhematologic toxicity greater than Grade 3 (nausea and vomiting).
+T5	Premise 1492 1538	No acute Grade 4 radiation toxicity developed.
+T6	Premise 1539 1608	The incidences of long-term toxicity were equivalent across the arms.
+T7	Premise 1609 1798	Three treatment-related deaths occurred: 2 patients in the surgical arms (one late pulmonary toxicity and one pulmonary embolus), and 1 patient in the radiation arm (radiation pneumonitis).
+T8	Premise 1799 1859	Induction chemotherapy was completed in 78% of the patients.
+T9	Premise 1860 1938	Complete resection was performed in 73% of 26 patients undergoing thoracotomy.
+T10	Premise 1939 2003	Consolidation chemotherapy was completed in 75% of the patients.
+T11	Premise 2004 2079	No statistically significant difference was found among the treatment arms.
+T12	Premise 2080 2160	The overall progression-free survival rate was 53% at 1 year and 17% at 3 years.
+T13	Premise 2161 2212	The median progression-free survival was 14 months.
+T14	Premise 2213 2348	No difference in the 1-year survival rate (70% vs. 66%) or median survival time (19.4 vs. 17.4 months) between the surgery and RT arms.
+T15	Premise 2349 2438	The median survival in the patients receiving induction chemotherapy only was 8.9 months.
+T16	Premise 2439 2488	Mitomycin-C had no impact on survival (p = 0.75).
+T17	Premise 2489 2601	No statistically significant difference was noted in the time to local failure between the surgical and RT arms.
+T18	Claim 2602 2666	The patient accrual to this trial made its results inconclusive,
+T19	Claim 2720 2845	histologic confirmation of N2 disease in the surgical and nonsurgical arms eliminated the usual biases from clinical staging.
+T20	Claim 2863 2946	local control and survival were essentially equal between the surgical and RT arms.
+T21	Claim 2947 3062	The 3- and 5-year survival rates of nonsurgical therapy were comparable to published surgical trials of N2 disease.
+R1	Partial-Attack Arg1:T18 Arg2:T20	
+R2	Support Arg1:T11 Arg2:T20	
+R3	Support Arg1:T14 Arg2:T20	
+R4	Support Arg1:T17 Arg2:T21	
+R5	Support Arg1:T13 Arg2:T20	
+R6	Support Arg1:T15 Arg2:T20	

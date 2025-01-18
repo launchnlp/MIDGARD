@@ -1,0 +1,9 @@
+T2	Premise 1073 1143	Peak oxygen consumption increased by 0.24 L/min in the exercise group,
+T3	Premise 1144 1283	whereas it decreased by 0.05 L/min in the control group (mean difference, 0.29 L/min; 95% confidence interval [CI], 0.18 to 0.40; P <.001).
+T4	Premise 1284 1448	Overall QOL increased by 9.1 points in the exercise group compared with 0.3 points in the control group (mean difference, 8.8 points; 95% CI, 3.6 to 14.0; P =.001).
+T5	Premise 1449 1576	Pearson correlations indicated that change in peak oxygen consumption correlated with change in overall QOL (r = 0.45; P <.01).
+T6	Claim 1577 1696	Exercise training had beneficial effects on cardiopulmonary function and QOL in postmenopausal breast cancer survivors.
+R1	Support Arg1:T2 Arg2:T6	
+R2	Support Arg1:T3 Arg2:T6	
+R3	Support Arg1:T4 Arg2:T6	
+R4	Support Arg1:T5 Arg2:T6	

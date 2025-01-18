@@ -1,0 +1,9 @@
+T1	Premise 1011 1188	After completion of chemotherapy, patients treated with trastuzumab and chemotherapy reported significant improvement in fatigue (P <.05) as compared with their baseline scores.
+T2	Premise 1189 1345	Higher proportions of patients receiving the combined therapy achieved improvement in global QOL (P <.05) than did patients treated with chemotherapy alone.
+T3	Premise 1346 1509	Higher proportions of the combined therapy group also achieved improvement in physical and role functioning and in fatigue as compared with the chemotherapy group,
+T4	Premise 1566 1665	There were no differences in the proportions of patients in the two groups that reported worsening.
+T5	Claim 1666 1861	Statistically significantly higher proportions of patients treated with a combination of trastuzumab and chemotherapy reported improved global QOL than did patients treated by chemotherapy alone.
+R1	Support Arg1:T1 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T5	
+T6	Premise 1510 1565	but the differences were not statistically significant.
+R3	Attack Arg1:T6 Arg2:T3	

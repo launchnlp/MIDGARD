@@ -1,0 +1,13 @@
+T1	Premise 1308 1352	Treatment was well tolerated in both groups,
+T2	Premise 1353 1460	although local and systemic side effects were more frequently reported in the bacillus Calmette-Guérin arm.
+T3	Premise 1461 1572	Multivariate analyses showed no significant differences between the 2 groups in all quality of life dimensions.
+T4	Premise 1573 1794	No significant changes over time in quality of life domains were detected for patients on bacillus Calmette-Guérin and gemcitabine except for physical functioning, which decreased significantly in both groups (p = 0.002).
+T5	Premise 1795 1915	No significant differences were detected in terms of recurrence and progression between the 2 groups at 1-year followup.
+T6	Claim 1922 2054	a higher rate of side effects, albeit mild to moderate, was detected with 1/3 dose bacillus Calmette-Guérin compared to gemcitabine,
+T7	Claim 2055 2152	our study failed to show significant differences between the 2 drugs in terms of quality of life.
+T8	MajorClaim 1 146	Bacillus Calmette-Guérin and intravesical chemotherapy represent viable adjuvant options for intermediate risk nonmuscle invasive bladder cancer.
+R1	Support Arg1:T5 Arg2:T7
+R2	Support Arg1:T4 Arg2:T7
+R3	Support Arg1:T3 Arg2:T7
+R4	Attack Arg1:T1 Arg2:T6
+R5	Partial-Attack Arg1:T2 Arg2:T1

@@ -1,0 +1,11 @@
+T1	Premise 1007 1243	After a mean follow-up period of 96 weeks, the proportion of HBV reactivation observed was 6.8% (4/58) in the LAM+ADV group and 4.5% (5/111) in the TDF group by using intention-to-treat analysis (difference, -2.3%; 95% CI, -9.84-5.24%).
+T2	Premise 1244 1343	None of the subjects in either group experienced viral reactivation based on per protocol analysis.
+T3	Premise 1344 1387	No serious adverse reactions were observed.
+T4	Premise 1388 1598	In the subgroup analysis for estimated glomerular filtration rate (eGFR) before and after treatment, decreased eGFR was observed only in the TDF group with cirrhosis (85.22 vs. 79.83 mL/min/1.73 m2, p = 0.000).
+T5	Claim 1599 1802	Stable switching to TDF monotherapy yielded non-inferior results at 96 weeks compared to the results obtained with LAM+ADV combination therapy in patients with LAM-resistant CHB and undetectable HBV DNA.
+T6	Claim 1803 1911	However, TDF monotherapy in patients with cirrhosis requires close attention with respect to renal function.
+T7	MajorClaim 0 283	The efficacy of switching to tenofovir disoproxil fumarate (TDF) monotherapy from lamivudine (LAM) plus adefovir dipivoxil (ADV) combination therapy (stable switching) in patients with LAM-resistant chronic hepatitis B (CHB) and undetectable hepatitis B virus (HBV) DNA is not clear.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T2 Arg2:T5	
+R4	Support Arg1:T1 Arg2:T5	

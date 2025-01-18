@@ -1,0 +1,9 @@
+T1	Premise 1720 1953	The estimated treatment effects (intervention minus usual care) for all participants were a mean (SE) of 4.6 (2) for quality of life (P = .02), -27.8 (15) for symptom intensity (P = .06), and -1.8 (0.81) for depressed mood (P = .02).
+T2	Premise 1954 2179	The estimated treatment effects in participants who died during the study were a mean (SE) of 8.6 (3.6) for quality of life (P = .02), -24.2 (20.5) for symptom intensity (P = .24), and -2.7 (1.2) for depressed mood (P = .03).
+T4	Claim 2238 2507	Compared with participants receiving usual oncology care, those receiving a nurse-led, palliative care-focused intervention addressing physical, psychosocial, and care coordination provided concurrently with oncology care had higher scores for quality of life and mood,
+T5	Claim 2508 2636	but did not have improvements in symptom intensity scores or reduced days in the hospital or ICU or emergency department visits.
+R1	Support Arg1:T2 Arg2:T4	
+R2	Support Arg1:T1 Arg2:T4	
+R3	Partial-Attack Arg1:T5 Arg2:T4	
+R4	Support Arg1:T2 Arg2:T5	
+R5	Support Arg1:T1 Arg2:T5	

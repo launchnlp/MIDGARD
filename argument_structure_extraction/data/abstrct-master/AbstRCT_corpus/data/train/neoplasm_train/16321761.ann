@@ -1,0 +1,5 @@
+T1	Premise 1357 1651	At first follow-up, groups differed only in social functioning, favouring the radiotherapy-only group (mean score 79.0 [SD 3.2] for patients assigned radiotherapy vs 67.4 [2.7] for those assigned radiotherapy and temozolomide; difference between groups 11.6 points [95% CI 3.5-19.7], p=0.0052).
+T2	Premise 1652 1730	Over subsequent assessments, HRQOL was much the same between treatment groups.
+T3	Claim 1731 1900	Addition of temozolomide during and after radiotherapy for patients with newly diagnosed glioblastoma significantly improved survival without a negative effect on HRQOL.
+R1	Support Arg1:T2 Arg2:T3	
+R2	Support Arg1:T1 Arg2:T3	

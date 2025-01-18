@@ -1,0 +1,7 @@
+T1	Premise 1209 1278	Anemia was the most common hematological toxicity (88 % of patients).
+T2	Premise 1279 1382	Most frequent non-hematological toxicities were nausea (76 %), constipation (68 %), and fatigue (64 %).
+T3	Claim 1383 1523	Treatment was generally well tolerated despite the fact that most patients suffered from multiple comorbidities and were heavily pretreated.
+T4	Claim 1524 1595	There were no unexpected hematological or non-hematological toxicities.
+R1	Support Arg1:T1 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	
+R3	Support Arg1:T4 Arg2:T3	

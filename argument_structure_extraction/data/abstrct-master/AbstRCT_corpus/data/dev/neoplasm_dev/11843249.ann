@@ -1,0 +1,10 @@
+T1	Premise 1061 1298	The partial and complete response rate (PR + CR) was significantly greater for patients receiving SIR-Spheres when measured by tumor areas (44%) vs. 17.6%, P = 0.01) tumor volumes (50% vs. 24%, P = 0.03) and CEA (72% vs. 47%, P = 0.004).
+T2	Premise 1299 1611	The median time to disease progression in the liver was significantly longer for patients receiving SIR-Spheres in comparison to patients receiving HAC alone when measured by either tumor areas (9.7 vs. 15.9 months, P = 0.001), tumor volumes (7.6 vs. 12.0 months, P = 0.04) or CEA (5.7 vs. 6.7 months, P = 0.06).
+T3	Premise 1612 1766	The one, two, three and five-year survival for patients receiving SIR-Spheres was 72%, 39%, 17% and 3.5%, compared to 68%, 29%, 6.5% and 0% for HAC alone.
+T4	Premise 1767 1908	Cox regression analysis suggests an improvement in survival for patients treated with SIR-Spheres who survive more than 15 months (P = 0.06).
+T5	Premise 1909 2083	There was no increase in grade 3-4 treatment related toxicity and no loss of quality of life for patients receiving SIR-Spheres in comparison to patients receiving HAC alone.
+T6	Claim 2084 2273	The combination of a single injection of SIR-Spheres plus HAC is substantially more effective in increasing tumor responses and progression free survival than the same regimen of HAC alone.
+R1	Support Arg1:T1 Arg2:T6	
+R2	Support Arg1:T2 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T6	
+R4	Support Arg1:T4 Arg2:T6	

@@ -1,0 +1,12 @@
+T1	Claim 1 191	Epoetin alfa administered at 40,000 U once weekly (qw) to anemic cancer patients receiving chemotherapy increases hemoglobin levels, improves quality of life (QOL), and reduces transfusions.
+T3	Premise 621 919	At week 12, Functional Assessment of Cancer Therapy-Anemia (FACT-An; mean, 2.16 +/- 12.84 for epoetin alfa v -4.43 +/- 13.42 for SOC) and FACT-An fatigue (mean, 1.85 +/- 10.52 for epoetin alfa v -3.55 +/- 11.14 for SOC) change scores were significantly higher in the epoetin alfa group (P < .0001).
+T4	Premise 920 1175	Hemoglobin responses defined as mean hemoglobin > or = 12 g/dL or a > or = 2 g/dL increase compared with baseline were significantly higher in the epoetin alfa group versus SOC: 52.0% v 5.1% and 65.7% v 6.3%, respectively (P < .0001 for both comparisons).
+T5	Premise 1176 1281	Percentage transfused was significantly lower in the epoetin alfa group compared with SOC (8.6% v 22.9%).
+T6	Premise 1282 1371	More than 90% of patients did not require a dose increase and 28.7% had a dose reduction.
+T7	Claim 1372 1538	Epoetin alfa administered at 40,000 U qw is effective in improving QOL, maintaining hemoglobin level, and reducing transfusion requirements in breast cancer patients.
+T8	Claim 1539 1636	The high effectiveness observed could be attributed in part to early treatment with epoetin alfa.
+R1	Support Arg1:T3 Arg2:T7	
+R2	Support Arg1:T4 Arg2:T7	
+R3	Support Arg1:T5 Arg2:T7	
+R4	Partial-Attack Arg1:T8 Arg2:T7	
+R5	Support Arg1:T6 Arg2:T7	

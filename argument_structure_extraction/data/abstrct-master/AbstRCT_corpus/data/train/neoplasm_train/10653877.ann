@@ -1,0 +1,14 @@
+T1	Claim 1 156	Treatment with cisplatin-based chemotherapy provides a modest survival advantage over supportive care alone in advanced non-small-cell lung cancer (NSCLC).
+T2	Premise 957 1203	Superior survival was observed with the combined paclitaxel regimens (median survival time, 9.9 months; 1-year survival rate, 38.9%) compared with etoposide plus cisplatin (median survival time, 7.6 months; 1-year survival rate, 31.8%; P =. 048).
+T3	Premise 1204 1296	Comparing survival for the two dose levels of paclitaxel revealed no significant difference.
+T4	Premise 1297 1464	The median survival duration for the stage IIIB subgroup was 7.9 months for etoposide plus cisplatin patients versus 13.1 months for all paclitaxel patients (P =.152).
+T5	Premise 1465 1611	For the stage IV subgroup, the median survival time for etoposide plus cisplatin was 7.6 months compared with 8.9 months for paclitaxel (P =.246).
+T6	Premise 1612 1864	With the exceptions of increased granulocytopenia on the low-dose paclitaxel regimen and increased myalgias, neurotoxicity, and, possibly, increased treatment-related cardiac events with high-dose paclitaxel, toxicity was similar across all three arms.
+T7	Premise 1865 1928	Quality of life (QOL) declined significantly over the 6 months.
+T8	Claim 1938 2001	QOL scores were not significantly different among the regimens.
+T9	Claim 2037 2191	paclitaxel (135 mg/m(2)) combined with cisplatin has replaced etoposide plus cisplatin as the reference regimen in our recently completed phase III trial.
+R1	Support Arg1:T8 Arg2:T9	
+R2	Support Arg1:T6 Arg2:T9	
+R3	Support Arg1:T2 Arg2:T9	
+R4	Support Arg1:T4 Arg2:T9	
+R5	Support Arg1:T5 Arg2:T9	

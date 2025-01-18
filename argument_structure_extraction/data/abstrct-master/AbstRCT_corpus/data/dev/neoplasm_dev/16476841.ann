@@ -1,0 +1,11 @@
+T1	Premise 731 856	Significantly fewer EPO patients than BSC patients with initial Hb levels >9.7 g/dl to < or =12.1 g/dl required transfusions.
+T2	Premise 857 996	EPO maintained Hb levels throughout the study for patients with Hb levels >11.3 g/dl to < or =12.1 g/dl, compared with a decrease with BSC.
+T3	Premise 997 1356	For patients with baseline Hb levels >10.5 g/dl, for whom the mean changes from baseline to last assessment were measured by the Cancer Linear Analogue Scale assessments of energy and overall QOL as well as by the Functional Assessment of Cancer Therapy (FACT)-Fatigue and FACT-An Anemia subscale, QOL scores were significantly greater with EPO than with BSC.
+T4	Premise 1357 1396	QOL declined in patients receiving BSC,
+T5	Premise 1401 1536	the mean decreases in QOL scores were greater for BSC patients with baseline Hb levels >10.5 g/dl, compared with the overall BSC group.
+T6	Claim 1537 1739	In patients with cancer receiving platinum-based chemotherapy and with baseline Hb levels >10.5 g/dl, early intervention with EPO reduces transfusions, maintains Hb level, and maintains or improves QOL.
+T7	Claim 1740 1847	This study supports the positive effects of early intervention when analyzed according to initial Hb value.
+R1	Support Arg1:T6 Arg2:T7	
+R2	Support Arg1:T5 Arg2:T6	
+R3	Support Arg1:T1 Arg2:T6	
+R4	Support Arg1:T2 Arg2:T6	

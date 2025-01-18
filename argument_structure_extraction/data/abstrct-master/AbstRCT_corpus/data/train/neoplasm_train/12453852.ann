@@ -1,0 +1,12 @@
+T1	Premise 691 752	The overall response rate was 34.6% for NP and 35.7% for NIP.
+T2	Premise 753 868	Median and 1-year survival rates were 10.0 months and 38.4% for NP, and 8.2 months and 33.7% for NIP, respectively.
+T3	Premise 923 1219	The major World Health Organization grade 3-4 toxicities for NP and NIP, respectively, were: neutropenia (20.3% compared with 9% of cycles), anaemia (4.1% compared with 5% of cycles), nausea and vomiting (22.2% compared with 19.4% of patients) and alopecia (5.6% compared with 29.8% of patients).
+T4	Premise 1220 1286	Four toxic deaths occurred in the NP arm and eight in the NIP arm.
+T5	Premise 1287 1422	The different schedules of vinorelbine in the two arms led to a greater survival in the NP arm without impairing the tolerance profile,
+T6	Premise 1423 1470	although this is not statistically significant.
+T7	Claim 1471 1564	This confirms that the two-drug combination NP is a reference treatment for metastatic NSCLC.
+T8	Claim 1565 1649	The role of three-drug combinations remains questionable in this subset of patients.
+R1	Attack Arg1:T6 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T7	
+R3	Support Arg1:T3 Arg2:T7	
+R4	Support Arg1:T4 Arg2:T8	

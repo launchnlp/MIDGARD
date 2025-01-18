@@ -1,0 +1,14 @@
+T1	Claim 1 269	Recent studies have shown that administering the aromatase inhibitor exemestane after 2-3 years of tamoxifen therapy significantly improves disease-free survival in postmenopausal women with primary breast cancer in comparison with standard 5-year tamoxifen treatment.
+T4	Premise 1006 1105	Fat mass had significantly decreased by month 12 in the exemestane, but not in the tamoxifen group;
+T6	Premise 1106 1174	the between-group difference was statistically significant (P<0.01).
+T7	Premise 1175 1273	The FFM/FM ratio had significantly increased in the exemestane group, but not the tamoxifen group;
+T9	Premise 1274 1342	the between-group difference was statistically significant (P<0.05).
+T10	Premise 1343 1439	Triglycerides and high-density lipoprotein cholesterol significantly decreased (P<0.01; P<0.05),
+T11	Premise 1444 1575	low-density lipoprotein cholesterol significantly increased (P<0.01) in the exemestane group at the end of the 1-year study period.
+T12	Claim 1576 1808	Our findings suggest that switching patients to adjuvant exemestane treatment after at least 2 years of tamoxifen therapy may be associated with an advantage over continuing adjuvant tamoxifen treatment in terms of body composition.
+R1	Support Arg1:T6 Arg2:T4	
+R2	Support Arg1:T9 Arg2:T7	
+R3	Support Arg1:T4 Arg2:T12	
+R4	Support Arg1:T7 Arg2:T12	
+R5	Support Arg1:T10 Arg2:T12	
+R6	Support Arg1:T11 Arg2:T12	

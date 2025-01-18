@@ -1,0 +1,5 @@
+T1	Claim 1449 1682	There was no significant difference in IOP reduction between viscocanalostomy and trabeculectomy with mitomycin C in combination with phacoemulsification and intraocular lens implantation in patients with primary open-angle glaucoma.
+T3	Premise 1023 1199	At 12 months, 17 patients (85%) in the viscocanalostomy group and 16 patients (80%) in the trabeculectomy group achieved an IOP of 20 mmHg or less without medication (P = 0.7).
+T4	Premise 540 938	Mean baseline IOP was 24.0+/-2.0 mmHg in the viscocanalostomy group and 23.7+/-2.6 mmHg in the trabeculectomy group (P = 0.7). Mean postoperative IOP was 13.7+/-2.2 mmHg at 3 months, 14.8+/-3.3 mmHg at 6 months, and 14.9+/-3.0 mmHg at 12 months in the viscocanalostomy group and 12.1+/-4.0 mmHg at 3 months, 13.8+/-4.7 mmHg at 6 months, and 14.1+/-4.4 mmHg at 12 months in the trabeculectomy group.
+R1	Support Arg1:T4 Arg2:T1	
+R2	Support Arg1:T3 Arg2:T1	

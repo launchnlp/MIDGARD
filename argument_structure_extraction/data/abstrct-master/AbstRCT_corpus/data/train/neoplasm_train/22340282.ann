@@ -1,0 +1,13 @@
+T1	Premise 808 905	The mean reduction in AK count was 59.2% for ALA-PDT and 41.4% for imiquimod 5% cream (p = .002).
+T2	Premise 718 807	The 75% AK clearance rate was 34.6% for ALA-PDT and 25% for imiquimod 5% cream (p = .30).
+T3	Premise 906 1050	Dermatology Life Quality Index (DLQI) scores were assessed for each treatment modality at week 4 and were 1.95 and 1.38, respectively (p = .20).
+T4	Premise 1051 1176	The sample size was small, and patients applied a small amount of imiquimod 5% cream (half a sachet) to a large surface area.
+T5	Claim 1177 1301	There was no statistically significant difference in treatment response when the 100% or 75% clearance rate cutoff was used,
+T6	Claim 1302 1425	but our secondary outcome suggests that two sessions of ALA-PDT is superior to imiquimod 5% cream for the treatment of AKs.
+T7	Claim 1426 1532	There was no statistically significant difference in effect on quality of life as assessed using the DLQI.
+R1	Attack Arg1:T6 Arg2:T5	
+R2	Attack Arg1:T4 Arg2:T5	
+R3	Attack Arg1:T4 Arg2:T7	
+R4	Support Arg1:T3 Arg2:T7	
+R5	Support Arg1:T2 Arg2:T6	
+R6	Support Arg1:T1 Arg2:T6	

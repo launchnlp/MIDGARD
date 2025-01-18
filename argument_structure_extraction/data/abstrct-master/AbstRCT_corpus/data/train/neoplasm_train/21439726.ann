@@ -1,0 +1,12 @@
+T1	Premise 872 988	Compared to EUC, TEC was associated with increased pain communication self-efficacy after the intervention (P<.001);
+T2	Premise 989 1074	both groups showed significant (P<.0001), similar, reductions in pain misconceptions.
+T3	Premise 1075 1244	At 2 weeks, assignment to TEC was associated with improvement in pain-related impairment (-0.25 points on a 5-point scale, 95% confidence interval -0.43 to -0.06, P=.01)
+T4	Premise 1245 1328	but not in pain severity (-0.21 points on an 11-point scale, -0.60 to 0.17, P=.27).
+T5	Premise 1329 1408	The improvement in pain-related impairment was not sustained at 6 and 12 weeks.
+T6	Premise 1409 1481	There were no significant intervention by subgroup interactions (P>.10).
+T7	Claim 1482 1667	We conclude that TEC, compared with EUC, resulted in improved pain communication self-efficacy and temporary improvement in pain-related impairment, but no improvement in pain severity.
+R1	Partial-Attack Arg1:T5 Arg2:T3	
+R2	Partial-Attack Arg1:T4 Arg2:T3	
+R3	Support Arg1:T1 Arg2:T7	
+R4	Support Arg1:T2 Arg2:T7	
+R5	Support Arg1:T3 Arg2:T7	

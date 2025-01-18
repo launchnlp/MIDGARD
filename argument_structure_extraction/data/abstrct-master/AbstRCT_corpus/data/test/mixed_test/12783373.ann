@@ -1,0 +1,10 @@
+T1	Claim 1 193	Imatinib (Gleevec), a highly effective specific tyrosine kinase inhibitor, demonstrates a better side effect profile than interferon-alpha (IFN), which impairs patients' quality of life (QoL).
+T2	Premise 1291 1408	Two hundred sixty-one patients (50%) crossed over from IFN to imatinib and 11 (2%) crossed over from imatinib to IFN.
+T3	Premise 1409 1566	There was a significant decline in TOI scores for the IFN treatment arm compared with preservation of baseline TOI scores in the imatinib arm (P <.001, ITT).
+T4	Premise 1567 1704	Mean social/family and EWB scores were 22.8 and 19.5, respectively, for imatinib and 21.6 and 17.6, respectively, for IFN (P <.001, ITT).
+T5	Premise 1705 1815	After crossing over from IFN to imatinib, patients experienced a significant (P <.001) increase in TOI scores.
+T6	Claim 1816 1907	Imatinib offers clear QoL advantages over IFN as first-line treatment of chronic-phase CML.
+T7	Claim 1921 2010	patients who crossed over to imatinib reported higher QoL than those who remained on IFN.
+R1	Support Arg1:T5 Arg2:T7	
+R2	Support Arg1:T4 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T6	

@@ -1,0 +1,7 @@
+T2	Premise 1229 1328	At 1 year, IOP in both treatment groups was statistically significantly lower from baseline values.
+T3	Premise 1329 1451	Sixty-six percent of treatment eyes versus 48% of control eyes achieved =20% IOP reduction without medication (P = 0.003).
+T4	Premise 1452 1564	The overall incidence of adverse events was similar between groups with no unanticipated adverse device effects.
+T5	Claim 1565 1804	Pressure reduction on fewer medications was clinically and statistically significantly better 1 year after stent plus cataract surgery versus cataract surgery alone, with an overall safety profile similar to that of cataract surgery alone.
+R1	Support Arg1:T4 Arg2:T5	
+R2	Support Arg1:T3 Arg2:T5	
+R3	Support Arg1:T2 Arg2:T5	

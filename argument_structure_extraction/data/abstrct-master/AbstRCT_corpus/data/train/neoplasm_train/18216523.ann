@@ -1,0 +1,7 @@
+T1	Premise 918 1066	Postoperative side effects were significantly less in the SLN group and there was no negative impact of the SLN procedure on psychologic well being.
+T2	Claim 1409 1465	SLN biopsy is an effective and well-tolerated procedure.
+T3	Claim 1466 1567	However, its safety should be confirmed by the results of larger randomized trials and meta-analyses.
+R1	Partial-Attack Arg1:T3 Arg2:T2	
+T4	Premise 1317 1408	However, the number of enrolled patients was not sufficient to draw definitive conclusions.
+R2	Support Arg1:T4 Arg2:T3	
+R3	Support Arg1:T1 Arg2:T2	

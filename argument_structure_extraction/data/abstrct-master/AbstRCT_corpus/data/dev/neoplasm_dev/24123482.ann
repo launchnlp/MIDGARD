@@ -1,0 +1,14 @@
+T1	Claim 1959 2056	This may lead to reduced distress and fatigue, and consequently improved QoL of cancer survivors.
+T2	Claim 1863 1958	In addition to physical activity, future interventions should target self-efficacy and mastery.
+T3	Claim 1670 1862	The beneficial effect of group-based physical exercise on QoL was mediated by increased physical activity, general self-efficacy and mastery, and subsequent reductions in fatigue and distress.
+R1	Support Arg1:T1 Arg2:T2	
+T4	Premise 1569 1669	increased physical activity was directly associated with improved QoL (β = 3.37, 95%CI = 1.01;5.54).
+T5	Premise 1425 1559	Reductions in fatigue (β = -1.33, 95%CI =-1.85;-0.83) and distress (β = -0.86, 95%CI = -1.25;-0.52) were associated with improved QoL.
+T6	Premise 1196 1424	The intervention had a borderline significant direct effect on reduced distress (β = -1.32, 95%CI = -2.68;0.11), and a significant indirect effect via increased general self-efficacy and mastery (β = -1.06, 95%CI = -1.89;-0.38).
+T7	Premise 939 1195	the intervention had both a direct effect on fatigue (β = -1.09, 95%CI = -2.12;0.01), and an indirect effect (β = -0.54, 95%CI = -1.00;-0.21) via physical activity (β = -0.29, 95%CI = -0.64;-0.07) and general self-efficacy (β = -0.25, 95%CI = -0.61;-0.05).
+T8	Premise 715 929	The intervention was associated with increased physical activity (β = 0.46, 95% confidence interval (CI) = 0.14;0.59), general self-efficacy (β = 2.41, 95%CI = 0.35;4.73), and mastery (β = 1.75, 95%CI = 0.36;2.78).
+R2	Support Arg1:T8 Arg2:T3	
+R3	Support Arg1:T7 Arg2:T2	
+R4	Support Arg1:T6 Arg2:T3	
+R5	Support Arg1:T5 Arg2:T3	
+R6	Support Arg1:T4 Arg2:T3	

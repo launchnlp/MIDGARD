@@ -1,0 +1,17 @@
+T2	MajorClaim 85 172	Standard chemotherapy regimens are generally considered too toxic for elderly patients.
+T3	Premise 967 1087	Among these 32 patients, 8 had a partial response (intent-to-treat response rate, 20%), and 10 (25%) had stable disease.
+T4	Premise 1088 1146	The median survival was 7.8 months (range, 4-11.6 months).
+T5	Premise 1147 1210	The 1- and 2-year survival rates were 25% and 7%, respectively;
+T6	Premise 1211 1278	median time to progression was 4.3 months (range, 0.2-13.8 months).
+T7	Premise 1279 1382	Grade 3/4 neutropenia was seen in 27 patients (68%), and grade 3/4 anemia was seen in 5 patients (13%).
+T8	Premise 1383 1440	One patient died of febrile neutropenia during treatment.
+T9	Premise 1441 1523	The main nonhematologic adverse effect was fatigue (grade 3/4 in 18% of patients).
+T10	Claim 1524 1613	Carboplatin/vinorelbine is well tolerated by elderly patients with extensive-stage NSCLC.
+T11	Claim 1614 1691	Efficacy is low but similar to that of other treatments used in this setting.
+R1	Support Arg1:T9 Arg2:T10	
+R2	Support Arg1:T3 Arg2:T11	
+R3	Support Arg1:T4 Arg2:T11	
+R4	Support Arg1:T5 Arg2:T11	
+R5	Support Arg1:T6 Arg2:T11	
+R6	Support Arg1:T7 Arg2:T10	
+R7	Support Arg1:T8 Arg2:T10	

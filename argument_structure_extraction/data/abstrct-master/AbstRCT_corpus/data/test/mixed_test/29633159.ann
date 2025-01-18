@@ -1,0 +1,12 @@
+T1	Claim 9 91	anthracyclines are effective chemotherapeutic agents for treating B-cell lymphoma,
+T2	Claim 92 194	adverse effects, such as bone marrow suppression and cardiotoxicity, limit their clinical application.
+T3	Premise 980 1258	Cumulative anthracycline doses of 253-400 mg (HR: 2.35; 95% CI 1.41-3.91; p = 0.0010), 401-504 mg (HR: 2.26; 95% CI 1.26-4.05; p = 0.0063), and > 504 mg (HR: 2.29; 95% CI 1.25-4.18; p = 0.0072) increased the incidence density of diabetes in a dose-dependent manner (p = 0.0006).
+T4	Premise 771 979	Anthracycline administration was associated with a higher incidence of diabetes (HR: 1.75; 95% CI 1.11-2.75; p = 0.0163) after adjustments for age, gender, cumulative dose of prednisolone, and co-morbidities.
+T5	Premise 1259 1454	The annual alteration of adapted diabetes complications severity index score was not significantly different between B-cell lymphoma patients with or without anthracycline treatment (p = 0.4924).
+T6	Claim 1455 1556	Anthracycline therapy increases diabetes risk in a dose-dependent manner in B-cell lymphoma patients.
+T7	Claim 1557 1689	Intensive blood glucose monitoring and control should be recommended for B-cell lymphoma patients receiving anthracycline treatment.
+R1	Partial-Attack Arg1:T2 Arg2:T1	
+R2	Support Arg1:T6 Arg2:T7	
+R3	Support Arg1:T5 Arg2:T6	
+R4	Support Arg1:T3 Arg2:T6	
+R5	Support Arg1:T4 Arg2:T6	

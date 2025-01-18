@@ -1,0 +1,10 @@
+T1	MajorClaim 1 204	Sentinel lymph node biopsy in women with operable breast cancer is routinely used in some countries for staging the axilla despite limited data from randomized trials on morbidity and mortality outcomes.
+T2	Premise 998 1324	The relative risks of any lymphedema and sensory loss for the sentinel lymph node biopsy group compared with the standard axillary treatment group at 12 months were 0.37 (95% confidence interval [CI] = 0.23 to 0.60; absolute rates: 5% versus 13%) and 0.37 (95% CI = 0.27 to 0.50; absolute rates: 11% versus 31%), respectively.
+T3	Premise 1325 1578	Drain usage, length of hospital stay, and time to resumption of normal day-to-day activities after surgery were statistically significantly lower in the sentinel lymph node biopsy group (all P < .001), and axillary operative time was reduced (P = .055).
+T4	Premise 1579 1758	Overall patient-recorded quality of life and arm functioning scores were statistically significantly better in the sentinel lymph node biopsy group throughout (all P < or = .003).
+T5	Premise 1759 1869	These benefits were seen with no increase in anxiety levels in the sentinel lymph node biopsy group (P > .05).
+T6	Claim 1870 2115	Sentinel lymph node biopsy is associated with reduced arm morbidity and better quality of life than standard axillary treatment and should be the treatment of choice for patients who have early-stage breast cancer with clinically negative nodes.
+R1	Support Arg1:T2 Arg2:T6	
+R2	Support Arg1:T4 Arg2:T6	
+R3	Support Arg1:T5 Arg2:T6	
+R4	Support Arg1:T3 Arg2:T6	

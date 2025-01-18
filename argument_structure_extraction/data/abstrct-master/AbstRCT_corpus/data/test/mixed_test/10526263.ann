@@ -1,0 +1,12 @@
+T1	Claim 1 173	For several decades, both preoperative intra-arterial chemotherapy and preoperative irradiation have been accepted treatments for patients with tumors of the head and neck.
+T3	Premise 1561 1698	Occurrence of a second carcinoma was 3 times as frequent in the irradiation group (9 patients) as in the chemotherapy group (3 patients).
+T4	Claim 1708 1773	the survival rates were by-and-large the same for the two groups.
+T5	Claim 1774 1873	Regarding postoperative quality of life, the chemotherapy group presented a more favorable picture.
+T6	Claim 1874 2015	The long term survival results subsequent to preoperative intra-arterial chemotherapy or preoperative radiotherapy were practically the same.
+T7	Claim 2016 2162	Regarding postoperative quality of life, patients who underwent intra-arterial chemotherapy appeared to be in a slightly more favorable situation.
+T9	Premise 1263 1409	After 5 years, 18 of the 47 patients who received chemotherapy and 15 of the 48 patients who received irradiation were still alive and tumor free.
+T10	Premise 1410 1560	A few more patients had died of recurrence or regional metastasis in the chemotherapy group (23 patients) than in the irradiation group (20 patients).
+R1	Support Arg1:T9 Arg2:T4	
+R2	Support Arg1:T10 Arg2:T4	
+R3	Support Arg1:T5 Arg2:T7	
+R4	Support Arg1:T4 Arg2:T6	

@@ -1,0 +1,8 @@
+T1	Claim 1872 2010	This study suggests that there was no benefit of Nd:YAG LPI in preventing progression from PDS with OHT to PG within 3 years of follow-up.
+T2	MajorClaim 30 254	neodymium:yttrium-aluminum-garnet (Nd:YAG) laser peripheral iridotomy (LPI) significantly reduces the incidence of conversion from pigment dispersion syndrome (PDS) with ocular hypertension (OHT) to pigmentary glaucoma (PG).
+T3	Premise 1286 1401	Eight eyes (15%) in the laser group and 3 eyes (6%) in the control group converted to glaucoma in the study period.
+T4	Premise 1402 1553	The proportion of eyes started on medical treatment was similar in the 2 groups: 8 eyes (15%) in the laser group and 9 eyes (17%) in the control group.
+T5	Claim 1554 1691	Survival analyses showed no evidence of any difference in time to VF progression or commencement of topical therapy between the 2 groups.
+T6	Premise 1692 1871	Cataract extraction was performed on 1 patient in the laser group and in 1 patient in the control group during the study period (laser eye at 18 months; control eye at 34 months).
+R1	Support Arg1:T6 Arg2:T1	
+R2	Support Arg1:T4 Arg2:T1	

@@ -1,0 +1,7 @@
+T1	Premise 995 1158	Arm symptoms were significantly more bothersome for SNAD compared with SNR patients at 6 months (mean, 4.8 v 3.0; P < .001) and at 12 months (3.6 v 2.5; P = .006).
+T2	Premise 1159 1337	Longitudinally, SNAD patients were more likely to experience ipsilateral arm and breast symptoms, restricted work and social activity, and impaired QOL (P < or = .002 all items).
+T3	Premise 1338 1488	From 12 to 36 months, fewer than 15% of either SNAD or SNR patients reported moderate or greater severity of any given symptom or activity limitation.
+T4	Claim 1489 1539	Arm morbidity was greater with SNAD than with SNR.
+T5	Claim 1614 1698	this study demonstrates that initial problems with either surgery resolve over time.
+R1	Support Arg1:T3 Arg2:T5	
+R2	Support Arg1:T1 Arg2:T4	

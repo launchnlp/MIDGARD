@@ -1,0 +1,9 @@
+T1	Premise 850 1080	Patients who preferred RET improved QoL when they were assigned to receive RET compared with UC (mean difference, 16.5; 95% confidence interval [95% CI], 4.3-28.7; P= .008) or AET (mean difference, 11; 95% CI, -1.1-23.4; P= .076).
+T2	Premise 1081 1233	Patients who had no preference had improved QoL when they were assigned to receive AET compared with RET (mean difference, 23; 95% CI, 4.9-41; P= .014).
+T3	Claim 1680 1846	Patient preference, demographic variables, and medical variables moderated the effects of exercise training in breast cancer patients who were receiving chemotherapy.
+T4	Premise 1481 1618	Unmarried, younger patients who were receiving nontaxane-based therapies and had more advanced disease stage experienced better outcomes.
+T5	Premise 1234 1480	Marital status also moderated QoL response (P= .026), age moderated aerobic fitness response (P= .029), chemotherapy regimen moderated strength gain (P= .009), and disease stage moderated both lean body mass gain (P< .001) and fat loss (P= .059).
+R1	Support Arg1:T1 Arg2:T3	
+R2	Support Arg1:T2 Arg2:T3	
+R3	Support Arg1:T5 Arg2:T3	
+R4	Support Arg1:T4 Arg2:T3	

@@ -1,0 +1,11 @@
+T2	Premise 1630 1903	Survival was inferior at 1 year in the oral etoposide group compared with intravenous therapy (9.8% for oral versus 19.3% for intravenous; difference = 9.5%; 95% confidence interval of difference = 0.3%-18.7%; P<.05), and there was a trend toward inferior overall survival.
+T4	Premise 1904 1993	Median survival was 4.8 months for oral treatment and 5.9 months for intravenous therapy.
+T5	Premise 1994 2166	Progression-free survival was worse in the oral etoposide arm (median = 3.6 months versus 5.6 months; P<.001), as well as overall response rate (32.9% versus 46.3%; P<.01).
+T6	Premise 2167 2256	With the exception of acute nausea and vomiting associated with intravenous chemotherapy,
+T7	Claim 2398 2599	These interim results show that this schedule of oral etoposide is inferior to intravenous chemotherapy in the treatment of advanced SCLC and should not be used as first-line treatment of this disease.
+T8	Premise 2257 2366	all aspects of symptom control and quality of life were either the same or worse in the oral etoposide group.
+R1	Partial-Attack Arg1:T6 Arg2:T8	
+R2	Support Arg1:T8 Arg2:T7	
+R3	Support Arg1:T5 Arg2:T7	
+R4	Support Arg1:T2 Arg2:T7	
+R5	Support Arg1:T4 Arg2:T2	

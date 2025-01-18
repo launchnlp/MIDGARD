@@ -1,0 +1,13 @@
+T1	Claim 1 185	In the context of chronic physical illness, such as breast cancer, depression is associated with increased morbidity, longer periods of hospitalization, and greater overall disability.
+T3	Premise 755 916	After 8-weeks treatment, depressive symptomatology had improved markedly and to a similar extent in both groups on the Montgomery Asberg Depression Rating Scale.
+T4	Premise 917 1172	Clinical global impression (CGI) Global improvement and Patient global evaluation scales indicated that patients were minimally to much improved at study endpoint: a change from moderately/mildly ill to borderline ill on the CGI severity of Illness scale.
+T5	Claim 1173 1246	A steady improvement in quality of life was also observed in both groups.
+T6	Premise 1247 1315	There were no clinically significant differences between the groups.
+T7	Premise 1316 1559	In total, 47 (53.4%) patients in the paroxetine group and 53 (59.6%) patients in the amitriptyline group had adverse experiences, the most common of which were the well-recognized side-effects of the antidepressant medications or chemotherapy.
+T8	Premise 1560 1682	Anticholinergic effects were almost twice as frequent in the amitriptyline group (19.1%) compared with paroxetine (11.4%).
+T9	Claim 1716 1833	paroxetine is a suitable alternative to amitriptyline for the treatment of depression in patients with breast cancer.
+T2	Claim 186 252	Prompt diagnosis and effective treatment is, therefore, essential.
+R1	Support Arg1:T3 Arg2:T9	
+R2	Support Arg1:T6 Arg2:T9	
+R3	Support Arg1:T7 Arg2:T9	
+R4	Support Arg1:T5 Arg2:T9	

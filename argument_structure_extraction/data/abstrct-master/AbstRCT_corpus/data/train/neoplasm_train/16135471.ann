@@ -1,0 +1,9 @@
+T1	Premise 1077 1394	Compared with the intervention group, mean difference scores between the baseline (T1) and immediate after the test (T2) assessments increased significantly more for the control group for worst and average fatigue, Functional Assessment of Cancer Therapy-Fatigue, and Piper fatigue severity and interference measures.
+T2	Premise 1395 1474	These differences were not observed between baseline and T3 and T4 assessments.
+T3	Premise 1475 1658	No significant differences were identified for any pre- or post-test change scores for confidence with managing fatigue, cancer self-efficacy, anxiety, depression, or quality of life.
+T4	Claim 1659 1781	Preparatory education and support has the potential to assist women to cope with cancer-related fatigue in the short term.
+T5	Claim 1782 1948	However, further research is needed to identify ways to improve the potency and sustainability of psychoeducational interventions for managing cancer-related fatigue.
+R1	Partial-Attack Arg1:T5 Arg2:T4	
+R2	Support Arg1:T3 Arg2:T4	
+R3	Support Arg1:T2 Arg2:T4	
+R4	Support Arg1:T1 Arg2:T4	

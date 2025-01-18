@@ -1,0 +1,12 @@
+T1	Claim 1963 2125	The current results and large number of drop-outs in the brimonidine 0.2% arm suggest that more research is necessary before altering clinical practice paradigms.
+T2	Claim 1782 1962	This suggests that the beneficial effect of randomization to the brimonidine arm was independent of possible differences in ocular perfusion pressures between the 2 treatment arms.
+T3	Premise 922 1071	Eyes randomized to timolol progressed faster than those randomized to brimonidine (mean rates of progression, -0.38  0.9 vs 0.02  0.7 dB/y, P < .01).
+T4	Premise 1460 1563	randomization to brimonidine revealed a protective effect (HR = 0.26, 95% CI = 0.12 to 0.55, P < .001).
+T6	Premise 1570 1644	randomization to brimonidine 0.2% was protective compared to timolol 0.5%,
+T7	Premise 1646 1781	ower mean ocular perfusion pressure increased the risk for reaching a progression outcome in the Low-pressure Glaucoma Treatment Study.
+T5	Premise 1141 1451	older age (hazard ratio [HR] = 1.41/decade older, 95% confidence interval [CI] = 1.05 to 1.90, P = .022), use of systemic antihypertensives (HR = 2.53, 95% CI = 1.32 to 4.87, P = .005), and mean ocular perfusion pressure (HR = 1.21/mm Hg lower, 95% CI = 1.12 to 1.31, P < .001) were associated with progression
+R1	Partial-Attack Arg1:T1 Arg2:T2	
+R2	Support Arg1:T6 Arg2:T2	
+R3	Support Arg1:T7 Arg2:T2	
+R4	Support Arg1:T4 Arg2:T2	
+R5	Support Arg1:T3 Arg2:T2	

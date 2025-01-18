@@ -1,0 +1,7 @@
+T1	Claim 1 204	Morbidity associated with wound complications may translate into disability and quality-of-life disadvantages for patients treated with radiotherapy (RT) for soft tissue sarcoma (STS) of the extremities.
+T2	Premise 779 982	Patients treated with postoperative RT had better function with higher MSTS (25.8 v 21.3, P <.01), TESS (69.8 v 60.6, P =.01), and SF-36 bodily pain (67.7 v 58.5, P =.03) scores at 6 weeks after surgery.
+T3	Premise 1031 1194	Scores on the physical function, role-physical, and general health subscales of the SF-36 were significantly lower than Canadian normative data at all time points.
+T6	Premise 1442 1589	When wound complication was included in the model, patients with complications had lower MSTS and TESS scores in the first 2 years after treatment.
+T7	Claim 1590 1689	The timing of RT has minimal impact on the function of STS patients in the first year after surgery
+T8	Claim 1691 1783	Tumor characteristics and wound complications have a detrimental effect on patient function.
+R1	Support Arg1:T6 Arg2:T8	

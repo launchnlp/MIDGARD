@@ -1,0 +1,6 @@
+T1	Premise 878 1010	Among the clinical outcome measures, QOL score improvement was greater for UAE with TAGMs compared with PVA (49.0 vs 27.9; P = .02),
+T2	Premise 1011 1047	but no other differences were noted.
+T3	Premise 1048 1496	Of the 25 patients in whom 3-month MR imaging follow-up was completed, those treated with TAGM were significantly more likely to have complete infarction of all leiomyomas (six patients vs one patient; P = .02), were more likely to have at least 90% tumor infarction (eight patients vs four patients; P = .03), and had a lower mean percent of residual perfused fibroid tumor tissue (9.6% vs 44.3%; P = .004) compared with patients treated with PVA.
+T4	Claim 1593 1730	The use of spherical PVA particles in the manner described herein results in an unacceptably high rate of failed tumor infarction in UAE.
+R1	Partial-Attack Arg1:T2 Arg2:T1	
+R2	Support Arg1:T3 Arg2:T4	

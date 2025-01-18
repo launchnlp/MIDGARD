@@ -1,0 +1,6 @@
+T1	Claim 1901 2005	Our findings suggest that, for most patients, this algorithm-based care can be given by a trained nurse.
+T2	Claim 1714 1900	Patients given targeted intervention following a detailed clinical algorithm had better improvements in radiotherapy-induced gastrointestinal symptoms than did patients given usual care.
+T3	Premise 1576 1713	Outcomes in the nurse group were not inferior to outcomes in the gastroenterologist group (mean difference 1·36, one sided 95% CI -1·48).
+T4	Premise 1368 1575	We recorded the following pair-wise mean difference in change in IBDQ-B score between groups: nurse versus booklet 4·12 (95% CI 0·04-8·19; p=0·04), gastroenterologist versus booklet 5·47 (1·14-9·81; p=0·01).
+R1	Support Arg1:T4 Arg2:T2	
+R2	Support Arg1:T3 Arg2:T1	

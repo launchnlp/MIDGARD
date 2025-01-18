@@ -1,0 +1,5 @@
+T1	Premise 1142 1371	We found significant improvements over time in favor of PPT for the primary outcome general fatigue (P = .01), with significant group differences at month 1 (effect size, 0.26; P = .007) and month 2 (effect size, 0.35; P = .005).
+T2	Premise 1372 1615	Improvements in favor of PPT were also found for the following secondary outcomes: fatigue dimensions "reduced activity" and "reduced motivation," fatigue NRS, symptom burden, interference of fatigue with daily life, and anxiety (all P ≤ .03).
+T3	Claim 1616 1764	In fatigued patients with advanced cancer, nurse-led monitoring and protocolized treatment of physical symptoms is effective in alleviating fatigue.
+R1	Support Arg1:T2 Arg2:T3	
+R2	Support Arg1:T1 Arg2:T3	

@@ -1,0 +1,12 @@
+T1	Claim 1595 1661	Intraperitoneal administration limits cardiotoxicity of verapamil.
+T2	Claim 1458 1594	Intraperitoneal perfusion of verapamil enhances the efficacy of chemotherapy drugs, prolongs survival, and improves the quality of life.
+T3	Premise 762 869	The combined treatment group demonstrated 13 cases of complete remission and 22 cases of partial remission.
+T4	Premise 592 761	The treatment of control group led to 1 case of complete remission and 2 cases of partial remission, making the rate of efficacy (complete + partial remission) of 9.7 %.
+T5	Premise 876 992	the rate of efficacy was significantly higher in the combined treatment group (85.36 %; p < 0.05 vs. control group).
+T6	Premise 1084 1230	The quality of life improved in control group by 13.7 %, while combined treatment group showed improvement of 83.5 % (p < 0.05 vs. control group).
+T7	Premise 1240 1327	cumulative survival rate was also significantly higher in the combined treatment group.
+T8	Premise 1328 1457	Treatment toxicity and the rate of adverse effects and intestinal adhesion were not significantly different between study groups.
+R1	Support Arg1:T8 Arg2:T1	
+R2	Support Arg1:T7 Arg2:T2	
+R3	Support Arg1:T6 Arg2:T2	
+R4	Support Arg1:T5 Arg2:T2	

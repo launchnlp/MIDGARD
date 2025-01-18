@@ -1,0 +1,6 @@
+T1	MajorClaim 193 302	Methods are needed to reduce professional time required while achieving sustained intervention effectiveness.
+T2	Premise 1146 1287	Trained versus control patients reported reduced barriers to pain relief (P<.001), lower usual pain (P=.03), and greater opioid use (P<.001).
+T3	Premise 1288 1384	No pain training patients reported severe pain (>6 on a 0-10 scale) at 1-month outcomes (P=.03).
+T4	Claim 1586 1767	Using video and print materials, with brief individualized training, effectively improved pain management over time for cancer patients of varying diagnostic and demographic groups.
+R1	Support Arg1:T3 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	

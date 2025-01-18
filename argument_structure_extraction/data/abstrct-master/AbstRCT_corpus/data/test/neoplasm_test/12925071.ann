@@ -1,0 +1,11 @@
+T2	Claim 90 179	Postoperative radiochemotherapy (RCT) is recommended for advanced disease (pT3/4 or pN+).
+T6	Premise 1516 1623	Acute toxicity (WHO) of RCT was low, with less than 15% of patients experiencing grade 3 or higher toxicity
+T7	Premise 1625 1799	The principal toxicity was diarrhea, with 12% in the postoperative RCT-arm and 11% in the pre-operative RCT-arm having grade 3-, and 1% in either arm having grade 4-diarrhea.
+T3	Premise 1800 1959	Erythema, nausea and leukopenia were the next common toxicities, with less than 3% of patients in either arm suffering grade 3 or greater leukopenia or nausea.
+T4	Premise 1960 2264	Postoperative complication rates were similar in both arms, with 12% (postop. RCT) and 12% (pre-op. RCT) of patients, respectively, suffering from anastomotic leakage, 3% (postop. RCT) and 3% (pre-op. RCT) from postoperative bleeding, and 6% (postop. RCT) and 4% (pre-op. RCT) from delayed wound healing.
+T5	Claim 2265 2313	The patient accrual to the trial is satisfactory
+T8	Claim 2315 2402	Neoadjuvant RCT is well tolerated and bears no higher risk for postoperative morbidity.
+R1	Support Arg1:T6 Arg2:T8	
+R2	Support Arg1:T7 Arg2:T8	
+R3	Support Arg1:T3 Arg2:T8	
+R4	Support Arg1:T4 Arg2:T8	

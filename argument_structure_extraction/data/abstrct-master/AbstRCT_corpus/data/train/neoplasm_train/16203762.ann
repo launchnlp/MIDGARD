@@ -1,0 +1,5 @@
+T1	Claim 1575 1734	Adverse events during temozolomide treatment included thrombocytopenia, nausea, vomiting, anorexia, constipation, alopecia, headache, fatigue, and convulsions.
+T2	Premise 1472 1574	Median survival was 14.6 months (temozolomide + radiotherapy) versus 12.1 months (radiotherapy alone).
+T3	Premise 1386 1471	The hazard ratio was 0.63 (95% confidence interval, 0.52-0.75; log-rank, P < 0.0001).
+T4	Claim 1266 1385	Patients receiving concomitant and maintenance temozolomide + radiotherapy had significantly improved overall survival.
+R1	Support Arg1:T2 Arg2:T4	

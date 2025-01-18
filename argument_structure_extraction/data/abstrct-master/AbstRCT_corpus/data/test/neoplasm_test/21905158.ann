@@ -1,0 +1,10 @@
+T1	Premise 1013 1163	The PA group reported significant increases in minutes of PA at 3 months (7-day PAR) and caloric expenditure (CHAMPS) compared with the control group,
+T2	Premise 1164 1216	but the group differences were attenuated over time.
+T3	Premise 1217 1321	The PA group showed significant improvements in fitness at 3, 6, and 12 months versus the control group.
+T4	Premise 1322 1415	Improvements in motivational readiness for PA were reported in the PA group only at 3 months.
+T5	Premise 1416 1552	No significant group differences were found for fatigue, self-reported physical functioning, and quality of life at 3, 6, and 12 months.
+T6	Claim 1553 1705	A home-based intervention improved survivors' PA and motivational readiness at 3 months and increased submaximal aerobic fitness at 3, 6, and 12 months.
+R1	Support Arg1:T3 Arg2:T6	
+R2	Support Arg1:T4 Arg2:T6	
+R3	Partial-Attack Arg1:T2 Arg2:T1	
+R4	Support Arg1:T1 Arg2:T6	

@@ -1,0 +1,11 @@
+T1	MajorClaim 1 324	Combined radiation therapy and chemotherapy after surgery, compared with postsurgical radiation therapy alone, has been shown to improve disease-free survival and overall survival significantly among patients with poor-prognosis (i.e., advanced stage disease or metastasis to regional lymph nodes) resectable rectal cancer.
+T2	Claim 325 517	However, the combined therapy is associated with more toxic effects, raising the question of whether the benefits of the treatment justify its quality-of-life costs for the individual patient.
+T3	Premise 1326 1580	As reported previously, the combined therapy reduced the risk of relapse by 34% (95% confidence interval [CI] = 12%-50%; P = .0016) and reduced the overall death rate by 29% (95% CI = 7%-45%; P = .025) in comparison with adjuvant radiation therapy alone.
+T4	Premise 1581 1935	In the 5 years following assignment to treatment, patients who received the combined therapy had more time with toxicity (3.1 months; 95% CI = 2.0-4.1 months), shorter survival after relapse (3.6 months less; 95% CI = 0.9-6.3 months less), and more TWiST (6.1 months; 95% CI = 0.2-12.0 months) than patients who received adjuvant radiation therapy alone.
+T5	Claim 1936 2250	Despite an increase in the amount of time that individuals spent with early and late toxic effects, the Q-TWiST analysis indicated that the combined therapy conferred significantly greater benefit for a wide range of patient preferences about living with the toxicity of treatment or the symptoms of overt disease.
+T6	Claim 2251 2399	Use of combined chemotherapy and radiation therapy as an adjuvant to surgery for patients with poor-prognosis resectable rectal cancer is justified,
+T7	Premise 2400 2539	since the improved outcome in terms of delayed recurrence and increased survival balances the time spent with early and late toxic effects.
+T8	Claim 2540 2653	The Q-TWiST method is an excellent way to compare treatment outcomes that include quality-of-life considerations.
+R1	Support Arg1:T7 Arg2:T6	
+R2	Support Arg1:T4 Arg2:T5	
+R3	Support Arg1:T3 Arg2:T6	

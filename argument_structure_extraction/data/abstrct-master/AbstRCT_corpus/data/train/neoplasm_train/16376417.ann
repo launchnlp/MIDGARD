@@ -1,0 +1,16 @@
+T1	Claim 1 68	Chemotherapy can profoundly affect patients' quality of life (QOL),
+T3	Premise 607 734	Overall (FACT-G) scores did not differ significantly between arms at the fourth assessment (C = 70.3 (19.6); CP = 72.8 (17.4)).
+T4	Premise 735 821	Scores were stable over time and considerably lower than the general population norms.
+T5	Premise 822 917	The BPI-SF revealed a decline in pain scores in both arms from the first to fourth assessments.
+T6	Premise 918 1010	The CP arm produced a significantly higher response rate and progression-free survival (PFS)
+T7	Premise 1011 1041	but not overall survival (OS).
+T8	Premise 1042 1103	Greater myelosuppression was reported in the combination arm.
+T9	Premise 1104 1199	The rate of QOL drop-out for any reason was higher for C (53%) compared to CP (38%) (P < 0.05).
+T10	Claim 1290 1383	There was no significant difference in overall QOL scores between treatment arms or serially.
+T11	Claim 1384 1604	Combined with QOL results, the significant increase in response and PFS in the CP arm and the higher drop-out rate in the C arm suggest a better outcome for the combination regimen despite its increased myelosuppression.
+R1	Support Arg1:T8 Arg2:T11	
+R2	Support Arg1:T6 Arg2:T11	
+R3	Partial-Attack Arg1:T7 Arg2:T6	
+R4	Support Arg1:T5 Arg2:T11	
+R5	Support Arg1:T9 Arg2:T11	
+R6	Support Arg1:T10 Arg2:T11	

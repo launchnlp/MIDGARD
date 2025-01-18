@@ -1,0 +1,13 @@
+T1	Premise 882 1069	FACT-B scores increased after treatment began and remained significantly higher in the tamoxifen group than in the exemestane group or anastrozole group during the first year (P = 0.045).
+T2	Premise 1070 1143	FACT-B scores were similar in the exemestane group and anastrozole group.
+T3	Premise 1144 1208	ES scores and CES-D scores were similar in all treatment groups.
+T5	Premise 1209 1365	Arthralgia and fatigue were less frequent, but vaginal discharge was more frequent in the tamoxifen group than in the exemestane group or anastrozole group.
+T6	Claim 1366 1489	HRQOL was better in Japanese postmenopausal women treated with tamoxifen than those treated with exemestane or anastrozole.
+T7	Claim 1490 1549	HRQOL and AEs were similar with exemestane and anastrozole.
+T8	Claim 1550 1743	Given the results of the TEAM trial, upfront use of tamoxifen followed by an aromatase inhibitor (AI) may be an important option for adjuvant endocrine therapy in Japanese postmenopausal women.
+R1	Support Arg1:T6 Arg2:T8	
+R2	Support Arg1:T7 Arg2:T8	
+R3	Support Arg1:T5 Arg2:T6	
+R4	Support Arg1:T3 Arg2:T7	
+R5	Support Arg1:T2 Arg2:T7	
+R6	Support Arg1:T1 Arg2:T6	

@@ -1,0 +1,4 @@
+T1	Claim 1 142	Anemia, highly common among cancer patients, is often an underlying cause of cancer-related fatigue and other quality-of-life (QOL) deficits.
+T2	Premise 1297 1495	Comparison of the population norm and clinical trial data showed that treatment with epoetin alfa resulted in clinically meaningful as well as statistically significant improvements in QOL (P <.01).
+T3	Claim 1648 1804	In the clinical trial, treatment with epoetin alfa overcame much of the QOL deficit seen in anemic cancer patients compared with the norm population sample.
+R1	Support Arg1:T2 Arg2:T3	

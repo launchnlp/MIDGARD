@@ -1,0 +1,7 @@
+T1	Claim 1270 1435	Latanoprost administered once daily was significantly more effective in reducing IOP compared with unoprostone administered twice daily in patients with POAG and OH.
+T2	Premise 752 879	From an overall baseline of 24.1 mmHg, latanoprost reduced IOP by 6.7 mmHg (28%) and unoprostone reduced IOP by 3.3 mmHg (14%).
+T3	Premise 880 1047	The difference between the groups of 3.4 mmHg was significant (P: < 0.001, analysis of covariance; 95% confidence interval [CI]: -4.7 to -2.1) in favor of latanoprost.
+T4	Premise 1048 1194	A >/=30% reduction in mean IOP from baseline was achieved by 44% of latanoprost-treated patients compared with 8% of unoprostone-treated patients.
+R1	Support Arg1:T4 Arg2:T1	
+R2	Support Arg1:T3 Arg2:T1	
+R3	Support Arg1:T2 Arg2:T1	

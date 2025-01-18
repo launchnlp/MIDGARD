@@ -1,0 +1,12 @@
+T1	Premise 1144 1187	No QOL differences were noted between arms.
+T2	Premise 1188 1308	GE/G Grade 3-4 toxicities included: neutropenia (18.3%/28.2%); thrombocytopenia (14.6%/25.6%); and fatigue (11.0%/7.7%).
+T3	Premise 1309 1408	No statistically significant relationships between biomarker expression and outcomes were observed.
+T4	Premise 1418 1514	patients with low expression of cytoplasmic pGSK-3β trended toward greater OS with GE treatment.
+T5	Premise 1515 1565	OS, PFS, QOL, and RR were comparable between arms.
+T6	Claim 1566 1620	Adding E to G did not increase hematologic toxicities.
+T8	Claim 197 264	Data suggest that the GE combination may improve clinical outcomes.
+R1	Support Arg1:T5 Arg2:T8	
+R2	Support Arg1:T1 Arg2:T8	
+R3	Support Arg1:T6 Arg2:T8	
+R4	Support Arg1:T2 Arg2:T6	
+R5	Support Arg1:T4 Arg2:T8	

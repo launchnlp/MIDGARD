@@ -1,0 +1,12 @@
+T1	Claim 131 268	A colonic J-pouch may reduce excessive stool frequency and incontinence after anterior resection, but at the risk of evacuation problems.
+T2	Claim 269 368	Experimental surgery on pigs has suggested that a coloplasty pouch (CP) may be a useful alternative
+T3	Premise 1187 1306	At 4 months, J-pouch patients had 10.3% less stool fragmentation but poorer stool deferment and more nocturnal leakage.
+T4	Premise 1316 1413	there were no differences in the bowel function, continence score, and quality of life at 1 year.
+T5	Premise 1414 1500	There were no differences in the anorectal manometry and endoanal ultrasound findings.
+T6	Claim 1501 1597	Coloplasty pouches resulted in more anastomotic leaks and minimal differences in bowel function.
+T7	Claim 1610 1674	the J-pouch remains the benchmark for routine clinical practice,
+T8	Claim 1679 1767	due care (including defunctioning stoma) should be exercised in situations requiring CP.
+R1	Support Arg1:T4 Arg2:T6	
+R2	Support Arg1:T3 Arg2:T1	
+T9	Premise 1148 1186	CP resulted in more anastomotic leaks.
+R3	Support Arg1:T9 Arg2:T6	

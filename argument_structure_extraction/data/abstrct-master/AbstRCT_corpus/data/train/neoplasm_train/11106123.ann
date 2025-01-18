@@ -1,0 +1,12 @@
+T1	Premise 1620 1768	After a median follow-up time of 62 (range 18-108) weeks, the median time to progression was 38, 25, and 27 weeks for arm A, B, and C, respectively.
+T2	Premise 1769 1872	With 94 patients still alive, the one-year probability of survival was 61%, 54%, and 59%, respectively.
+T3	Premise 1873 1995	WHO grade 3 or 4 neutropenia and diarrhoea affected 46% and 16%, respectively, of patients treated with CPT-11 + LFA 5-FU.
+T4	Premise 1996 2087	Median relative dose intensity over eight cycles (DI8) was 78% for CPT-11 and 82% for 5-FU.
+T5	Premise 2088 2226	Severe toxicities of TOM + LFA-5-FU were neutropenia (16%) and diarrhoea (16%), but median relative DI8 was 93% for TOM, and 82% for 5-FU.
+T6	Premise 2227 2377	CPT-11 + LFA-5-FU compares favorably in term of activity and toxicity with other combination regimens including CPT-11 and continuous infusional 5-FU.
+T7	Claim 2378 2495	The hypothesis of a RR 15% higher than the MTX + LFA-5-FU treatment can not be ruled out after this interim analysis.
+T8	Claim 2496 2683	The TOM + LFA 5-FU regimen showed a RR and a toxicity profile very close to the MTX + LFA 5-FU combination, and does not deserve further evaluation in advanced colorectal cancer patients.
+R1	Support Arg1:T1 Arg2:T8	
+R2	Support Arg1:T2 Arg2:T8	
+R3	Support Arg1:T3 Arg2:T8	
+R4	Support Arg1:T5 Arg2:T8	

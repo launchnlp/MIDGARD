@@ -1,0 +1,14 @@
+T1	Premise 881 968	Grades 3 to 4 hematologic toxicity and fatigue occurred more frequently in the TCG arm.
+T2	Claim 982 1064	quality-of-life analysis during chemotherapy showed a disadvantage in the TCG arm.
+T3	Premise 1065 1128	Although objective response was slightly higher in the TCG arm,
+T4	Premise 1129 1223	this did not translate into improved progression-free survival (PFS) or overall survival (OS).
+T5	Premise 1224 1357	Median PFS was 17.8 months for the TCG arm and 19.3 months for the TC arm (hazard ratio [HR], 1.18; 95% CI, 1.06 to 1.32; P = .0044).
+T6	Premise 1358 1468	Median OS was 49.5 for the TCG arm and 51.5 months for the TC arm (HR, 1.05; 95% CI, 0.91 to 1.20; P = .5106).
+T7	Claim 1469 1649	The addition of gemcitabine to carboplatin plus paclitaxel increased treatment burden, reduced PFS time, and did not improve OS in patients with advanced epithelial ovarian cancer.
+T8	MajorClaim 1650 1727	Therefore, we recommend no additional clinical use of TCG in this population.
+R1	Support Arg1:T7 Arg2:T8	
+R2	Support Arg1:T6 Arg2:T7	
+R3	Support Arg1:T5 Arg2:T7	
+R4	Partial-Attack Arg1:T4 Arg2:T3	
+R6	Support Arg1:T2 Arg2:T8	
+R7	Support Arg1:T1 Arg2:T2	

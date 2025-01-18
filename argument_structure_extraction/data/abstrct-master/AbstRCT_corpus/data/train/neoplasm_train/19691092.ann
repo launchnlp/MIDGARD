@@ -1,0 +1,13 @@
+T1	Premise 928 969	No late arising QOL issues were observed.
+T2	Premise 676 766	Regardless of treatment arm, participants reported high levels of QOL with few exceptions.
+T3	Premise 767 927	cryoablation was associated with more acute urinary dysfunction (mean PCI urinary function cryoablation=69.4; mean EBRT=90.7; P<.001), which resolved over time.
+T4	Premise 970 1168	Both EBRT and cryoablation participants reported decreases in sexual function at 3 months with the cryoablation patients reporting poorer functioning (mean cryoablation=7.2: mean EBRT=32.9; P<.001).
+T5	Premise 1169 1341	Mean sexual function score was 15 points lower at 3 years for the cryoablation group and 13% more of the cryoablation men said that sexuality was a moderate or big problem.
+T6	Claim 1342 1428	In this randomized trial, no long-term QOL advantage for either treatment was apparent
+T7	Claim 1429 1518	with the exception of poorer sexual function reported by those treated with cryoablation.
+R1	Partial-Attack Arg1:T7 Arg2:T6	
+R2	Support Arg1:T5 Arg2:T7	
+R3	Support Arg1:T4 Arg2:T7	
+R4	Support Arg1:T2 Arg2:T6	
+R5	Support Arg1:T3 Arg2:T6	
+R6	Support Arg1:T1 Arg2:T6	

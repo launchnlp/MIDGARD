@@ -1,0 +1,19 @@
+T2	Premise 668 850	Brimonidine-treated subjects showed an overall mean peak reduction in intraocular pressure (IOP) of 6.5 mm Hg; timolol-treated subjects had a mean peak reduction in IOP of 6.1 mm Hg.
+T3	Premise 851 948	Brimonidine lowered mean peak IOP significantly more than timolol at week 2 and month 3 (P < .03)
+T4	Premise 1085 1139	No evidence of tachyphylaxis was seen in either group.
+T5	Premise 1140 1200	Allergy was seen in 9% of subjects treated with brimonidine.
+T6	Premise 1201 1311	Dry mouth was more common in the brimonidine-treated group than in the timolol-treated group (33.0% vs 19.4%),
+T8	Premise 1455 1518	Headache, fatigue, and drowsiness were similar in the 2 groups.
+T10	Claim 1575 1646	Brimonidine is safe and effective in lowering IOP in glaucomatous eyes.
+T11	Claim 1647 1776	Brimonidine provides a sustained long-term ocular hypotensive effect, is well tolerated, and has a low rate of allergic response.
+R1	Support Arg1:T8 Arg2:T10	
+R2	Support Arg1:T8 Arg2:T11	
+T1	Premise 1316 1454	complaints of burning and stinging were more common in the timolol-treated group (41.9%) than in the brimonidine-treated patients (28.1%).
+R3	Support Arg1:T5 Arg2:T10	
+R4	Support Arg1:T5 Arg2:T11	
+R5	Support Arg1:T4 Arg2:T10	
+R6	Support Arg1:T4 Arg2:T11	
+R7	Support Arg1:T3 Arg2:T10	
+R8	Support Arg1:T3 Arg2:T11	
+R9	Support Arg1:T2 Arg2:T10	
+R10	Support Arg1:T2 Arg2:T11	

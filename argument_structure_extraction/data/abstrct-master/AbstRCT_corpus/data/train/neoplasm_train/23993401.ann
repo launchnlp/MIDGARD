@@ -1,0 +1,13 @@
+T1	Premise 778 903	55.6% patients treated over 4 days and 33.3% of patients treated over 11 days experienced acute grade ≥ 2 toxicity (p=0.085).
+T2	Premise 904 985	Dyspnea, fatigue and coughing domains were worse in the 11 day group at baseline.
+T3	Premise 986 1202	At 1 and 4 months, more patients in the 4 day group experienced a clinically meaningful worsening in the dyspnea QOL domain compared to the 11 day group (44.5% vs 15.4%, p=0.02; 38.5% vs 12.0%, p=0.03, respectively).
+T4	Premise 1203 1292	However, raw QOL scores were not different at these time-points between treatment groups.
+T5	Claim 1293 1399	Grade 2 or higher acute toxicity was more common in the 4 day group, approaching statistical significance.
+T6	Claim 1400 1497	More patients treated on 4 consecutive days reported a clinically meaningful increase in dyspnea,
+T7	Claim 1498 1605	although interpretation of these results is challenging due to baseline imbalance between treatment groups.
+T8	Claim 1606 1660	Larger studies are required to validate these results.
+R1	Partial-Attack Arg1:T7 Arg2:T6	
+R2	Partial-Attack Arg1:T8 Arg2:T6	
+R3	Support Arg1:T1 Arg2:T5	
+R4	Support Arg1:T2 Arg2:T6	
+R5	Support Arg1:T3 Arg2:T6	

@@ -1,0 +1,7 @@
+T1	Premise 1382 1568	Results tended to decline at 12 months and even more at 24 months, though at all times, they were as robust in women with lower expectation of effect as in those with higher expectation.
+T2	Claim 1569 1727	The MBSR intervention appears to benefit psychosocial adjustment in cancer patients, over and above the effects of usual care or a credible control condition.
+T3	MajorClaim 1728 1896	The universality of effects across levels of expectation indicates a potential to utilize this stress reduction approach as complementary therapy in oncologic practice.
+T4	Premise 1154 1381	Secondary outcome improvements resulting in significant between-group contrasts favoring the MBSR group at 4 months included meaningfulness, depression, paranoid ideation, hostility, anxiety, unhappiness, and emotional control.
+R1	Support Arg1:T4 Arg2:T2	
+R2	Partial-Attack Arg1:T1 Arg2:T2	
+R3	Support Arg1:T2 Arg2:T3	

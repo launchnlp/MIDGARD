@@ -1,0 +1,14 @@
+T1	Claim 1 163	Bone metastases occur in most women with advanced breast cancer and can lead to considerable morbidity and a rapid deterioration in the patient's quality of life.
+T2	Premise 917 958	Ibandronate was generally well tolerated.
+T3	Premise 959 1101	Compared with baseline measurements, the bone pain score was increased at the last assessment in both the placebo and 2 mg ibandronate groups,
+T4	Premise 1102 1201	but was significantly reduced in the patients receiving 6 mg ibandronate (-0.28+/-1.11, P < 0.001).
+T5	Premise 1202 1342	A significant improvement in quality of life was demonstrated for patients treated with ibandronate (P < 0.05) for all global health status.
+T6	Premise 1343 1616	Overall, at the last assessment, the 6 mg ibandronate group showed significantly better functioning compared with placebo (P = 0.004), and had significantly better scores on the domains of physical, emotional, and social functioning, and in global health status (P < 0.05).
+T7	Premise 1617 1727	Significant improvements in the symptoms of fatigue and pain were also observed in the 6 mg ibandronate group.
+T8	Claim 1728 1923	I.v. ibandronate treatment leads to significant improvements in quality of life, and is an effective and well-tolerated palliative treatment in patients with bone metastases due to breast cancer.
+R1	Support Arg1:T7 Arg2:T8	
+R2	Support Arg1:T2 Arg2:T8	
+R3	Partial-Attack Arg1:T4 Arg2:T3	
+R4	Support Arg1:T3 Arg2:T8	
+R5	Support Arg1:T5 Arg2:T8	
+R6	Support Arg1:T6 Arg2:T8	

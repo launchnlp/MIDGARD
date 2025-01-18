@@ -1,0 +1,9 @@
+T1	Premise 967 1134	In the bimatoprost-treated group, the IOP reduction was 6.2 +/- 1.8 mmHg, whereas it was 6.5 +/- 2.3 mmHg in the timolol-dorzolamide group after 6 months of treatment.
+T2	Premise 1196 1313	The IOP-lowering efficacies of bimatoprost and timolol-dorzolamide combination were similar over a 6-month follow-up.
+T3	Claim 1314 1391	Both bimatoprost and the timolol-dorzolamide combination were well tolerated.
+T4	Claim 1392 1497	Bimatoprost can be used as a longterm monotherapy agent in the treatment of POAG and ocular hypertension.
+R1	Support Arg1:T3 Arg2:T4	
+R2	Support Arg1:T2 Arg2:T4	
+T5	Premise 1135 1195	The difference was not statistically significant (p = 0.48).
+R3	Attack Arg1:T5 Arg2:T1	
+R4	Support Arg1:T1 Arg2:T4	

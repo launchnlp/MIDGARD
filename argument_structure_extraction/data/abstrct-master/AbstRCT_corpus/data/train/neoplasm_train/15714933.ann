@@ -1,0 +1,11 @@
+T1	Premise 1016 1212	TSS improved in 49 patients (77%) on regimen 1, and in 57 (92%) patients on regimen 2, a difference of 15% (95% confidence interval [CI] 3-28) in the proportion improving between the two regimens.
+T2	Premise 1213 1421	A complete resolution of all symptoms was achieved in three (5%) on regimen 1, and in 14 (23%) patients on regimen 2 (P < 0.001), a difference in the proportion between the two regimens of 21% (95% CI 10-33).
+T3	Premise 1422 1557	A significantly higher proportion of patients experienced palliation and complete resolution of chest pain and dyspnoea with regimen 2.
+T4	Premise 1558 1599	No differences were observed in toxicity.
+T5	Premise 1600 1690	The median survival was 22.7 weeks for regimen 1 and 28.3 weeks for regimen 2 (P = 0.197).
+T6	Claim 1691 1795	Although this trial met the pre-determined criteria for equivalence between the two palliative regimens,
+T7	Claim 1796 1937	significantly more patients achieved complete resolution of symptoms and palliation of chest pain and dyspnoea with the fractionated regimen.
+R1	Support Arg1:T6 Arg2:T7	
+R2	Support Arg1:T3 Arg2:T7	
+R3	Support Arg1:T2 Arg2:T7	
+R4	Support Arg1:T1 Arg2:T7	

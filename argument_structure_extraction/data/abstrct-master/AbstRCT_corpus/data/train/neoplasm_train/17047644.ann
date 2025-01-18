@@ -1,0 +1,13 @@
+T1	Premise 1136 1226	There were no significant group differences in global QoL, pain or fatigue up to 26 weeks.
+T2	Premise 1227 1308	The dyspnoea palliation rate was lower in the C3 arm at 18 and 26 weeks (P<0.05),
+T3	Premise 1309 1380	but this finding was inconsistent across different methods of analysis.
+T4	Premise 1381 1484	Median survival in the C3 group was 28 vs 32 weeks in the C6 group (P=0.75, HR 1.04, 95% CI 0.82-1.31).
+T5	Premise 1485 1579	One- and 2-year survival rates were 25 and 9% vs 25 and 5% in the C3 and C6 arm, respectively.
+T6	Premise 1580 1707	Median progression-free survival was 16 and 21 weeks in the C3 and C6 groups, respectively (P=0.21, HR 0.86, 95% CI 0.68-1.08).
+T7	Claim 1708 1866	In conclusion, palliative chemotherapy with carboplatin and vinorelbine beyond three courses conveys no survival or consistent QoL benefits in advanced NSCLC.
+R1	Support Arg1:T6 Arg2:T7	
+R2	Support Arg1:T5 Arg2:T7	
+R3	Support Arg1:T4 Arg2:T7	
+R4	Attack Arg1:T3 Arg2:T2	
+R5	Support Arg1:T1 Arg2:T7	
+R6	Support Arg1:T2 Arg2:T7	

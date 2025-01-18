@@ -1,0 +1,23 @@
+T1	Premise 989 1175	At a median follow-up of 3.9 years, the estimated 4-year recurrence-free survival rate was 67.5% with the 16-week regimen versus 62.7% with CAF (P = .19, two-sided; P = .095, one-sided).
+T2	Premise 1176 1309	The estimated 4-year survival rate was 78.1% with the 16-week regimen versus 71.4% with CAF (P = .10, two-sided; P = .05, one-sided).
+T3	Premise 1310 1444	CAF produced significantly higher grades of leukopenia, granulocytopenia, and thrombocytopenia, as well as liver and cardiac toxicity,
+T4	Premise 1453 1592	the 16-week regimen produced significantly higher grades of anemia, nausea, stomatitis, and weight loss, as well as skin and neurotoxicity.
+T5	Premise 1593 1643	There were three treatment-related deaths with CAF
+T6	Premise 1644 1678	but none with the 16-week regimen.
+T7	Premise 1679 1775	During treatment, quality of life declined significantly more with the 16-week regimen than CAF,
+T8	Premise 1776 1831	but by 4 months posttreatment, there was no difference.
+T9	Premise 1832 1993	The 16-week regimen produced marginally better breast cancer outcomes than CAF with similar toxicity but a greater reduction in during-treatment quality of life.
+T11	Claim 1994 2177	The 16-week regimen should not be used instead of a standard-dose regimen without careful consideration of the 16-week regimen's pros and cons, which include its complicated schedule.
+T12	Claim 2178 2219	It should probably not be tested further,
+T13	Claim 2220 2361	but its antimetabolite schedules and frequent drug administration (ie, dose density) should be considered in the development of new regimens.
+R2	Partial-Attack Arg1:T8 Arg2:T7	
+R3	Partial-Attack Arg1:T6 Arg2:T5	
+R4	Support Arg1:T9 Arg2:T11	
+R5	Support Arg1:T7 Arg2:T11	
+R6	Support Arg1:T5 Arg2:T11	
+R7	Support Arg1:T4 Arg2:T11	
+R8	Support Arg1:T3 Arg2:T11	
+R9	Support Arg1:T2 Arg2:T11	
+R1	Partial-Attack Arg1:T13 Arg2:T12	
+R10	Partial-Attack Arg1:T12 Arg2:T11	
+R11	Support Arg1:T1 Arg2:T11	

@@ -1,0 +1,10 @@
+T1	Claim 1918 1990	LRH provided lower pain scores after 36 h of observation in this series.
+T2	Claim 1991 2091	The perioperative and serious postoperative complications ratios were comparable between the groups.
+T3	Premise 1722 1867	LRH group mean pain score was significantly lower than ARH after 36 h of observation (P = 0.044; mean difference score: 1.42; 95% CI: 0.04-2.80).
+T4	Premise 1630 1721	The relative risk of presenting with complications was 0.70; CI 95% (0.23-2.11); P = 0.694.
+T5	Premise 1563 1629	All of the transoperative complications occurred in the LRH group.
+T6	Premise 1418 1562	Four patients (25%) in the LRH group and 5 patients (36%) in the ARH group presented with transoperative or serious postoperative complications.
+T7	MajorClaim 44 214	the postoperative complications of (Campos LS, Limberger LF, Stein AT, Kalil AN) laparoscopic radical hysterectomy are similar to those in abdominal radical hysterectomy.
+R1	Support Arg1:T3 Arg2:T1	
+R2	Support Arg1:T4 Arg2:T2	
+R3	Support Arg1:T6 Arg2:T2	

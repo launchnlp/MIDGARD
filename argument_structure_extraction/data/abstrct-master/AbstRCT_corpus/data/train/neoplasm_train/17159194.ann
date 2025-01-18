@@ -1,0 +1,11 @@
+T1	Premise 731 902	Overall, patients receiving goserelin alone showed a marked improvement or less deterioration in QOL measures over the first 6 months than those patients treated with CMF.
+T2	Premise 903 1010	There were no differences at 3 years after random assignment according to treatment except for hot flashes.
+T3	Premise 1011 1121	As reflected in the hot flashes scores, patients in all three treatment groups experienced induced amenorrhea,
+T4	Premise 1122 1225	but the onset of ovarian function suppression was slightly delayed for patients receiving chemotherapy.
+T5	Premise 1226 1460	Younger patients (< 40 years) who received goserelin alone returned to their premenopausal status at 6 months after the cessation of therapy, while those who received CMF showed marginal changes from their baseline hot flashes scores.
+T7	Claim 1461 1812	Age-adjusted risk profiles that consider patient-reported outcomes enable patients to adapt to their disease and treatment, such as considering the trade-offs between delayed endocrine symptoms, but higher risk of permanent menopause with chemotherapy, and immediate but reversible endocrine symptoms with goserelin, in younger premenopausal patients.
+R1	Support Arg1:T5 Arg2:T7	
+R2	Partial-Attack Arg1:T4 Arg2:T3	
+R3	Support Arg1:T3 Arg2:T7	
+R4	Support Arg1:T2 Arg2:T7	
+R5	Support Arg1:T1 Arg2:T7	

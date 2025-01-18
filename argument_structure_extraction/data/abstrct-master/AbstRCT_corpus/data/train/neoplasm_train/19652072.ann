@@ -1,0 +1,7 @@
+T1	Premise 1082 1236	The most common grade 3 treatment-related AEs were asthenia/fatigue (16%), diarrhea (11%), hypertension (11%), hand-foot syndrome (9%), and anorexia (8%).
+T2	Premise 1386 1490	Efficacy, tolerability, and quality-of-life results were similar between patients dosed in the AM or PM.
+T3	Claim 1491 1699	Sunitinib 37.5 mg, administered on a continuous once-daily dosing regimen, has a manageable safety profile as second-line mRCC therapy, providing flexible dosing, which can be explored in combination studies.
+T4	Premise 1292 1385	Median PFS and OS were 8.2 and 19.8 months, respectively, at median follow-up of 26.4 months.
+R1	Support Arg1:T2 Arg2:T3	
+R2	Support Arg1:T4 Arg2:T3	
+R3	Support Arg1:T1 Arg2:T3	

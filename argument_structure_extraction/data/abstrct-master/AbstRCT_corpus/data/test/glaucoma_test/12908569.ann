@@ -1,0 +1,26 @@
+T1	Claim 2524 2588	It has a safe systemic profile with minimum effect on the heart.
+T2	Premise 892 1018	The IOP readings after treatment were significantly lower than their baseline levels in both groups at all visits (p < 0.001).
+T3	Premise 771 891	At baseline, the mean IOP was 24.48 +/- 2.29 mmHg in the brimonidine group and 23.32 +/- 0.82 mmHg in the timolol group.
+T4	Premise 1019 1200	At peak, the mean decreases from the baseline IOP ranged from 5.22 +/- 0.30 mmHg to 6.96 +/- 0.33 mmHg for brimonidine and from 4.55 +/- 0.49 mmHg to 6.64 +/- 0.53 mmHg for timolol.
+T5	Premise 1201 1371	At trough, the mean decreases from baseline ranged from 3.72 +/- 0.32 mmHg to 4.55 +/- 0.32 mmHg for brimonidine and 3.82 +/- 0.52 mmHg to 4.27 +/- 0.51 mmHg for timolol.
+T6	Premise 1456 1621	The clinical success rate was 86.2% in the brimonidine group and 81.8% in the timolol group, making no statistically significant difference between them (p = 0.817).
+T7	Premise 1622 1725	17.2% of patients in brimonidine group and 9.0% patients in timolol group reported mild adverse events.
+T8	Premise 1726 1792	Ocular allergy occurred in 10.3% of patients in brimonidine group.
+T9	Premise 1793 1895	No significant changes in visual acuity, biomicroscopy or ophthalmoscopy were observed in both groups.
+T10	Premise 1896 1980	Mean systolic and diastolic blood pressure remained relatively stable in both groups
+T11	Premise 2234 2361	Patients receiving timolol experienced statistically significant mean heart rate decreases from baseline (p = 0.020) in week 4.
+T12	Claim 2362 2523	Topically applied twice daily for one month, brimonidine tartrate 0.2% has clinical effectiveness equivalent to timolol 0.5% in Taiwanese patients with glaucoma.
+T13	Premise 2141 2233	The mean heart rate in the brimonidine group was relatively unchanged over the study period.
+R1	Support Arg1:T13 Arg2:T1	
+R2	Support Arg1:T11 Arg2:T1	
+T14	Premise 1981 2061	except in week 2 (p = 0.016) when brimonidine had lower systolic blood pressure.
+R3	Partial-Attack Arg1:T14 Arg2:T10	
+R4	Support Arg1:T9 Arg2:T1	
+R5	Support Arg1:T8 Arg2:T1	
+R6	Support Arg1:T10 Arg2:T12	
+R7	Support Arg1:T7 Arg2:T1	
+R8	Support Arg1:T6 Arg2:T12	
+R9	Support Arg1:T5 Arg2:T12	
+R10	Support Arg1:T4 Arg2:T12	
+R11	Support Arg1:T2 Arg2:T12	
+R12	Support Arg1:T3 Arg2:T12	

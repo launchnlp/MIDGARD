@@ -1,0 +1,9 @@
+T1	Premise 862 1009	The mean IOP levels of latanoprost/timolol (13.83, SD = 2.54) was significantly lower than of bimatoprost (16.16, SD = 3.28; P < 0.0001) at week 8.
+T2	Premise 1016 1181	the change in mean IOP values was significantly higher in the latanoprost/timolol group at 10:00 am (P = 0.013) and 12:00 pm (P = 0.01), but not at 8:00 am (P = ns).
+T3	Premise 1317 1401	there was a significant decrease in mean heart rate in the latanoprost/timolol group
+T4	Premise 1412 1504	no significant changes in blood pressure and lung spirometry were observed in either groups.
+T5	Claim 1505 1643	The fixed combination of latanoprost/timolol was significantly superior to bimatoprost alone in reducing IOP in patients with POAG or OHT.
+T6	Claim 1644 1813	Further studies with large sample sizes should be taken to support the superior efficacy of latanoprost/timolol, as well as to better assess its profile of side effects.
+R1	Partial-Attack Arg1:T6 Arg2:T5	
+R2	Support Arg1:T2 Arg2:T5	
+R3	Support Arg1:T1 Arg2:T5	

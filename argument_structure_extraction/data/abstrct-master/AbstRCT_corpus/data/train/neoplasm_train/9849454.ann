@@ -1,0 +1,10 @@
+T1	Premise 1149 1214	Complete remission was achieved in 91% (170/186) of all patients.
+T2	Premise 1215 1380	With a median follow-up of 8 years, the 5-year overall survival was 68% (+/- 3% standard error of the mean (SEM) and the 5-year event-free survival 53% (+/- 4% SEM).
+T3	Premise 1381 1506	These results show an improvement over previous SIOP study (RMS75) in which survival was 52% and event-free survival was 47%.
+T4	Premise 1507 1699	Among the 54 patients who exhibited isolated local relapse, 35% (19/54) survived in further remission longer than 2 years after retreatment, including local therapy (surgery +/- radiotherapy).
+T5	Claim 2258 2522	Compared with the results obtained in the previous SIOP study, treatment in MMT84 was based on response to initial chemotherapy and, despite an overall reduction of the use of local therapy, significantly improved survival for patients with non-metastatic disease.
+T6	Claim 2523 2655	This trial, also for the first time, provides evidence that retreatment after local relapse can achieve long-term second remissions.
+R1	Support Arg1:T1 Arg2:T6	
+R2	Support Arg1:T4 Arg2:T6	
+R3	Support Arg1:T3 Arg2:T5	
+R4	Support Arg1:T2 Arg2:T5	
