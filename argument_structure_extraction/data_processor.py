@@ -3,9 +3,8 @@
 '''
 
 import os
-import random
 import json
-import jsonlines
+import random
 import networkx as nx
 import pandas as pd
 from typing import List, Tuple, Union, Dict
