@@ -6,7 +6,6 @@ import networkx as nx
 from networkx import DiGraph
 from ast import literal_eval
 from typing import List, Tuple, Dict, Callable
-from data_processor import Node
 
 def longest_common_contiguous_sequence(list1, list2):
     '''
@@ -49,8 +48,8 @@ def data_to_io(
             output_list.append(prompt_fn(node))
         else:
             
-            # prompt function must not be simple_prompt
-            assert(prompt_fn != simple_prompt and type(force_component_identification) == str)
+            # check if the force component identification is a string
+            assert(type(force_component_identification) == str)
             output_string = prompt_fn(node)
             output_string_elements = output_string.split(force_component_identification)
             if len(output_string_elements) == 1:
@@ -239,40 +238,6 @@ def few_shot_chat_prompt(input_list: List[str], output_list: List[str], system_p
         messages.append({'role': 'assistant', 'content': output})
     return messages
 
-
-def simple_prompt(node: Node, node_identity: bool = True) -> str:
-    '''
-        Simplest form of prompting - Converts node into a list
-        1 Major claim
-        1.1. (supports) claim
-        1.1.1. (attacks) premise
-        1.1.2. (attacks) premise
-        1.2. (attacks) claim
-        Will not be used newer version to be implemented
-    '''
-
-    prompt = ''
-    
-    # major claim
-    assert(node.type == 'MajorClaim')
-    for text in node.text:
-        prompt += 'Major Claim: {}\n'.format(text)
-
-    # recursive function for rendering claim and premises
-    def render(node: Node, prefix: str) -> str:
-        return_str = ''
-        for index, (child, stance) in enumerate(node.children):
-            assert(child.type == 'Claim' or child.type == 'Premise')
-            prefix_index = prefix + str(index+1) + '.'
-            return_str += '{} ({}) {}: {}\n'.format(prefix_index, stance, (child.type if node_identity else 'Claim'), child.text)
-            return_str += render(child, prefix_index)
-        return return_str
-    
-    # render the claims and premises
-    prompt += render(node, '1.')
-
-    return prompt
-
 def convert_declarations_to_prompt(node_declarations: Dict[str, str], edge_declarations: List[dict] = None) -> str:
     '''
         Converts the node and edge declarations to prompt
@@ -288,53 +253,6 @@ def convert_declarations_to_prompt(node_declarations: Dict[str, str], edge_decla
 
     return prompt
     
-
-def code_prompt(node: Node, node_identity: bool = True) -> str:
-    '''
-        Code prompt for the essay dataset using the strategy described in the paper
-        "Language Models of Code are Few-Shot Commonsense Learners"
-        Will not be used - newer version is implemented below
-    '''
-
-    node_declarations = []
-    edge_declarations = []
-
-    assert(node.type == 'MajorClaim')
-    # adding the node declaration
-    node_name = node.type + '_' + str(len(node_declarations))
-    node_declarations.append({
-        'name': node_name,
-        'text': node.text
-    })
-
-    # recursive function for finding all the nodes and edges
-    def populate_declarations(node: Node, parent_node_name: str) -> None:
-        for child, stance in node.children:
-            assert(child.type == 'Claim' or child.type == 'Premise')
-
-            # adding the node declaration
-            node_name = (child.type if node_identity else 'Claim') + '_' + str(len(node_declarations))
-            node_declarations.append({
-                'name': node_name,
-                'text': child.text
-            })
-
-            # adding the edge declaration
-            edge_declarations.append({
-                'from': parent_node_name,
-                'to': node_name,
-                'stance': stance
-            })
-
-            # recursive call
-            populate_declarations(child, node_name)
-
-    # populate the node and edge declarations
-    populate_declarations(node, node_name)
-
-    # creating the prompt
-    return convert_declarations_to_prompt(node_declarations, edge_declarations)
-
 def code_prompt_nx(node: DiGraph, node_identity: bool = True, edge_prediction: bool = True, ignore_node_list: List[str] = [], add_cot: bool = False) -> str:
     '''
         Code prompt for the essay dataset using the strategy described in the paper
@@ -371,61 +289,6 @@ def code_prompt_nx(node: DiGraph, node_identity: bool = True, edge_prediction: b
                 prompt += '\t\tadd_edge({}, {}, {})\n'.format(node_names[edge[0]], node_names[edge[1]], node.edges[edge]['stance'])
     return prompt
 
-
-def simple_prompt_postprocessor(response: str) -> Tuple[Dict[str, str], List[dict]]:
-    '''
-        Postprocessor for simple prompt
-    '''
-
-    # elements to be returned
-    node_declarations = dict()
-    edge_declarations = []
-
-    # parsing the response
-    elements = response.split('\n')
-    for element in elements:
-
-        # if its an empty line
-        if element.strip() == '':
-            continue
-        
-        # if its a major Claim
-        if element.startswith('Major Claim'):
-            node_content = ': '.join(element.strip().split(': ')[1:]) 
-            key = '1.' if '1.' not in node_declarations else '0.'
-            node_declarations[key] = {
-                'type': 'MajorClaim',
-                'text': re.sub(r'[^\w\s]', '', node_content).lower().strip()
-            }
-
-        # if its a claim or premise
-        else:
-            node_identity = element.strip().split(': ')[0]
-            node_content = ': '.join(element.strip().split(': ')[1:])
-            if len(node_identity.strip().split(' ')) < 3: continue
-            node_id, stance, node_type = node_identity.strip().split(' ')[:3]
-            stance = stance[1:-1]
-            node_declarations[node_id] = {
-                'type': node_type if node_type in ['Claim', 'Premise'] else 'Claim',
-                'text': re.sub(r'[^\w\s]', '', node_content).lower().strip()
-            }
-
-            # adding the edge declaration
-            parent_node_id = node_id[:-2]
-            if parent_node_id in ['1.', '0.']:
-                from_node = 'MajorClaim'
-            elif len(parent_node_id) <= 2 and parent_node_id not in node_declarations:
-                from_node = 'MajorClaim'
-            else:
-                from_node = node_declarations[parent_node_id]['text']
-            to_node = node_declarations[node_id]['text']
-            edge_declarations.append({
-                'from': from_node,
-                'to': to_node,
-                'stance': stance
-            })
-    
-    return node_declarations, edge_declarations
 
 def code_prompt_postprocessor(response: str, MajorClaim_postprocessor: bool = True) -> Tuple[Dict[str, Dict[str, str]], List[dict]]:
     '''
@@ -554,9 +417,9 @@ def seq_label_generator(
 
 if __name__ == '__main__':
 
-    with open('/home/inair/data/ArgumentAnnotatedEssays-2.0/brat-project-final/essay002.ann', 'r') as f:
+    with open('data/ArgumentAnnotatedEssays-2.0/brat-project-final/essay002.ann', 'r') as f:
         graph_info = f.readlines()
-    with open('/home/inair/data/ArgumentAnnotatedEssays-2.0/brat-project-final/essay002.txt', 'r') as f:
+    with open('data/ArgumentAnnotatedEssays-2.0/brat-project-final/essay002.txt', 'r') as f:
         essay = f.read()
     from data_processor import essay_parser_nx
     graph_info = essay_parser_nx(graph_info)
@@ -564,6 +427,7 @@ if __name__ == '__main__':
     from pprint import pprint
     for i in range(5):
         print('Generation: {}'.format(i))
+        pprint(generation[i]['input_list'])
         pprint(len(generation[i]['input_list']))
         print('=====================')
     print('=====================')
@@ -572,5 +436,4 @@ if __name__ == '__main__':
     # from seqeval.metrics import classification_report, performance_measure
     # pprint(classification_report([labels], [labels], output_dict=True))
     # pprint(performance_measure([labels], [labels]))
-    exit()
 

@@ -7,17 +7,30 @@ import copy
 from argparse import ArgumentParser
 from tqdm import tqdm
 from typing import List, Dict
-from data_processor import sample_essay_dataset, sample_abstract_dataset, sample_echr_dataset, sample_cdcp_dataset, sample_ampere_dataset
+from data_processor import sample_essay_dataset, sample_abstract_dataset, sample_cdcp_dataset
 from prompt_scheme import code_prompt_nx, data_to_io, few_shot_chat_prompt
 
 '''
     openai credentials
 '''
 
-openai.api_key = 'your openai api key'
+# openai.api_key = 'your openai api key'
+# openai.api_type = "azure"
+# openai.api_base = "your api base url"
+# openai.api_version = "your api version"
+openai.api_key = '1f3c3d5b927a4516b29c03a006c3409f'
 openai.api_type = "azure"
-openai.api_base = "your api base url"
-openai.api_version = "your api version"
+openai.api_base = "https://gpt-inder-finetuning.openai.azure.com/"
+openai.api_version = "2024-05-01-preview"
+
+# create a global client
+# client = openai.Client()
+client = openai.AzureOpenAI(
+    api_key=openai.api_key,
+    azure_endpoint = openai.api_base,
+    api_version=openai.api_version
+)
+
 
 def openai_chat_api(
     messages: List[Dict[str, str]],
@@ -36,8 +49,8 @@ def openai_chat_api(
 
     for _ in range(num_retries):
         try:
-            response = openai.ChatCompletion.create(
-                engine=engine,
+            response = client.chat.completions.create(
+                model=engine,
                 messages=messages,
                 temperature=temperature,
                 max_tokens=max_tokens,
@@ -187,26 +200,9 @@ def executor(
             random_state=random_state,
             sorting=sorting
         )
-    elif data == 'echr':
-        print('Sampling echr dataset')
-        train_data, test_data = sample_echr_dataset(
-            data_dir=data_dir,
-            train_size=train_size,
-            test_size=test_size,
-            random_state=random_state
-        )
-
     elif data == 'cdcp':
         print('Sampling cdcp dataset')
         train_data, test_data = sample_cdcp_dataset(
-            data_dir=data_dir,
-            train_size=train_size,
-            test_size=test_size,
-            random_state=random_state
-        )
-    elif data == 'ampere':
-        print('Sampling ampere dataset')
-        train_data, test_data = sample_ampere_dataset(
             data_dir=data_dir,
             train_size=train_size,
             test_size=test_size,
@@ -248,8 +244,7 @@ def executor(
                 result_dict = {
                     'input': test_i,
                     'output': test_o,
-                    'inference': response['content'],
-                    'usage': response['usage']
+                    'inference': response['content']
                 }
                 with open(os.path.join(output_dir, 'result_{}.json'.format(index)), 'w') as f:
                     json.dump(result_dict, f, indent=4)
@@ -291,8 +286,7 @@ def executor(
                     result_dict = {
                         'input': test_i,
                         'output': test_o,
-                        'inference': response['content'],
-                        'usage': response['usage']
+                        'inference': response['content']
                     }
                     with open(os.path.join(sample_output_dir, 'result_{}.json'.format(index)), 'w') as f:
                         json.dump(result_dict, f, indent=4)
@@ -316,10 +310,10 @@ if __name__ == '__main__':
     parser.add_argument('--train_size', type=int, default=3)
     parser.add_argument('--test_size', type=int, default=50)
     parser.add_argument('--random_state', type=int, default=42)
-    parser.add_argument('--data_dir', type=str, default='/home/inair/data/ArgumentAnnotatedEssays-2.0/brat-project-final/')
-    parser.add_argument('--train_test_split_csv', type=str, default='/home/inair/data/ArgumentAnnotatedEssays-2.0/train-test-split.csv')
+    parser.add_argument('--data_dir', type=str, default='data/ArgumentAnnotatedEssays-2.0/brat-project-final/')
+    parser.add_argument('--train_test_split_csv', type=str, default='data/ArgumentAnnotatedEssays-2.0/train-test-split.csv')
     parser.add_argument('--system_prompt_file', type=str, default='default_prompt.txt')
-    parser.add_argument('--output_dir', type=str, default='/home/inair/data/ArgumentAnnotatedEssays-2.0/outputs/code_prompt_3_50_42/')
+    parser.add_argument('--output_dir', type=str, default='data/ArgumentAnnotatedEssays-2.0/outputs/code_prompt_3_50_42/')
     parser.add_argument('--prompt', type=str, default='code_prompt')
     parser.add_argument('--engine', type=str, default='gpt-35-turbo')
     parser.add_argument('--force_component_identification', action='store_true')

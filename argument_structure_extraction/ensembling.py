@@ -114,9 +114,6 @@ def aggregate_graph_texts(
     common_edge_list = []
     total_node_weight = 0.0
     total_edge_weight = 0.0
-    node_weight_list = []
-    edge_weight_list = []
-
 
     # iterate through the graph_text_list
     for graph_index, graph_text in enumerate(graph_text_list):
@@ -306,7 +303,7 @@ def mld_exact(
             for j in range(num_nodes):
                 optimization_prob += (x[(i, j)] - b[(i, j)] <= 0, 'Relation Constraint 1 {}, {}'.format(i, j))
 
-        # transtivity constraint on bik - bik = 1 if bij = 1 and bjk = 1
+        # transtivity constraint on bik :- bik = 1 if bij = 1 and bjk = 1
         for i in range(num_nodes):
             for j in range(num_nodes):
                 for k in range(num_nodes):
@@ -511,11 +508,7 @@ def aggregator(
     node_constraints: bool = False,
     method: str = 'mld_simplified',
     estimate_edge_threshold: bool = False,
-    estimate_parameters: bool = False,
-    weighting: str = 'uniform',
-    exponent_multiplier: float = 10.0,
-    llama_model: str = None,
-    llama_weight_computation: str = 'normal'
+    estimate_parameters: bool = False
 ):
     '''
         Aggregates the graph texts from the dir_name using the method
@@ -572,9 +565,6 @@ def aggregator(
                 break
             sample_dir_list.append(actual_dir)
 
-        # computing the likelihood for each of the graphs
-        
-
         # aggregate the graph texts
         graph = aggregate_graph_texts(
             graph_text_list,
@@ -622,10 +612,6 @@ if __name__ == '__main__':
     parser.add_argument('--estimate_edge_threshold', action='store_true')
     parser.add_argument('--node_constraints', action='store_true')
     parser.add_argument('--estimate_parameters', action='store_true')
-    parser.add_argument('--weighting', type=str, default='uniform')
-    parser.add_argument('--exponent_multiplier', type=float, default=10.0)
-    parser.add_argument('--llama_model', type=str, default=None)
-    parser.add_argument('--llama_weight_computation', type=str, default='normal')
     args = parser.parse_args()
 
     aggregator(
@@ -638,9 +624,5 @@ if __name__ == '__main__':
         method=args.method,
         estimate_edge_threshold=args.estimate_edge_threshold,
         node_constraints=args.node_constraints,
-        estimate_parameters=args.estimate_parameters,
-        weighting=args.weighting,
-        exponent_multiplier=args.exponent_multiplier,
-        llama_model=args.llama_model,
-        llama_weight_computation=args.llama_weight_computation
+        estimate_parameters=args.estimate_parameters
     )

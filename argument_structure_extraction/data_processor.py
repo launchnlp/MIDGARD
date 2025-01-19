@@ -229,13 +229,12 @@ def id_to_graph_cdcp(id: str, data_dir: str) -> Tuple[str, DiGraph]:
     return graph_info['text'], cdcp_parser_nx(graph_info)
 
 def sample_essay_dataset(
-    train_test_split_csv='/home/inair/data/ArgumentAnnotatedEssays-2.0/train-test-split.csv',
-    data_dir='/home/inair/data/ArgumentAnnotatedEssays-2.0/brat-project-final/',
+    train_test_split_csv='data/ArgumentAnnotatedEssays-2.0/train-test-split.csv',
+    data_dir='data/ArgumentAnnotatedEssays-2.0/brat-project-final/',
     train_size=3,
     test_size=50,
     random_state=42,
-    sorting='reading_order',
-    split_train_only=False
+    sorting='reading_order'
 ):
     '''
         Sampling from the essay dataset
@@ -261,7 +260,7 @@ def sample_essay_dataset(
 
 def sample_abstract_dataset(
     train_test_split_csv=None,
-    data_dir='/home/inair/data/abstrct-master/AbstRCT_corpus/data',
+    data_dir='data/abstrct-master/AbstRCT_corpus/data',
     train_size=3,
     test_size=50,
     random_state=42,
@@ -301,7 +300,7 @@ def sample_abstract_dataset(
 
 def sample_cdcp_dataset(
     train_test_split_csv=None,
-    data_dir='/home/inair/data/cdcp',
+    data_dir='data/cdcp',
     train_size=3,
     test_size=50,
     random_state=42
@@ -351,20 +350,15 @@ def find_file_with_prefix(directory: str, prefix: str) -> str:
 
 if __name__ == '__main__':
 
-    # graph_file = '/home/inair/data/ArgumentAnnotatedEssays-2.0/brat-project-final/essay002.ann'
-    # with open(graph_file, 'r') as f:
-    #     graph_info = f.readlines()
+    '''
+        Script for testing the successful execution of the functions
+    '''
 
-    # graph_nx = essay_parser_nx(graph_info)
-    # for node in graph_nx.nodes:
-    #     print(node, graph_nx.nodes[node])
-    # for edge in graph_nx.edges:
-    #     print(edge, graph_nx.edges[edge]['stance'])
-
-    train_data, test_data = sample_abstract_dataset(train_size=3, test_size=50, random_state=12, sorting='random')
+    train_data, test_data = sample_cdcp_dataset(train_size=3, test_size=50, random_state=12)
     print(len(train_data), len(test_data))
     for node in train_data[0][1].nodes:
         print(node, train_data[0][1].nodes[node])
     for edge in train_data[0][1].edges:
         print(edge, train_data[0][1].edges[edge]['stance'])
     print(train_data[0][0])
+    import pdb; pdb.set_trace()

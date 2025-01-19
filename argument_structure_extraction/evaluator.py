@@ -7,7 +7,7 @@ from tqdm import tqdm
 from typing import List, Dict, Tuple, Any, Optional
 from seqeval.metrics import classification_report
 from sklearn.metrics import confusion_matrix, f1_score, precision_score, recall_score
-from prompt_scheme import simple_prompt_postprocessor, code_prompt_postprocessor, seq_label_generator
+from prompt_scheme import code_prompt_postprocessor, seq_label_generator
 from graph_matching import split_to_edges, get_tokens, get_bleu_rouge
 
 # temporary code
@@ -538,9 +538,7 @@ def evaluate_wrapper(input_dir: str, use_old_node_eval: bool, edge_evaluation: b
         force_component_identification = False
 
     # loading the prompt postprocessor
-    if prompt_scheme == 'simple_prompt':
-        prompt_postprocessor = simple_prompt_postprocessor
-    elif prompt_scheme == 'code_prompt':
+    if prompt_scheme == 'code_prompt':
         prompt_postprocessor = code_prompt_postprocessor
     else:
         raise NotImplementedError('Post Processing for Prompt scheme not implemented yet')
