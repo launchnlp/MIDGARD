@@ -14,23 +14,8 @@ from prompt_scheme import code_prompt_nx, data_to_io, few_shot_chat_prompt
     openai credentials
 '''
 
-# openai.api_key = 'your openai api key'
-# openai.api_type = "azure"
-# openai.api_base = "your api base url"
-# openai.api_version = "your api version"
-openai.api_key = '1f3c3d5b927a4516b29c03a006c3409f'
-openai.api_type = "azure"
-openai.api_base = "https://gpt-inder-finetuning.openai.azure.com/"
-openai.api_version = "2024-05-01-preview"
-
 # create a global client
-# client = openai.Client()
-client = openai.AzureOpenAI(
-    api_key=openai.api_key,
-    azure_endpoint = openai.api_base,
-    api_version=openai.api_version
-)
-
+client = openai.Client()
 
 def openai_chat_api(
     messages: List[Dict[str, str]],
